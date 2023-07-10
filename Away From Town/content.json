@@ -1,0 +1,258 @@
+{ 	"Format": "1.23.0",
+	
+	"lateload": true,
+	
+	"ConfigSchema": 		{  
+	"FarmTypeOverride": 	{	"AllowValues": "Standard, Riverland, Forest, Hill-tp, Wilderness, Four Corners, Beach",  "Default": "Wilderness"},},	
+	
+	
+"CustomLocations": [	
+
+{    "Name": "Custom_PathtoForest",
+    "FromMapFile": "Assets/PathtoForest.tmx",
+    "MigrateLegacyNames": [ "PathtoForest" ]  },  
+{    "Name": "Custom_TiffanyHouse",
+    "FromMapFile": "Assets/TiffanyHouse.tmx",
+    "MigrateLegacyNames": [ "TiffanyHouse" ]  }, 
+{    "Name": "Custom_ForestFlower",
+    "FromMapFile": "Assets/Forest-Flower.tmx",
+    "MigrateLegacyNames": [ "Forest-Flower" ]  },],
+
+  "Changes": [  
+	  
+{    "Action": "EditMap",
+     "Target": "Maps/Farm_Combat",
+     "FromFile": "Assets/Farm.tmx", 
+     "PatchMode": "Replace",},
+	
+{    "Action": "EditMap",
+     "Target": "Maps/BusStop",
+     "FromFile": "Assets/BusStop.tmx", 
+     "PatchMode": "Replace",
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{
+    "Action": "EditMap",
+    "Target": "Maps/BusStop",
+    "MapProperties": { "NightTiles": "AlwaysFront 11 19 908 AlwaysFront 16 19 908 AlwaysFront 41 20 908 AlwaysFront 38 45 908 AlwaysFront 41 45 908 AlwaysFront 49 82 908 AlwaysFront 46 75 908 AlwaysFront 41 66 908 Buildings 38 3 507"  },
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{
+    "Action": "EditMap",
+    "Target": "Maps/BusStop",
+    "MapProperties": { "Light": "11 19 4 16 19 4 41 20 4 38 3 4 38 45 4 41 45 4 49 82 4 46 75 4 41 66 4"},
+		"When": {"FarmType": "{{FarmTypeOverride}}"}},
+		
+{
+    "Action": "EditMap",
+    "Target": "Maps/BusStop",
+    "MapProperties": { "Outdoors": "T"},
+		"When": {"FarmType": "{{FarmTypeOverride}}"}},
+
+{    "Action": "EditMap",
+     "Target": "Maps/Town",
+     "FromFile": "Assets/Town.tmx", 
+     "PatchMode": "Replace",
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{    "Action": "EditData",
+     "Target": "Data/Events/Town",
+	"Entries": { 
+	"831125/f Shane 1750/f Clint 500/f Emily 500/t 1000 1600/w sunny": "spring_day_ambient/-100 -100/farmer 30 87 0 Shane 30 81 1 Clint 34 81 1 Emily 35 81 3/skippable/showFrame Shane 16/move farmer 0 -5 1 true/viewport 34 82 true/pause 800/speak Shane \"Okay guys, do you remember your lines?$u\"/faceDirection Clint 3/pause 300/speak Emily \"Yes!\"/emote Clint 28/faceDirection Clint 1/pause 500/speak Shane \"Ready? Action!$u\"/pause 1500/speak Emily \"I thought we had something special... I guess I was wrong.$s\"/pause 500/speak Clint \"I... I... Uh...\"/emote Shane 12/playMusic playful/speak Shane \"Cut!\"/speak Clint \"I'm sorry!$s\"/faceDirection Clint 3/speak Clint \"It's hard to remember my lines when her face is right in front of me like that...$s\"/emote Emily 8 true/emote Shane 8/pause 500/showFrame Shane 17/pause 500/jump Shane/pause 800/speak Shane \"Oh, hey.\"/faceDirection farmer 0/speak Shane \"Check out my new camera...#$b#Joja Co. is having a video advertisement competition. The prize is 10,000g.\"/showFrame Shane 16/pause 500/emote Shane 16/showFrame Shane 17/pause 500/speak Shane \"Hey! I want you to be in this shot... okay?#$b#Just walk by Clint and Emily in the background while they're talking... It'll give the scene a little more authenticity.\"/jump farmer/pause 800/move farmer 7 0 1 false/showFrame Shane 16/move farmer 0 1 0/faceDirection Clint 1/speak Shane \"Okay... Ready?#$b#Action!$u\"/playMusic sadpiano/speak Emily \"I thought we had something special... You said you wouldn't leave me for anything. I guess that was a lie.$s\"/move farmer 0 -8 2 true/pause 500/speak Clint \"No! It's not like that... This is just something I have to do. It's very important to me.\"/playMusic none/faceDirection Clint 2/pause 1000/playMusic ragtime/faceDirection Clint 1/speak Clint \"I've just got to try new 'Joja Bluu' cola.$5#$b#It's got three times the sorbitol for a thick, sweet blast. And it's cheaper than water!$5\"/pause 600/speak Emily \"But... But... Isn't soda unhealthy? You promised me...$s\"/pause 600/speak Clint \"Have no fear, my dear. The world-class science team at Joja Headquarters have determined that 'Joja Bluu' does not cause a significant erosion of the stomach lining. So you can drink it whenever you like, as much as you like.$5#$b#The real question is... 'When will YOU turn bluu?'... *glug* *glug*... Ahh...$5\"/playMusic spring_day_ambient/speak Shane \"Cut!\"/faceDirection Clint 3/move Shane 3 0 1 false/speak Shane \"That was perfect.\"/move Shane 0 -1 1/faceDirection Clint 2 true/move Shane 4 0 0/speak Shane \"Thanks for the help. $h\"/move farmer 0 3 2/faceDirection Clint 2/pause 1000/speak Emily \"...Clint?$s\"/pause 500/faceDirection Shane 3/faceDirection farmer 3/pause 500/playSound coin/showFrame Clint 39/shake Clint 3000/pause 2000/end dialogue Shane \"What a productive day... I got some great footage.\"",
+	"34/f Penny 500/t 900 1400/w sunny": "50s/49 64/farmer 43 64 1 Penny 59 69 1 George 49 64 0 Gus 37 70 3 Abigail -100 -100 2/skippable/pause 700/emote George 28/pause 500/speak George \"*Sigh*... How am I going to reach that letter in the back?$s\"/move Penny -2 0 0/move Penny 0 -5 3/move Penny -4 0 3/emote Penny 16/pause 300/speed Penny 4/move Penny -3 0 3/faceDirection George 1/pause 400/showFrame Penny 20/pause 400/speak Penny \"Here, let me help you, Mr. Mullner!\"/pause 400/speed Penny 2/move Penny 0 1 3/move Penny -2 0 0/move Penny 0 -1 1/positionOffset Penny 2 0/pause 50/showFrame Penny 5/positionOffset Penny 2 0/pause 50/showFrame Penny 4/positionOffset Penny 2 0/pause 50/showFrame Penny 5/positionOffset Penny 2 0/pause 50/showFrame Penny 4/showFrame Penny 21/move George 1 0 1 true/emote George 16/positionOffset Penny 2 0/pause 50/showFrame Penny 22/positionOffset Penny 2 0/pause 50/faceDirection Penny 1/move Penny 1 0 1/pause 400/faceDirection Penny 0/playSound openBox/pause 600/faceDirection George 3/faceDirection Penny 1/speak Penny \"There you go!$h\"/pause 300/emote George 12/speak George \"Hmmph. I could've done it myself! And I can certainly move around on my own!$u#$b#How feeble do you think I am?\"/move farmer 5 0 1/pause 200/faceDirection George 3/emote George 8/faceDirection Penny 3/speak Penny \"$q 71 null#@? You were watching us?#$r 71 50 event_mail1#I was. You did a kind thing there, Penny.#$r 71 -50 event_mail2#I was. You should've asked instead of assuming George wanted help.#$r 71 0 event_mail3#I'm just taking a walk, minding my own business.\"/pause 400/faceDirection George 2/pause 800/showFrame George 16/pause 500/emote George 28/pause 1000/faceDirection Penny 1/speak George \"*sigh*...No, no... I'm sorry, miss. I shouldn't have gotten so angry.$s\"/pause 500/faceDirection George 3/pause 400/speak George \"It was actually very kind of you to help me out.\"/pause 400/speak Penny \"That's okay, Mr. Mullner. I understand.\"/warp Abigail 44 1/pause 500/move Abigail 0 8 2 true/move George 7 0 0 false/pause 550/move Abigail -18 0 2 true/warp George -1 -1/playSound doorClose/pause 600/emote Penny 28/pause 700/faceDirection Penny 3/playMusic spring_day_ambient/pause 600/speak Penny \"$q -1 null#It must be difficult to grow old...$u#$r -1 0 event_old1#I'd rather not think about it.#$r -1 0 event_old2#It's just a different part of life.#$r -1 0 event_old3#That's why we should respect our elders.#$r -1 0 event_old4#I'd rather die young...\"/pause 500/emote Penny 40/faceDirection Penny 2/pause 500/faceDirection Penny 3/speak Penny \"Well, it was interesting talking to you, @. I should go.$u\"/showFrame Penny 20/pause 500/showFrame Penny 12/pause 900/move Penny 6 0 2 true/globalFade/viewport -1000 -1000/end",
+        },
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},       
+
+{    "Action": "EditMap",
+     "Target": "Maps/Town-EggFestival",
+     "FromFile": "Assets/Town-EggFestival.tmx", 
+     "PatchMode": "Replace",
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{    "Action": "EditMap",
+     "Target": "Maps/Town-Christmas",
+     "FromFile": "Assets/Town-Christmas.tmx", 
+     "PatchMode": "Replace",
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{    "Action": "EditMap",
+     "Target": "Maps/Forest-FlowerFestival",
+     "FromFile": "Assets/Forest-FlowerFestival.tmx", 
+     "PatchMode": "Replace",
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{    "Action": "EditMap",
+     "Target": "Maps/Forest",
+     "FromFile": "Assets/Forest.tmx", 
+     "PatchMode": "Replace",
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{    "Action": "EditMap",
+     "Target": "Maps/Beach-Jellies",
+     "FromFile": "Assets/Beach-Jellies.tmx", 
+     "PatchMode": "Replace",
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{    "Action": "EditMap",
+     "Target": "Maps/Beach-Luau",
+     "FromFile": "Assets/Beach-Luau.tmx", 
+     "PatchMode": "Replace",
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{    "Action": "EditMap",
+     "Target": "Maps/Town-Halloween",
+     "FromFile": "Assets/Town-Halloween.tmx", 
+     "PatchMode": "Replace",
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{    "Action": "EditMap",
+     "Target": "Maps/Beach-NightMarket",
+     "FromFile": "Assets/Beach-NightMarket.tmx", 
+     "PatchMode": "Replace",
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+	 "Entries": { 
+"mainEvent": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/addTemporaryActor Brown_Chicken 16 16 57 38 2 false Animal/animate Brown_Chicken false true 500 16 17/addTemporaryActor White_Chicken 16 16 63 39 2 false Animal/animate White_Chicken false true 500 16 17/warp farmer1 27 69 /warp farmer2 27 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true unfreeze/pause 2000/speak Lewis \"It's time for the highlight of today's festivities... The Annual Spring Egg Hunt!$h\"/pause 100/jump Jas/jump Vincent/pause 1000/speak Lewis \"Calm down now, kiddos. You're going to need all your energy if you hope to find the most eggs and take home the exclusive prize.\"/pause 100/faceDirection Vincent 3 true/faceDirection Jas 1 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0 /pause 800/faceDirection Lewis 3/faceDirection Lewis 2/faceDirection Lewis 1/faceDirection Lewis 2/pause 800/speak Lewis \"Now... Is everyone ready?\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"Let the egg hunt begin!$h\"/advancedMove Maru false -2 0 0 6 -9 0 0 -2 -9 0 0 -1 2 0 0 -12 6 0 0 -7 3 0/advancedMove Abigail false 0 21 -20 0 0 3 7 0 0 -15 -9 0 9 0 0 18/advancedMove Jas false 0 12 8 0 0 10 3 0 0 4 14 0 0 -20 -6 0 0 3/advancedMove Sam false 4 0 0 -4 2 0 0 -4 12 0 0 -6 19 0 0 20 0 -20 0 20/advancedMove Vincent false 0 3 24 0 0 21 9 0 0 4 -20 0 20 0 -20 0/advancedMove Leo false 0 -10 -1 0 0 -3 -6 0 0 -2 -3 0 0 -3 -1 0 0 20 -5 0 0 -10 -2 0/playSound whistle/playMusic tickTock/playerControl eggHunt",   
+"set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/addTemporaryActor Brown_Chicken 16 16 57 38 2 false Animal/animate Brown_Chicken false true 500 16 17/addTemporaryActor White_Chicken 16 16 63 39 2 false Animal/animate White_Chicken false true 500 16 17/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Leo true 0 -2 2 0 0 2 -2 0/advancedMove Pam true 0 2 -1 0 3 8000 1 0 0 -2 1 4000/advancedMove Clint true 1 7000 -1 0 0 2 3 7000 0 -2 1 0/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Shane true 2 20000 1 0 0 -7 8 0 0 4 2 25000 0 -4 -8 0 0 7 -1 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 20 0 0 -8 1 0 0 -11 -15 0 0 1 2 30000/playerControl eggFestival",
+"afterEggHunt": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/globalFade/viewport -1000 -1000/playMusic event1/loadActors MainEvent/addTemporaryActor Brown_Chicken 16 16 57 38 2 false Animal/animate Brown_Chicken false true 500 16 17/warp farmer1 27 69 /warp farmer2 26 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true/pause 2000/speak Lewis \"Wow, look at all these eggs!$h#$b#Now if only I could get you kids to pick up litter this efficiently, we'd have the cleanest town this side of the Gem Sea! *chuckle*$h\"/pause 800/playMusic none/speak Lewis \"And now, the winner of this year's egg hunt...\"/playMusic none/pause 3000/cutscene eggHuntWinner/null/playMusic event1/pause 500/fork AbbyWin/move Lewis 0 1 2/speak Lewis \"Here's your prize! Enjoy.\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"Well, that's it for this year's Egg Festival. Thanks for coming, everyone!\"/pause 600/viewport move 1 0 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+	 },
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{    "Action": "EditMap",
+     "Target": "Maps/FarmCave",
+     "FromFile": "Assets/FarmCave.tmx", 
+     "PatchMode": "Replace",
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{    "Action": "EditMap",
+     "Target": "Maps/Backwoods",
+     "FromFile": "Assets/Backwoods.tmx", 
+     "PatchMode": "Replace",
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{    "Action": "EditMap",
+     "Target": "Maps/Beach",
+     "FromFile": "Assets/Beach.tmx", 
+     "PatchMode": "Replace",
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{    "Action": "EditMap",
+     "Target": "Maps/BusStop",
+     "FromFile": "Assets/BusStopRSV.tmx", 
+	"When": {"Hasmod": "Rafseazz.RSVCP", "FarmType": "{{FarmTypeOverride}}"}, 
+     "PatchMode": "Replace",
+	"ToArea": { "X": 26, "Y": 0, "Width": 5, "Height": 6},},
+
+{    "Action": "EditMap",
+     "Target": "Maps/BusStop",
+     "FromFile": "Assets/BusStopBoardingHouse.tmx", 
+	"When": {"Hasmod": "BusStopExpansion", "FarmType": "{{FarmTypeOverride}}"}, 
+     "PatchMode": "Replace",
+	"ToArea": { "X": 0, "Y": 0, "Width": 12, "Height": 5},},
+
+//New maps warps
+
+{  "Action": "EditMap",
+    "Target": "Maps/Custom_PathtoForest",
+      "MapProperties": { "Warp": "38 16 Town 0 91 38 17 Town 0 91 38 18 Town 0 91 38 15 Town 0 91 -1 31 Forest 119 26 -1 29 Forest 119 24 -1 30 Forest 119 25 -1 32 Forest 119 27" } ,
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Custom_TiffanyHouse",
+      "MapProperties": { "Warp": "13 26 BusStop 24 55"},
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+//Warps
+
+{  "Action": "EditMap",
+    "Target": "Maps/Farm",
+      "MapProperties": { "Warp": "84 15 BusStop 0 23 84 18 BusStop 0 23 84 16 BusStop 0 23 84 17 BusStop 0 23 90 55 Busstop 0 72 90 54 Busstop 0 72 90 53 Busstop 0 72 90 52 Busstop 0 72 90 51 Busstop 0 72 90 50 Busstop 0 72 54 91 Forest 68 0 55 91 Forest 68 0 56 91 Forest 68 0 57 91 Forest 68 0 58 91 Forest 68 0 59 91 Forest 68 0 40 -1 Backwoods 14 39 41 -1 Backwoods 14 39 42 -1 Backwoods 14 39 34 5 FarmCave 14 19" } ,
+		"When": {"FarmTypeOverride": "Standard"},},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Farm_Combat",
+      "MapProperties": { "Warp": "84 15 BusStop 0 23 84 18 BusStop 0 23 84 16 BusStop 0 23 84 17 BusStop 0 23 90 55 Busstop 0 72 90 54 Busstop 0 72 90 53 Busstop 0 72 90 52 Busstop 0 72 90 51 Busstop 0 72 90 50 Busstop 0 72 54 91 Forest 68 0 55 91 Forest 68 0 56 91 Forest 68 0 57 91 Forest 68 0 58 91 Forest 68 0 59 91 Forest 68 0 40 -1 Backwoods 14 39 41 -1 Backwoods 14 39 42 -1 Backwoods 14 39 34 5 FarmCave 14 19" } ,
+		"When": {"FarmTypeOverride": "Wilderness"},},
+
+
+{ "Action": "EditMap",
+         "Target": "Maps/BusStop",
+		 "MapProperties": { "Warp": "-1 22 Farm 79 17 -1 23 Farm 79 17 -1 24 Farm 79 17 -1 25 Farm 79 17 -1 75 Farm 89 53 -1 74 Farm 89 53 -1 73 Farm 89 53 -1 72 Farm 89 53 -1 71 Farm 89 53 -1 70 Farm 89 53 -1 6 Backwoods 49 30 -1 7 Backwoods 49 30 -1 8 Backwoods 49 30 -1 9 Backwoods 49 30 55 86 Town 0 54 55 87 Town 0 54 55 85 Town 0 54" },
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Town",
+      "MapProperties": { "Warp":"-1 54 Busstop 54 87 -1 91 Custom_PathtoForest 37 17 -1 55 Busstop 54 87 -1 51 Busstop 54 87 -1 53 Busstop 54 87 -1 52 Busstop 54 87 -1 44 Busstop 54 87 -1 92 Custom_PathtoForest 37 17 -1 90 Custom_PathtoForest 37 17 -1 89 Custom_PathtoForest 37 17 47 32 Custom_KidsTreeHouse 6 8 53 110 Beach 38 0 81 -1 Mountain 15 40 79 -1 Mountain 15 40 80 -1 Mountain 15 40 82 -1 Mountain 15 40 83 -1 Mountain 15 40 -1 91 Forest 118 25 54 110 Beach 38 0 55 110 Beach 38 0 90 -1 Mountain 57 40 98 -1 Mountain 85 40 94 110 Beach 67 0"}  , 
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Forest",
+      "MapProperties": { "Warp": "1 75 Custom_ForestFlower 96 17 120 24 Custom_PathtoForest 0 29 120 25 Custom_PathtoForest 0 30 120 26 Custom_PathtoForest 0 31 120 27 Custom_PathtoForest 0 32 -1 6 Woods 59 15 -1 7 Woods 59 15 67 -1 Farm 55 90 68 -1 Farm 56 90 69 -1 Farm 57 90 70 -1 Farm 58 90 71 -1 Farm 59 90 72 -1 Farm 60 90" } ,
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+{  "Action": "EditMap",
+    "Target": "Maps/FarmCave",
+      "MapProperties": { "Warp": "14 20 Farm 34 6"},
+		"When": {"FarmType": "{{FarmTypeOverride}}"},},
+
+
+//warp edits of other mods
+
+{  "Action": "EditMap",
+    "Target": "Maps/Town",
+	"When": {"Hasmod": "FlashShifter.StardewValleyExpandedCP", "FarmType": "{{FarmTypeOverride}}"},
+    "TextOperations": [     {
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "120 70 Custom_ShearwaterBridge 0 20 120 71 Custom_ShearwaterBridge 0 20 120 72 Custom_ShearwaterBridge 0 20 120 73 Custom_ShearwaterBridge 0 20 120 74 Custom_ShearwaterBridge 0 20 120 75 Custom_ShearwaterBridge 0 20 120 76 Custom_ShearwaterBridge 0 20 57 116 Beach 38 0 58 116 Beach 38 0 59 116 Beach 38 0 60 116 Beach 38 0"  ,
+	"Delimiter": " "  }, ],},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Forest",
+	"When": {"Hasmod": "Fellowclown.Lyell","FarmType": "{{FarmTypeOverride}}" },
+"TextOperations": [     {
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "14 6 Custom_Fellowclown.Lyell_LyellsWoods 31 30"  ,
+	"Delimiter": " "  }, ],},
+
+{  "Action": "EditMap",
+    "Target": "Maps/BusStop",
+	"When": {"Hasmod": "Rafseazz.RSVCP", "FarmType": "{{FarmTypeOverride}}"},
+    "TextOperations": [     {
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "28 -1 Custom_Ridgeside_RSVCableCar 20 29 27 -1 Custom_Ridgeside_RSVCableCar 19 29 29 -1 Custom_Ridgeside_RSVCableCar 21 29",
+      "Delimiter": " "    } ,  ],},
+
+{  "Action": "EditMap",
+    "Target": "Maps/BusStop",
+	"When": {"Hasmod": "BusStopBoardingHouse", "FarmType": "{{FarmTypeOverride}}"},
+    "TextOperations": [     {
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "6 -1 BackwoodsPlateau 48 26 7 -1 BackwoodsPlateau 48 26 8 -1 BackwoodsPlateau 48 26",
+      "Delimiter": " "    } , ],},
+
+{  "Action": "EditMap",
+    "Target": "Maps/BusStop",
+	"When": {"Hasmod": "Tarniyar.TMX.GardenVillage", "FarmType": "{{FarmTypeOverride}}"},
+    "TextOperations": [     {
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": " 45 7 MainShops 1 20 45 8 MainShops 1 21 45 9 MainShops 1 22 45 10 MainShops 1 22",
+      "Delimiter": " "  }, ],},
+
+
+{ 	"Action": "EditMap",
+      "Target": "Maps/Town",
+	  "When": {"Hasmod": "LemurKat.EastScarpe.CP", "FarmType": "{{FarmTypeOverride}}"},
+      "TextOperations": [           {
+         "Operation": "Append",
+         "Target": [   "MapProperties", "Warp" ],
+         "Value": "120 70 Custom_ESClearingHouse 0 20 120 71 Custom_ESClearingHouse 0 20 120 72 Custom_ESClearingHouse 0 20 120 73 Custom_ESClearingHouse 0 20 120 74 Custom_ESClearingHouse 0 20",
+         "Delimiter": " "      }            ],   },
+  
+  ]}

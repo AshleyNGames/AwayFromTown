@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.1" orientation="orthogonal" renderorder="right-down" width="40" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="11">
+ <properties>
+  <property name="AmbientLight" value="250 140 160"/>
+  <property name="Music" value="Upper_Ambient"/>
+  <property name="Warp" value="3 49 Forest 94 100 3 18 BugLand 15 53"/>
+ </properties>
+ <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source=".paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="st" tilewidth="16" tileheight="16" tilecount="88" columns="8">
+  <image source=".SewerTiles.png" width="128" height="176"/>
+  <tile id="0"/>
+  <tile id="1"/>
+  <tile id="2"/>
+  <tile id="3"/>
+  <tile id="4"/>
+  <tile id="5"/>
+  <tile id="6"/>
+  <tile id="7"/>
+  <tile id="8"/>
+  <tile id="9"/>
+  <tile id="10"/>
+  <tile id="11"/>
+  <tile id="12"/>
+  <tile id="13"/>
+  <tile id="14"/>
+  <tile id="15"/>
+  <tile id="16"/>
+  <tile id="17"/>
+  <tile id="18"/>
+  <tile id="19"/>
+  <tile id="20"/>
+  <tile id="21"/>
+  <tile id="22"/>
+  <tile id="23"/>
+  <tile id="24"/>
+  <tile id="25"/>
+  <tile id="26"/>
+  <tile id="27"/>
+  <tile id="28"/>
+  <tile id="29"/>
+  <tile id="30"/>
+  <tile id="31"/>
+  <tile id="32"/>
+  <tile id="33"/>
+  <tile id="34"/>
+  <tile id="35"/>
+  <tile id="36"/>
+  <tile id="37"/>
+  <tile id="38"/>
+  <tile id="39"/>
+  <tile id="40"/>
+  <tile id="41"/>
+  <tile id="42"/>
+  <tile id="43"/>
+  <tile id="44"/>
+  <tile id="45"/>
+  <tile id="46"/>
+  <tile id="47"/>
+  <tile id="48"/>
+  <tile id="49"/>
+  <tile id="50"/>
+  <tile id="51"/>
+  <tile id="52"/>
+  <tile id="53"/>
+  <tile id="54"/>
+  <tile id="55"/>
+  <tile id="56">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="58"/>
+  <tile id="59"/>
+  <tile id="60"/>
+  <tile id="61"/>
+  <tile id="62"/>
+  <tile id="63"/>
+  <tile id="69">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="65"/>
+  <tile id="66"/>
+  <tile id="67"/>
+  <tile id="68"/>
+  <tile id="70">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <animation>
+    <frame tileid="57" duration="250"/>
+    <frame tileid="58" duration="250"/>
+    <frame tileid="59" duration="250"/>
+    <frame tileid="60" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="71"/>
+  <tile id="72"/>
+  <tile id="73"/>
+  <tile id="74"/>
+  <tile id="75"/>
+  <tile id="76"/>
+  <tile id="77"/>
+  <tile id="78"/>
+  <tile id="79"/>
+  <tile id="80"/>
+  <tile id="81"/>
+  <tile id="82"/>
+  <tile id="83"/>
+  <tile id="84"/>
+  <tile id="85"/>
+  <tile id="86"/>
+  <tile id="87"/>
+ </tileset>
+ <tileset firstgid="125" name="z_outdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source=".spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="2100" name="z_daisyextras" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
+  <image source=".spring_daisyextras.png" width="480" height="960"/>
+ </tileset>
+ <layer id="1" name="Back" width="40" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztl0FPwzAMhfNnKs5cuXcIqU2PnOiNy5A47vdDpVnyHrZjZ23YtE560hrm9Mt7Thu6lFK366H0ynSC6/9mW3QwtOV9P0Da7wbwbPpV34DvE+TJl6uGz8oC5eEjlnz2jXtYwyetMwvf+yCf17/k5MvKnNyDKF+GeQ/C/EkYw/nGgod0Hc1X8i/Kxz/4O+T28nG2iV1TH89J7m8aj/ZjTb69Msd05pD+FuV7ucI/KV/a08SHa/DwXft8KWWQV/SvJl8+B/Ueerlw8HdMTu34nqFmEuaZ09895OWjNb8zUb2H7w08QY/WyLcHPlpjie9byEDaJ3O63BuRfCX/qL7EdxL4uKjnyD+pLz3+8Xf7xMYsPv58xXMBelXK15J0NqDMLT56rg2sVutBzkdrGWBcOw9YvW3xabmNwjzoH45nqNU8i/jXs/nxnK2J94G3xvLvy+GftA5NVjaapNwXn4dAvhE+LRtJx4K3Hv+ifFH/IpL2b+Re1tl8bb5b9y+6P47psv+wd27Bv2XPPTXyj95b0jnCyrcVH38/RfjGYE0tH9+/nSCsxWdZq/7Tzkdb3der0v+vO9/Od698NTw738638z0On6W1GO6Zrzvz1dS14qvVlnw/froIuA==
+  </data>
+ </layer>
+ <layer id="9" name="Back 2" width="40" height="50">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt2MEJgDAMBdBeFDy4jEf3n0Wvggt4F5Qqra363gDhkwQCCQHeYe5KJ2BvMpOqjaUDRFqb0gnO3ck3pI+RVI27sRz0+Ur/c96Jvs1X+wvcAwAAgLz8RoG/83/iSRs5bgo0
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="1" name="TileData" x="48" y="304" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="MagicalSeal"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="40" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmU1LAzEQhufPFDxUa8FvWwXpQW96UKxHBT/AUhXEWj3sT3eGncXpkGQ/ks32kBdedpNuJg9DdjakAHa9od/RH45nYmuI3kRvoRfoHnrJbezPtiPMSx6gTXMdonfRe+gZ8825jf3ZQUt8cl7yPto0Fz03Rp+gP7nvi9vjmnw6Jy5fiHnJpw4+l+rwFTnZgP+8FNZ9V+inCnP58B0ZYsmcaN+J+2kEPlesV/QP+pfvtb4hDN85uNeRfO/KYmmF4LuEfL3cwOr6KdryveuSz7bOu+a7hdV1rde7rgs9YYpNa2AH8noC+TWj9iAQXxW5+GgdjCDPNfB1xP3rwCfzDKrdBV+d2InPHlfGPlb9RdvFF3KvZ6vh9I6avh3A/TY+2mcs+H4ZgE/XSFkbXbLxUd5nfD8PzCfrN+1R+pYx/RI+udfzlamGU3vKv9ddfyHeiRBKfH6qyveAvi7xfYAxTfn0cyY9Bhij1TXfM7jz+9IxX10lPj8lPj8lPj/Z+PS529AwVtcyXbtCaMJXzaf35yG/z03ON2PyNTnfTHz22FUUk6+J2ubzPfNvm8/3zD/x+Snx+amM78wzvq/K+KqMbet/OZLOz8T4lFkx+EgFYx02Uiy+ddUfdSVx6w==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="2" name="TileData" x="432" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="DogStatue"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="448" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="DogStatue"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="40" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2U0OgjAQBeDZeBTcuHTlrior3ekVPIB/K4/qaRwSGovBQWKbmdL3JS+BhjRT0lCgRDAlO85euwjBgXOM2F/VJgdSrSfOjXNvjz/NUxUFxdpwtkHWuuVkb6VdwADr9eViOXCuqW/tkNq9M+fCucYtJ7pH4v4XI9s1WJ5/AP96zsa1AwBAHI7K/S501B27FIASOHrP+Vq3FAAw6Nsa6d8dnHDN1J8pzX/28D5YG2+zJ+X3Amqyt59W9eRX4bhSeAG8JBeO
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="40" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1jsKwCAMAFDX3P/C3UORIgRtfG9xECQflYxxltgdwEUirezxVn894QbuOdTwttbkuahDHatymZ3XoW5AnRP/iBxTTPb4N/0EAKBK11mza15fPC6qAL4=
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+</map>
