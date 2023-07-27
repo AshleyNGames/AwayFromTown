@@ -1,13 +1,8 @@
 { 	"Format": "1.23.0",
-	
-	"lateload": true,
-	
-	"ConfigSchema": 		{  
-	"FarmTypeOverride": 	{	"AllowValues": "Standard, Riverland, Forest, Hill-tp, Wilderness, Four Corners, Beach",  "Default": "Wilderness"},},	
-	
+		
+"ConfigSchema": 	{ 	"FarmTypeOverride": 	{ "Default": "Wilderness"},},	
 	
 "CustomLocations": [	
-
 {    "Name": "Custom_PathtoForest",
     "FromMapFile": "Assets/PathtoForest.tmx",
     "MigrateLegacyNames": [ "PathtoForest" ]  },  
@@ -18,8 +13,7 @@
     "FromMapFile": "Assets/Forest-Flower.tmx",
     "MigrateLegacyNames": [ "Forest-Flower" ]  },],
 
-  "Changes": [  
-	  
+  "Changes": [  	  
 {    "Action": "EditMap",
      "Target": "Maps/Farm_Combat",
      "FromFile": "Assets/Farm.tmx", 
@@ -31,20 +25,17 @@
      "PatchMode": "Replace",
 		"When": {"FarmType": "{{FarmTypeOverride}}"},},
 
-{
-    "Action": "EditMap",
+{    "Action": "EditMap",
     "Target": "Maps/BusStop",
     "MapProperties": { "NightTiles": "AlwaysFront 11 19 908 AlwaysFront 16 19 908 AlwaysFront 41 20 908 AlwaysFront 38 45 908 AlwaysFront 41 45 908 AlwaysFront 49 82 908 AlwaysFront 46 75 908 AlwaysFront 41 66 908 Buildings 38 3 507"  },
 		"When": {"FarmType": "{{FarmTypeOverride}}"},},
 
-{
-    "Action": "EditMap",
+{    "Action": "EditMap",
     "Target": "Maps/BusStop",
     "MapProperties": { "Light": "11 19 4 16 19 4 41 20 4 38 3 4 38 45 4 41 45 4 49 82 4 46 75 4 41 66 4"},
 		"When": {"FarmType": "{{FarmTypeOverride}}"}},
 		
-{
-    "Action": "EditMap",
+{    "Action": "EditMap",
     "Target": "Maps/BusStop",
     "MapProperties": { "Outdoors": "T"},
 		"When": {"FarmType": "{{FarmTypeOverride}}"}},
@@ -153,7 +144,6 @@
 	"ToArea": { "X": 0, "Y": 0, "Width": 12, "Height": 5},},
 
 //New maps warps
-
 {  "Action": "EditMap",
     "Target": "Maps/Custom_PathtoForest",
       "MapProperties": { "Warp": "38 16 Town 0 91 38 17 Town 0 91 38 18 Town 0 91 38 15 Town 0 91 -1 31 Forest 119 26 -1 29 Forest 119 24 -1 30 Forest 119 25 -1 32 Forest 119 27" } ,
@@ -165,7 +155,6 @@
 		"When": {"FarmType": "{{FarmTypeOverride}}"},},
 
 //Warps
-
 {  "Action": "EditMap",
     "Target": "Maps/Farm",
       "MapProperties": { "Warp": "84 15 BusStop 0 23 84 18 BusStop 0 23 84 16 BusStop 0 23 84 17 BusStop 0 23 90 55 Busstop 0 72 90 54 Busstop 0 72 90 53 Busstop 0 72 90 52 Busstop 0 72 90 51 Busstop 0 72 90 50 Busstop 0 72 54 91 Forest 68 0 55 91 Forest 68 0 56 91 Forest 68 0 57 91 Forest 68 0 58 91 Forest 68 0 59 91 Forest 68 0 40 -1 Backwoods 14 39 41 -1 Backwoods 14 39 42 -1 Backwoods 14 39 34 5 FarmCave 14 19" } ,
@@ -175,7 +164,6 @@
     "Target": "Maps/Farm_Combat",
       "MapProperties": { "Warp": "84 15 BusStop 0 23 84 18 BusStop 0 23 84 16 BusStop 0 23 84 17 BusStop 0 23 90 55 Busstop 0 72 90 54 Busstop 0 72 90 53 Busstop 0 72 90 52 Busstop 0 72 90 51 Busstop 0 72 90 50 Busstop 0 72 54 91 Forest 68 0 55 91 Forest 68 0 56 91 Forest 68 0 57 91 Forest 68 0 58 91 Forest 68 0 59 91 Forest 68 0 40 -1 Backwoods 14 39 41 -1 Backwoods 14 39 42 -1 Backwoods 14 39 34 5 FarmCave 14 19" } ,
 		"When": {"FarmTypeOverride": "Wilderness"},},
-
 
 { "Action": "EditMap",
          "Target": "Maps/BusStop",
@@ -197,9 +185,7 @@
       "MapProperties": { "Warp": "14 20 Farm 34 6"},
 		"When": {"FarmType": "{{FarmTypeOverride}}"},},
 
-
 //warp edits of other mods
-
 {  "Action": "EditMap",
     "Target": "Maps/Town",
 	"When": {"Hasmod": "FlashShifter.StardewValleyExpandedCP", "FarmType": "{{FarmTypeOverride}}"},
@@ -244,7 +230,6 @@
       "Target": [ "MapProperties", "Warp" ],
       "Value": " 45 7 MainShops 1 20 45 8 MainShops 1 21 45 9 MainShops 1 22 45 10 MainShops 1 22",
       "Delimiter": " "  }, ],},
-
 
 { 	"Action": "EditMap",
       "Target": "Maps/Town",
