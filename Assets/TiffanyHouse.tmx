@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="24" height="26" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="15">
+ <properties>
+  <property name="Doors" value="8 18 Interior 120 8 17 Interior 88 8 16 Interior 56 16 12 Interior 120 16 11 Interior 88 16 10 Interior 56"/>
+  <property name="Light" value="3 8 6 8 8 6 14 2 6 21 2 6"/>
+  <property name="NightTile" value="Buildings 3 8 1284 Buildings 8 8 1284 Buildings 14 2 1284 Buildings 21 2 1284 Buildings 3 7 1253 Buildings 8 7 1253 Buildings 14 1 1253 Buildings 21 1 1253"/>
+ </properties>
+ <tileset firstgid="1" name="Interior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+  <tile id="581">
+   <animation>
+    <frame tileid="581" duration="250"/>
+    <frame tileid="550" duration="250"/>
+    <frame tileid="581" duration="250"/>
+    <frame tileid="582" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source=".paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="2213" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="560" columns="16">
+  <image source=".walls_and_floors.png" width="256" height="560"/>
+ </tileset>
+ <tileset firstgid="2773" name="2" tilewidth="16" tileheight="16" tilecount="128" columns="32">
+  <image source=".townInterior_2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="2901" name="Xiddav_Indoor" tilewidth="16" tileheight="16" tilecount="198" columns="18">
+  <image source=".Xiddav_Indoor.png" width="288" height="176"/>
+  <tile id="184">
+   <animation>
+    <frame tileid="184" duration="500"/>
+    <frame tileid="185" duration="500"/>
+    <frame tileid="186" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="185">
+   <animation>
+    <frame tileid="185" duration="500"/>
+    <frame tileid="186" duration="500"/>
+    <frame tileid="184" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="186">
+   <animation>
+    <frame tileid="186" duration="500"/>
+    <frame tileid="184" duration="500"/>
+    <frame tileid="185" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="24" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztk7FuwjAQhm9Aas5zH4dHYIWJtYixTGU0XWClr9AOILHRAcZ2qBAbDAxMqC8BI/+RWDgRJo4BiYGTPv0m4f78vjhE91fDiPQUTMAg1s00WePeBr8P/wn1F58ZPCaxmmeIHq7JM2YX+LeItA+h/u+KdAfkaaj/B3r7IE/tnlF0u/x/7Edo/hX7EZr/kvOQnfOpelNEbZWvX0xamGMvBskp1875d9HbU/n6DR9hDV/DNfOfmpc950/Zozpq0fw7ZN+CKtY1YHSXzMfl75s/QtYn8IJ1AxiNkj2MZYbqqKH5n0tEQraaHCNl539lN5K7zGmM/5Ld2Pk1u5HcFU5j/P/ZjZ3/3Pck+eucxp6Pq9fOnz0PvvqL9/oDXGr8s+fBV5fwWACXPvLfR/6iVaR3D30uRjU=
+  </data>
+ </layer>
+ <layer id="13" name="Back 2" width="24" height="26">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuCGRgaIBhKhtNNYDsRnyYGna9YGRoeM44eMOCGPCUG5XvzMjA4MJIHbOLWCF4IAE908NwBqPhNQqwAUL5aTeSmj0k6kUH2Mrb20jsOwTceomKZTUbjcv9UfOHp/lAcxOIVQsAYa8xlQ==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="24" height="26">
+  <data encoding="base64" compression="zlib">
+   eJy1lU1PFDEYgDsdCGQh0RsIJy78j0XhZ2g2AaIHTeDGRSfhI5gYo9yMe/Gg8QfwGeCiv4DIsibiSeAqCMsGvfiUaeV1aN1ZFps82U6n88zbt+90I6WSqAm6Ic5JoUm3YRhUzla8Bv+9SCV3Ya+gkm8EzK+a43oWWvX34ngCj2HC5KRLqTZ4x/XbFvybPPsK6rg6tUo64GF8ffn5instCu/Dfa3UA536m60H4z+M/r2v87ifWr/MZ+R5To5l5zdqZn5RXA94/AMZ/3QD/xBx39Zpv2T9FRa+A6YG9ri3Dwc6vTbzQvn8YO+H8lyw/hqd00I4Jl8+l+G18JvxSiexCrL5adSy+V/P+PdxSnz+URY2BuOBejaeCcsXmBLjNZySZuJf9dRbaF1yvJTDXcX9Waf14POUAnVVTPdYxSmX9t/Vx0fPWHbc95xc1ynMiZyvMO7qoyycZRFf2RNzNv7QeWv6rj6qLHKYM+wOVEUdb9j7S8xfhBftSr2EaeJ81H7hHyS3VVsT7ryd5Lt19VHHOYZ7FOrCv8v9LeZVmL8Nn+AZro42lTwX/hF98Yw7bxfEudDDOTzL2AyYvmxHzKvhPYFj+AFH0eX8/4/m/N+J/1A3nn9V/w3246bne83TumKVnJGjn5ZfLZznoXaLtfdZ+vX5O//430MP+8b5m3AOn79L9vO07vjvX9feXPH/18WWZ/5voXr5Dg==
+  </data>
+ </layer>
+ <layer id="18" name="Buildings 2" width="24" height="26">
+  <properties>
+   <property name="Draw" value="Buildings"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBicgJGRPDligSIeM/DJjYJRMApGwVAGhxgYGmhp/mwam7+bxubfprH5o2AUUAsAAGh+BTw=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="9" name="TileData" x="32" y="240" width="80" height="16">
+   <properties>
+    <property name="Dialogue" value="This entire wall is a mirror."/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="352" y="288" width="16" height="16">
+   <properties>
+    <property name="Dialogue" value="It's the bathroom."/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="320" y="128" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message It's a bookshelf full of games and collectable figures."/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="256" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Matthias"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="24" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh8gJeHgYEPiPl58LMHK5jLyNAwkPYfZ2RgOMFIvv4LA+z+oQweAsPdmWng7GdhZmBgBWI2ZuLUW5JovgvQXFcgdiPS/EgSzccFZtAwTLcPYHwNdkBq+iAVEEof2ykox4gB15HMvzxA5d55YPq7MEjT4GsmhoabwDC6BcW3aRwfPUxgO1HAdwrj5Q0TKo0NODMzNBxhgtjjCKSZmIZGHQgAH+wbFA==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="10" name="Paths" width="24" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQw10cjA0DLQbRsEoGAWjYBSMglEwcAAAnXwBEg==
+  </data>
+ </layer>
+ <objectgroup id="9" name="Paths"/>
+ <layer id="7" name="AlwaysFront" width="24" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AbLGRkYVjAOtCtGAblgGQNDAwgvAWIQfzGUj44Hwm0qzAwMqkCsxjwQto9MgC3usaUPdH3o4uj6RsEoGAW0B8tx5F9i8jQuvIhOeRgAxFI0Ow==
+  </data>
+ </layer>
+ <objectgroup id="8" name="AlwaysFront"/>
+</map>
