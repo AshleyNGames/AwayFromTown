@@ -6,7 +6,7 @@
   "UniqueID": "Xiddav.AwayFromTown",
 	
   "MinimumApiVersion": "3.0",
-  "UpdateKeys": [ "Nexus:11348" ],
+  "UpdateKeys": [ "Nexus:" ],
   "ContentPackFor": {  "UniqueID": "Pathoschild.ContentPatcher",   },  
   "Dependencies": [
    {
