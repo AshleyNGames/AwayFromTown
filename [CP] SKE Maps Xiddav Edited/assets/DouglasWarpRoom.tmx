@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+ <properties>
+  <property name="DayTiles" value="Front 3 1 256 Front 3 2 288 Front 9 3 256 Front 9 4 288 Front 14 1 405 Front 15 1 406"/>
+  <property name="NpcWarp" value="6 8 Sewer 31 20 12 8 WizardHouse 9 33"/>
+  <property name="Warp" value="6 8 Sewer 31 20 12 8 WizardHouse 9 33 6 10 Custom_DouglasRoom 8 13"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source=".paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="2241" name="SewerTiles" tilewidth="16" tileheight="16" tilecount="88" columns="8">
+  <image source=".SewerTiles.png" width="128" height="176"/>
+ </tileset>
+ <layer id="1" name="Back" width="20" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgeQBkJkwMuceDGg8E8aoPHHLjxqHlDxzwA+Qky5A==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="20" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh6gAuIufFgHhLNcyQg7zoIzLvFgRuTY544JwODBCf13IcPjJqHHyQC8TIoXgwVW4Ik1oxHLwCukQ/G
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="20" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9ALPOBgYnnOQp5efk4FBgBNV7B3QrPdkmjfYQQcOf+ESH6kAANpZBRw=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="20" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFUAAAPAAAE=
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+</map>

@@ -1,0 +1,20 @@
+{
+   "Name": "Xiddav edited Stardew Kids Maps",
+   "Author": "BURAKMESE",
+   "Version": "1.0.0",
+   "Description": "Map data is stored here.",
+   "UniqueID": "BM.MapData.xiddav",
+   "UpdateKeys": [ "Nexus:" ],
+   "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"  },
+  "Dependencies": [
+		{"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": false},
+		{"UniqueID": "Xiddav.Parks",
+			"IsRequired": false},
+		{"UniqueID": "xiddav.tilesheet",
+			"IsRequired": true},
+		{"UniqueID": "Lumisteria.LumiTilesheetsIndoor",
+			"IsRequired": true},
+		{"UniqueID": "hxw.tilesheets",
+			"IsRequired": true},
+	]}
