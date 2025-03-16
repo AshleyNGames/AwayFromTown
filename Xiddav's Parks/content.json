@@ -24,12 +24,6 @@
 		"Entries": {"set-up": "event1/22 22/farmer 76 17 1/changeToTemporaryMap Forest-FlowerFestival/viewport -1000 -1000/loadActors Set-Up/advancedMove Vincent true -6 0 0 -1 6 0 0 1/advancedMove Jas true 1 0 0 1 -6 0 0 -1 5 0/advancedMove Pam true 2 25000 0 -3 4 0 4 25000 -4 0 0 3/advancedMove Haley true 0 1 2 3000 2 0 0 -1 -2 0 3 500 4 500 1 500 2 500 2 0 1 500 2 500 3 500 4 500 0 2 0 -2 -2 0/advancedMove Caroline true 0 -3 -1 0 0 -2 2 0 1 18000 -2 0 0 2 1 0 0 3 3 18000/advancedMove Willy true 2 25000 1 500 7 0 1 500 2 12500 3 500 -7 0 3 500 2 1000/playerControl flowerFestival/viewport player clamp true unfreeze/globalFadeToClear"}},
 
 {"Action": "EditMap",
-     "Target": "Maps/Town",
-	"When":{"Town": true},
-     "FromFile": "Assets/Town.tmx", 
-     "PatchMode": "Replace"},
-
-{"Action": "EditMap",
      "Target": "Maps/SeedShop",
      "FromFile": "Assets/SeedShop.tmx", 
      "PatchMode": "Replace"},
