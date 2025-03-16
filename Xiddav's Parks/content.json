@@ -1,6 +1,4 @@
 { 	"Format": "2.5.0",
-
-"ConfigSchema":{"Town": {"AllowValues": "true, false",	"Default": "false"},},
 	
 "CustomLocations": [	
 {"Name": "Custom_Xiddav_FlowerField",
