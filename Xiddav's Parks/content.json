@@ -4,11 +4,9 @@
 {"Name": "Custom_Xiddav_FlowerField",
     "FromMapFile": "Assets/Forest-Flower.tmx"},
 {"Name": "Custom_Xiddav_TiffanyHouse",
-    "FromMapFile": "Assets/TiffanyHouse.tmx"}
-],
+    "FromMapFile": "Assets/TiffanyHouse.tmx"}],
 	
 "Changes": [   
-
 {"Action": "EditMap",
      "Target": "Maps/Forest-FlowerFestival",
      "FromFile": "Assets/Forest-FlowerFestival.tmx", 
@@ -26,6 +24,21 @@
 {"Action": "EditMap",
      "Target": "Maps/SeedShop",
      "FromFile": "Assets/SeedShop.tmx", 
+     "PatchMode": "Replace"},
+
+{"Action": "EditMap",
+     "Target": "Maps/ScienceHouse",
+     "FromFile": "Assets/ScienceHouse.tmx",
+     "PatchMode": "Replace"},
+
+{"Action": "EditMap",
+     "Target": "Maps/Saloon",
+     "FromFile": "Assets/Saloon.tmx", 
+     "PatchMode": "Replace"},
+
+{"Action": "EditMap",
+     "Target": "Maps/RefurbishedSaloonRoom",
+     "FromFile": "Assets/RefurbishedSaloonRoom.tmx", 
      "PatchMode": "Replace"},
 
 {"Action": "EditMap",

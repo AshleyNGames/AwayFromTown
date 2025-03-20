@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="48" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="25">
- <properties>
-  <property name="DayTiles" value="Front 6 1 256 Front 6 2 288 Front 7 1 256 Front 7 2 288 Front 27 1 256 Front 27 2 288 Front 36 1 225 Front 37 1 225 Front 36 2 469 Front 37 2 469 Front 36 3 501 Front 37 3 501 Front 2 14 256 Front 2 15 288 Buildings 32 2 38 Buildings 32 3 70 Back 32 4 102 Back 27 5 31 Back 27 6 63 Back 2 17 228 Back 2 18 260 Back 6 4 671 Back 6 5 703 Back 7 4 671 Back 7 5 703"/>
-  <property name="Doors" value="13 11 1 120 20 11 1 120 14 16 1 120"/>
-  <property name="NightTiles" value="Front 6 1 1253 Front 6 2 1285 Front 7 1 1253 Front 7 2 1285 Front 27 1 1253 Front 27 2 1285 Front 36 1 1222 Front 37 1 1222 Front 36 2 1219 Front 37 2 1219 Front 36 3 1251 Front 37 3 1251 Front 2 14 1253 Front 2 15 1285 Buildings 32 2 39 Buildings 32 3 71 Back 32 4 103 Back 27 5 60 Back 27 6 60 Back 2 17 200 Back 2 18 2119 Back 6 4 574 Back 6 5 606 Back 7 4 575 Back 7 5 607"/>
-  <property name="Warp" value="6 30 Town 43 57"/>
- </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source=".townInterior.png" width="512" height="1088"/>
   <tile id="546">
@@ -78,13 +72,13 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt1UlOQkEURuGaQiIyQXjA8NEtQPodMBZE2QFjwIZtgHS7kE5lWXSCA84OCI9QxYv3JN+wkn9wk1JKkiRJkiTpuiqZHnBmddMDJElzK49Sa2ywxS922OPPY3rd8QJepe4QRAgWwogg6jW97nj3bEwjgyxyyKOAoob9S5sbwBob+/T3D2wso4JHVPGEZ9Q07L+JKeXDLfyx09832NhECy94xRve0dawP87mBJJIOdjfYWMXH+ihjwGGGLng/idsnGKGOb7wjR8sXLBf0l/JIUn6Lw0s/gCMLNNLnPXJ7jEmLt1/iQ7YHS0+
+   eJzt1TluwlAURuHXGomhAWJCaYYsgBCGHVCHeRsMIWwDkoB3wRQgywI7EArODpAtYcvKPdJXPukvrvSUkiRJkiRJkiRJct9RU8qCjV+ccMYfLprf624XDymVQBIP0JHCI9Ihv9fdrsDGZxTxghLKqKDqwf6DwQ3Agm04f//KxjoaaKKFNjroerA/nFEqgihiGefve2zsY4Ah3jDCO8Ye7M+yOYc8nlzsn7Bxig984gszzGEG4P5XbFxjg29sscMePwHYL3lfzSVJ+i/NdP4AmLrfS9y1YPcSq4Duv0dXOYcsiA==
   </data>
  </layer>
  <objectgroup id="4" name="Back2"/>
  <layer id="5" name="Buildings" width="48" height="32">
   <data encoding="base64" compression="zlib">
-   eJzNl1tIFUEch2fP0Txqeo6aaCmUgWSBRiVoDxE+WF66E6ivFVRWdqHyFgVFmHb3sSLqSameeivoRQsv2XMU2KsaXYSuXsp+485w5syZ3Rn3WPSHj92dmZ39ZnYuu4QQkgJSPUDDYniNgIZ8gzoKwQyjSDjXpa2O0X8FKNCwUtOGMrAVLLVstgnnurTtgv8OsNOAXaCcPXcz6EInVxBnKll5N/8jYKNlM8aODSztNY4jOI5a4TI8/6jgfwwcB3t8hOz12edxfkLiwQJQwNJOCP77QR/8q5BXw6gFdeAAsTlo4H8VnIXEOZDoiy6TgLQAuATaWf4LlL0u+N9gZc8j/4KijgqW1in4t7G8euQ1MppAM2gBrfR5Bv407noYxFm+sH+2wvkDJvlH8Ck1Mp37m8S4ZebvJZ5ZYf/P8B9XtEGOL0lq/weo5CF4JPVjZ9Lf8V8I12HBP4gxHvJHlplAxiSYEpwykqP9261I/wFWfpXPzL8wD+thnnMZS0KVJq+j1Gkxnr8E5PjCTjRU/oPgJRiyIss+nof+F91K2bFEUY7nyW3yM8S0XoPn8tD5N6HvmxX9f8+K9KkCtSyvBlRL8DxV2+Qo1ReZjU48uNsl32kcqKgHTaAZNIJDEjxPbFtDfHQ7xbaWG2ISOv8Ow3po2/iedy0+up28raI/D9X41C3tdNkTv5nk4ONXLkOPiax+eR7xPY9GDm7OldYmHtz9VKLtLo5P2obTie7+LsvObMjjtISo+8jLOkzduRufW/S9XCb2O6Rt2ELc/cvYvaoxysepeF1DIvuI1x+LP72Xz61i9p7okbbhsIE/vVc1RilP/M7zVKw/Vv8O5pwG0kGG376+YuDvNi/fOIxbHrz+ufpvyiakh52Le8EaPG8tWCc8V+efxebZV9zzDXwHP8BPMKHx5/XP1T/ZH54/dD4VOzyHpuv8Wwwcp1BmGvwCv8EMvSfOzuP+u5MN5VnwfaJWSKPfVRweOv9bBv5uwf1PztGf74HivJXDpP+fsnufZxKyIXNuDjS8zl9VeOn/t8y/B+71Dv668XOflbtp+B/UaUXu7TTkd8Cvdf6T8zB+Zr/vAuG9mqNLk7+7nep3y6uNt89bUeEZD21x+9600vF9AvxgOg3vLy26TD7Rf3s5Be3/feyD5jbc7zj4tyXg/z1BfV3jUv8yeOeB5SAH5Kbb6XXsSPdvvo959e93yTfxl7+lS4JY08H6oPO+TqkP2ft3rP6F6P+igP0eLmapy3XBtTvB+XoI974C6fjfq4R3FagOuvdJe8jev2PxJy7lxfM+uPYLvgM4HxSu3WIYY/4dSAGpIAhCoDtk58fqr2qP7D8C11HBdwzn7w39dfEv/N0iA+NkEcgM2uu6eK2L3oD9fzvf/v8jqvgDILTVgw==
+   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
   </data>
  </layer>
  <objectgroup id="6" name="Buildings">
