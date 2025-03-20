@@ -9,6 +9,9 @@
  <tileset firstgid="3489" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source=".paths.png" width="64" height="256"/>
  </tileset>
+ <tileset firstgid="3553" name="lumi_towninterior" tilewidth="16" tileheight="16" tilecount="3425" columns="25">
+  <image source=".lumi_towninterior.png" width="400" height="2192"/>
+ </tileset>
  <layer id="1" name="Back" width="1" height="2">
   <data encoding="base64" compression="zlib">
    eJxbzQABAAVgAKw=
@@ -25,7 +28,7 @@
    <property name="Draw" value="Buildings"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzLY2Vg6ANiAAXiAQc=
+   eJwLl2RgKABiAAV6APo=
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">

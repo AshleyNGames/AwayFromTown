@@ -18,6 +18,9 @@
  <tileset firstgid="2241" name="v15_TownInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
   <image source=".townInterior_2.png" width="512" height="656"/>
  </tileset>
+ <tileset firstgid="3553" name="lumi_towninterior" tilewidth="16" tileheight="16" tilecount="3425" columns="25">
+  <image source=".lumi_towninterior.png" width="400" height="2192"/>
+ </tileset>
  <layer id="1" name="Back" width="1" height="2">
   <data encoding="base64" compression="zlib">
    eJz7ws3AcICBgQEACvUBwA==
@@ -50,7 +53,7 @@
    <property name="Draw" value="Buildings"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxbx8rAcA6IAQjiAYc=
+   eJwLl2RgKABiAAV6APo=
   </data>
  </layer>
  <objectgroup id="14" name="Buildings2"/>
