@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="2238">
- <tileset firstgid="1" name="Landscape" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="16" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="215">
+ <tileset firstgid="1" name="outdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source=".spring_outdoorsTileSheet.png" width="400" height="1264"/>
   <tile id="150">
    <properties>
@@ -9,17 +9,18 @@
    </properties>
    <animation>
     <frame tileid="150" duration="100"/>
+    <frame tileid="150" duration="100"/>
+    <frame tileid="150" duration="100"/>
+    <frame tileid="150" duration="100"/>
+    <frame tileid="150" duration="100"/>
+    <frame tileid="150" duration="100"/>
+    <frame tileid="150" duration="100"/>
+    <frame tileid="150" duration="100"/>
+    <frame tileid="150" duration="100"/>
     <frame tileid="420" duration="100"/>
     <frame tileid="421" duration="100"/>
     <frame tileid="422" duration="100"/>
     <frame tileid="423" duration="100"/>
-    <frame tileid="420" duration="100"/>
-    <frame tileid="150" duration="100"/>
-    <frame tileid="150" duration="100"/>
-    <frame tileid="150" duration="100"/>
-    <frame tileid="150" duration="100"/>
-    <frame tileid="150" duration="100"/>
-    <frame tileid="150" duration="100"/>
     <frame tileid="150" duration="100"/>
     <frame tileid="150" duration="100"/>
     <frame tileid="150" duration="100"/>
@@ -52,10 +53,15 @@
     <frame tileid="152" duration="1000"/>
    </animation>
   </tile>
-  <tile id="156">
+  <tile id="152">
+   <animation>
+    <frame tileid="152" duration="950"/>
+    <frame tileid="151" duration="950"/>
+   </animation>
+  </tile>
+  <tile id="153">
    <properties>
-    <property name="Spawnable" value="t"/>
-    <property name="Type" value="Grass"/>
+    <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="175">
@@ -66,7 +72,6 @@
   </tile>
   <tile id="176">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -119,6 +124,12 @@
     <frame tileid="1184" duration="1000"/>
    </animation>
   </tile>
+  <tile id="186">
+   <animation>
+    <frame tileid="186" duration="1000"/>
+    <frame tileid="1185" duration="1000"/>
+   </animation>
+  </tile>
   <tile id="200">
    <properties>
     <property name="Spawnable" value="t"/>
@@ -147,13 +158,11 @@
   </tile>
   <tile id="206">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="207">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -164,9 +173,10 @@
    </animation>
   </tile>
   <tile id="209">
-   <properties>
-    <property name="Water" value="t"/>
-   </properties>
+   <animation>
+    <frame tileid="209" duration="1000"/>
+    <frame tileid="1208" duration="1000"/>
+   </animation>
   </tile>
   <tile id="210">
    <animation>
@@ -187,13 +197,11 @@
   </tile>
   <tile id="226">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="227">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -214,7 +222,6 @@
   </tile>
   <tile id="231">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -223,11 +230,6 @@
     <frame tileid="233" duration="1000"/>
     <frame tileid="1232" duration="1000"/>
    </animation>
-  </tile>
-  <tile id="234">
-   <properties>
-    <property name="Water" value="t"/>
-   </properties>
   </tile>
   <tile id="235">
    <animation>
@@ -259,7 +261,6 @@
   </tile>
   <tile id="252">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -287,6 +288,12 @@
    <animation>
     <frame tileid="258" duration="1000"/>
     <frame tileid="1257" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="259">
+   <animation>
+    <frame tileid="259" duration="1000"/>
+    <frame tileid="1258" duration="1000"/>
    </animation>
   </tile>
   <tile id="260">
@@ -366,32 +373,25 @@
   </tile>
   <tile id="308">
    <properties>
-    <property name="Water" value="t"/>
+    <property name="Water" value="T"/>
    </properties>
+   <animation>
+    <frame tileid="308" duration="1000"/>
+    <frame tileid="1316" duration="1000"/>
+   </animation>
   </tile>
   <tile id="309">
    <properties>
-    <property name="Water" value="t"/>
+    <property name="Water" value="T"/>
    </properties>
+   <animation>
+    <frame tileid="309" duration="1000"/>
+    <frame tileid="1317" duration="1000"/>
+   </animation>
   </tile>
   <tile id="310">
    <properties>
     <property name="Water" value="t"/>
-   </properties>
-  </tile>
-  <tile id="312">
-   <properties>
-    <property name="Type" value="Wood"/>
-   </properties>
-  </tile>
-  <tile id="313">
-   <properties>
-    <property name="Type" value="Wood"/>
-   </properties>
-  </tile>
-  <tile id="314">
-   <properties>
-    <property name="Type" value="Wood"/>
    </properties>
   </tile>
   <tile id="325">
@@ -421,37 +421,22 @@
   </tile>
   <tile id="333">
    <properties>
-    <property name="Water" value="t"/>
+    <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="334">
    <properties>
-    <property name="Water" value="t"/>
+    <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="335">
    <properties>
-    <property name="Water" value="t"/>
+    <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="336">
    <properties>
-    <property name="Water" value="t"/>
-   </properties>
-  </tile>
-  <tile id="337">
-   <properties>
-    <property name="Type" value="Wood"/>
-   </properties>
-  </tile>
-  <tile id="338">
-   <properties>
-    <property name="Type" value="Wood"/>
-   </properties>
-  </tile>
-  <tile id="339">
-   <properties>
-    <property name="Type" value="Wood"/>
+    <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="350">
@@ -563,7 +548,52 @@
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
+  <tile id="456">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="480">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="481">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="482">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="505">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="506">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
   <tile id="512">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="530">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="531">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="532">
    <properties>
     <property name="Type" value="Dirt"/>
    </properties>
@@ -588,15 +618,28 @@
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
+  <tile id="555">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="556">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="557">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
   <tile id="558">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="560">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -617,7 +660,6 @@
   </tile>
   <tile id="564">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -653,15 +695,28 @@
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
+  <tile id="580">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="581">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="582">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
   <tile id="583">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="585">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -672,7 +727,6 @@
   </tile>
   <tile id="587">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -683,7 +737,6 @@
   </tile>
   <tile id="589">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -729,35 +782,31 @@
   </tile>
   <tile id="598">
    <properties>
-    <property name="Type" value="Stone"/>
+    <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="599">
    <properties>
-    <property name="Type" value="Stone"/>
+    <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="606">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="607">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="608">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="610">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -778,7 +827,6 @@
   </tile>
   <tile id="614">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -793,6 +841,11 @@
    </properties>
   </tile>
   <tile id="617">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="618">
    <properties>
     <property name="Type" value="Dirt"/>
    </properties>
@@ -819,7 +872,12 @@
   </tile>
   <tile id="623">
    <properties>
-    <property name="Type" value="Stone"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="624">
+   <properties>
+    <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="628">
@@ -834,7 +892,6 @@
   </tile>
   <tile id="630">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -845,7 +902,6 @@
   </tile>
   <tile id="632">
    <properties>
-    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -912,13 +968,13 @@
   </tile>
   <tile id="680">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="681">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -939,7 +995,7 @@
   </tile>
   <tile id="685">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -974,33 +1030,8 @@
     <property name="Water" value="t"/>
    </properties>
   </tile>
-  <tile id="779">
-   <properties>
-    <property name="Passable" value="T"/>
-    <property name="Type" value="Wood"/>
-   </properties>
-  </tile>
-  <tile id="780">
-   <properties>
-    <property name="Passable" value="T"/>
-    <property name="Type" value="Wood"/>
-   </properties>
-  </tile>
-  <tile id="781">
-   <properties>
-    <property name="Passable" value="T"/>
-    <property name="Type" value="Wood"/>
-   </properties>
-  </tile>
-  <tile id="782">
-   <properties>
-    <property name="Passable" value="T"/>
-    <property name="Type" value="Wood"/>
-   </properties>
-  </tile>
   <tile id="809">
    <properties>
-    <property name="Passable" value="T"/>
     <property name="Type" value="Wood"/>
    </properties>
   </tile>
@@ -1016,311 +1047,535 @@
   </tile>
   <tile id="834">
    <properties>
-    <property name="Passable" value="T"/>
     <property name="Type" value="Wood"/>
    </properties>
   </tile>
   <tile id="859">
    <properties>
-    <property name="Passable" value="T"/>
     <property name="Type" value="Wood"/>
    </properties>
   </tile>
   <tile id="884">
    <properties>
-    <property name="Passable" value="T"/>
     <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="1025">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1030">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1050">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1051">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1052">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1054">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1056">
+   <properties>
+    <property name="Type" value="Stone"/>
    </properties>
   </tile>
   <tile id="1186">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1187">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1188">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1211">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1212">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1213">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1227">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1228">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1229">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1230">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1231">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1237">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1238">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1239">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1240">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1241">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1242">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1243">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1244">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1245">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1246">
    <properties>
-    <property name="Passable" value="F"/>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1247">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1248">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1249">
    <properties>
-    <property name="Passable" value="F"/>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1252">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1253">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1254">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1255">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1256">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1263">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1264">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1265">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1266">
    <properties>
-    <property name="Passable" value="F"/>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1267">
    <properties>
-    <property name="Passable" value="F"/>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1268">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1269">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1270">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1271">
    <properties>
-    <property name="Passable" value="F"/>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1272">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1273">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1274">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1277">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1278">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1279">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1280">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1281">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
+  <tile id="1287">
+   <animation>
+    <frame tileid="1287" duration="1000"/>
+    <frame tileid="1314" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="1288">
+   <animation>
+    <frame tileid="1288" duration="1000"/>
+    <frame tileid="1289" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="1293">
+   <animation>
+    <frame tileid="1293" duration="325"/>
+    <frame tileid="1294" duration="325"/>
+    <frame tileid="1295" duration="325"/>
+    <frame tileid="1296" duration="325"/>
+   </animation>
+  </tile>
   <tile id="1297">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1298">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1299">
    <properties>
-    <property name="Passable" value="F"/>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1302">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1303">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1304">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1305">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1306">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
+  <tile id="1318">
+   <animation>
+    <frame tileid="1318" duration="350"/>
+    <frame tileid="1319" duration="350"/>
+    <frame tileid="1320" duration="350"/>
+    <frame tileid="1321" duration="350"/>
+   </animation>
+  </tile>
+  <tile id="1319">
+   <animation>
+    <frame tileid="1319" duration="350"/>
+    <frame tileid="1320" duration="350"/>
+    <frame tileid="1321" duration="350"/>
+    <frame tileid="1318" duration="350"/>
+   </animation>
+  </tile>
   <tile id="1322">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1323">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
    </properties>
   </tile>
   <tile id="1324">
    <properties>
+    <property name="Type" value="Water"/>
     <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1466">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1467">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1468">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1469">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1470">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1471">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1472">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1473">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1541">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1542">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1543">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1544">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1583">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1584">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1585">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1608">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1609">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1610">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1716">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1717">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="1718">
+   <properties>
+    <property name="Water" value="T²"/>
    </properties>
   </tile>
  </tileset>
@@ -1359,77 +1614,12 @@
  </tileset>
  <tileset firstgid="2040" name="spring_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
   <image source=".spring_town.png" width="512" height="1152"/>
-  <tile id="159">
-   <properties>
-    <property name="Passable" value="T"/>
-   </properties>
-  </tile>
-  <tile id="191">
-   <properties>
-    <property name="Passable" value="T"/>
-   </properties>
-  </tile>
-  <tile id="223">
-   <properties>
-    <property name="Passable" value="T"/>
-   </properties>
-  </tile>
-  <tile id="608">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="609">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="610">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="611">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="612">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
   <tile id="641">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="644">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="645">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
   <tile id="646">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="672">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="674">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="676">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
@@ -1459,249 +1649,6 @@
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="905">
-   <properties>
-    <property name="Passable" value="F"/>
-   </properties>
-  </tile>
-  <tile id="909">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="916">
-   <properties>
-    <property name="Water" value="T"/>
-   </properties>
-  </tile>
-  <tile id="917">
-   <properties>
-    <property name="Water" value="T"/>
-   </properties>
-  </tile>
-  <tile id="918">
-   <properties>
-    <property name="Water" value="T"/>
-   </properties>
-  </tile>
-  <tile id="919">
-   <properties>
-    <property name="Water" value="T"/>
-   </properties>
-  </tile>
-  <tile id="931">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="932">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="950">
-   <properties>
-    <property name="Water" value="T"/>
-   </properties>
-  </tile>
-  <tile id="963">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="964">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="1007">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="1008">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="1031">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1032">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1033">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1063">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1064">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1065">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1095">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1096">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1097">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1249">
-   <properties>
-    <property name="Shadow" value="T"/>
-   </properties>
-  </tile>
-  <tile id="1958">
-   <properties>
-    <property name="Shadow" value="T"/>
-   </properties>
-  </tile>
- </tileset>
- <tileset firstgid="4344" name="zridgesidebuildings" tilewidth="16" tileheight="16" tilecount="3968" columns="62">
-  <image source=".spring_zridgesidebuildings.png" width="992" height="1024"/>
- </tileset>
- <tileset firstgid="8312" name="v16_outdoorsTileSheet2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
-  <image source=".spring_outdoorsTileSheet2.png" width="256" height="1120"/>
- </tileset>
- <tileset firstgid="9432" name="Xiddav" tilewidth="16" tileheight="16" tilecount="1140" columns="30">
-  <image source=".spring_Xiddav.png" width="480" height="608"/>
-  <tile id="421">
-   <animation>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="422" duration="100"/>
-    <frame tileid="423" duration="100"/>
-    <frame tileid="424" duration="100"/>
-    <frame tileid="425" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-   </animation>
-  </tile>
-  <tile id="428">
-   <animation>
-    <frame tileid="428" duration="1000"/>
-    <frame tileid="429" duration="1000"/>
-    <frame tileid="429" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="430">
-   <animation>
-    <frame tileid="430" duration="1000"/>
-    <frame tileid="431" duration="1000"/>
-    <frame tileid="431" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="431">
-   <animation>
-    <frame tileid="431" duration="1000"/>
-    <frame tileid="430" duration="1000"/>
-    <frame tileid="431" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="432">
-   <animation>
-    <frame tileid="432" duration="1000"/>
-    <frame tileid="433" duration="1000"/>
-    <frame tileid="433" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="460">
-   <animation>
-    <frame tileid="460" duration="1000"/>
-    <frame tileid="461" duration="1000"/>
-    <frame tileid="461" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="462">
-   <animation>
-    <frame tileid="462" duration="1000"/>
-    <frame tileid="463" duration="1000"/>
-    <frame tileid="463" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="490">
-   <animation>
-    <frame tileid="490" duration="1000"/>
-    <frame tileid="491" duration="1000"/>
-    <frame tileid="491" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="492">
-   <animation>
-    <frame tileid="492" duration="1000"/>
-    <frame tileid="493" duration="1000"/>
-    <frame tileid="493" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="493">
-   <animation>
-    <frame tileid="493" duration="1000"/>
-    <frame tileid="492" duration="1000"/>
-    <frame tileid="493" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="520">
-   <animation>
-    <frame tileid="520" duration="1000"/>
-    <frame tileid="521" duration="1000"/>
-    <frame tileid="521" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="522">
-   <animation>
-    <frame tileid="522" duration="1000"/>
-    <frame tileid="523" duration="1000"/>
-    <frame tileid="523" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="900">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
   <tile id="901">
    <properties>
     <property name="Type" value="Stone"/>
@@ -1718,86 +1665,6 @@
    </properties>
   </tile>
   <tile id="904">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="905">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="906">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="907">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="908">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="909">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="910">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="911">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="912">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="913">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="914">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="915">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="916">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="917">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="930">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="931">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="932">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
@@ -1822,86 +1689,6 @@
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="937">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="938">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="939">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="940">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="941">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="942">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="943">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="944">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="945">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="946">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="947">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="960">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="961">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="962">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="963">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="964">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
   <tile id="965">
    <properties>
     <property name="Type" value="Stone"/>
@@ -1918,86 +1705,6 @@
    </properties>
   </tile>
   <tile id="968">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="969">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="970">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="971">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="972">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="973">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="974">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="975">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="976">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="977">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="990">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="991">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="992">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="993">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="994">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="995">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="996">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
@@ -2022,480 +1729,1516 @@
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1001">
+ </tileset>
+ <tileset firstgid="4344" name="Xiddav" tilewidth="16" tileheight="16" tilecount="1140" columns="30">
+  <image source=".spring_Xiddav.png" width="480" height="608"/>
+  <tile id="0">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1002">
+  <tile id="1">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1003">
+  <tile id="2">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1004">
+  <tile id="3">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1005">
+  <tile id="4">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1006">
+  <tile id="5">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1007">
+  <tile id="6">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1020">
+  <tile id="7">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1021">
+  <tile id="8">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1022">
+  <tile id="9">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1023">
+  <tile id="10">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1024">
+  <tile id="11">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1025">
+  <tile id="12">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1026">
+  <tile id="13">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1027">
+  <tile id="14">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1028">
+  <tile id="15">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1029">
+  <tile id="16">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1030">
+  <tile id="17">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1031">
+  <tile id="18">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1032">
+  <tile id="19">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1033">
+  <tile id="20">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1034">
+  <tile id="21">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1035">
+  <tile id="30">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1036">
+  <tile id="31">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1037">
+  <tile id="32">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1050">
+  <tile id="33">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1051">
+  <tile id="34">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1052">
+  <tile id="35">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1053">
+  <tile id="36">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1054">
+  <tile id="37">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1055">
+  <tile id="38">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1056">
+  <tile id="39">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1057">
+  <tile id="40">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1058">
+  <tile id="41">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1059">
+  <tile id="42">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1060">
+  <tile id="43">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1061">
+  <tile id="44">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1062">
+  <tile id="45">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1063">
+  <tile id="46">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1064">
+  <tile id="47">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1065">
+  <tile id="48">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1066">
+  <tile id="49">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1067">
+  <tile id="50">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1080">
+  <tile id="51">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1081">
+  <tile id="60">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1082">
+  <tile id="61">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1083">
+  <tile id="62">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1084">
+  <tile id="63">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1085">
+  <tile id="64">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1086">
+  <tile id="65">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1087">
+  <tile id="66">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1088">
+  <tile id="67">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1089">
+  <tile id="68">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1090">
+  <tile id="69">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1091">
+  <tile id="70">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1092">
+  <tile id="71">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1093">
+  <tile id="72">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1094">
+  <tile id="73">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1095">
+  <tile id="74">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1096">
+  <tile id="75">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1097">
+  <tile id="76">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1110">
+  <tile id="77">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1111">
+  <tile id="78">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1112">
+  <tile id="79">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1113">
+  <tile id="80">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1114">
+  <tile id="81">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1115">
+  <tile id="90">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1116">
+  <tile id="91">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1117">
+  <tile id="92">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1118">
+  <tile id="93">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1119">
+  <tile id="94">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1120">
+  <tile id="95">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1121">
+  <tile id="96">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1122">
+  <tile id="97">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1123">
+  <tile id="98">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1124">
+  <tile id="99">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1125">
+  <tile id="100">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1126">
+  <tile id="101">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="1127">
+  <tile id="102">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="105">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="106">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="107">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="109">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="110">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="111">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="125">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="126">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="127">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="128">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="129">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="130">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="131">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="132">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="133">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="134">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="135">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="136">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="137">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="138">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="139">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="140">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="141">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="150">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="151">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="152">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="153">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="154">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="155">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="156">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="157">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="158">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="159">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="160">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="161">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="162">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="163">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="164">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="165">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="166">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="167">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="168">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="169">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="170">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="171">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="180">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="181">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="182">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="183">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="184">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="185">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="186">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="187">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="188">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="189">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="190">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="191">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="192">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="193">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="194">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="195">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="196">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="197">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="198">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="199">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="200">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="201">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="210">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="211">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="212">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="213">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="214">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="215">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="216">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="217">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="218">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="219">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="220">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="221">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="222">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="223">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="224">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="225">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="226">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="227">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="228">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="229">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="230">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="231">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="240">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="241">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="242">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="243">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="244">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="245">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="246">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="247">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="248">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="249">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="250">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="251">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="252">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="253">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="254">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="255">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="256">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="257">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="258">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="259">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="260">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="261">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="270">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="271">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="272">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="273">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="274">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="275">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="276">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="277">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="278">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="279">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="280">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="281">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="282">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="283">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="284">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="285">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="286">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="287">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="288">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="289">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="290">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="291">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="300">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="301">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="302">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="303">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="304">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="305">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="306">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="307">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="308">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="309">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="310">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="311">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="312">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="313">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="314">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="315">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="316">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="317">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="318">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="319">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="320">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="321">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="330">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="331">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="332">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="333">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="334">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="335">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="336">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="337">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="338">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="339">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="340">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="341">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="342">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="343">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="344">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="345">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="346">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="347">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="348">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="349">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="350">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="351">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="360">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="361">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="362">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="363">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="364">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="365">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="366">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="367">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="368">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="369">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="370">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="371">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="372">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="373">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="374">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="375">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="376">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="377">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="378">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="379">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="380">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="381">
    <properties>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
  </tileset>
- <layer id="1" name="Back" width="7" height="11">
-  <data encoding="csv">
-176,2680,2776,2776,2777,2682,351,
-176,2680,2808,2809,2776,2682,376,
-381,381,2971,2972,2972,176,176,
-381,381,2971,2972,2972,176,176,
-381,381,2971,2972,2972,176,176,
-377,377,3003,3004,3004,176,176,
-1029,1029,1029,1032,1029,1029,1029,
-1055,1055,1055,1031,1055,1055,1055,
-1057,1057,1057,1031,1057,1057,1057,
-1055,1055,1055,1031,1055,1055,1055,
-1054,1054,1054,1079,1054,1054,1054
-</data>
+ <tileset firstgid="5484" name="zspring_daisyextras" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
+  <image source=".spring_daisyextras.png" width="480" height="960"/>
+ </tileset>
+ <tileset firstgid="7284" name="v16_outdoorsTileSheet2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
+  <image source=".spring_outdoorsTileSheet2.png" width="256" height="1120"/>
+ </tileset>
+ <tileset firstgid="8404" name="zridgesidebuildings" tilewidth="16" tileheight="16" tilecount="3968" columns="62">
+  <image source=".spring_zridgesidebuildings.png" width="992" height="1024"/>
+ </tileset>
+ <layer id="1" name="Back" width="16" height="23">
+  <data encoding="base64" compression="zlib">
+   eJyVk71OAzEMgO1yUFTWbvyJR6ALCzMgpI6MiCtt36GcOMQrtAKuEiCxsCNWeISywwPwDrAgbMXupWkuUU/6FJ2cL3acJEeAXDgjXsAwaAB8Cl9E1jDxgjgnMuLCcpl9GdX/IX5lDfYH4mQyh7+xOClx4qx3vwbwIGhdNvzd0rw7NOss1Rb3uZ4bNOscL5if3RGW+3J5I+9dqPKXkzCrkfjpCsB2Uk09EGN3JwlTj8RDuWP5ma0Ie5H4hkVNxs3E9He9Im6jZ3FAZ3FIHOHsGfHdTXGelowTvsNg3gb/d0r/OuQr3/renLfh5u8SPaLv+K9gauC5iPN3TP1LudNXxC6Wa37QnD/HGXvq13dWWG4bTc6RJ6+vfy1rH22pZ+LMLwJ+1/IUrn2IpefWYvcvtbxHMONQzl3x1d+TmnMP+tYRZ/tP5zntn53PpapvzHPT+E9Nv8v8A+gDpFw=
+  </data>
  </layer>
- <objectgroup id="6" name="Back"/>
- <layer id="2" name="Buildings" width="7" height="11">
-  <data encoding="csv">
-176,130,0,0,0,258,158,
-308,2680,0,0,0,258,376,
-469,469,0,0,0,469,469,
-494,494,0,0,0,494,494,
-519,519,0,0,0,519,519,
-544,8006,0,0,0,8006,544,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0
-</data>
+ <layer id="14" name="Back 2" width="16" height="23">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFwwXsERxoFwwvIAYNTwkyw3Uk6Z85wPYPRv2tIhC6UQS3GgdR7HgRmp55ItjVAQC+kQp0
+  </data>
  </layer>
- <objectgroup id="7" name="Buildings"/>
- <layer id="3" name="Paths" width="7" height="11">
-  <data encoding="csv">
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0
-</data>
+ <layer id="17" name="Back 3" width="16" height="23">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMBQBAAXAAAE=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="16" height="23">
+  <data encoding="base64" compression="zlib">
+   eJx7zcjAcAmIlYFYBYjjgXgDAwNDEwMqYAKKzwPS84G4EUmehYmBgRmIbYDyu4C4AogXiAFpLkz9IDmQXhMgHQ7EGkAsC9QrA8ShQPZlIN4PxFehGBnAxK5A6QIgdkRSAzLnDZD/FojfQTEygInB5DuBOApNDSvQDDYgZodiZAATg8kvAuotRtMvBxSXB2IFIFbSR5UD8RWQ5Hej6R0F1AXNFIbvYNCvwEGZfgc0/eh5mpB+YkArELdRoB9WppCrHxeghf4ObkyxBlCZBsRNUBrG3oqmfzlQ7wpuhHoYRgduggwM7oKY4seBek9A7XcByrtC1QAAUCcxPg==
+  </data>
+ </layer>
+ <layer id="15" name="Buildings2" width="16" height="23">
+  <properties>
+   <property name="Draw" value="Buildings"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgiBBjaAgHYgYyQRlQbykF+qcA9U5G0h8sxsAAdA9WECIGkccHCoHypWhqoqD8IjGIPD7QD5SfjKamAsqfIAaRxwfWUig/CkbBKBiaQEOQgUFTEL8aNaC8OgE1xAIApOgQDw==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="16" height="23">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAETWJYBEkEy/Tw8wmBJ3r4+YNdP7WA4MBYO+Agi3GgXYAdWJCimAPB9AfiACAOpMDuTAr04gI5QJxLA3OHCkgHprMMIM6E0jA2OmjnZmDo4Eaoh+GBBgCmSBDa
+  </data>
+ </layer>
+ <layer id="18" name="Front2" width="16" height="23">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAJcggwM3IL41XAA5TkJqKEXAABGWABr
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="16" height="23">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFlIBz7OTrvUiE3n0UmD+qnzj9yHGIHie49KPHO650ANOPTZ6YtINuPy49yO5GVoNLPzFpD10/PvcexOFPfOGPyzx87scHLmJxA7p+dH8TioPBnn4BRCMfaQ==
+  </data>
  </layer>
  <objectgroup id="8" name="Paths"/>
- <layer id="4" name="Front" width="7" height="11">
-  <data encoding="csv">
-0,0,0,0,0,0,0,
-0,7882,0,0,0,7882,0,
-0,7944,0,0,0,7944,0,
-0,7944,0,0,0,7944,0,
-0,7944,0,0,0,7944,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,359,360
-</data>
+ <layer id="9" name="AlwaysFront" width="16" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztzrsKwjAYhuEM9mSmLN2qqKD2BlRqZw9TK+otaPUyeuW+EKeghEZoHfrDQ+CDl1YIfer91sbbX7enPmxx63/R/Q3gwXfsE4wwNvYQEYaWfoU1NsY+wRQzS1+gxMnYM2yRW/rqy37GBVdL/8v5UogAISKpt2eDfk6zwBKpbP79Hc0eBxwd+hvNHRUeDv0/3wt4+gpj
+  </data>
  </layer>
- <objectgroup id="9" name="Front"/>
- <layer id="5" name="AlwaysFront" width="7" height="11">
-  <data encoding="csv">
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0
-</data>
+ <layer id="16" name="AlwaysFront2" width="16" height="23">
+  <properties>
+   <property name="Draw" value="AlwaysFront"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMBQBAAXAAAE=
+  </data>
+ </layer>
+ <layer id="19" name="AlwaysFront3" width="16" height="23">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMBQBAAXAAAE=
+  </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>
 </map>

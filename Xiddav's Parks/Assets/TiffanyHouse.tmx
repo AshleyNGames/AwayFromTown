@@ -3,7 +3,7 @@
  <properties>
   <property name="Doors" value="8 18 Interior 120 8 17 Interior 88 8 16 Interior 56 16 12 Interior 120 16 11 Interior 88 16 10 Interior 56"/>
   <property name="Light" value="3 8 6 8 8 6 14 2 6 21 2 6"/>
-  <property name="Warp" value="13 25 Busstop 15 40"/>
+  <property name="Warp" value="13 25 Busstop 34 55"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source=".townInterior.png" width="512" height="1088"/>

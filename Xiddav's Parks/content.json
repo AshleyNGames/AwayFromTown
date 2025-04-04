@@ -68,18 +68,35 @@
      "FromFile": "Assets/Woods.tmx",
      "PatchMode": "Replace",},
 
-{"Action": "EditMap",
+{"Action": "Load",
      "Target": "Maps/BusStop",
-     "FromFile": "Assets/BusStop.tmx",
-     "PatchMode": "Replace",},
+     "FromFile": "Assets/BusStop.tmx",},
 
 {"Action": "EditMap",
      "Target": "Maps/BusStop",
 	"When": {"HasMod|contains=Rafseazz.RSVCP": true},
      "FromFile": "Assets/RSVBusStop.tmx",
      "PatchMode": "Replace",
-     "ToArea": { "X": 35, "Y": 0, "Width": 7, "Height": 11 },},
+     "ToArea": { "X": 30, "Y": 0, "Width": 16, "Height": 23},},
 
+{"Action": "EditMap",
+     "Target": "Maps/Town",
+	"When": {"HasMod|contains=LemurKat.EastScarpe.CP": true},
+     "FromFile": "assets/Town_ES.tmx",
+	"PatchMode": "Replace",
+     "ToArea": { "X": 109, "Y": 65, "Width": 21, "Height": 12},},
+
+{"Action": "EditMap",
+"Target": "Maps/Town",
+"MapProperties": {
+	"DayTiles": "AlwaysFront 20 22 511 AlwaysFront 32 22 511 AlwaysFront 50 35 511 AlwaysFront 17 50 511 AlwaysFront 24 50 511 AlwaysFront 24 58 511 AlwaysFront 21 64 511 AlwaysFront 27 72 511 AlwaysFront 30 72 511 AlwaysFront 38 65 511 AlwaysFront 27 86 511 AlwaysFront 17 86 511 AlwaysFront 52 98 511 AlwaysFront 56 98 511 AlwaysFront 74 90 511 AlwaysFront 83 90 511 AlwaysFront 106 90 511 AlwaysFront 108 76 511 AlwaysFront 108 62 511 AlwaysFront 102 52 511 AlwaysFront 90 49 511 AlwaysFront 79 49 511 AlwaysFront 68 49 511 Front 33 53 908" ,
+	"NightTiles": "AlwaysFront 20 22 513 AlwaysFront 32 22 513 AlwaysFront 50 35 513 AlwaysFront 17 50 513 AlwaysFront 24 50 513 AlwaysFront 24 58 513 AlwaysFront 21 64 513 AlwaysFront 27 72 513 AlwaysFront 30 72 513 AlwaysFront 38 65 513 AlwaysFront 27 86 513 AlwaysFront 17 86 513 AlwaysFront 52 98 513 AlwaysFront 56 98 513 AlwaysFront 74 90 513 AlwaysFront 83 90 513 AlwaysFront 106 90 513 AlwaysFront 108 76 513 AlwaysFront 108 62 513 AlwaysFront 102 52 513 AlwaysFront 90 49 513 AlwaysFront 79 49 513 AlwaysFront 68 49 513 Front 33 53 908" ,}},
+
+{    "Action": "EditMap",
+    "Target": "Maps/BusStop",
+    "MapProperties": { "NightTiles": "AlwaysFront 21 19 908 AlwaysFront 26 19 908 AlwaysFront 51 20 908 AlwaysFront 48 45 908 AlwaysFront 51 45 908 AlwaysFront 59 82 908 AlwaysFront 56 75 908 AlwaysFront 51 66 908 Buildings 48 3 507",
+				"Light": "21 19 4 26 19 4 51 20 4 48 3 4 48 45 4 51 45 4 59 82 4 56 75 4 51 66 4",
+				"Warp": "9 22 Farm 79 17 9 23 Farm 79 17 9 24 Farm 79 17 9 25 Farm 79 17 9 75 Farm 89 53 9 74 Farm 89 53 9 73 Farm 89 53 9 72 Farm 89 53 9 71 Farm 89 53 9 70 Farm 89 53 9 6 Backwoods 49 30 9 7 Backwoods 49 30 9 8 Backwoods 49 30 9 9 Backwoods 49 30 65 86 Town 0 54 65 87 Town 0 54 65 85 Town 0 54" },},
 //shop
 {  "Action": "EditData",
             "Target": "Data/Shops",

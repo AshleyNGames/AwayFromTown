@@ -13,4 +13,6 @@
 			"IsRequired": true},
 		{"UniqueID": "hxw.tilesheets",
 			"IsRequired": true},
+		{"UniqueID": "Rafseazz.RSVCP",
+			"IsRequired": false},
   ],}
