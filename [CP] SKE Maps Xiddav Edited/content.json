@@ -9,9 +9,7 @@
 { "Name": "Custom_TinaRoom",
  "FromMapFile": "assets/TinaRoom.tmx"},
 { "Name": "Custom_JamesRoom",
- "FromMapFile": "assets/JamesRoom.tmx"},
-{ "Name": "Custom_DouglasWarpRoom",
- "FromMapFile": "assets/DouglasWarpRoom.tmx"},],
+ "FromMapFile": "assets/JamesRoom.tmx"},],
 	
 "Changes":[
 {"Action": "EditMap",

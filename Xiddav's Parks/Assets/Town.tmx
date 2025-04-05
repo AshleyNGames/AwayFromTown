@@ -9420,12 +9420,12 @@
   </object>
   <object id="45" name="TileData" x="1696" y="1632" width="16" height="16">
    <properties>
-    <property name="Action" value="LockedDoorWarp 9 24 RedHouseOne 800 2000"/>
+    <property name="Action" value="LockedDoorWarp 9 24 Custom_Xiddav_RedHouseOne 800 2000"/>
    </properties>
   </object>
   <object id="46" name="TileData" x="1872" y="1632" width="16" height="16">
    <properties>
-    <property name="Action" value="LockedDoorWarp 9 24 RedHouseTwo 800 2000"/>
+    <property name="Action" value="LockedDoorWarp 9 24 Custom_Xiddav_RedHouseTwo 800 2000"/>
    </properties>
   </object>
  </objectgroup>

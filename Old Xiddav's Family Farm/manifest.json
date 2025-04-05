@@ -1,0 +1,10 @@
+{
+    "Name": "Xiddav's Old Family Farm",
+    "Author": "xiddav",
+    "Version": "1.0.0",
+    "Description": "Xiddav's Farm Map",
+    "UniqueID": "Xiddav.OldFamilyFarm",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }}

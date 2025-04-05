@@ -169,13 +169,13 @@
 					{
 							"Id": "{{ModId}}.TEASET",
 							"ItemId": "(O)341",
-							"Condition": "PLAYER_FRIENDSHIP_POINTS Current Caroline 750",
+							"Condition": "PLAYER_FRIENDSHIP_POINTS Current Caroline 500",
                             "AvailableStock": 1},
 					{
 							"Id": "{{ModId}}.StardropTea",
 							"ItemId": "(O)StardropTea",
-                            "Price": 2000,
-							"Condition": "PLAYER_FRIENDSHIP_POINTS Current Caroline 1500",
+                            "Price": 5000,
+							"Condition": "PLAYER_FRIENDSHIP_POINTS Current Caroline 1000",
                             "AvailableStock": 1},
 					],}}},
   ]}
