@@ -13,76 +13,105 @@
 "Changes": [   
 	//flower field
 {"Action": "EditMap",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
      "Target": "Maps/Forest-FlowerFestival",
      "FromFile": "Assets/Forest-FlowerFestival.tmx", 
      "PatchMode": "Replace"},
 
 {"Action": "EditMap",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
      "Target": "Maps/Forest-FlowerFestival2",
      "FromFile": "Assets/Forest-FlowerFestival2.tmx", 
      "PatchMode": "Replace"},
 
 {"Action": "EditData",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
 		"Target": "Data/Festivals/spring24",
 		"Entries": {"set-up": "event1/22 22/farmer 76 17 1/changeToTemporaryMap Forest-FlowerFestival/viewport -1000 -1000/loadActors Set-Up/advancedMove Vincent true -6 0 0 -1 6 0 0 1/advancedMove Jas true 1 0 0 1 -6 0 0 -1 5 0/advancedMove Pam true 2 25000 0 -3 4 0 4 25000 -4 0 0 3/advancedMove Haley true 0 1 2 3000 2 0 0 -1 -2 0 3 500 4 500 1 500 2 500 2 0 1 500 2 500 3 500 4 500 0 2 0 -2 -2 0/advancedMove Caroline true 0 -3 -1 0 0 -2 2 0 1 18000 -2 0 0 2 1 0 0 3 3 18000/advancedMove Willy true 2 25000 1 500 7 0 1 500 2 12500 3 500 -7 0 3 500 2 1000/playerControl flowerFestival/viewport player clamp true unfreeze/globalFadeToClear"}},
 
 {"Action": "EditMap",
      "Target": "Maps/Forest",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
      "FromFile": "assets/ForestEdit.tmx",
 	"PatchMode": "Replace",
      "ToArea": { "X": 1, "Y": 75, "Width": 4, "Height": 1 }},
 
 {"Action": "EditMap",
     "Target": "Maps/Forest",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
       "AddWarps": ["2 75 Custom_Xiddav_FlowerField 96 17"]},
 
 {"Action": "EditMap",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
     "Target": "Maps/Custom_Xiddav_FlowerField",
       "AddWarps":  ["98 17 Forest 3 75"]},
 
 //Inside
 {"Action": "EditMap",
      "Target": "Maps/SeedShop",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
      "FromFile": "Assets/SeedShop.tmx",
      "PatchMode": "Replace",},
 
 {"Action": "EditMap",
      "Target": "Maps/SamHouse",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
      "FromFile": "Assets/SamHouse.tmx",
      "PatchMode": "Replace",},
 
 {"Action": "EditMap",
      "Target": "Maps/ScienceHouse",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
      "FromFile": "Assets/ScienceHouse.tmx",
      "PatchMode": "Replace",},
 
 {"Action": "EditMap",
      "Target": "Maps/Saloon",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
      "FromFile": "Assets/Saloon.tmx",
      "PatchMode": "Replace",},
 
 {"Action": "EditMap",
      "Target": "Maps/RefurbishedSaloonRoom",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
      "FromFile": "Assets/RefurbishedSaloonRoom.tmx",
      "PatchMode": "Replace",},
 
+{    "Action": "EditMap",
+    "Target": "Maps/Custom_Xiddav_RedHouseOne",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
+    "MapProperties": { "Warp": "11 25 Town 106 103" },},
+
+{    "Action": "EditMap",
+    "Target": "Maps/Custom_Xiddav_RedHouseTwo",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
+    "MapProperties": { "Warp": "11 25 Town 117 103" },},
+
 //outside
 {"Action": "EditMap",
-     "Target": "Maps/Town",
-     "FromFile": "Assets/Town.tmx",
+     "Target": "Maps/Woods",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
+     "FromFile": "Assets/Woods.tmx",
      "PatchMode": "Replace",},
 
+{"Action": "Include",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
+            "FromFile": "assets/GarbageCans.json",},
+
 {"Action": "EditMap",
-     "Target": "Maps/Woods",
-     "FromFile": "Assets/Woods.tmx",
+     "Target": "Maps/Town",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
+     "FromFile": "Assets/Town.tmx",
      "PatchMode": "Replace",},
 
 {"Action": "Load",
      "Target": "Maps/BusStop",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
      "FromFile": "Assets/BusStop.tmx",},
 
 {"Action": "EditMap",
      "Target": "Maps/BusStop",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
 	"When": {"HasMod|contains=Rafseazz.RSVCP": true},
      "FromFile": "Assets/RSVBusStop.tmx",
      "PatchMode": "Replace",
@@ -90,13 +119,15 @@
 
 {"Action": "EditMap",
      "Target": "Maps/Town",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
 	"When": {"HasMod|contains=LemurKat.EastScarpe.CP": true},
      "FromFile": "assets/Town_ES.tmx",
 	"PatchMode": "Replace",
-     "ToArea": { "X": 109, "Y": 65, "Width": 21, "Height": 12},},
+     "ToArea": { "X": 109, "Y": 68, "Width": 21, "Height": 9},},
 
 {"Action": "EditMap",
 "Target": "Maps/Town",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
 "MapProperties": {
 	"Light": "24 50 4 33 53 4 24 58 4 21 64 4 17 86 4 27 86 4 38 65 4 30 72 4 27 72 4 41 69 4 71 67 4 52 98 4 56 98 4 92 79 4 20 22 4 32 22 4 50 35 4 17 50 4 68 49 4 79 49 4 90 49 4 102 52 4 108 62 4 108 76 4 106 90 4 83 90 4 74 90 4 56 98 4 52 98 4",
 	"DayTiles": "AlwaysFront 20 22 511 AlwaysFront 32 22 511 AlwaysFront 50 35 511 AlwaysFront 17 50 511 AlwaysFront 24 50 511 AlwaysFront 24 58 511 AlwaysFront 21 64 511 AlwaysFront 27 72 511 AlwaysFront 30 72 511 AlwaysFront 38 65 511 AlwaysFront 27 86 511 AlwaysFront 17 86 511 AlwaysFront 52 98 511 AlwaysFront 56 98 511 AlwaysFront 74 90 511 AlwaysFront 83 90 511 AlwaysFront 106 90 511 AlwaysFront 108 76 511 AlwaysFront 108 62 511 AlwaysFront 102 52 511 AlwaysFront 90 49 511 AlwaysFront 79 49 511 AlwaysFront 68 49 511 Front 33 53 908" ,
@@ -104,6 +135,7 @@
 
 {  "Action": "EditMap",
     "Target": "Maps/Town",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
     "TextOperations": [{
       "Operation": "Prepend",
       "Target": [ "MapProperties", "Warp" ],
@@ -112,12 +144,14 @@
 
 {    "Action": "EditMap",
     "Target": "Maps/BusStop",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
     "MapProperties": { "NightTiles": "AlwaysFront 21 19 908 AlwaysFront 26 19 908 AlwaysFront 51 20 908 AlwaysFront 48 45 908 AlwaysFront 51 45 908 AlwaysFront 59 82 908 AlwaysFront 56 75 908 AlwaysFront 51 66 908 Buildings 48 3 507",
 				"Light": "21 19 4 26 19 4 51 20 4 48 3 4 48 45 4 51 45 4 59 82 4 56 75 4 51 66 4 34 21 8 35 21 8 43 21 8 44 21 8",
-				"Warp": "9 22 Farm 79 17 9 23 Farm 79 17 9 24 Farm 79 17 9 25 Farm 79 17 9 75 Farm 79 17 9 74 Farm 79 17 9 73 Farm 79 17 9 72 Farm 79 17 9 71 Farm 79 17 9 70 Farm 79 17 9 6 Backwoods 49 30 9 7 Backwoods 49 30 9 8 Backwoods 49 30 9 9 Backwoods 49 30 65 86 Town 0 54 65 87 Town 0 54 65 85 Town 0 54" },},
+				"Warp": "9 22 Farm 79 17 9 23 Farm 79 17 9 24 Farm 79 17 9 25 Farm 79 17 9 75 Farm 88 54 9 74 Farm 88 54 9 73 Farm 88 54 9 72 Farm 88 54 9 71 Farm 88 54 9 70 Farm 88 54 9 6 Backwoods 49 30 9 7 Backwoods 49 30 9 8 Backwoods 49 30 9 9 Backwoods 49 30 65 86 Town 0 54 65 87 Town 0 54 65 85 Town 0 54" },},
 
 {  "Action": "EditMap",
     "Target": "Maps/BusStop",
+		"When": {"FarmType": "OldFamilyFarm.Farm"},
 	"When": {"Hasmod": "Rafseazz.RSVCP"},
     "TextOperations": [{
       "Operation": "Prepend",
