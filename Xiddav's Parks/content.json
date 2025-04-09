@@ -75,13 +75,19 @@
     "MapProperties": { "Warp": "11 25 Town 117 103" },},
 
 //outside
+{"Action": "Include",
+            "FromFile": "assets/GarbageCans.json",},
+{"Action": "Include",
+            "FromFile": "assets/Fishing.json",},
+{"Action": "Include",
+            "FromFile": "assets/Forage.json",},
+{"Action": "Include",
+            "FromFile": "assets/ArtifactSpots.json",},
+
 {"Action": "EditMap",
      "Target": "Maps/Woods",
      "FromFile": "Assets/Woods.tmx",
      "PatchMode": "Replace",},
-
-{"Action": "Include",
-            "FromFile": "assets/GarbageCans.json",},
 
 {"Action": "EditMap",
      "Target": "Maps/Town",
@@ -136,7 +142,7 @@
       "Value": "38 -1 Custom_Ridgeside_RSVCableCar 20 29 37 -1 Custom_Ridgeside_RSVCableCar 19 29 39 -1 Custom_Ridgeside_RSVCableCar 21 29",
       "Delimiter": " "}, ],},
 
-//shop
+//stores
 {  "Action": "EditData",
             "Target": "Data/Shops",
             "Entries": {

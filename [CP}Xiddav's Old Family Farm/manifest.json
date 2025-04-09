@@ -1,0 +1,18 @@
+{
+    "Name": "Xiddav's Old Family Farm",
+    "Author": "xiddav",
+    "Version": "1.0.0",
+    "Description": "Xiddav's Old Family Farm",
+    "UniqueID": "Xiddav.FamilyFarm",
+    "UpdateKeys": ["Nexus:33007"],
+  "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher",}  ,
+  "Dependencies": [  	 
+   {"UniqueID": "Xiddav.tilesheet",
+      "IsRequired": true},
+		{"UniqueID": "Lumisteria.TtilesheetsOutdoor",
+			"IsRequired": true},
+		{"UniqueID": "hxw.tilesheets",
+			"IsRequired": true},
+		{"UniqueID": "Rafseazz.RSVCP",
+			"IsRequired": false},
+  ],}

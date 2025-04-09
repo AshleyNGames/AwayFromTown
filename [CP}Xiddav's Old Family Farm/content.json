@@ -1,0 +1,42 @@
+{    "Format": "2.5.0",
+    "Changes": [	
+		
+{    "Action": "EditMap",
+    "Target": "Maps/OldFamilyFarm",
+	"When": {"HasMod|contains=Xiddav.Parks": false},
+    "MapProperties": { "Warp": "84 15 BusStop 10 23 84 18 BusStop 10 23 84 16 BusStop 10 23 84 17 BusStop 10 23 90 55 Busstop 10 23 90 54 Busstop 10 23 90 53 Busstop 10 23 90 52 Busstop 10 23 90 51 Busstop 10 23 90 50 Busstop 10 23 54 91 Forest 68 0 55 91 Forest 68 0 56 91 Forest 68 0 57 91 Forest 68 0 49 -1 Backwoods 14 39 50 -1 Backwoods 14 39 34 6 FarmCave 8 11" },},
+		
+{    "Action": "EditMap",
+    "Target": "Maps/OldFamilyFarm",
+	"When": {"HasMod|contains=Xiddav.Parks": true},
+    "MapProperties": { "Warp": "84 15 BusStop 10 23 84 18 BusStop 10 23 84 16 BusStop 10 23 84 17 BusStop 10 23 90 55 Busstop 10 72 90 54 Busstop 10 72 90 53 Busstop 10 72 90 52 Busstop 10 72 90 51 Busstop 10 72 90 50 Busstop 10 72 54 91 Forest 68 0 55 91 Forest 68 0 56 91 Forest 68 0 57 91 Forest 68 0 49 -1 Backwoods 14 39 50 -1 Backwoods 14 39 34 6 FarmCave 8 11" },},
+		
+{  "Action": "EditMap",
+    "Target": "Maps/BusStop",
+	"When": {"HasMod|contains=Xiddav.Parks": true, "Farmtype": "OldFamilyFarm"},
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "9 22 Farm 79 17 9 23 Farm 79 17 9 24 Farm 79 17 9 25 Farm 79 17 9 75 Farm 88 54 9 74 Farm 88 54 9 73 Farm 88 54 9 72 Farm 88 54 9 71 Farm 88 54 9 70 Farm 88 54",
+      "Delimiter": " "}, ],},
+
+{"Action": "EditData",
+            "Target": "Data/AdditionalFarms",
+            "Entries": {"OldFamilyFarm": {
+                    "ID": "OldFamilyFarm",
+                    "TooltipStringPath": "Strings/UI:OldFamilyFarm",
+                    "MapName": "OldFamilyFarm",
+                    "IconTexture": "Mods/OldFamilyFarmFarm/FarmIcon"}}},
+
+{"Action": "EditData",
+            "Target": "Strings/UI",
+            "Entries": {"OldFamilyFarm": "{{i18n:farm.name}}"}},
+
+{"Action": "Load",
+            "Target": "Mods/OldFamilyFarmFarm/FarmIcon",
+            "FromFile": "assets/icon.png"},
+
+{"Action": "Load",
+            "Target": "Maps/OldFamilyFarm",
+            "FromFile": "assets/OldFamilyFarm.tmx"},
+	]}
