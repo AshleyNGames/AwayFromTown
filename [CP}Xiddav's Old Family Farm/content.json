@@ -4,12 +4,12 @@
 {    "Action": "EditMap",
     "Target": "Maps/OldFamilyFarm",
 	"When": {"HasMod|contains=Xiddav.Parks": false},
-    "MapProperties": { "Warp": "84 15 BusStop 10 23 84 18 BusStop 10 23 84 16 BusStop 10 23 84 17 BusStop 10 23 90 55 Busstop 10 23 90 54 Busstop 10 23 90 53 Busstop 10 23 90 52 Busstop 10 23 90 51 Busstop 10 23 90 50 Busstop 10 23 54 91 Forest 68 0 55 91 Forest 68 0 56 91 Forest 68 0 57 91 Forest 68 0 49 -1 Backwoods 14 39 50 -1 Backwoods 14 39 34 6 FarmCave 8 11" },},
+    "MapProperties": { "Warp": "84 15 BusStop 10 23 84 18 BusStop 10 23 84 16 BusStop 10 23 84 17 BusStop 10 23 90 55 Busstop 10 23 90 54 Busstop 10 23 90 53 Busstop 10 23 90 52 Busstop 10 23 90 51 Busstop 10 23 90 50 Busstop 10 23 54 91 Forest 68 0 55 91 Forest 68 0 56 91 Forest 68 0 57 91 Forest 68 0 41 -1 Backwoods 14 39 40 -1 Backwoods 14 39 42 -1 Backwoods 14 39 34 6 FarmCave 8 11" },},
 		
 {    "Action": "EditMap",
     "Target": "Maps/OldFamilyFarm",
 	"When": {"HasMod|contains=Xiddav.Parks": true},
-    "MapProperties": { "Warp": "84 15 BusStop 10 23 84 18 BusStop 10 23 84 16 BusStop 10 23 84 17 BusStop 10 23 90 55 Busstop 10 72 90 54 Busstop 10 72 90 53 Busstop 10 72 90 52 Busstop 10 72 90 51 Busstop 10 72 90 50 Busstop 10 72 54 91 Forest 68 0 55 91 Forest 68 0 56 91 Forest 68 0 57 91 Forest 68 0 49 -1 Backwoods 14 39 50 -1 Backwoods 14 39 34 6 FarmCave 8 11" },},
+    "MapProperties": { "Warp": "84 15 BusStop 10 23 84 18 BusStop 10 23 84 16 BusStop 10 23 84 17 BusStop 10 23 90 55 Busstop 10 72 90 54 Busstop 10 72 90 53 Busstop 10 72 90 52 Busstop 10 72 90 51 Busstop 10 72 90 50 Busstop 10 72 54 91 Forest 68 0 55 91 Forest 68 0 56 91 Forest 68 0 57 91 Forest 68 0 41 -1 Backwoods 14 39 40 -1 Backwoods 14 39 42 -1 Backwoods 14 39 34 6 FarmCave 8 11" },},
 		
 {  "Action": "EditMap",
     "Target": "Maps/BusStop",
