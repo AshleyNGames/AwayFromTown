@@ -2,24 +2,24 @@
 	
 "CustomLocations": [	
 {"Name": "Custom_Xiddav_FlowerField",
-    "FromMapFile": "Assets/Forest-Flower.tmx"},
+    "FromMapFile": "Assets/Maps/Forest-Flower.tmx"},
 {"Name": "Custom_Xiddav_RedHouseOne",
-    "FromMapFile": "Assets/RedHouse.tmx"},
+    "FromMapFile": "Assets/Maps/RedHouse.tmx"},
 {"Name": "Custom_Xiddav_RedHouseTwo",
-    "FromMapFile": "Assets/RedHouse.tmx"},
+    "FromMapFile": "Assets/Maps/RedHouse.tmx"},
 {"Name": "Custom_Xiddav_TiffanyHouse",
-    "FromMapFile": "Assets/TiffanyHouse.tmx",}],
+    "FromMapFile": "Assets/Maps/TiffanyHouse.tmx",}],
 	
 "Changes": [
 	//flower field
 {"Action": "EditMap",
      "Target": "Maps/Forest-FlowerFestival",
-     "FromFile": "Assets/Forest-FlowerFestival.tmx",
+     "FromFile": "Assets/Maps/Forest-FlowerFestival.tmx",
      "PatchMode": "Replace"},
 
 {"Action": "EditMap",
      "Target": "Maps/Forest-FlowerFestival2",
-     "FromFile": "Assets/Forest-FlowerFestival2.tmx",
+     "FromFile": "Assets/Maps/Forest-FlowerFestival2.tmx",
      "PatchMode": "Replace"},
 
 {"Action": "EditData",
@@ -28,7 +28,7 @@
 
 {"Action": "EditMap",
      "Target": "Maps/Forest",
-     "FromFile": "assets/ForestEdit.tmx",
+     "FromFile": "Assets/Maps/ForestEdit.tmx",
 	"PatchMode": "Replace",
      "ToArea": { "X": 1, "Y": 75, "Width": 4, "Height": 1 }},
 
@@ -43,27 +43,27 @@
 //Inside
 {"Action": "EditMap",
      "Target": "Maps/SeedShop",
-     "FromFile": "Assets/SeedShop.tmx",
+     "FromFile": "Assets/Maps/SeedShop.tmx",
      "PatchMode": "Replace",},
 
 {"Action": "EditMap",
      "Target": "Maps/SamHouse",
-     "FromFile": "Assets/SamHouse.tmx",
+     "FromFile": "Assets/Maps/SamHouse.tmx",
      "PatchMode": "Replace",},
 
 {"Action": "EditMap",
      "Target": "Maps/ScienceHouse",
-     "FromFile": "Assets/ScienceHouse.tmx",
+     "FromFile": "Assets/Maps/ScienceHouse.tmx",
      "PatchMode": "Replace",},
 
 {"Action": "EditMap",
      "Target": "Maps/Saloon",
-     "FromFile": "Assets/Saloon.tmx",
+     "FromFile": "Assets/Maps/Saloon.tmx",
      "PatchMode": "Replace",},
 
 {"Action": "EditMap",
      "Target": "Maps/RefurbishedSaloonRoom",
-     "FromFile": "Assets/RefurbishedSaloonRoom.tmx",
+     "FromFile": "Assets/Maps/RefurbishedSaloonRoom.tmx",
      "PatchMode": "Replace",},
 
 {    "Action": "EditMap",
@@ -76,39 +76,39 @@
 
 //outside
 {"Action": "Include",
-            "FromFile": "assets/GarbageCans.json",},
+            "FromFile": "Assets/Maps/GarbageCans.json",},
 {"Action": "Include",
-            "FromFile": "assets/Fishing.json",},
+            "FromFile": "Assets/Maps/Fishing.json",},
 {"Action": "Include",
-            "FromFile": "assets/Forage.json",},
+            "FromFile": "Assets/Maps/Forage.json",},
 {"Action": "Include",
-            "FromFile": "assets/ArtifactSpots.json",},
+            "FromFile": "Assets/Maps/ArtifactSpots.json",},
 
 {"Action": "EditMap",
      "Target": "Maps/Woods",
-     "FromFile": "Assets/Woods.tmx",
+     "FromFile": "Assets/Maps/Woods.tmx",
      "PatchMode": "Replace",},
 
 {"Action": "EditMap",
      "Target": "Maps/Town",
-     "FromFile": "Assets/Town.tmx",
+     "FromFile": "Assets/Maps/Town.tmx",
      "PatchMode": "Replace",},
 
 {"Action": "Load",
      "Target": "Maps/BusStop",
-     "FromFile": "Assets/BusStop.tmx",},
+     "FromFile": "Assets/Maps/BusStop.tmx",},
 
 {"Action": "EditMap",
      "Target": "Maps/BusStop",
 	"When": {"HasMod|contains=Rafseazz.RSVCP": true},
-     "FromFile": "Assets/RSVBusStop.tmx",
+     "FromFile": "Assets/Maps/RSVBusStop.tmx",
      "PatchMode": "Replace",
      "ToArea": { "X": 30, "Y": 0, "Width": 16, "Height": 23},},
 
 {"Action": "EditMap",
      "Target": "Maps/Town",
 	"When": {"HasMod|contains=LemurKat.EastScarpe.CP": true},
-     "FromFile": "assets/Town_ES.tmx",
+     "FromFile": "Assets/Maps/Town_ES.tmx",
 	"PatchMode": "Replace",
      "ToArea": { "X": 109, "Y": 68, "Width": 21, "Height": 9},},
 
