@@ -1,0 +1,110 @@
+{    "Changes": [
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["BusStop","Fish"],
+            "Entries": {                
+				"Carp": {
+                    "Id": "(O)142",
+                    "ItemId": "(O)142",},                  
+				"MidnightCarp": {
+                    "Id": "(O)269",
+                    "ItemId": "(O)269",},   
+				"Crayfish": {
+                    "Id": "(O)716",
+                    "ItemId": "(O)716",
+					"Chance": ".1"},                    
+				"Moss": {
+                    "Id": "(O)Moss",
+                    "ItemId": "(O)Moss",
+					"Chance": ".1"},
+				"GreenAlgae": {
+                    "Id": "(O)153",
+                    "ItemId": "(O)153",
+					"Chance": ".1"},},},
+
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Custom_Xiddav_FlowerField","Fish"],
+            "Entries": {
+				"Bream": {
+                    "Id": "(O)132",
+                    "ItemId": "(O)132"},   
+				"Carp": {
+                    "Id": "(O)142",
+                    "ItemId": "(O)142",}, 
+				"RainbowTrout": {
+                    "Id": "(O)138",
+                    "ItemId": "(O)138",},				
+				"MixedFlowerSeeds": {
+                    "Id": "(O)MixedFlowerSeeds",
+                    "ItemId": "(O)MixedFlowerSeeds",
+					"Chance": ".05"},
+				"Snail": {
+                    "Id": "(O)721",
+                    "ItemId": "(O)721",
+					"Chance": ".1"},
+				"RiverJelly": {
+                    "Id": "(O)RiverJelly",
+                    "ItemId": "(O)RiverJelly",
+					"Chance": ".1"},
+				"GreenAlgae": {
+                    "Id": "(O)153",
+                    "ItemId": "(O)153",
+					"Chance": ".1"},				
+				"CarrotSeeds": {
+                            "Season": "spring",
+                    "Id": "(O)CarrotSeeds",
+                    "ItemId": "(O)CarrotSeeds",
+					"Chance": ".01"},
+				"SummerSquashSeeds": {
+                            "Season": "summer",
+                    "Id": "(O)SummerSquashSeeds",
+                    "ItemId": "(O)SummerSquashSeeds",
+					"Chance": ".01"},
+				"BroccoliSeeds": {
+                            "Season": "fall",
+                    "Id": "(O)BroccoliSeeds",
+                    "ItemId": "(O)BroccoliSeeds",
+					"Chance": ".01"},
+				"PowdermelonSeeds": {
+                            "Season": "winter",
+                    "Id": "(O)PowdermelonSeeds",
+                    "ItemId": "(O)PowdermelonSeeds",
+					"Chance": ".01"},
+				"BridalVeil": {
+                    "Id": "(H)69",
+                    "ItemId": "(H)69",
+					"Chance": ".01",
+					"CatchLimit":"1",
+				"Condition":"PLAYER_GENDER 1"},
+				"TopHat": {
+                    "Id": "(H)2",
+                    "ItemId": "(H)2",
+					"Chance": ".01",
+					"CatchLimit":"1",
+				"Condition":"PLAYER_GENDER 0"},
+				"BridalShirt": {
+                    "Id": "(S)1265",
+                    "ItemId": "(S)1265",
+					"Chance": ".01",
+					"CatchLimit":"1",
+				"Condition":"PLAYER_GENDER 1"},
+				"SimpleDress": {
+                    "Id": "(P)11",
+                    "ItemId": "(P)11",
+					"Chance": ".01",
+					"CatchLimit":"1",
+				"Condition":"PLAYER_GENDER 1"},
+				"SuitTop": {
+                    "Id": "(S)1010",
+                    "ItemId": "(S)1010",
+					"Chance": ".01",
+					"CatchLimit":"1",
+				"Condition":"PLAYER_GENDER 0"},
+				"TuboFlowers": {
+                    "Id": "(BC)108",
+                    "ItemId": "(BC)108",
+					"Chance": ".001",
+				"Condition":"DAY_OF_MONTH 24 25, SEASON spring"},
+				},},
+]}
