@@ -1,7 +1,7 @@
 {
     "Name": "Xiddav's Old Family Farm",
     "Author": "xiddav",
-    "Version": "1.0.0",
+    "Version": "1.1.0",
     "Description": "Xiddav's Old Family Farm",
     "UniqueID": "Xiddav.FamilyFarm",
     "UpdateKeys": ["Nexus:33007"],
@@ -11,7 +11,7 @@
       "IsRequired": true},
 		{"UniqueID": "Lumisteria.TtilesheetsOutdoor",
 			"IsRequired": true},
-		{"UniqueID": "hxw.tilesheets",
+		{"UniqueID": "DaisyNiko.Tilesheets",
 			"IsRequired": true},
 		{"UniqueID": "Rafseazz.RSVCP",
 			"IsRequired": false},
