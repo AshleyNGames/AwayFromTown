@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="14" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="14" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="2">
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source=".townInterior.png" width="512" height="1088"/>
  </tileset>
@@ -32,10 +32,16 @@
  <objectgroup id="12" name="Back2"/>
  <layer id="3" name="Buildings" width="14" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEzFB8QADBhmEWIGYE4jlY9MHAGQFMMRUgVgXiPSTqcwFiVyC+A+U/B1r+Aoi9mBgYkhkgGKQvVpCBIYkTyAfiFBCG6uvlY2DoA2J2oHoOIM4C4oOsDAyHWCH6MoH6moDqm4G4BYSh+vABbO5MZydPXzsR+m5g0bccj756YEQ1APETLPqO49E3H6hnARB/wKLvORHuRAcBwDAOBOIVQDYAynEftg==
+   eJxjYMAEzFB8QADBhmEWIGYE4jlY9MHAP15MMRUgVgXiPSTqcwFiVyC+A+U/B1r+Aoi9mBgYkhkgGKQvVpCBIYkTyAfiFBCG6uvlY2DoA2J2oHoOIM4C4oOsDAyHWCH6MoH6moDqm4G4BYSh+vABbO5MZyes74wAplg7EfpuYNG3HI++emBENQDxEyz6juPRNx+oZwEQf8Ci7zkR7kQHAcAwDgTiFUA2AEwqIKE=
   </data>
  </layer>
- <objectgroup id="4" name="Buildings"/>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="192" y="80" width="16" height="80">
+   <properties>
+    <property name="Action" value="Starpoint 3"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="5" name="Front" width="14" height="11">
   <data encoding="base64" compression="zlib">
    eJxjZmBgYEbDxAJLRgYGKyC2Bmr6ysTAkMjKwJDEipAHiStyMzAocSPEMvkYGLKAOA6oLx6IvwH1NQL1NEH1TQDSE4HYEajHCUlfNVBPDRDXAfXUAzEjUN9CoLpFSPZRA7izk6evk0x9q/HoiweGXwKOCFlJpn3kAANgGBtCw3kJEC8jAS+HmgEAlOAX1A==
