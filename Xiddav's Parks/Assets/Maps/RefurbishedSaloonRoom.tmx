@@ -15,9 +15,12 @@
  <tileset firstgid="4201" name="zFH" tilewidth="16" tileheight="16" tilecount="264" columns="12">
   <image source=".farmhouse_tiles.png" width="192" height="352"/>
  </tileset>
+ <tileset firstgid="4465" name="zhime_kitchen" tilewidth="16" tileheight="16" tilecount="210" columns="15">
+  <image source=".hime_kitchenclutter.png" width="240" height="224"/>
+ </tileset>
  <layer id="1" name="Back" width="14" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYCAP6DEyMCgzYMcMOMRg+pwZsGMGHGIwkIwFEwIHWBgYTgLpEwyYNAi8BOIXSPRzqPgDoD4OoFs5GTFpBixmwcQZWFHNQ6ax2feSSPtwiRNjXyTQ7CggjmYhzj4YXQlUUwXE1SzE2YfPHQBVczXm
+   eJxjYCAP6DEyMCgzYMcgcJ0bFd/gRuhzZsCOQeA7Nyr+wY2wMxkLhgFxHlQswQMRP8DCwHASSJ9gwKRB4DkDg8MLIP0SiF9A+GDwAKiPA+hWTkZMmgGLWTBxBlaIOTDzkGkGPOKE7MMlTgv78LkDn3343AEASc0+8w==
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
@@ -26,13 +29,13 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgeIBkNUwMc5WJgOAbEx4H4BBfx+p4C1T4D4udA/IIEfazcDAxsQMwOxBzcpLt3MAMA06oI1w==
+   eJxjYBhcIBANEwsK0TA1wFEuBoZjQHwciE9wEa/vKVDtMyB+DsQvSNDHys3AwAbE7EDMwU26ewczAAB7TwpT
   </data>
  </layer>
  <objectgroup id="12" name="Back2"/>
  <layer id="3" name="Buildings" width="14" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEzFB8QADBhmEWIGYE4jlY9MHAP15MMRUgVgXiPSTqcwFiVyC+A+U/B1r+Aoi9mBgYkhkgGKQvVpCBIYkTyAfiFBCG6uvlY2DoA2J2oHoOIM4C4oOsDAyHWCH6MoH6moDqm4G4BYSh+vABbO5MZyes74wAplg7EfpuYNG3HI++emBENQDxEyz6juPRNx+oZwEQf8Ci7zkR7kQHAcAwDgTiFUA2AEwqIKE=
+   eJxjYMAEzFB8QADBhmEWIGYE4jlY9MHAP15MMR0gVgXiPSTqCwJiVyC+A+U/B1r+Aoi9mBgYkhkgGKQvVpCBIYkTyAfiFCAugurr5WNg6ANidqB6DiDOAuKDrAwMh1gh+jKB+pqA6puBuAWIJ0H14QPY3JnOTljfGQFMsXYi9N0A6lvKw8CwjAchthyPvnpgRDUA8ROgvqNAPceQ9B3Ho28+UM8CIP6AxZ3PiXAnOggAhnEgEK8AsgGAgCPZ
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -44,7 +47,7 @@
  </objectgroup>
  <layer id="5" name="Front" width="14" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjZmBgYEbDxAJLRgYGKyC2Bmr6ysTAkMjKwJDEipAHiStyMzAocSPEMvkYGLKAOA6oLx6IvwH1NQL1NEH1TQDSE4HYEajHCUlfNVBPDRDXAfXUAzEjUN9CoLpFSPZRA7izk6evk0x9q/HoiweGXwKOCFlJpn3kAANgGBtCw3kJEC8jAS+HmgEAlOAX1A==
+   eJxjZmBgYEbDxAJLRgYGKyC2Bmr6ysTAkMjKwJDECpGbIggRLwfSFYIIPZl8DAxZQBwH1BcPxN+A+hqBepqg+hYD1U4EstuAdDuSvmqgnhogrgPqqQdiRqC+hUB1i1hJcDARwJ2dPH2dZOpbjUdfPDD8EqARchoYFmeQwmMlmfaRAwyAYWwIDeclQLyMBLwcagYA7Jwbnw==
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>
