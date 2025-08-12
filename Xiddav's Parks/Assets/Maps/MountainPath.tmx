@@ -2,7 +2,7 @@
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="50" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="1">
  <properties>
   <property name="Outdoors" type="bool" value="true"/>
-  <property name="Warp" value="50 13 Mountain 0 13 50 12 Mountain 0 13 50 11 Mountain 0 13 50 14 Mountain 0 13 50 15 Mountain 0 13 50 16 Mountain 0 13 50 17 Mountain 0 13  50 18 Mountain 0 13"/>
+  <property name="Warp" value="50 13 Mountain 0 13 50 12 Mountain 0 13 50 11 Mountain 0 13 50 14 Mountain 0 13 50 15 Mountain 0 13 50 16 Mountain 0 13 50 17 Mountain 0 13  50 18 Mountain 0 13 -1 11 Backwoods 62 12 -1 12 Backwoods 62 12 -1 13 Backwoods 62 12 -1 14 Backwoods 62 12 -1 15 Backwoods 62 12 -1 16 Backwoods 62 12"/>
  </properties>
  <tileset firstgid="1" name="outdoor" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source=".spring_outdoorsTileSheet.png" width="400" height="1264"/>
@@ -3223,39 +3223,39 @@
  </tileset>
  <layer id="1" name="Back" width="50" height="25">
   <data encoding="base64" compression="zlib">
-   eJzdlktOwzAQhp2uUOWueJ2CCpC4ArRCYkuXpbyuwEPlCmwCRUjsWaYgcQegCLbcAK5Ai2BGsZVhOkmckEaIxafYE3v+sS2Pp+sp1SVcqZ99F7LOmYTG+T/BB16nlVqCbxtYBjrAocE3dgTHLJA+ZYHMp+PbJWkcALPAHDBv/B4BPTjHQI3/99l83m6bmGm7U4JGoLJxYOLgcVGkmPNopPmldu5jJkGzl2K/EP5J/orU6MX4tW37n+aErGfXI/4mpREQH2sx/DavUT+T0rC45u+4OJLI+kbk0bCkrfMiRzyu71ee9zCOpDyA+e/sl+ddFg+wJwOTB+5V1F+fCvMfz+U8j9v8ze30nXPBz6FB+3cQ842J/xF4MX1cy3XN7b2IezPsvkyDn5la2Kb9Acml0nvsgp3Tx9jhW6kodQvtEfBJ1sbhMSXxpJV6hu9GJdLom73qE40dLWtwOx3Lx4wIXzrcnyHuUxW0qtG6tk0sbyqMDeN4h34L7Cc6im8F+pvAfiU860v9UwP5ANuQ2eM00Df6e/ciDdyXFtFAu81bDeC0Jr+ZuK6uTo7FrpuPw71Z9ZJzJmpLGmnrp+PtPTkG6uY+LTINvPOBuftpMUnUhXtL7+mxwzrp3kox8NqRgvXxljdew9HcImH9LQk2SYPnNp4j+TrrgkZaPjgie4HnQXNYUdh6GH3v6nz+v1REw5NrMKzndvV4vRdXm3JcNaS6NY9GUj3N69cslKHR9MJ5Tcc7m4cyNIqq0/4yUj1aZI1apMael16zU78u47m9DI1vP0eIVg==
+   eJzdlktOHDEQht0tFgh5VkByiYBEJK4QQEjZhlWCCI8rENBwBTZDZoSUfZbTiZQ7JCGCLTkBXIGHoEptq38qdrftnmaRxae2PXb9Vfa4XP1MqT7wRT3thxC7pguNz/8Jm8TlrFJLpv2a2CI+GQZmnOE5C9BHFmA9zt80NrrWYDvzxAvipekfEEM6xzGxL34fiPWybfcF21vPoDFWcex7YkdcPqdoNNnFcWljrkZz2DA+cvzmsjdJjaHHrm3b3zEnxJ7dEOx1pTEGGyse2uY1tNOVhiU0f/v8qCP2jUjRsDTFOUrwJ/T9SnkPfdTlAc5/Jy3P+7n4RXtyZvLAT1X116fL/Cdzuczj8h214DsXwiBBA/s/yOdvxv/fxIXpcyxfe2Hvhe/NsPsyS3bmemUb+2eQS+VbGBq/XVOw7/TNc6W+U/uOuIfYJNKnOv5opc7p+zavNAqzVwVobGu3hhzHuXJOYeAYHnS5P7e8TzM0PlPF9dH4cqVK33jNNfU3aPxIV/4tU/8dsZeXZ32qSxvIDY3dinGfBttme9dZpcH7sgEaBfCKYjvuud9Mjquv632xcct5vDdvsvqcuZq5NZrix/msfaPr30q+8/bb5JOLRce9xXt6GBAn7q3Lh5Q6EXOLC1uLLjnGJLKGxzreF+eiQyPE9xGcC+awSWHrYba9o9Psh9Z7O/rfes9Xm0oegFWPpq9uDdUYe9Y31a8xYBxdacSA/9G/Kvyer2Wlb2sJOSKUmDiwLnufl/exbR05KWLjsDXq8pRSH7J2deQoc9e8KXVwbBy7xgeOo03ectXSdWe7K+bIPXkEuUWYBQ==
   </data>
  </layer>
- <layer id="11" name="Back 2" width="50" height="25">
+ <layer id="11" name="Back2" width="50" height="25">
   <properties>
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20KP6AAAAAAgLcBE4gAAQ==
+   eJztzjENACEQAMEDAVh4J68J7KKGEgMkB8lMt91GAAAAAK8YJaKX3TNv5Zi/ZR+c8dXsA263AK3vAis=
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="50" height="25">
   <data encoding="base64" compression="zlib">
-   eJztWEtOwzAQtQOCTesTgGCDVFizhpZDkIoLZGvEKcIx6ClQkQpHAMEW1oDCGZgoHmUycey0VaIs/KSnF3/Gb+TVc7QooYGJYWr0GhgD52bdhoTUppZ1zb678MCz6Lm0ltcnZI8m+/ha3x6JhXyNe+OabqgZikcTeZ3tfobi8e3wmAJnwKs1eunLYyWF+AC+N+gr8FFudqcx1N3Kbj0QGdT/AZ+NZkx/gG/Ec+XoB3WkCtXAe9mNB9e9SIj9qNQXWR3vAH+ZN+8jMz3y+RS48Hhcqu08UI/gjOOorrEq9AC4G1V7wT4ulPsOHmD85PBAdXn47hnVhzPo9dB4zlWhvr5w7xI8J8p9/udYiK9x6YH1/D6bPHC8DU49PQYEBAQEBAwdE5bPXDkU82vTflSaFfO5rjzo3MyRvXgOxfx6ouz7UflcHx551mubdTG/8nzI6/ncjVzfg5/t87hz5FHMoVjbNr/S/JZrHx5TUX1HUuRjmkOXsv72bIM2HphrN/U4l/U3oxb2d6Tvfcm98Z9NHx7/KyAzZw==
+   eJztV7tKA0EUnVnFF2YrFUGDL4QoaO8DTSy0tzDBRrttV2z8AYXY+Qv6A7YSIfoJirbaqKAS/0D0hN0hk5t5bBISouyFw8nOzJ1zdhLIGZ9Vyge8EPmQd4AskAvnVeVJvXnFvE8+t0JD7CXvK/fSfk9a40vr6Fy7NTwF6BzVFnO+pqdTNHSgfarz6RSNd4NGGsgAG3V4aZdGkTP2CDxo+A644o2daRZ9B7y1GqJK6P8CbkIuEf4A7iXNosGP4EE3YB845a3RoNzjMNbrVPiWVz93AZ9Em/oohR7peB64sGisu81pCJ7AHpNOLWfdgMeBbqfai/Cx5prP4BzP1wYNwSYN2zkLHuOKH5tU8/CaDDVzbsA2X2JtAXunXPP+TwnGnhMVDdFPz1OnIZ6bqTmLx7jiiiuuuP532f4L/0INAcMR14r8Kuc5VWaTs2J5LGXooVm3Hg15bAG9ixb/fUA/MMCC/PoCvAJvmsxGxzKGfEezrsjIs656vU5jE962LO8xBUwDMyzIr9/h7/CHqzMcHdvl0fO0LiPbNPbgZ9/wDkvAMrACrLIgv46EuWxUkxPl/FbmQ0PmFVlX+IuakanGkeW72AYuCdKWHlOp7uBJKdcWeO39NkqdSf6OgROFbwrT/bKR95D3st1h00z9fr/XIR+E
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
  <layer id="5" name="Paths" width="50" height="25">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20KP6AAAAAAgLcBE4gAAQ==
+   eJzt1EEKACAIRFF33f9o3ai9UIJZMfHf3hoLNQMAAOp6e50gpyL37d5X96n+A/CzU3O5e262nj0zx9sAMfU58fkV+xnWpQr5
   </data>
  </layer>
  <objectgroup id="6" name="Paths"/>
  <layer id="7" name="Front" width="50" height="25">
   <data encoding="base64" compression="zlib">
-   eJztmDESgjAQRbezENBDIOohxCPYgXIMPaOeioLfZGYnTiIREij+m3kVu/t3UpGIiDzhS8Zhai+whtfAvpgZNg/Y/ahpYAvvK85wnV0Bd3D/516pM1wc4QmeA/ZaYwYhJC3vXOSTL70FIYQQQkg8tjCDU395fHPMt34zX4Z9jyzhAVaeft3j2tfMsetjZNzk+x455o1C9+iddLaekyLDJvSNwrWvb06KjFDmnDUlYwASciMl
+   eJzt1zlPAkEYgOGvUDwQERU7xaNAQaADBY/Cs/PAOwjYIdFGC/2D+rt4LTbRibuy7AhbfG/yJOTLLDPZakdE5AWv0l3O2m3sYNfnc/+5h9kt7v5Yc4Vr3IR4D7d3N4k4pno8V7/3cCuNVaz5OFcY99A0rb99xEQ+Y4M+haZpmqZpYWoEoxjD+IDPEqRFLGEZK5hFEnNIYBozxtx2QxhGJMB/bKKMCraQQx4FZJDFujG33TwWkJKf99soJuD2OXny7fc5qrjAJQ5xhGPsYR8Hxtx2RZSwIe73W6/7u9MTnlFHA008oIb7X+a2+3qvpzjzWON1fzd7w7uPua1aeES7h2c7JWojYw==
   </data>
  </layer>
  <objectgroup id="8" name="Front"/>
  <layer id="9" name="AlwaysFront" width="50" height="25">
   <data encoding="base64" compression="zlib">
-   eJztzkENACAMALE9sMEXCWjCBs4xQVhYWgN3EQAAAPCnlj1wSc8euGQ+aIwijVWksYs0Xjl07AJ2
+   eJzt0k1PwjAcgPEuURBvystNELiJwA1FvQHqDeTlJoInGcEP4UE/t0+zLGmaFpqoMST/J/kl28pG200pSZIkSZIkSZIkSdrPDv57AgFlcYQcjj2/OTOO2zjBKfLWc/46vZ+HyDjGzlFFDXXP/R3j+BEXaODSek66tgKKKP1gzq70fpZRcYx1cYNb3AU86xU99DEwrptra6Klknf3m+n9vMK1Y2yMCaaYee5fWefPmFvXzLXd40El7y60kO97iBGePOMbvG/5j4+AeaRre8ECS5W8O91bxF5sEUdh37fezxhrz/gnvnbM8xvk4RYZ
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>
