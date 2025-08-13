@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="22" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="15">
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+  <tile id="581">
+   <animation>
+    <frame tileid="581" duration="250"/>
+    <frame tileid="550" duration="250"/>
+    <frame tileid="581" duration="250"/>
+    <frame tileid="582" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source=".paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="2241" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source=".walls_and_floors.png" width="256" height="688"/>
+ </tileset>
+ <tileset firstgid="2929" name="2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source=".townInterior_2.png" width="512" height="656"/>
+ </tileset>
+ <tileset firstgid="4241" name="Xiddav_Indoor" tilewidth="16" tileheight="16" tilecount="648" columns="18">
+  <image source=".Xiddav_Indoor.png" width="288" height="576"/>
+  <tile id="184">
+   <animation>
+    <frame tileid="184" duration="500"/>
+    <frame tileid="185" duration="500"/>
+    <frame tileid="186" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="185">
+   <animation>
+    <frame tileid="185" duration="500"/>
+    <frame tileid="186" duration="500"/>
+    <frame tileid="184" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="186">
+   <animation>
+    <frame tileid="186" duration="500"/>
+    <frame tileid="184" duration="500"/>
+    <frame tileid="185" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="22" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAduM1DXQwDv3moi2FAmpe6GAaquRgYarioR9Pa3G4gu4eLevSoe0fdi829xOR5Qu4kt3wg5E5yywdC7sVWPoymh1H3DmX3ooNuHHK4xLEBANguDEw=
+  </data>
+ </layer>
+ <layer id="13" name="Back 2" width="22" height="25">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYHAAACJgAAQ==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="22" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxbx8fAsJrKeAMQvwRiaoO3UHN7uamLYeau5aYufkvjcBg1d9RcmLmc/NQ3Vxto5joi8rsAEXbz85NePkzgJqymH0kNseXDBiLMXU9G+XCBCHPPj5YPo+YOgLm0Kh8YGRgaiMEw+4nVAwD9aXYQ
+  </data>
+ </layer>
+ <layer id="18" name="Buildings 2" width="22" height="25">
+  <properties>
+   <property name="Draw" value="Buildings"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYHAAACJgAAQ==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="22" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYHAAACJgAAQ==
+  </data>
+ </layer>
+ <layer id="22" name="Front 2" width="22" height="25">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYHAAACJgAAQ==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="10" name="Paths" width="22" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYHAAACJgAAQ==
+  </data>
+ </layer>
+ <objectgroup id="9" name="Paths"/>
+ <layer id="7" name="AlwaysFront" width="22" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDAfwmg8//sBH2Iz3SOpHwSgYBcMHECofkMuI90SoJcd+YgEAsMQfMw==
+  </data>
+ </layer>
+ <objectgroup id="8" name="AlwaysFront"/>
+</map>
