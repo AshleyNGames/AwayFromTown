@@ -148,9 +148,10 @@
 	"Delimiter": " "}]},
 
 {"Action": "EditMap",
-    "Target": "Maps/Beach",
+    "Target": "Maps/Beach, Maps/Beach-NightMarket",
 "MapProperties": {"Light": "44 31 4 90 35 4",
-					"NightTiles": "Front 44 31 513 Front 90 35 513 "}},
+					"DayTiles": "Front 44 31 511 Front 90 35 511",
+					"NightTiles": "Front 44 31 513 Front 90 35 513"}},
 	
 {"Action": "EditMap",
     "Target": "Maps/BusStop",

@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="104" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="8">
- <properties>
-  <property name="Arch" value="116 .005 117 .003 118 .02 126 .0001"/>
-  <property name="DayTiles" value="Front 44 31 369 Front 90 35 369"/>
-  <property name="Debris" value="8 .025 4 6 .008 4"/>
-  <property name="Fall_Objects" value="372 .9 382 .6"/>
-  <property name="Fish" value="128 .08 129 .2 130 .1 131 .2 146 .15 147 .2 148 .18 149 .12 150 .2 151 .18 152 .25 154 .15 155 .08 166 .001"/>
-  <property name="Light" value="44 31 4 90 35 4 44 32 6 90 36 6"/>
-  <property name="NightTiles" value="Front 44 31 513 Front 90 35 513"/>
-  <property name="Outdoors" value="T"/>
-  <property name="Spring_Objects" value="372 .9"/>
-  <property name="Summer_Objects" value="372 .9 394 .5"/>
-  <property name="Warp" value="38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 67 -1 Town 94 109"/>
-  <property name="Winter_Objects" value="392 .8"/>
- </properties>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="104" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="362">
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source=".paths.png" width="64" height="256"/>
   <tile id="0">
@@ -2909,9 +2895,17 @@
    </animation>
   </tile>
  </tileset>
+ <tileset firstgid="4900" name="v16_Shadows" tilewidth="16" tileheight="16" tilecount="475" columns="19">
+  <image source=".summer_Shadows.png" width="304" height="400"/>
+ </tileset>
  <layer id="1" name="Back" width="104" height="50">
   <data encoding="base64" compression="zlib">
    eJzFWUuQXVUVPe8NlO7n2KSr2rHdGCw/I4xgiQycAdUtoFGTmZ+IfJJAdxpMl1Y6ECxNkCKGTzQhxF/Uxk8YxYRuFEbOMmBkidBFEB1SRfeEveudVXe//fY+n/sexWDVve/ec8/Ze6/9O+ftDSHsFTgbsTtCv9tdibMG9hjg568SLhD+SjhMeJjwd8I5Z57c3M/Fuc4TjncGcb7F3KMC8rAt98fr1ajnV6OcjA1xXzJvG35qZQc3rxD+MgI/lj1Yz5eEzsD7yc+ehDzwP9hV8yPxGOFnxnVfvH/MWb+En1fVvPvUVa4nuWHfOpLgx9I9xc/jnUGdr8RnH0T8kI6XS/hBDD2bwcvKjrfFdWriIbcGILmZF/y8oHhN+cieMJzfmAuZM84LfuTc0BO/b1P6eONSz6Vv6vxQEj/3GzgQrw8Q/qG40rZCrO0T9+BQxsMBNbd3BTeQW64vZcj5Cd4jv1nQc1vr6Pgu9TUP+4WeJfzsTWAlcsTfLmX00XqhziMe9gq7l2JF8Qd/wRpeXsYVMmidUYuWom77Q9ovdXxrn0r5mwbb4isJO2tZb1e4k3BHwkapq9YLcXw1wcH3MhyB06tCjxI/kTJ48QNujoS0X0hby/guhTf+Xsqx93XyMSRzMuT+bsVacwkupe5Snhy+5jwv9RfEW0pnfnc4Y++c/5TCmueHZIsfGfxYvabuuw8XrrurQkYpj+a21gc9m86HwfoFna8k+Hk/bF+jWyp+tNzgjuWWPqxz5geFE6HJxfI5//55oc4pfnI2LbH5FuFbhG8TvuN8g5wPu6ZqkIUSv6rJV214tsbC5hakzHMt+dFALL4lbA6767oqebmO7PInun6y04zfCul4884RrHzHcn+d8I2E7Fa+0hhX/gZ0/TkSbbcShuu8xw/0tviR8s4pTtjmD9H1EOFgaOJilxiLMT8QwPj5OO6tQn5y8XMX4fuFdvPqeS1SfHq1bst5jpzh6Wj1bnINjo8FwmpobH4r2f9YtDevixifj2OfJ/yEsIfGfYHP+kIzXsef1tvqEfS+Wue3mvrfBjleU/le9giaV8zLOt/VGdbv7k5fx7loY2k7aT9p858S/ky4sTOYtyDHI4Rpev4Lup4O/esv4z2P59jiuZD3ZG3iunoyDMfP3zL8lCJlx5o+xkKuznn5AjrzefXjCscjP7vi98zDYujHCtsQ+Qs2Z36WCWdCPx5W43jYGXJg/GLk4WOd/m8eT3luGfmOnz8qZPVy29PiXvZyT4T+PvX2eMW9/n2nY5tc7apBSZ2z4OmM3ME6cs8n68ahaFfkL7xDLDBOCy5hZ12n5DtwRrwuc947Hec/Iex40pCT8QfFke5vSmDtZUtr1zj6dq/+MD9Ljm6yP1iInCAvLYamXqAPg70RGwzE2VacAzXqkJgDsiz0514+LXh7OCGb5CfFkcSHuiF8mHBNd1hP77zBg9cHlNQ7q2ZxLkLMytpT0l/L3Ma2Oxr69lswniEWVsNg/3ydyIHHQhOD6NkW1DzIvTmbrxkcIc/J3oFzwgzxMku4tmvr+mBIn7V5GFcPgpjFfKXnB2zzo6GxndzDoMbIvgEc6T6aezvUJ8QW9HtE8HKHwY20NWT9SKfhRnJ0kfBUxEVxBT/bu/1nWmdwpGuUrF1WDZPnsRba9he5/AF+eH70YMhpsqdGzloNTT/A8cD5kHto7uuWQ7+3Q31ZDYN7pPlQHjMeNx4QYzJ+vJxYWrNKatiodcvjB36l96eoI+iBOV8dD01Pzc9QV1Bvbo17nDOCG5nHUvXQimnNzTOES/H6jPqNK8Zqfhjcn3NsemeuqFlW3Rq1huUAX/X2eGyrJ0JTD9nHZX3xejbwI99jDN7LvSvPXRo7Om5+TFiPV2C6O/j7VIKfVF9xJX6zLX6DuuWdK4Ej1LA2ZxLoO3qdsrMS5GQZl3oPA15kz4aaNR3j6vn4Hr3ZnJLH2ntq3wE3sifYFHykePqj4ud1musN/l8/Xq3ffI96NRuha9pTDkdt4gW8lnLjrYl95lEHsP+WMe7R0OyXa+Sx6s2XBRfgRscOnmt+ZguBb7ZFrIVhOXQMyj5D9hep/TKuli0QpxcjLN8tXTO1ttX3pOSR3Gi7SG6ATece/GwX/BzjvqXTv6buZwRXMi9q/D749bIt5HzSP70zk3HC2itaa+XiRsfKtTT+E4QdncHnXIM+121g5UMLsiefVfyAt7VoM6/HSPmefmf1AtIG8NOnnTmtfUgp5DzQbSrRE9Vww/HyJGEnffN5wg2dYfvL/Ca542tPPOMcifibdeJH50HYTNaljdDss+R+TO7PPN1hZ2mDSxE1ZybWnDnuNkKT02e7w9/WcgM7P6mgc5zFjwfUsanuoC+dMriRHNXuyTSn8l7aQOp+KgxydFHhivGsFlOiTut3Vjx73Ei/X4+crAc7d2l+1uP3Mob0d/CjKeFPKci9l/T1NrB0h3ynMt/knuWwLfZGU938PJBvXVx1n+bFlLxqfrxeT3I0U9nvYV5pR8mXvk/9vpTwS8x9aQxYM54hX8DnPGj53qTYutrJc8M20vaXtd7iRec2md/QX+f42egMIidnSg79zvLJkh6nZhywPcbPTEEcSJu9Szpvqtqv85IXW6n648k/I3q3En6seNLzIw/X2PSda8ps3SavWPPOCp217N58qDUpGby1NT9W36bnWQ/N+U7tvhZI8WDJ6ul240QZJz0jb+R8weJJ6muN8eS07D7d9X2qJ+bPxc/uiWG+5PkBct0XCTcRvkS4OcMPzoz4vGil1+Q8Xm+J1ntwwpZX2oCvK4ZsbeCds2jAJ1nn2nU9LpA3Tk7Y60t+ztCYZwlnCc8RzhF+Rfg14TeE3xJ+N1EeJzIHynW2q9+Xac4XCWuEdcJLibiQ+KcxzooLz3+9eaXt5XwzQu4SHmrq279Jl9cI/yG8TniDsDExeJ5WIjvjenq/o9ucO1wv7m+IV/l+hxiz0/hmp7EeZLD8FHp/dHL0mNHP0GuV7EVqOSiJJ/ke59OfIj0/TfjM5PAYqw5c6DT73VHuGbdM9p95XKTwTUNeb+x0IifJuoteS9YAvNsWY1/W6jbQMe71EMhBC6TnIuHgZFmPkLrPxbeW4YQRA9YezJrrnPjWkrdtjcD6+v8V1Ey5V5ByWXbP5SJLL/TeyDGXSc8XCWtC35KeVNs0t0e2fPhfk2lZNf5L498m/I/w/4L4qdVDzqX7U9kP4dpm3pJnDJ1rLiT2jto3vHyRiz+Nj/fq9Ptsr2x+HQspP/fOTHRN1XVzR9deK8dLqW083lK52vquJhfrsXeTve8h3Eu4j7CPsJ9wgHA/4QHCAmGRcJCw1BuUs9Z/S23g+a8+b/bmK7GJ9pPcWUlbPVJjSs4Eatby5svZpU0dwHPtq7U5oo3+JfKm1k/1vzVylHyfyqNtuG7ra23W26ycj+3q9fi1MqV8zhuje0nIMq2ej4oa3WSfVdNjtOVwU82t/w9Cj++tu5mRYZTeX84x3bXPdsfBR824km9hw9T5hOa4ND94tqn9Ruf4npHjSuVJ+atnB+v7mjXHxfUodvc4TfnEqCjtK72xJXKUxkdNP5KSzYszXR/kObQ33zhk92qGtQf2amBbu7SBdaadW2tUn8cc+gxoFP3a9tQla4y7bra14ThQWpdq9jce3gNHc5mG
+  </data>
+ </layer>
+ <layer id="12" name="Back3" width="104" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0bENgDAQBMHvwU1ADVADrsG0QuN+8g8tQTAjXX7SRgCwytki7mJH+/oZr54dnmKXPr+wZ4dRbNMHAAAAAAAAAAAAAAAAAAAAAABIE8bBCVM=
   </data>
  </layer>
  <objectgroup id="2" name="Back">
@@ -2923,7 +2917,7 @@
  </objectgroup>
  <layer id="3" name="Buildings" width="104" height="50">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -2947,10 +2941,1775 @@
     <property name="Action" value="DropBox WillyBarrel"/>
    </properties>
   </object>
+  <object id="8" name="TileData" x="480" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="ColaMachine"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="496" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="ColaMachine"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="528" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="ColaMachine"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="544" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="ColaMachine"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="320" y="64" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="128" y="368" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="688" y="448" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="704" y="448" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="720" y="448" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="576" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="592" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="608" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="624" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="640" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="656" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="25" name="TileData" x="672" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="688" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="27" name="TileData" x="704" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="28" name="TileData" x="720" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="29" name="TileData" x="880" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="30" name="TileData" x="896" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="31" name="TileData" x="912" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="32" name="TileData" x="928" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="33" name="TileData" x="944" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="34" name="TileData" x="960" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="35" name="TileData" x="976" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="36" name="TileData" x="992" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="37" name="TileData" x="1008" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="38" name="TileData" x="1024" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="39" name="TileData" x="1040" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="40" name="TileData" x="1056" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="41" name="TileData" x="1072" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="42" name="TileData" x="1088" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="43" name="TileData" x="1104" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="44" name="TileData" x="1120" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="45" name="TileData" x="1136" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="46" name="TileData" x="1152" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="47" name="TileData" x="288" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="48" name="TileData" x="304" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="49" name="TileData" x="320" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="50" name="TileData" x="576" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="51" name="TileData" x="592" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="52" name="TileData" x="608" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="53" name="TileData" x="624" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="54" name="TileData" x="640" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="55" name="TileData" x="656" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="56" name="TileData" x="672" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="57" name="TileData" x="704" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="58" name="TileData" x="720" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="59" name="TileData" x="880" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="60" name="TileData" x="896" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="61" name="TileData" x="928" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="62" name="TileData" x="944" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="63" name="TileData" x="960" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="64" name="TileData" x="976" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="65" name="TileData" x="992" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="66" name="TileData" x="1008" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="67" name="TileData" x="1024" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="68" name="TileData" x="1040" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="69" name="TileData" x="1056" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="70" name="TileData" x="1072" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="71" name="TileData" x="288" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="72" name="TileData" x="304" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="73" name="TileData" x="320" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="74" name="TileData" x="336" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="75" name="TileData" x="752" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="76" name="TileData" x="768" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="77" name="TileData" x="880" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="78" name="TileData" x="896" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="79" name="TileData" x="912" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="80" name="TileData" x="944" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="81" name="TileData" x="960" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="82" name="TileData" x="976" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="83" name="TileData" x="992" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="84" name="TileData" x="1008" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="85" name="TileData" x="1024" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="86" name="TileData" x="1040" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="87" name="TileData" x="1056" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="88" name="TileData" x="1072" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="89" name="TileData" x="1088" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="90" name="TileData" x="1104" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="91" name="TileData" x="1120" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="92" name="TileData" x="240" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="93" name="TileData" x="256" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="94" name="TileData" x="272" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="95" name="TileData" x="288" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="96" name="TileData" x="304" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="97" name="TileData" x="320" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="98" name="TileData" x="336" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="99" name="TileData" x="352" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="100" name="TileData" x="736" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="101" name="TileData" x="752" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="102" name="TileData" x="768" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="103" name="TileData" x="784" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="104" name="TileData" x="800" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="105" name="TileData" x="816" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="106" name="TileData" x="832" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="107" name="TileData" x="848" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="108" name="TileData" x="880" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="109" name="TileData" x="896" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="110" name="TileData" x="912" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="111" name="TileData" x="944" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="112" name="TileData" x="960" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="113" name="TileData" x="976" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="114" name="TileData" x="992" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="115" name="TileData" x="1008" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="116" name="TileData" x="1024" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="117" name="TileData" x="1040" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="118" name="TileData" x="1056" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="119" name="TileData" x="1072" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="120" name="TileData" x="1088" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="121" name="TileData" x="1104" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="122" name="TileData" x="1120" y="512" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="123" name="TileData" x="0" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="124" name="TileData" x="16" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="125" name="TileData" x="32" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="126" name="TileData" x="48" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="127" name="TileData" x="64" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="128" name="TileData" x="80" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="129" name="TileData" x="96" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="130" name="TileData" x="112" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="131" name="TileData" x="128" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="132" name="TileData" x="144" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="133" name="TileData" x="160" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="134" name="TileData" x="240" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="135" name="TileData" x="256" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="136" name="TileData" x="272" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="137" name="TileData" x="288" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="138" name="TileData" x="304" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="139" name="TileData" x="320" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="140" name="TileData" x="336" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="141" name="TileData" x="352" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="142" name="TileData" x="736" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="143" name="TileData" x="752" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="144" name="TileData" x="768" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="145" name="TileData" x="800" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="146" name="TileData" x="816" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="147" name="TileData" x="832" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="148" name="TileData" x="848" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="149" name="TileData" x="880" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="150" name="TileData" x="896" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="151" name="TileData" x="912" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="152" name="TileData" x="944" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="153" name="TileData" x="960" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="154" name="TileData" x="976" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="155" name="TileData" x="992" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="156" name="TileData" x="1008" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="157" name="TileData" x="1024" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="158" name="TileData" x="1040" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="159" name="TileData" x="1056" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="160" name="TileData" x="1072" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="161" name="TileData" x="1088" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="162" name="TileData" x="1104" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="163" name="TileData" x="1120" y="528" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="164" name="TileData" x="0" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="165" name="TileData" x="16" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="166" name="TileData" x="32" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="167" name="TileData" x="48" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="168" name="TileData" x="64" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="169" name="TileData" x="80" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="170" name="TileData" x="96" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="171" name="TileData" x="112" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="172" name="TileData" x="128" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="173" name="TileData" x="144" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="174" name="TileData" x="160" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="175" name="TileData" x="240" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="176" name="TileData" x="256" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="177" name="TileData" x="272" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="178" name="TileData" x="288" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="179" name="TileData" x="320" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="180" name="TileData" x="336" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="181" name="TileData" x="352" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="182" name="TileData" x="736" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="183" name="TileData" x="784" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="184" name="TileData" x="800" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="185" name="TileData" x="816" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="186" name="TileData" x="832" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="187" name="TileData" x="848" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="188" name="TileData" x="880" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="189" name="TileData" x="896" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="190" name="TileData" x="912" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="191" name="TileData" x="976" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="192" name="TileData" x="992" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="193" name="TileData" x="1008" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="194" name="TileData" x="1024" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="195" name="TileData" x="1040" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="196" name="TileData" x="1056" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="197" name="TileData" x="1072" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="198" name="TileData" x="1088" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="199" name="TileData" x="1104" y="544" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="200" name="TileData" x="0" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="201" name="TileData" x="16" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="202" name="TileData" x="32" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="203" name="TileData" x="48" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="204" name="TileData" x="64" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="205" name="TileData" x="96" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="206" name="TileData" x="112" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="207" name="TileData" x="128" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="208" name="TileData" x="144" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="209" name="TileData" x="160" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="210" name="TileData" x="784" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="211" name="TileData" x="800" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="212" name="TileData" x="816" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="213" name="TileData" x="832" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="214" name="TileData" x="848" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="215" name="TileData" x="1056" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="216" name="TileData" x="1072" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="217" name="TileData" x="1088" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="218" name="TileData" x="1104" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="219" name="TileData" x="752" y="576" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="220" name="TileData" x="768" y="576" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="221" name="TileData" x="784" y="576" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="222" name="TileData" x="800" y="576" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="223" name="TileData" x="816" y="576" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="224" name="TileData" x="832" y="576" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="225" name="TileData" x="848" y="576" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="226" name="TileData" x="864" y="576" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="227" name="TileData" x="880" y="576" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="228" name="TileData" x="752" y="592" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="229" name="TileData" x="768" y="592" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="230" name="TileData" x="784" y="592" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="231" name="TileData" x="800" y="592" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="232" name="TileData" x="816" y="592" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="233" name="TileData" x="832" y="592" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="234" name="TileData" x="848" y="592" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="235" name="TileData" x="864" y="592" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="236" name="TileData" x="880" y="592" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="237" name="TileData" x="352" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="238" name="TileData" x="368" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="239" name="TileData" x="384" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="240" name="TileData" x="400" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="241" name="TileData" x="416" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="242" name="TileData" x="432" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="243" name="TileData" x="448" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="244" name="TileData" x="464" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="245" name="TileData" x="480" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="246" name="TileData" x="704" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="247" name="TileData" x="720" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="248" name="TileData" x="736" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="249" name="TileData" x="752" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="250" name="TileData" x="768" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="251" name="TileData" x="784" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="252" name="TileData" x="800" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="253" name="TileData" x="816" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="254" name="TileData" x="832" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="255" name="TileData" x="848" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="256" name="TileData" x="864" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="257" name="TileData" x="880" y="608" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="258" name="TileData" x="80" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="259" name="TileData" x="304" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="260" name="TileData" x="320" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="261" name="TileData" x="336" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="262" name="TileData" x="352" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="263" name="TileData" x="368" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="264" name="TileData" x="384" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="265" name="TileData" x="400" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="266" name="TileData" x="416" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="267" name="TileData" x="432" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="268" name="TileData" x="448" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="269" name="TileData" x="464" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="270" name="TileData" x="480" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="271" name="TileData" x="528" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="272" name="TileData" x="544" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="273" name="TileData" x="560" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="274" name="TileData" x="576" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="275" name="TileData" x="592" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="276" name="TileData" x="608" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="277" name="TileData" x="624" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="278" name="TileData" x="640" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="279" name="TileData" x="656" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="280" name="TileData" x="672" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="281" name="TileData" x="704" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="282" name="TileData" x="720" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="283" name="TileData" x="736" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="284" name="TileData" x="800" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="285" name="TileData" x="304" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="286" name="TileData" x="320" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="287" name="TileData" x="336" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="288" name="TileData" x="352" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="289" name="TileData" x="368" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="290" name="TileData" x="384" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="291" name="TileData" x="400" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="292" name="TileData" x="416" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="293" name="TileData" x="432" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="294" name="TileData" x="448" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="295" name="TileData" x="464" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="296" name="TileData" x="480" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="297" name="TileData" x="528" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="298" name="TileData" x="544" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="299" name="TileData" x="560" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="300" name="TileData" x="576" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="301" name="TileData" x="592" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="302" name="TileData" x="608" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="303" name="TileData" x="624" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="304" name="TileData" x="640" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="305" name="TileData" x="656" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="306" name="TileData" x="672" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="307" name="TileData" x="704" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="308" name="TileData" x="720" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="309" name="TileData" x="736" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="310" name="TileData" x="992" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="311" name="TileData" x="112" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="312" name="TileData" x="304" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="313" name="TileData" x="320" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="314" name="TileData" x="336" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="315" name="TileData" x="352" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="316" name="TileData" x="368" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="317" name="TileData" x="384" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="318" name="TileData" x="400" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="319" name="TileData" x="416" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="320" name="TileData" x="432" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="321" name="TileData" x="448" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="322" name="TileData" x="464" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="323" name="TileData" x="528" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="324" name="TileData" x="544" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="325" name="TileData" x="560" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="326" name="TileData" x="576" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="327" name="TileData" x="592" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="328" name="TileData" x="608" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="329" name="TileData" x="624" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="330" name="TileData" x="640" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="331" name="TileData" x="656" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="332" name="TileData" x="672" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="333" name="TileData" x="48" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="334" name="TileData" x="272" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="335" name="TileData" x="320" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="336" name="TileData" x="336" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="337" name="TileData" x="352" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="338" name="TileData" x="368" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="339" name="TileData" x="384" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="340" name="TileData" x="400" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="341" name="TileData" x="416" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="342" name="TileData" x="432" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="343" name="TileData" x="448" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="344" name="TileData" x="464" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="345" name="TileData" x="512" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="346" name="TileData" x="944" y="704" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="347" name="TileData" x="384" y="720" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="348" name="TileData" x="752" y="720" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="349" name="TileData" x="496" y="736" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="350" name="TileData" x="784" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 3 9 ElliottHouse 1000 1800 Elliott 500"/>
+   </properties>
+  </object>
+  <object id="351" name="TileData" x="928" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="BrokenBeachBridge"/>
+   </properties>
+  </object>
+  <object id="352" name="TileData" x="928" y="496" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 4 10 MermaidHouse 1700 2430"/>
+   </properties>
+  </object>
+  <object id="353" name="TileData" x="576" y="512" width="16" height="16">
+   <properties>
+    <property name="Action" value="DropBox WillyBarrel"/>
+   </properties>
+  </object>
+  <object id="354" name="TileData" x="480" y="528" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 5 9 FishShop 900 1700"/>
+   </properties>
+  </object>
+  <object id="355" name="TileData" x="80" y="544" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 14 15 Submarine 1630 2300"/>
+   </properties>
+  </object>
+  <object id="356" name="TileData" x="1024" y="560" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="357" name="TileData" x="896" y="592" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="358" name="TileData" x="352" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="359" name="TileData" x="240" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="360" name="TileData" x="1264" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
+  <object id="361" name="TileData" x="1488" y="640" width="16" height="16">
+   <properties>
+    <property name="NoFishing" value="T"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="5" name="Front" width="104" height="50">
   <data encoding="base64" compression="zlib">
-   eJztmjdvFEEYhueMC/uMCRIUgGwDBRXgBB1ItqFG/ALf2TVgcyIHCVMBQoJ/QYaW4EQqyNDYIoeOnApAUPBY3IphNN6z0S57x72P9GjT3OzM9+54TzpnjDFZ7Lbswhz25I+zzrVO6zjr2c95+sx62rvHY5/zEdwvY20z+c/6znU7+71O3z35cxs94/D16/bntpnIZ23C5uoSjLMP91pzGcFR8zsjWze3rHXNHbOvf99x2Hjt58Gde1CP8XLqKjB/e35BX7483Pu5bezzwT07rXM2E81mjNH8dsTa983BrqNbY3trrOPJjCOM4P5Bv/Zz71uTGWu/UD52/+5z4z4PvjZ9nvM5q1+3NlHVxEdYhpNhsMJ/fnic8z7czNz12Gv+/hmx/3ZE/ayVC7UpY6bhdJyBM1NJj0jY1JNHA87HBbhQ+RQVjeTRhM3Ygq3KpygI3g1t5NGOHbgKVyufoieq7y8iPpSREEKIckHvPCHiQWvr36A6CxGO1ogQQgghSpEv+BW/JT0Q4aUqZUw1pmP6PfII/R7FY3gcT+BJPIWn8Yx+Bw1lDvWZi/NiqtNZ+j2H5/EC9uMADuIQDiufRLlG/a/jDbyJt/A23sG7eE/5JMZ9av8AH+IjfIxP8Ck+w+f4Qvkkxitq/xrf4Ft8h+/xA37ET/g5hnzqqoypx4aq6PuOm8WMeQkuxUZswmZswVZchssjmtd3av8D22qMaccONBXGpLACp2DlJP7HtxzYRO034xbcittwO+7AnbgLd0eUz1RqX4v7yGU/Hqj58/osrs0OyWdN5a/t2spoxlMK9FP7ARzEIRzGi3gJL+MVvBpRPnUTWBuLaJMep906clmPG8oonyTZw/rpqyncbgVtVo6tt3wuB5WPECImXlbzXbk66VGUDnpvFjf/y3vzUNqYw+mkRyGEEEIIIYQQQgghRHT8BKTcvy0=
+   eJztmslPE1Ecx18LByji7kENoB48qWx60wTQs/gX0IJXFSTuQkI9qTHR/8Jdry5sbgd3vUDcl5v7dlCjBz+NM/H5nE5LbGmB7yf5ZLbXN+/9vjOdNm3cGJPADst27MZObzvhHGuzthMB690BfSYC2rvbqdcF4Z8vbi3j3muD9nU4611O353evq0B4wjq1+3PbZPNa23C5urijzOJ+6y5jOCo+ZORrZtbwjrmjjmo/6DtsPHa14M7d78e6XJqzzB/e35+X0F5uOdz29j7/XO2Wftsss0mxai3HLHWg+Zg19Gtsb001nZozaOMPfp7vYPlxmj6tv75/X7t6z7onoxb65nycednXzfu9RDUJhmwv9vq163NWLIZK2EZjoVBsujBXi+TPpZJHA7JyMXNzL0fu0zmayQd9ntHNtea+JfKiDHTcQbOxFmRQo9I2FSTRw0uwsW4RPkUFbXkUYf12ICNyqco8J8NTeTRjC24Ftcpn6InV59fRP5QRkIIIaYKeuYJkR90b40PqrMQ4egeEUIIIcRE5Ct+w++FHogIpCxiTDnG8vR75FH6PYbH8QSexFN4Gs/gWf0OGsp86rMAF+apTufo9zxewIvYjwM4iEM4rHwKynXqfwNv4i28jXfwLt7D+8qnYDyg9g/xET7GJ/gUn+FzfIEvlU/BeE3t3+BbfIfv8QN+xE/4Gb/kIZ+qMmOqsaYs933nm2WMeTmuwFqsw3pswEZciatyNK8f1P4nNlUY04wtaKLGRDCKJVia+q9vSW7ONxnYRu234w7cibtwN+7BvdiDvTnKZxq1r8T95HIAD1b8fXwux+aF/Ad7fakxrbihNDfjmQj0U/sBHMQhHMZLeBmv4FW8lqN8qrL4//tS2sTStNtELptxyxTKp5D0cf8kKzK3W02bNan7zcvlkPIRYkrROo73/KtyPiuXj9/5Jjp6bhY3k+W5eThmzJFYoUfxf8zmu9scfX8TQgghhBBCCCGEEB6/ABSOxA4=
+  </data>
+ </layer>
+ <layer id="11" name="Front2" width="104" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7D9eMK/LERwkJBWQRMAAAAAAAAAAAAAAAAAvuu6HgAAAAAAAMDOAAFBAEo=
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>
@@ -2962,7 +4721,7 @@
  <objectgroup id="8" name="Paths"/>
  <layer id="9" name="AlwaysFront" width="104" height="50">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>
