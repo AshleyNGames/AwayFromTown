@@ -1,4 +1,4 @@
-{  "Format": "2.5.0",
+{  "Format": "2.7.0",
   "Changes": [
 {	"Action": "EditData",
 	"Target": "Data/Characters",
@@ -9,7 +9,7 @@
 					"SocialAnxiety": "Shy",
 					"Optimism": "Negative",
 					"Gender": "Male",
-					"CanBeRomanced": false,
+					"CanBeRomanced": false, //aromantic
 					"LoveInterest": "null",
 					"HomeRegion": "Town",
 					"FriendsAndFamily": {},
@@ -52,4 +52,5 @@
   "Sat": "{{i18n:Matthias_Sat}}",
   "Sun": "{{i18n:Matthias_Sun}}",
 	}},
+
  ]}
