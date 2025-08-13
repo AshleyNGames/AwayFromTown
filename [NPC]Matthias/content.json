@@ -44,7 +44,7 @@
 {"Action": "EditData",
 "Target": "Characters/Dialogue/Matthias",
 	"Entries": {    
-		"Introduction":"{{i18n:Matthias_Introduction}},
+		"Introduction":"{{i18n:Matthias_Introduction}}",
   "Mon": "{{i18n:Matthias_Mon}}",
   "Tue": "{{i18n:Matthias_Tue}}",
   "Wed": "{{i18n:Matthias_Wed}}",
@@ -55,4 +55,5 @@
 	}},
 
  ]}
+
 
