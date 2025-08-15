@@ -1,0 +1,8 @@
+{	"rain":"1200 Custom_Xiddav_TiffanyHouse 17 20 0/1300 Custom_Xiddav_TiffanyHouse 19 20 0/1400 Custom_Xiddav_TiffanyHouse 21 22 3/1500 Custom_Xiddav_TiffanyHouse 17 6 0/2600 Custom_Xiddav_TiffanyHouse 22 4 2",
+	"Mon": "1200 Custom_Xiddav_TiffanyHouse 17 20 0/1300 Custom_Xiddav_TiffanyHouse 19 20 0/1400 Custom_Xiddav_TiffanyHouse 21 22 3/1530 Town 30 26 3/1900 Custom_Xiddav_TiffanyHouse 17 6 0/2600 Custom_Xiddav_TiffanyHouse 22 4 2",
+	"Tue": "1200 Busstop 30 48 0/1900 Custom_Xiddav_TiffanyHouse 17 6 0/2600 Custom_Xiddav_TiffanyHouse 22 4 2",
+	"Wed": "800 Jojamart 25 18 square_1_3/1610 Custom_Xiddav_TiffanyHouse 17 6 0/2600 Custom_Xiddav_TiffanyHouse 22 4 2",
+	"Thu": "GOTO Mon",
+	"Fri": "GOTO Tue",
+	"Sat": "GOTO Mon",
+	"Sun": "GOTO Tue",}
