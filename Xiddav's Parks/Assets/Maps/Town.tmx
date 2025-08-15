@@ -9449,7 +9449,7 @@
   </object>
   <object id="51" name="TileData" x="1952" y="992" width="16" height="16">
    <properties>
-    <property name="Action" value="LockedDoorWarp 11 23 Custom_Xiddav_Worship 800 2000"/>
+    <property name="Action" value="LockedDoorWarp 11 21 Custom_Xiddav_Worship 700 2100"/>
    </properties>
   </object>
   <object id="52" name="TileData" x="1120" y="144" width="16" height="16">
