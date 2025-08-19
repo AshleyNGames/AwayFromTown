@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="9">
+ <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source=".paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2241" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source=".walls_and_floors.png" width="256" height="688"/>
+ </tileset>
+ <tileset firstgid="2929" name="Xiddav" tilewidth="16" tileheight="16" tilecount="648" columns="18">
+  <image source=".Xiddav_Indoor.png" width="288" height="576"/>
+ </tileset>
+ <tileset firstgid="3577" name="zlumi_towninterior" tilewidth="16" tileheight="16" tilecount="3425" columns="25">
+  <image source=".lumi_towninterior.png" width="400" height="2192"/>
+ </tileset>
+ <layer id="1" name="Back" width="30" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh4EMICwcjgIAcqpoYcMfZe5EDF1JBDdxvMXmR3PkTD1JBDd1sJCwQju1ONBRVTQw4GYG4Cyb9nQ3WnOgsqpoYcDMDcBFOD7E50/dSQgwF0NYTwZzbS9aC7gRx7KcXk+nfU3lF7R+0dtXfU3lF7aWEvqD6ltE4lx96BAADAIaFo
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="1" name="TileData" x="48" y="16" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="64" y="16" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="48" y="32" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="64" y="32" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="48" y="48" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="48" y="64" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="30" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxzZGBgcGTADryA2BkN+1Ag54gFYwONWMRaKZBDtg/mNmZGhJp9rAixiQyomImRMjmY32Fuu4PktttIYhvRMKVyML83Qt3zB0n8N5LYKR4GhtNAfAaIz/JQLjcRyV6Qe2SQwlmaESF2B6jnLhDfA+L7PJTLbUSyl95g1N5Re0ftHbV31N5Re0ftHRh7Hw6AvS8YsLdp6YEBHrRmsg==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="30" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgcMSBcQFy5bCp9QJibyj2QdJ/gI+BYSoPA8M0IN7Nh2o2qXKEABMjgr0MqG85EK8A4pU8qOrIlcMHapgh9A6gnp1AvAvkbh7qyI2CUTAKRsEoGAWjYBQMZ/AQiB8B8TM64edA/IIBd9uZ1hgA0adC/g==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="30" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi5gHMQ2I3PDbSQGwWjgBaA2DRHStocTcejAB2QmiZG09AowAZoUQ6NprVRQC8AAJXNAH8=
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="9" name="AlwaysFront" width="30" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgcMSBcQFy5bCp9QJibyj2oZO9o2AUjIJRMApGwSgYBaNgFAw1AAAIXAQ5
+  </data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

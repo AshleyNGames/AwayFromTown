@@ -1,7 +1,11 @@
 {    "Format": "2.7.0",
 	"Changes": [
 {"Action": "Include",
-		"FromFile": "Matthias/Matthias.json"},
+		"FromFile": "NPCs/Matthias/Matthias.json"},
 {"Action": "Include",
-		"FromFile": "Noa/Noa.json"},
+		"FromFile": "NPCs/Noa/Noa.json"},
+{"Action": "Include",
+		"FromFile": "NPCs/Christopher/Christopher.json"},
+{"Action": "Include",
+		"FromFile": "NPCs/Chef/Chef.json"},
  ]}

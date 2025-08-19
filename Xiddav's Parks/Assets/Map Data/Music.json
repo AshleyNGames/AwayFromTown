@@ -1,0 +1,7 @@
+{    "Changes": [
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "Fields": {"Custom_Xiddav_Worship": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "EmilyDream"}}},
+]}

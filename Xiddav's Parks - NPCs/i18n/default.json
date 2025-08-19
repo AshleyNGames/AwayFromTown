@@ -1,4 +1,4 @@
-{		 "Matthias":"Matthias",			
+{ "Matthias":"Matthias",
   "Matthias_Introduction": "Huh?#$e#Oh, right, I was warned someone new was moving here.#$b#I'm Matthias.#$e#Seeya around I guess.",
   "Matthias_Mon": "%Matthias doesn't want to talk to you",
   "Matthias_Tue": "...?",
@@ -7,8 +7,8 @@
   "Matthias_Fri": "What?",
   "Matthias_Sat": "I'm busy.",
   "Matthias_Sun": "Hi?",
-	
-  "Noa":"Noa",			
+
+  "Noa":"Noa",
   "Noa_Introduction": "You should have stayed in the city.",
   "Noa_Mon": "%Noa doesn't want to talk to you.",
   "Noa_Tue": "What do you want?",
@@ -17,4 +17,24 @@
   "Noa_Fri": "...?",
   "Noa_Sat": "Leave me alone.",
   "Noa_Sun": "What do you want?",
+
+  "Christopher":"Christopher",
+  "Christopher_Introduction": "You moved to this hick town... willingly?$3#$e#I'm Christopher.#$b#NI am NOT Chris.",
+  "Christopher_Mon": "Leave me alone.",
+  "Christopher_Tue": "I struggle to find books at the library I haven't already read.#$b#It's just to small for me.",
+  "Christopher_Wed": "%Christopher doesn't want to talk to you.",
+  "Christopher_Thu": "I am far to busy today. No time for small talk.",
+  "Christopher_Fri": "Pelican Town is a missleading name.#$b#It's should be called Pelican Village.",
+  "Christopher_Sat": "What do you want?",
+  "Christopher_Sun": "Can you believe there are people that actually think Yoba is real?#$b#What is this, the dark ages?$1",
+
+  "Chef":"Bridget",
+  "Chef_Introduction": "So your the new farmer everyones talking about?#$b#Nice to meet you, I'm the owner of the Riverside Diner.#$e#The diner isn't open for buisness just yet sadly.",
+  "Chef_Mon": "I have a lot to do to get Riverside Diner up and running.",
+  "Chef_Tue": "Once the diner is open, I'll be sure to buy your produce.",
+  "Chef_Wed": "The diner doesn't even have a kitchen yet.",
+  "Chef_Thu": "How's the farm comming along?",
+  "Chef_Fri": "My supplies were delayed again.#$e#At this rate the diner take years to complet",
+  "Chef_Sat": "With every dime I have going into repairing the diner, I'm forced to buy cheap meals from Joja.",
+  "Chef_Sun": "Riverside Diner wont be open on Sundays one it's open.#$e#I go to the alter of Yoba on Sundays.",
  }

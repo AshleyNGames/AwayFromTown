@@ -2376,9 +2376,9 @@
    eJzt2DFrAjEYBuDbSodzcOjg4FJwEKcODlIoOAgFcXAQXPoT/NUOXZwcBIfi7dU7THttcnmeMRBIvu9N7khRAED3jXvfx+ZXxgi3UM9O2OhjozLDGr1kuGfS8lCT0c+yfu6rfLfvjhpPE+3HKtF1t+kpoCbnhvNap59pDx4z3TfE6M15/HWjhGv69YNvWq4ODTXbVnkYBGbivZp31BMisL+Rw2XC9x3Af3t2h0Zloh9E5iMwk8M/zvLO2YFOOnmLAAAAAs28FQAA0KK1/00AAAA65AK1fA3i
   </data>
  </layer>
- <layer id="13" name="MainEvent" width="104" height="50" visible="0">
+ <layer id="13" name="MainEvent" width="104" height="50">
   <data encoding="base64" compression="zlib">
-   eJzt2aEKwlAYBtCBQYsTLIJFEJNgsQgGgyBYDCax+AY+tsEgWASbLggOYYhzm1PPiRsXLt/Hf3dhQQBAlqZhEIzDT+/i/wxl/hXaUU/dh66auoNMTMxSobZv5F2N1lYS1q+j5y1d5qov31JYpOzhUs92H9wdUma7MlOFOMX6mT3JfJTwvqGrQuydU6W0S+il9sJcdMxQ7pYyBn7cPDrnjrFvUu927p3dH6A0Bu4jAAAAAAAAACTY+KcMAAAAUCpXuNoNOg==
+   eJzt2aEKwlAUBmAxiEUFi2ARxCRYLILBIAgWg0ksvoGPbTAIFsGmNwwcwtCNbUz5vrrLZfznnrMLq9UA4PdN29+vrYe1jRTryU8/5D58y76rFpCLhV4q1bGgvPdh355aFmos30rYZKzDo5Xve/ByyZjtTk+V4harz+pD5rOE5x21KsXZnKqMZTjz8+jcnxLq0kzRFwM9VLitjIE/tw5z7hr7Jo2iuXd3f4DKmLiPAAAAAAAAAJDg4J8yAAAAQKU8AaTgDTg=
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>

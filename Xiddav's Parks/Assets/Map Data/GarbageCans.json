@@ -78,7 +78,7 @@
             "Target": "Data/GarbageCans",
             "TargetField": [ "GarbageCans" ],
             "Entries": {
-                "Xiddav.Park.1": {
+                "Xiddav.Park.2": {
                    "BaseChance": -1.0,
                     "Items": [{
                             "Condition": "RANDOM 0.2 @addDailyLuck",
@@ -95,7 +95,7 @@
             "Target": "Data/GarbageCans",
             "TargetField": [ "GarbageCans" ],
             "Entries": {
-                "Xiddav.Park.1": {
+                "Xiddav.Park.3": {
                    "BaseChance": -1.0,
                     "Items": [{
                             "Condition": "RANDOM 0.2 @addDailyLuck",
@@ -105,6 +105,83 @@
                                 "(O)167",
                                 "(O)770",
                                 "(O)771",
+							]},],
+                    "CustomFields": {}}  }},
+
+{"Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [ "GarbageCans" ],
+            "Entries": {
+                "Xiddav.Park.4": {
+                   "BaseChance": -1.0,
+                    "Items": [{
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Xiddav_Parks_4",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)194",
+                                "(O)195",
+                                "(O)201",
+                                "(O)210",
+                                "(O)211",
+                                "(O)216",
+                                "(O)194",
+							]},],
+                    "CustomFields": {}}  }},
+
+{"Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [ "GarbageCans" ],
+            "Entries": {
+                "Xiddav.Park.5": {
+                   "BaseChance": -1.0,
+                    "Items": [{
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Xiddav_Parks_5",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(BC)153",
+                                "(BC)152",
+                                "(BC)278",								
+							]},],
+                    "CustomFields": {}}  }},
+
+{"Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [ "GarbageCans" ],
+            "Entries": {
+                "Xiddav.Park.6": {
+                   "BaseChance": -1.0,
+                    "Items": [{
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Xiddav_Parks_6",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(BC)0",
+                                "(BC)1",
+                                "(BC)2",
+                                "(BC)3",
+                                "(BC)4",
+                                "(BC)5",
+                                "(BC)7",
+							]},],
+                    "CustomFields": {}}  }},
+
+{"Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [ "GarbageCans" ],
+            "Entries": {
+                "Xiddav.Park.7": {
+                   "BaseChance": -1.0,
+                    "Items": [{
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Xiddav_Parks_7",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)346",
+                                "(O)346",
+                                "(O)346",
+                                "(O)346",
 							]},],
                     "CustomFields": {}}  }},
 ]}

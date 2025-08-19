@@ -125,7 +125,7 @@
     <property name="Action" value="Message &quot;ScienceHouse.13&quot;"/>
    </properties>
   </object>
-  <object id="18" name="TileData" x="128" y="304" width="16" height="16">
+  <object id="18" name="TileData" x="112" y="304" width="48" height="16">
    <properties>
     <property name="Action" value="Carpenter"/>
    </properties>
