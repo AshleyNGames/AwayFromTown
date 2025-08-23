@@ -9,10 +9,10 @@
 					"SocialAnxiety": "Shy",
 					"Optimism": "Neutral",
 					"Gender": "Male",
-					"CanBeRomanced": false,
-					"LoveInterest": "null",
+					"CanBeRomanced": false,  //His heart belongs to Noa and he will never say it outloud
+					"LoveInterest": "Noa",
 					"HomeRegion": "Town",
-					"FriendsAndFamily": {},
+					"FriendsAndFamily": {"Noa":"roommate"},
 		"Home": [{
 			"Id": "Default",
 			"Location": "Custom_Xiddav_BrickHouseLeft",

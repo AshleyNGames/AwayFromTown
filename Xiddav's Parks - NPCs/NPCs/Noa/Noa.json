@@ -9,10 +9,10 @@
 					"SocialAnxiety": "Neutral",
 					"Optimism": "Negative",
 					"Gender": "Male",
-					"CanBeRomanced": false,
-					"LoveInterest": "null",
+					"CanBeRomanced": false,  //In love with his roomate but will deny it
+					"LoveInterest": "Christopher",
 					"HomeRegion": "Town",
-					"FriendsAndFamily": {},
+					"FriendsAndFamily": {"Christopher": "roommate"},  //started off as roomates in college and the housing market sucks so they stayed roomates
 		"Home": [{
 			"Id": "Default",
 			"Location": "Custom_Xiddav_BrickHouseLeft",

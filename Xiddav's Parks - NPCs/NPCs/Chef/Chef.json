@@ -8,8 +8,8 @@
 					"Manner": "Rude",
 					"SocialAnxiety": "Neutral",
 					"Optimism": "Negative",
-					"Gender": "Male",
-					"CanBeRomanced": false,
+					"Gender": "Female",
+					"CanBeRomanced": false,  //You can mod her to be dateable
 					"LoveInterest": "null",
 					"HomeRegion": "Town",
 					"FriendsAndFamily": {},

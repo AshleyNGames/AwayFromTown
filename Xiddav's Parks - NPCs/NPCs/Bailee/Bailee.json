@@ -1,0 +1,50 @@
+{    "Changes": [
+{	"Action": "EditData",
+	"Target": "Data/Characters",
+	"Entries": {"Bailee": {
+					"CanSocialize" : "FALSE",
+		"BirthSeason": "Summer",
+		"BirthDay": 19,
+					"Manner": "Polite",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Positive",
+					"Gender": "Female",
+					"CanBeRomanced": false, //She is underage
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"FriendsAndFamily": {},
+		"Home": [{
+			"Id": "Default",
+			"Location": "Custom_Xiddav_PlantHouse",
+			"Tile": {  "X": 19,"Y": 5  },
+			"Direction": "1"}],
+					"DisplayName": "{{i18n:Bailee}}",
+			"Age": "Teen"}}}, 
+
+{"Action": "Load",
+      "Target": "Characters/Bailee",
+      "FromFile": "NPCs/Bailee/Characters.png"},
+{"Action": "Load",
+      "Target": "Portraits/Bailee",
+      "FromFile": "NPCs/Bailee/Portrait.png"},
+
+{"Action": "Load",
+      "Target": "Characters/schedules/Bailee",
+      "FromFile": "NPCs/Bailee/schedule.json"},
+{"Action": "Load",
+      "Target": "Characters/Dialogue/Bailee",
+      "FromFile": "NPCs/Bailee/Dialogue.json"},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/Bailee",
+	"Entries": {    
+		"Introduction":"{{i18n:Bailee_Introduction}}",
+  "Mon": "{{i18n:Bailee_Mon}}",
+  "Tue": "{{i18n:Bailee_Tue}}",
+  "Wed": "{{i18n:Bailee_Wed}}",
+  "Thu": "{{i18n:Bailee_Thu}}",
+  "Fri": "{{i18n:Bailee_Fri}}",
+  "Sat": "{{i18n:Bailee_Sat}}",
+  "Sun": "{{i18n:Bailee_Sun}}",
+	}},
+ ]}

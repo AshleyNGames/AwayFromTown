@@ -8,4 +8,6 @@
 		"FromFile": "NPCs/Christopher/Christopher.json"},
 {"Action": "Include",
 		"FromFile": "NPCs/Chef/Chef.json"},
+{"Action": "Include",
+		"FromFile": "NPCs/Bailee/Bailee.json"},
  ]}
