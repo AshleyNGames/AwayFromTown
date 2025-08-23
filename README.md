@@ -1,5 +1,5 @@
 I edited a bunch of maps.
-This mod is in development
+This mod is in development.
 
 
 Does it work with SVE?
