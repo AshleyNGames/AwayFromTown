@@ -21,6 +21,12 @@
 					"DisplayName": "{{i18n:Matthias}}",
 			"Age": "Adult"}}},
 
+//Matthias does not like looking directly at people
+//His favorite color is green
+//He makes beer and sells it at the SDV Fair when you have the mod Beer Tent
+//Works at Joja part time and is a gameing streamer
+//His parents live and work in Zuzu city and come to Pelican town only in the summmer... or they would when I decide to make them. His mom is Tiffany that is why it is Tiffany house.
+
 {"Action": "Load",
       "Target": "Characters/Matthias",
       "FromFile": "NPCs/Matthias/Characters.png"},

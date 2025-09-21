@@ -1,0 +1,50 @@
+{    "Changes": [
+{	"Action": "EditData",
+	"Target": "Data/Characters",
+	"Entries": {"Aaron": {
+					"CanSocialize" : "FALSE",
+		"BirthSeason": "Spring",
+		"BirthDay": 3,
+					"Manner": "Polite",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Positive",
+					"Gender": "Male",
+					"CanBeRomanced": false, //You can if you want
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"FriendsAndFamily": {},
+		"Home": [{
+			"Id": "Default",
+			"Location": "Custom_Xiddav_YellowHouse",
+			"Tile": {  "X": 19,"Y": 5  },
+			"Direction": "1"}],
+					"DisplayName": "{{i18n:Aaron}}",
+			"Age": "Adult"}}},
+
+{"Action": "Load",
+      "Target": "Characters/Aaron",
+      "FromFile": "NPCs/Aaron/Characters.png"},
+{"Action": "Load",
+      "Target": "Portraits/Aaron",
+      "FromFile": "NPCs/Aaron/Portrait.png"},
+
+{"Action": "Load",
+      "Target": "Characters/schedules/Aaron",
+      "FromFile": "NPCs/Aaron/schedule.json"},
+{"Action": "Load",
+      "Target": "Characters/Dialogue/Aaron",
+      "FromFile": "NPCs/Aaron/Dialogue.json"},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/Aaron",
+	"Entries": {    
+		"Introduction":"{{i18n:Aaron_Introduction}}",
+  "Mon": "{{i18n:Aaron_Mon}}",
+  "Tue": "{{i18n:Aaron_Tue}}",
+  "Wed": "{{i18n:Aaron_Wed}}",
+  "Thu": "{{i18n:Aaron_Thu}}",
+  "Fri": "{{i18n:Aaron_Fri}}",
+  "Sat": "{{i18n:Aaron_Sat}}",
+  "Sun": "{{i18n:Aaron_Sun}}",
+	}},
+ ]}

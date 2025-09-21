@@ -1,14 +1,14 @@
 {    "Changes": [
 {"Action": "EditData",
             "Target": "Data/Locations",
-            "TargetField": ["BusStop","Fish"],
+            "TargetField": ["Custom_Xiddav_PathtoTown","Fish"],
             "Entries": {                
 				"Carp": {
                     "Id": "(O)142",
-                    "ItemId": "(O)142",},                  
+                    "ItemId": "(O)142"},                  
 				"MidnightCarp": {
                     "Id": "(O)269",
-                    "ItemId": "(O)269",},   
+                    "ItemId": "(O)269"},   
 				"Crayfish": {
                     "Id": "(O)716",
                     "ItemId": "(O)716",
@@ -20,7 +20,7 @@
 				"GreenAlgae": {
                     "Id": "(O)153",
                     "ItemId": "(O)153",
-					"Chance": ".1"},},},
+					"Chance": ".1"}}},
 
 {"Action": "EditData",
             "Target": "Data/Locations",
@@ -31,10 +31,10 @@
                     "ItemId": "(O)132"},   
 				"Carp": {
                     "Id": "(O)142",
-                    "ItemId": "(O)142",}, 
+                    "ItemId": "(O)142"}, 
 				"RainbowTrout": {
                     "Id": "(O)138",
-                    "ItemId": "(O)138",},				
+                    "ItemId": "(O)138"},				
 				"MixedFlowerSeeds": {
                     "Id": "(O)MixedFlowerSeeds",
                     "ItemId": "(O)MixedFlowerSeeds",
@@ -104,7 +104,6 @@
 				"TuboFlowers": {
                     "Id": "(BC)108",
                     "ItemId": "(BC)108",
-					"Chance": ".001",
-				"Condition":"DAY_OF_MONTH 24 25, SEASON spring"},
-				},},
+					"Chance": ".01",
+				"Condition":"DAY_OF_MONTH 24 25, SEASON spring"}}},
 ]}
