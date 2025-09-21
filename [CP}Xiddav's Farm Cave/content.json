@@ -1,0 +1,81 @@
+{ 	"Format": "2.5.0",
+ "ConfigSchema": 	
+{ "Cave" : {"AllowValues": "Default, Dark, Desert, Dino, Lava, Quarry, Dangerous, DarkDanger, DesertDanger, LavaDanger, LavaDark, LavaDarkDangerous",	"Default": "Default"}, },
+	
+"Changes": [  	  
+{"Action": "EditMap",
+     "Target": "Maps/FarmCave",
+     "FromFile": "Assets/FarmCave{{Cave}}.tmx",
+     "PatchMode": "Replace"},
+
+{"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": ["Default", "Destinations"],
+	"Entries": {
+		"FarmCave": {
+			"Id": "FarmCave",
+			"DisplayName": "{{i18n:FarmCave}}",
+			"TargetLocation": "FarmCave",
+			"TargetTile": { "X": 5, "Y": 5},
+			"TargetDirection": "down"}}},
+
+{"Action": "EditMap",
+    "Target": "Maps/FarmCave",
+      "MapProperties": {"Warp": "15 21 Farm 34 6", 
+		  "CanCaskHere": "T"}},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Farm, Maps/Farm_Combat, Maps/Farm_Mining, Maps/Farm_Foraging, Maps/Farm_Fishing, Maps/WaFFLE_Farm, Maps/WaFF_Farm",
+            "AddWarps": ["34 5 FarmCave 15 20"]},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Farm_Ranching",
+      "AddWarps": ["88 54 FarmCave 15 20"]},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Farm_Island",
+      "AddWarps": ["34 15 FarmCave 15 20"]},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Enchanted_Grove_Farm",
+      "AddWarps": ["30 7 FarmCave 15 20"]},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Farm_FrontierFarm",
+      "AddWarps": ["73 4 FarmCave 15 20"]}, 
+
+{  "Action": "EditMap",
+    "Target": "Maps/MapleGrove",
+      "AddWarps": ["76 4 FarmCave 15 20"]},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Cherry_Fields",
+      "AddWarps": ["9 15 FarmCave 15 20"]},
+
+{  "Action": "EditMap",
+    "Target": "Maps/MareFarm",
+      "AddWarps": ["78 40 FarmCave 15 20"]},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Farm_yuninocornLittleOrchard",
+      "AddWarps": ["71 3 FarmCave 15 20"]},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Farm_FourCorners",
+      "AddWarps": ["30 35 FarmCave 15 20"]},
+
+{"Action": "EditMap",
+			"Target": "Maps/Farm_Zenith",
+			"AddWarps": [ "42 40 FarmCave 15 20" ]},
+
+{"Action": "EditMap",
+			"Target": "Maps/Sulphur",
+			"AddWarps": [ "26 1 FarmCave 15 20" ]},
+
+{"Action": "EditMap",
+			"Target": "Maps/Farm_OvergrownGardenFarmII",
+			"AddWarps": [ "33 5 FarmCave 15 20" ]}
+
+
+
+]}

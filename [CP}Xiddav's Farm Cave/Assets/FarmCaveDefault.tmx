@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="27" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="7">
+ <properties>
+  <property name="AmbientLight" value="90 90 35"/>
+  <property name="Warp" value="14 20 Farm 34 6"/>
+ </properties>
+ <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source=".paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="cave" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Mines/.mine.png" width="256" height="288"/>
+  <tile id="0">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="137">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="138">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="139">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="140">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="149">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="150">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="151">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="152">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="153">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="154">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="155">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="165">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="166">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="167">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="168">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="169">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="170">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="171">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="172">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="181">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="182">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="183">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="184">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="185">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="186">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="187">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="188">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="193">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="198">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="199">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="200">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="201">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="202">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="203">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="204">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="209">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="210">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="211">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="212">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="217">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="218">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="219">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="225">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="226">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="227">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="228">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="233">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="234">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="235">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="240">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="241">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="242">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="256">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="257">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="258">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="272">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="273">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="274">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="27" height="25">
+  <data encoding="base64" compression="zlib">
+   eJy9ls9SwjAQh7delHE86UneAL2oT4D4AoJPoDxIn8OjR48+RqtX/0DPoOgZQccZd6f7G5aQlCJTO/MNTZrky26TFCKidEWu/9AH16r9bv/BdaO/9WiRsi60XTaGrf/m8gH/fnn6LXMJG8wus+dxuo5DJuP7RpSXdxxvkQv9T7ncyokFOxbaSN975p35YB50vIbxFbn6lM+zzXRyYoUutL20SZgh82p40+cjZj+QS/d9SdtL5ionVqhLebxn6nlhBsqEmdJsrmVdqclLomXJT0/n0FXPRBmr71lj65Vw2bpM4+s7dUPjsTEB+Mq68Bz5StQjdZ/GMw74po5LuCtwJSZfyGOmrqYT18C4Qy7M3+fqmfeEPI5MXD4X6sTVMPvD7jfrqufP4tSJB/dYe2Oaz9tE433SdnZN2f2GCx5+FrvrAn0fzdhPWrbva6pzk77ITd/kFBc8ieOx63CT228ptWi+jDqZZ03PBawv12X3le/cHJm8ZGacjBb3I9Yt1pfPhTMu9E1AvHadwum2TWi2X0KuVYHT1iH2lObPkXVdIY547GPmJKrWJe+hKd8mplWxSzjnsdtMR12+c2NdtqNFfqgaV+h/QxWuIuT6Bdixmpg=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="27" height="25">
+  <data encoding="base64" compression="zlib">
+   eJy9ls8rRFEUx88t1vNWlhNLC38GQrFCKLNCfq2EFHaK1GTjV4mJhBITCSUmhZ1fZetX2aPsfY+5t7nvdi9vdDn16c77NZ/zzpzz3qSIKAVGwSmYBOWgAlSCRTAMRuR5UUmCbrkmtf294AbcggVQDxpAI9gC26BKrml5/pglJ5uPadX28XVP4BlsgjbQDjrAMTgBTWBZumfArCMndi4ZLv2+psEbeAdHoB8MgEFwCa5Ap1zZvQLWZE59Wk47mjPtcK0CIegrCrCWyM8c9+ABDMmV3btg35GTqkNG1s507VH0YPc5uLDsV7mw81rz1II66TrLwxUlF3Y+UriGCen68OhSEQj771UovrnolzFB2Z7souycKZfaLvXonKdwT6YoPGPj/lS0Qbk5yBgens05j65DCvekcvEs8zNh3aOLQ+9J5eJZ5tk88OxS8UrhWTZn02uInMs2yzEcL/LUl4HmMmc5jmPVWGvIzxwUC/ssl4nwLPiYc/33YlS94ppLPTN/qiVfw+91Zw2M/F0kjO1m0KJ9L9ehRx67i3hf+aLXQf0feXG4goj3lQ+u90XsD1y2PuIaT3n2KMw+4nvS38v/AffYJzRJ3v8=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="5" name="TileData" x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="MinecartTransport Default Farmcave"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="MinecartTransport Default Farmcave"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Paths" width="27" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFnAPtACQwmNwyCkbBQIGBzgcDbf8oGAWjABWM5snhDQAoxwAu
+  </data>
+ </layer>
+ <objectgroup id="6" name="Paths"/>
+ <layer id="7" name="Front" width="27" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AZfgFiQcaBdMQoGC2AFpgUJIJYcTROjYJABdWCa1KBDuuQD2sEPxGI0zgeyQLPlkMzXpLJdoLzMBjVTlxG3HC7AR2JZIAZVL4dFPUhOHCovjmYucjhQOwxgQBNLOFyljVVYw+EpjezCBr5iEZOFpmlqA2LSETUBcjqSoJGfiAEAQhYIHQ==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+</map>
