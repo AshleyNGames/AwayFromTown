@@ -4,11 +4,14 @@ This mod is in development.
 
 Does it work with SVE?
 No, and it never will.
+
 Does it work with RSV?
 I made a map edit so the path to Ridgeside works, but testing is needed for their schedules, and the festivals are not set up.
+
 Does it work with East Scarp?
 Yes.
 Might need edits, but it worked when I tested it.
+
 Does it work with Sunberry?
 Not tested.
 
@@ -45,6 +48,7 @@ House of Worship
 Yellow House
 
 OUTDOORS
+Path to Town (between Bus Stop and Town. Matthias lives here at Tiffany house)
 Mountain Path (between Mountain and Backwoods)
 
 
