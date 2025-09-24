@@ -38,6 +38,16 @@
   "Chef_Sat": "With every dime I have going into repairing the diner, I'm forced to buy cheap meals from Joja.",
   "Chef_Sun": "Riverside Diner wont be open on Sundays one it's open.#$e#I go to the alter of Yoba on Sundays.",
 	
+  "Arron":"Arron",
+  "Arron_Introduction": "Hello.",
+  "Arron_Mon": "Hello.",
+  "Arron_Tue": "Hello.",
+  "Arron_Wed": "Hello.",
+  "Arron_Thu": "Hello.",
+  "Arron_Fri": "Hello.",
+  "Arron_Sat": "Hello.",
+  "Arron_Sun": "Hello.",
+	
   "Bailee":"Bailee",
   "Bailee_Introduction": "Hello.",
   "Bailee_Mon": "Hello.",
@@ -47,4 +57,14 @@
   "Bailee_Fri": "Hello.",
   "Bailee_Sat": "Hello.",
   "Bailee_Sun": "Hello.",
+	
+  "Elizebeth":"Lizzy",
+  "Elizebeth_Introduction": "Hello.",
+  "Elizebeth_Mon": "Hello.",
+  "Elizebeth_Tue": "Hello.",
+  "Elizebeth_Wed": "Hello.",
+  "Elizebeth_Thu": "Hello.",
+  "Elizebeth_Fri": "Hello.",
+  "Elizebeth_Sat": "Hello.",
+  "Elizebeth_Sun": "Hello.",
  }

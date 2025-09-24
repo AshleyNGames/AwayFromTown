@@ -1,0 +1,49 @@
+{    "Changes": [
+{	"Action": "EditData",
+	"Target": "Data/Characters",
+	"Entries": {"Elizebeth": {
+					"CanSocialize" : "FALSE",
+		"BirthSeason": "Spring",
+		"BirthDay": 25,
+					"Manner": "Polite",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"Gender": "Female",
+					"CanBeRomanced": false, //No. She is married.
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"FriendsAndFamily": {},
+		"Home": [{
+			"Id": "Default",
+			"Location": "Custom_Xiddav_PlantHouse",
+			"Tile": {  "X": 2,"Y": 5},
+			"Direction": "3"}],
+					"DisplayName": "{{i18n:Elizebeth}}",
+			"Age": "Adult"}}}, 
+
+{"Action": "Load",
+      "Target": "Characters/Elizebeth",
+      "FromFile": "NPCs/Elizebeth/Characters.png"},
+{"Action": "Load",
+      "Target": "Portraits/Elizebeth",
+      "FromFile": "NPCs/Elizebeth/Portrait.png"},
+
+{"Action": "Load",
+      "Target": "Characters/schedules/Elizebeth",
+      "FromFile": "NPCs/Elizebeth/schedule.json"},
+{"Action": "Load",
+      "Target": "Characters/Dialogue/Elizebeth",
+      "FromFile": "NPCs/Elizebeth/Dialogue.json"},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/Elizebeth",
+	"Entries": {    
+		"Introduction":"{{i18n:Elizebeth_Introduction}}",
+  "Mon": "{{i18n:Elizebeth_Mon}}",
+  "Tue": "{{i18n:Elizebeth_Tue}}",
+  "Wed": "{{i18n:Elizebeth_Wed}}",
+  "Thu": "{{i18n:Elizebeth_Thu}}",
+  "Fri": "{{i18n:Elizebeth_Fri}}",
+  "Sat": "{{i18n:Elizebeth_Sat}}",
+  "Sun": "{{i18n:Elizebeth_Sun}}"}},
+ ]}
