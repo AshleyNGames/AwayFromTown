@@ -23,8 +23,7 @@
 {"Name": "Custom_Xiddav_RiversideDiner",
     "FromMapFile": "Assets/Maps/RiversideDiner.tmx"},
 {"Name": "Custom_Xiddav_PathtoTown",
-    "FromMapFile": "Assets/Maps/PathtoTown.tmx"},
-],
+    "FromMapFile": "Assets/Maps/PathtoTown.tmx"},],
 
 "Changes": [	
 //Data
@@ -43,8 +42,7 @@
  "Entries": {
 	 "Town.Xiddav.1": "{{i18n:Town.Xiddav.1}}", 
 	 "Town.Xiddav.2": "{{i18n:Town.Xiddav.2}}", 
-	 "Town.Xiddav.School": "{{i18n:Town.Xiddav.School}}",
- }},
+	 "Town.Xiddav.School": "{{i18n:Town.Xiddav.School}}", }},
 
 //FlowerField
 {"Action": "EditMap",
