@@ -1,4 +1,12 @@
-{    "Format": "2.5.0",
+{    "Format": "2.8.0",
+	"ConfigSchema": {
+"Spawn Ore":{"AllowValues": "true, false", "Default": "true"},
+"Renew Stumps":{"AllowValues": "true, false", "Default": "true"},
+"Wall Changes":{"AllowValues": "true, false", "Default": "true"},
+"Floor Changes":{"AllowValues": "true, false", "Default": "true"},
+"Starter Gift":{ "AllowValues": "(O)GoldCoin 20, 476 32, 631 1, (BC)FishSmoker 1, (BC)Dehydrator 1", "Default": "(O)GoldCoin 20"},
+},
+	
     "Changes": [
 {"Action": "EditMap",
     "Target": "Maps/OldFamilyFarm",
@@ -66,4 +74,39 @@
 "When": {"HasMod|contains=Xiddav.FarmCave": true},
     "Target": "Maps/OldFamilyFarm",
             "AddWarps": ["34 6 FarmCave 15 20"]},
+
+{"Action": "EditMap",
+"When": {"Spawn Ore": true},
+"Target": "Maps/OldFamilyFarm",
+"MapProperties": {"SpawnMountainFarmOreRect": "5 10 19 24"}},
+
+{"Action": "EditMap",
+"Target": "Maps/OldFamilyFarm",
+"When": {"Renew Stumps": true},
+"MapProperties": {"Stumps": "71 85 3 85 85 3 77 80 3 82 78 3 78 75 3 68 77 3 60 78 3 61 69 3 50 70 3 46 63 3"}},
+
+{"Action": "EditData",
+ "Target": "Strings/StringsFromMaps",
+ "Entries": {
+"FamilyFarm.1": "{{i18n:FamilyFarm.1}}",
+"FamilyFarm.2": "{{i18n:FamilyFarm.2}}",
+"FamilyFarm.3": "{{i18n:FamilyFarm.3}}"}},
+
+{"Action": "EditMap",
+    "Target": "Maps/OldFamilyFarm",
+    "MapProperties": {"FarmHouseStarterGift":"{{Starter Gift}}"}},
+
+{"Action": "EditMap",
+    "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+	"When": {"FarmType":"OldFamilyFarm", "Wall Changes": true},
+    "MapProperties": { 
+		"WallIDs":"Kitchen 19, LivingRoom 63, Hallway_Bedroom 63, Bedroom",
+		"FloorIDs":"Kitchen 48, LivingRoom 33, Hallway_Bedroom 33, Bedroom"}},
+
+{"Action": "EditMap",
+    "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+	"When": {"FarmType":"OldFamilyFarm", "Floor Changes": true},
+    "MapProperties": {
+		"WallIDs":"UpperRoom 63, Nursery 22, Hallway_Nursery 22, Kitchen 19, LivingRoom 63, Hallway_Bedroom 63, Bedroom, Southern_Left 63, Southern_Right 63, Corner 63, Hallway_Corner 63, DiningRoomMain 19, DiningRoomNook 19, DiningRoomHallway 19, FarUpperRoom MoreWalls:15, ExtendedCorner 63, ExtendedCornerNook 63",
+		"FloorIDs":"UpperRoom 33, Nursery 86, Hallway_Nursery 86, Kitchen 48, LivingRoom 33, Hallway_Bedroom 33, Bedroom, Southern 33, Hallway_Corner 33, Corner 33, DiningRoom 18, DiningRoomHallway 18, FarUpperRoom MoreFloors:0, ExtendedCorner 33, ExtendedCornerNook 33"}},
 	]}

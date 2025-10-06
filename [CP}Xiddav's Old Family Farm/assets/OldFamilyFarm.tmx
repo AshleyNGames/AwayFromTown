@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="90" height="91" tilewidth="16" tileheight="16" infinite="0" nextlayerid="21" nextobjectid="893">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="90" height="91" tilewidth="16" tileheight="16" infinite="0" nextlayerid="22" nextobjectid="913">
  <properties>
   <property name="AllowGrassSurviveInWinter" value="T"/>
-  <property name="Arch" value="111 .01 113 .009"/>
   <property name="BackwoodsEntry" value="41 1"/>
   <property name="BrookSounds" value="8 48 5 20 58 0 8 69 0 25 70 0 38 67 0"/>
   <property name="BusStopEntry" value="81 17"/>
-  <property name="Debris" value="8 .01 3"/>
   <property name="FarmCaveEntry" value="34 8"/>
-  <property name="FarmFishLocationOverride" value="Mountain 1"/>
+  <property name="FarmFishLocationOverride" value="Mountain .8"/>
   <property name="FarmHouseEntry" value="64 15"/>
   <property name="FarmHouseFlooring" value="33"/>
   <property name="FarmHouseFurniture" value="1466 5 5 0 1798 7 4 0 1443 4 4 0 1678 3 1 0"/>
-  <property name="FarmHouseStarterGift" value="(O)GoldCoin 20"/>
+  <property name="FarmHouseStarterGift" value=""/>
   <property name="FarmHouseStarterSeedsPosition" value="6 4"/>
   <property name="FarmHouseWallpaper" value="63"/>
   <property name="ForestEntry" value="56 90"/>
@@ -21,9 +19,7 @@
   <property name="Outdoors" value="T"/>
   <property name="PetBowlLocation" value="53 7"/>
   <property name="ShippingBinLocation" value="71 14"/>
-  <property name="SpawnMountainFarmOreRect " value="4 9 27 36"/>
   <property name="Spouse" value="3 22 2 11 11 2 4 5 0 1 12 2 17 11 2 23 3 2"/>
-  <property name="Stumps" value="71 85 3 85 85 3 77 80 3 82 78 3 78 75 3 68 77 3 60 78 3 61 69 3 50 70 3 46 63 3"/>
   <property name="WarpTotemEntry" value="48 7"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
@@ -125,7 +121,7 @@
   <tile id="153">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -144,14 +140,14 @@
   <tile id="176">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="177">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="NoSpawn" value="T"/>
+    <property name="NoSpawn" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -177,14 +173,14 @@
   <tile id="181">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="182">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -217,6 +213,7 @@
    <properties>
     <property name="Buildable" type="bool" value="true"/>
     <property name="NoSpawn" value="T"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="202">
@@ -248,14 +245,14 @@
   <tile id="206">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="207">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -289,29 +286,29 @@
   <tile id="225">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="NoSpawn" value="T"/>
-    <property name="Type" value="Dirt"/>
+    <property name="NoSpawn" value="t"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="226">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="227">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="228">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="NoSpawn" value="T"/>
-    <property name="Type" value="Dirt"/>
+    <property name="NoSpawn" value="t"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="229">
@@ -327,7 +324,7 @@
   <tile id="231">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -357,7 +354,7 @@
   <tile id="251">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Type" value="Dirt"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="252">
@@ -415,21 +412,25 @@
   <tile id="276">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="277">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="278">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="279">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="281">
@@ -719,12 +720,12 @@
   <tile id="400">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="401">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="NoSpawn" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -767,6 +768,7 @@
   <tile id="420">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
    <animation>
     <frame tileid="420" duration="140"/>
@@ -780,16 +782,19 @@
   <tile id="421">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="422">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="423">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="433">
@@ -800,6 +805,11 @@
   <tile id="436">
    <properties>
     <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="449">
+   <properties>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="456">
@@ -815,24 +825,28 @@
   </tile>
   <tile id="463">
    <properties>
-    <property name="Diggable" value="T"/>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="471">
    <properties>
+    <property name="Buildable" type="bool" value="true"/>
     <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="472">
    <properties>
+    <property name="Buildable" type="bool" value="true"/>
     <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="473">
    <properties>
+    <property name="Buildable" type="bool" value="true"/>
     <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
@@ -846,7 +860,6 @@
   <tile id="481">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -858,7 +871,8 @@
   </tile>
   <tile id="488">
    <properties>
-    <property name="Diggable" value="T"/>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -881,7 +895,7 @@
   </tile>
   <tile id="509">
    <properties>
-    <property name="NoSpawn" value="T"/>
+    <property name="NoSpawn" value="t"/>
    </properties>
   </tile>
   <tile id="512">
@@ -893,12 +907,14 @@
   </tile>
   <tile id="513">
    <properties>
-    <property name="Diggable" value="T"/>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="524">
    <properties>
+    <property name="Buildable" type="bool" value="true"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -932,18 +948,18 @@
   </tile>
   <tile id="537">
    <properties>
-    <property name="Buildable" value="T"/>
-    <property name="NoSpawn" value="Tree"/>
+    <property name="Buildable" type="bool" value="true"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="538">
    <properties>
-    <property name="Buildable" value="T"/>
+    <property name="Buildable" type="bool" value="true"/>
    </properties>
   </tile>
   <tile id="549">
    <properties>
+    <property name="Buildable" type="bool" value="true"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -956,7 +972,6 @@
   <tile id="556">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -969,8 +984,12 @@
   <tile id="558">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="559">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
    </properties>
   </tile>
   <tile id="560">
@@ -983,58 +1002,56 @@
   <tile id="561">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="NoSpawn" value="Tree"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="562">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="NoSpawn" value="Tree"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="563">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="NoSpawn" value="Trees"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="564">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="565">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="NoSpawn" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="566">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="NoSpawn" value="Tree"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="567">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="568">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="569">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="570">
@@ -1087,8 +1104,12 @@
   <tile id="583">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="584">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
    </properties>
   </tile>
   <tile id="585">
@@ -1106,7 +1127,7 @@
   <tile id="587">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -1119,7 +1140,7 @@
   <tile id="589">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -1131,7 +1152,6 @@
   <tile id="591">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="NoSpawn" value="Tree"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -1148,6 +1168,7 @@
   <tile id="594">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="595">
@@ -1170,36 +1191,38 @@
   <tile id="598">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
   <tile id="599">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
   <tile id="606">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="607">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="608">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="609">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
    </properties>
   </tile>
   <tile id="610">
@@ -1228,7 +1251,7 @@
   <tile id="614">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -1246,6 +1269,7 @@
   <tile id="617">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="618">
@@ -1257,11 +1281,13 @@
   <tile id="619">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="620">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="621">
@@ -1279,7 +1305,7 @@
   <tile id="623">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
+    <property name="Diggable" value="t"/>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
@@ -1292,7 +1318,6 @@
   <tile id="630">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -1332,7 +1357,7 @@
   </tile>
   <tile id="645">
    <properties>
-    <property name="Buildable" value="T"/>
+    <property name="Buildable" type="bool" value="true"/>
     <property name="NoSpawn" value="Tree"/>
     <property name="Type" value="Dirt"/>
    </properties>
@@ -1374,7 +1399,7 @@
   </tile>
   <tile id="670">
    <properties>
-    <property name="Buildable" value="T"/>
+    <property name="Buildable" type="bool" value="true"/>
     <property name="NoSpawn" value="Tree"/>
     <property name="Type" value="Dirt"/>
    </properties>
@@ -1387,14 +1412,12 @@
   <tile id="680">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="681">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -1416,7 +1439,6 @@
   <tile id="685">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
-    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -1445,11 +1467,13 @@
   </tile>
   <tile id="720">
    <properties>
+    <property name="Buildable" type="bool" value="true"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="745">
    <properties>
+    <property name="Buildable" type="bool" value="true"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -1971,7 +1995,7 @@
     <property name="NoFurniture" value="T"/>
     <property name="NoSpawn" value="All"/>
     <property name="Type" value="Stone"/>
-    <property name="placeable" value="F"/>
+    <property name="placeable" value="f"/>
    </properties>
   </tile>
   <tile id="1965">
@@ -3658,52 +3682,62 @@
   </tile>
   <tile id="361">
    <properties>
-    <property name="Type" value="Stone"/>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="362">
    <properties>
-    <property name="Type" value="Stone"/>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="363">
    <properties>
-    <property name="Type" value="Stone"/>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="364">
    <properties>
-    <property name="Type" value="Stone"/>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="365">
    <properties>
-    <property name="Type" value="Stone"/>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="366">
    <properties>
-    <property name="Type" value="Stone"/>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="367">
    <properties>
-    <property name="Type" value="Stone"/>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="368">
    <properties>
-    <property name="Type" value="Stone"/>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="369">
    <properties>
-    <property name="Type" value="Stone"/>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="370">
    <properties>
-    <property name="Type" value="Stone"/>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="371">
@@ -3821,6 +3855,18 @@
    <properties>
     <property name="Buildable" type="bool" value="true"/>
     <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="426">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="427">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="428">
@@ -6525,6 +6571,91 @@
  </tileset>
  <tileset firstgid="7904" name="z_daisyextras" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
   <image source=".spring_daisyextras.png" width="480" height="960"/>
+  <tile id="92">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="150">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="151">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="152">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="153">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="180">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="181">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="182">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="183">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="762">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="763">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="764">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="9704" name="extra_tiles" tilewidth="16" tileheight="16" tilecount="64" columns="8">
   <image source=".spring_outdoorTileSheet_extra.png" width="128" height="128"/>
@@ -6588,9 +6719,636 @@
  <tileset firstgid="9768" name="v16_Shadows" tilewidth="16" tileheight="16" tilecount="475" columns="19">
   <image source=".spring_Shadows.png" width="304" height="400"/>
  </tileset>
+ <tileset firstgid="10243" name="z_lumisteria_outdoor_tiles" tilewidth="16" tileheight="16" tilecount="1500" columns="25">
+  <image source=".spring_mod_lumisteria_tilesheetsoutdoor_tiles.png" width="400" height="960"/>
+  <tile id="12">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="97">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="98">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="114">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="115">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="139">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="140">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="141">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="142">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="145">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="146">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="147">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="148">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="162">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="163">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="164">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="165">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="166">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="167">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="168">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="169">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="170">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="171">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="172">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="173">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="187">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="188">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="189">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="190">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="191">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="192">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="193">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="194">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="195">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="196">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="197">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="198">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="212">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="213">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="214">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="215">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="216">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="217">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="218">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="219">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="220">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="221">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="222">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="223">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="237">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="238">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="239">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="240">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="241">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="242">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="243">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="244">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="245">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="246">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="247">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="248">
+   <properties>
+    <property name="Buildable" type="bool" value="true"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer id="1" name="Back" width="90" height="91">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="13" name="Back2" width="90" height="91">
@@ -6598,7 +7356,7 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt3D9Lw0AcxvG7gosIQoeKg3Tr6hvQzUFwF62Ds7i3urmIvgDFTSpY/7wCcfZFiIMgqODo4iBY8CApNdjUNv7uLs19P/CQDIFcHsKRpEmVKq4vk47lfRyYHFreB5RqmZz5HgQgaKbiewQYR4s1pVb/iA1rVaXW42xU7ezDp/mS7xFEGqbbpsmOya5Az281exnVvclyhp6n9XDbPU0l1vcGbSvd87bpY8tSRvEQL7P0bIN0z0jOxd3U6VlcI+6zmbKkZxn07MaR6fF4QE7oGQhOS6cHdtzqXgAAAAAAsOHDZJL7ThTE3EQvcIPO3aNrd+hazoKOAgBSmKPdoWsAAAAgm32ehYiql5Lpomc3TunZiRv9+1yv5+Q7vyJp9+mYnpE3d7O+R1AcV2XfIwgb5zLGQXuIeYJzGQAASLnmHiV4nynrCNs5cwMA5Mojv40CufVcUerF5JX/Yxe1pPuvQ95KOQr8uQyo/4uAjhX59K64tgaAIgvpugoAftrkuwPneM8CRcczHPjGtX02vOuD//gGCu92Sw==
+   eJzt3L9Kw0AcwPGk4CKC0KHi4NrVF7C6OAiCBQeHLuLiWwhdRJ/BQSpY/zyBOPsQ4iAIKji6OAgKXqmhqV6wiZffXe6+H/hBh0IuX47Y2rRRVB3tZr7nf6j5LGUlIwdqDks+hrS8nSX01JzYXoRhLnb2kaud5xq2V4Aqaqn9vPXHINtLRp/Fmuw6pAzO19Ykx0/cqlkr0Hk2nux5DzNjj7v5j1TcXjPq7qhztTFHqd533+sp0tl1g3PctHh9azfH97Ov6CyDzjJc6ZyeDQ+72+7c0vxtXKYzCgqlcy/OHgmhdE67jkcjJcTONtBZBp1l0FkGnWUknXdTs0L30rG/ZdBZBp1l0NmsNzXTmveddJZBZ7MWpkaTRufy6JqH8FmSTT/3N8qT1Zr3ivktxcPJg2u3DDrLoLN5ums0ncuha01nGXQGAACotn3Be/5C0KmNT4LOMo7pLOIq/r3XOx5+z8+2vqYxneGam3nbK/DHRd32CsLGXkYV9Ce4TrCXAQCAKZe8Rwnee8ZjhO2UawMAOOWez0YBZz02ouhJzTO/x27Uaqx/DPPW68OBPecB9T8L6FzhpteI19YA4LOQXlcB8FPR+4u3+d6BOO6zgO/4Hw5s47V9Mdzrg//4Amqtonk=
   </data>
  </layer>
  <layer id="19" name="Back3" width="90" height="91">
@@ -6606,7 +7364,7 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt3MEJwkAQBdA1JXhLFVYh2JYnLcMatAOJ2Ij2ISK5aBBXhw1r3rvkEpbl8xPIkCQlAACgRsvmcbzOY9e9BK9Xuz7n3qIZPo/fPOe8knM21y4AAACQwyyBT0XPoAEAAHi1mY29A4iz0+cionI2+3lPn793yuiWnKfp7P4DAACTt/Y8WMS+TenQjr2L/3bv8lHGobqBuYEul6HLZegyAAAAAAAAANDbepcOKCDnm08AgFL88wSAGtwAk4YVtQ==
+   eJzt3FFqwjAcB+DMIwz64Ck8heC19qTuFDpvoG+bT8OxAzhvoPcwQ/qgK7JsIUX7fRBKSxvCj38LDW1CyGNShTCN7bk6P/4a999iW1fN15FmHnN8iW1xkec27n/FtpMzAEBnDHun7eExb7/7zP3dujrn2qDXfB7/c5nzSM7J3LsAAABACnMJ/FbuOWgAAAB+Gj+0PQLIZ6aei8iVs7mf69Tz330k1Jacu+nT8wcAADrvyftgEct+CKt+26O4b9+1/C7jrDYN8wZquQy1XIZaBgAAAAAAAABqE9/SAQWk/PNJt1iTEoA2WfMEgFtwBDJAH9U=
   </data>
  </layer>
  <layer id="20" name="Back4" width="90" height="91">
@@ -6614,7 +7372,7 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt3NsJwCAMAEDbbtDuv1wn8bPgl1ghRu4mCCIm8VUKAADA572jIwAA6PBEBwC09BIAkIyaGgAAACDMaW9mKudUALFG8tolFwIAAAAAAAAAWbn3AAAAwGx6zXS8iwBgB4d8BttRpxLNHMxFLQD9Vvkvyjo7yLjxQwUipgQR
+   eJzt3NsJwCAMAEDbbtDuv1wn8bPgh4gV0pS7CYIETXyVAgAA8LjP6AgAAAZc0QEALb0EACSjpgYAAAAIs9ubWco5FUCsmXXtsBYCAAAAAAAAAFm59wAAAMBqes10vIsA0jBf0bHJD/gddSrR5GAuagEY95X/osyzk4wbL1RsdgQk
   </data>
  </layer>
  <objectgroup id="2" name="Back">
@@ -6636,7 +7394,7 @@
     <property name="NoSpawn" value="All"/>
    </properties>
   </object>
-  <object id="18" name="TileData" x="768" y="112" width="16" height="16">
+  <object id="18" name="TileData" x="752" y="112" width="48" height="32">
    <properties>
     <property name="NoSpawn" value="All"/>
    </properties>
@@ -6657,7 +7415,7 @@
     <property name="NoSpawn" value="Tree"/>
    </properties>
   </object>
-  <object id="28" name="TileData" x="960" y="80" width="208" height="64">
+  <object id="28" name="TileData" x="960" y="80" width="128" height="64">
    <properties>
     <property name="NoSpawn" value="All"/>
    </properties>
@@ -6696,11 +7454,6 @@
   <object id="47" name="TileData" x="1040" y="272" width="16" height="16">
    <properties>
     <property name="Type" value="Grass"/>
-   </properties>
-  </object>
-  <object id="78" x="528" y="960" width="64" height="224">
-   <properties>
-    <property name="NoSpawn" value="All"/>
    </properties>
   </object>
   <object id="93" name="TileData" x="1392" y="1216" width="32" height="32">
@@ -6744,81 +7497,94 @@
     <property name="NoFurniture" value="T"/>
    </properties>
   </object>
-  <object id="211" x="640" y="1008" width="32" height="16">
-   <properties>
-    <property name="BeachSpawn" value="T"/>
-   </properties>
-  </object>
   <object id="593" name="TileData" x="864" y="1376" width="96" height="80">
    <properties>
     <property name="NoFurniture" value="T"/>
+    <property name="NoSpawn" value="Tree"/>
     <property name="Spawnable" value="F"/>
    </properties>
   </object>
-  <object id="594" name="TileData" x="848" y="1152" width="16" height="16">
+  <object id="600" name="TileData" x="848" y="1136" width="16" height="144">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+    <property name="NoSpawn" value="Tree"/>
+    <property name="Spawnable" value="F"/>
+   </properties>
+  </object>
+  <object id="605" name="TileData" x="640" y="0" width="240" height="112">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+    <property name="NoSpawn" value="Tree"/>
+    <property name="Spawnable" value="F"/>
+   </properties>
+  </object>
+  <object id="893" name="TileData" x="1088" y="112" width="144" height="96">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+    <property name="NoSpawn" value="Tree"/>
+    <property name="Spawnable" value="F"/>
+   </properties>
+  </object>
+  <object id="894" name="TileData" x="1328" y="0" width="112" height="320">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+    <property name="NoSpawn" value="Tree"/>
+    <property name="Spawnable" value="F"/>
+   </properties>
+  </object>
+  <object id="895" name="TileData" x="1392" y="800" width="48" height="96">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+    <property name="NoSpawn" value="Tree"/>
+    <property name="Spawnable" value="F"/>
+   </properties>
+  </object>
+  <object id="896" name="TileData" x="528" y="960" width="64" height="224">
    <properties>
     <property name="NoFurniture" value="T"/>
     <property name="Spawnable" value="F"/>
    </properties>
   </object>
-  <object id="595" name="TileData" x="848" y="1168" width="16" height="16">
+  <object id="897" name="TileData" x="0" y="640" width="304" height="96">
    <properties>
     <property name="NoFurniture" value="T"/>
-    <property name="Spawnable" value="F"/>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </object>
-  <object id="596" name="TileData" x="848" y="1184" width="16" height="16">
+  <object id="899" name="TileData" x="0" y="528" width="224" height="112">
    <properties>
     <property name="NoFurniture" value="T"/>
-    <property name="Spawnable" value="F"/>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </object>
-  <object id="597" name="TileData" x="848" y="1200" width="16" height="16">
+  <object id="900" name="TileData" x="0" y="368" width="112" height="160">
    <properties>
     <property name="NoFurniture" value="T"/>
-    <property name="Spawnable" value="F"/>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </object>
-  <object id="598" name="TileData" x="848" y="1216" width="16" height="16">
+  <object id="901" name="TileData" x="112" y="496" width="64" height="32">
    <properties>
     <property name="NoFurniture" value="T"/>
-    <property name="Spawnable" value="F"/>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </object>
-  <object id="599" name="TileData" x="848" y="1232" width="16" height="16">
+  <object id="902" name="TileData" x="112" y="480" width="32" height="16">
    <properties>
     <property name="NoFurniture" value="T"/>
-    <property name="Spawnable" value="F"/>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </object>
-  <object id="600" name="TileData" x="848" y="1248" width="16" height="16">
+  <object id="903" name="TileData" x="0" y="736" width="192" height="160">
    <properties>
     <property name="NoFurniture" value="T"/>
-    <property name="Spawnable" value="F"/>
-   </properties>
-  </object>
-  <object id="601" name="TileData" x="848" y="1136" width="16" height="16">
-   <properties>
-    <property name="NoFurniture" value="T"/>
-    <property name="Spawnable" value="F"/>
-   </properties>
-  </object>
-  <object id="605" name="TileData" x="640" y="0" width="48" height="96">
-   <properties>
-    <property name="NoFurniture" value="T"/>
-    <property name="Spawnable" value="F"/>
-   </properties>
-  </object>
-  <object id="864" name="TileData" x="800" y="0" width="80" height="64">
-   <properties>
-    <property name="NoFurniture" value="T"/>
-    <property name="Spawnable" value="F"/>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </object>
  </objectgroup>
  <layer id="3" name="Buildings" width="90" height="91">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="16" name="Buildings2" width="90" height="91">
@@ -6826,7 +7592,7 @@
    <property name="Draw" value="Buildings"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt3U1LVFEAxvEzgZswFw5Kky/gXrKlbYPAjeYnCHwBoY02+QHaaWq0FjQ1TQjqC/i6da+VGwX31S6CQOi5OJLEYe65zjnn5sz/Bw/CcOZyfO7hzJGraIybu0VjSso9pUPpVLqK1d/zxvHaN8mdZmNamt3GltuMeaFMt7mN39K4bWVH6Ve3D1P6rXf3HXueV18LymvHng817kj5XBlvu08fsk21qqzrIKZBdTzk2POG5v9e2bzm95H1PrkaUp4owybM9XFhwsM19j1cA+lGeowZVcZ68p4JfFlutb9+9dyAcP49NyCMb+r3u/KDngHAm9tNec8AWU3yOQgggzJ7RhTz9BzFBj0H8VH5lPckAAD4T/F8JQ6erwDw6bSQ9wwax0nhou9fdB7UI/qNJnn+MqU851wS1Kz6faXM0XNQa+r3nbJOz0Ft5j2BBsHvFMfF2SMuztRxXfZN5/E8o+dUuzqv7Sn7NZzbzuk51Rf1+1U5rvSc9fNuQuPbb/mfV72p9RzxUu/vo2evxi33ZFGvDdCzV78tPSd78wg9VzVd6S1Zk90lY7pK9q+XipY+2ZvdpZ0X+tT1A6XX0il7s5tFx/NCr8Y9toxjb06XnDVcz75Jz08tnbI3p3Ndy6jNOWffKFjLcbCWAQAAAKA2M4XqgR90iXpwwDqO4oyeo7A9Z4d/tufsAAAAAIDr+cnPsgAyWmXfiKJMz1GwnuOgZwAAGs/V/6uMsJaUZeWtsqKsmr9/6+5bcq77A1MQYJs=
+   eJzt20tr1FAYxvEzghupLhwUx1qh+2Jd2q0guLH2EwitQsFNdewH6M5LLa676EVtC0L9Al7arZel142Ce3VXCoWCT+gUYz1NTjqZk5zM/wcvgUwm884zh5NTkhrj5lTdmIbqtKpXdUbVV09+zyPHc4fkaI8xx3rcjm2eMOaOajK2TfJCr79UvVJdULZDKflm+fwQnXPMeVrf76FqJraNZ7nXB+37qPrUes2W07MMfcY/36bMv8MVZTzsmPOS+l9WrcS+x94sk6TldFDDqquqEdOZ82PHeA7nWM/hHJ2QNF+EaLTfmDHV9f6iO/lXlvnClwn1ckt1u0Q92cwdt+8PZezeU3/3VQ9K3ud+yjh2bR6rvyeqpyXvcz8/1fcv1e9A+weAMjpyuOgOkNUE10EAGTSZM7yYJmcvlsi5I1ZVz4tuAgCAkgrh/koVhHB/BQDwv281Y76rNmtFd1JtF8nXm1CeDwpd6M8HhSL054NCsVJ0A12irM8UVxVrD79YU/u1mzeZ+3OTnFO91nptTbXexrptm5xTfVa+X1RfWzlnvd6N6/iTh/Lvq2raXUdM6f2D5JyrG5bfZFb7LpNzrrYsOUdz8yg5J5ps5RaNybMNY/oa9u2uuiVP5uYdb3V9e6d6n7CeSFsvDCrr86oBS6bMzW5mHdcLAzrukuU45uZ00VrDde0b5XzNkilzczrXsYz2bLP29YKx7AdjGQAAAADac7eWXMgHWaIK3jCOvfhBzl7Y7rMjf7b77AAAAACAg9ngb1kAGS0yb3jRJGcvGM9+kDMAAN1rpOgGusScal61oFo0f//XPW/Ruu4Phj120w==
   </data>
  </layer>
  <layer id="18" name="Buildings3" width="90" height="91">
@@ -6834,7 +7600,7 @@
    <property name="Draw" value="Buildings"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt2sdNxFAUBVBTAmlHG4RWCD0QxY6wJBYBDBRB3BDXxCKAGrgbpJFGWJ5hPAg4R7orb76uvqz3LBcFAAAAAAAA8NccDxfFyfBPn+Lvu0/HD3qu3Ws6fkvedV2L2fQ6l8zrt1Yb6Xcz2dJzrfbS735yoGd+uc9Z7rTkLp/l2Xly4b537HOWeyzp8CnPnpMXPXfsO7Oce94b7nl1ZufeMDv3htkZAKhble8bzcrmbfvh16p832hWNm/bD7/W7veNKvO2HbPVQrpYTJa62Ikds9V2uthJdrvYiR2zVSNdHCZHHb4H+keKYiAZTIZG6jvnf1D2HhhNt2PJeDKh528pew9MptupZDqZ0XNtVtLtarKWrCfLfT99ot+jnd1lL93uJwdJw31uS9Xd5TK9XiXXyU1ym9zpujL/2QEAAAAAAAAAAAAAAAAAdMcHCBFfOA==
+   eJzt2sdNxFAUBVBTAmlHG4RWCD0QxY6wJBYxpCKIG+KaWARQA3eDhDTCsgc8CDhHuitvrKuvr/csFwUAAAAAAADw1xwOFsXR4E+/xd93m47v9Ny453T8krzquhHT6XUmmdVvo9bS73qyoedGtdLvTrKrZ36591nuuOQsn+TZaXLmvHfsfZa7L+nwIc8ekyc9d+wrs5xz3h3OeXVm5+4wO3eH2RkAaFqV7xsflc3b9sPPVfm+8VHZvG0//Fzd7xtV5m07Zru5dDGfLNTspOyOsGO220wXW8l2zU7K7gg7Zru9dLGfHHR4D/QOFUVf0p8MDDX3nv9B2T0wnG5HktFkTM9fUnYPjKfbiWQymdJzY5bS7XKykqwmiz0//Ua/R53dpZVud5LdZM95rqXq7nKeXi+Sy+QquU5udF2Z/+wAAAAAAAAAAAAAAAAAAL7HG65PZHU=
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -6881,10 +7647,50 @@
     <property name="Action" value="Warp 47 76 Farm"/>
    </properties>
   </object>
+  <object id="904" name="TileData" x="944" y="48" width="48" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;FamilyFarm.1&quot;"/>
+   </properties>
+  </object>
+  <object id="905" name="TileData" x="1264" y="224" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;FamilyFarm.2&quot;"/>
+   </properties>
+  </object>
+  <object id="906" name="TileData" x="1248" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;FamilyFarm.3&quot;"/>
+   </properties>
+  </object>
+  <object id="907" name="TileData" x="1248" y="144" width="64" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;FamilyFarm.2&quot;"/>
+   </properties>
+  </object>
+  <object id="908" name="TileData" x="704" y="1248" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;FamilyFarm.2&quot;"/>
+   </properties>
+  </object>
+  <object id="909" name="TileData" x="688" y="1216" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;FamilyFarm.3&quot;"/>
+   </properties>
+  </object>
+  <object id="910" name="TileData" x="688" y="1168" width="64" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;FamilyFarm.2&quot;"/>
+   </properties>
+  </object>
+  <object id="912" name="TileData" x="1184" y="96" width="32" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="5" name="Paths" width="90" height="91">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <objectgroup id="6" name="Paths">
@@ -6961,7 +7767,7 @@
  </objectgroup>
  <layer id="7" name="Front" width="90" height="91">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="14" name="Front2" width="90" height="91">
@@ -6969,13 +7775,13 @@
    <property name="Draw" value="Front"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt1zEOAUEYBeAVConKBUjcBHdQ4BY4gUKDM7ggjQv4SSQbncTsML4vecV0Ly+TyW5V8Y7ty3mXpcX/OeUuULp+VbX6uUuUbxAbD+0MAAAAAAAAQIGu7dwN4HPc52bYuRl2bsY7O48jk8g0VRke5pFFZJm7SOFWkXVkk7tI4faRQ+SYu8gPur/PzwDwXbzNlMadTqf+PWfndOrb2jkN/yaU6uxuN+Zi5yRmL+deJ0uNvzKKjbt2BgAAAAAAAAAAAAAAAADgy90A3DAayw==
+   eJzt17GJAkEYBeAVDQSjbUDBTjx7MPDsQq3AwESvBiuzA02ugftPEMRIwdnR2e+DF0z2eAzDblXxjM3deZulRfscchcoXV1VnTp3ifINY+ORnQEAAAAAAAAo0G83dwN4Hfe5GY/ufOyk7VE697kZz+w8iXxFpqnKcDGPfEcWuYsUbhlZRda5ixRuF9lHfnIX+UD/7/M1ALwXbzOlcafTuf2es3M6t9vaOQ3/JpTq5G435mznJGZ350EvS41WGcfGfTsDAAAAAAAAAAAAAAAAAPDm/gC7Dxuq
   </data>
  </layer>
  <objectgroup id="8" name="Front"/>
  <layer id="9" name="AlwaysFront" width="90" height="91">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>

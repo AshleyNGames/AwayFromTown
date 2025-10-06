@@ -1,7 +1,6 @@
-{
-    "Name": "Xiddav's Old Family Farm",
+{    "Name": "Xiddav's Old Family Farm",
     "Author": "xiddav",
-    "Version": "1.1.0",
+    "Version": "1.2.0",
     "Description": "Xiddav's Old Family Farm",
     "UniqueID": "Xiddav.FamilyFarm",
     "UpdateKeys": ["Nexus:33007"],
@@ -13,6 +12,4 @@
 			"IsRequired": true},
 		{"UniqueID": "DaisyNiko.Tilesheets",
 			"IsRequired": true},
-		{"UniqueID": "Rafseazz.RSVCP",
-			"IsRequired": false},
   ],}
