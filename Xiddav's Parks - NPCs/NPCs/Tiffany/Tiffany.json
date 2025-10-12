@@ -1,0 +1,51 @@
+{    "Changes": [
+{	"Action": "EditData",
+	"Target": "Data/Characters",
+	"Entries": {"xiddav_Tiffany": {
+		"Condition": "SEASON Summer",
+					"CanSocialize" : "FALSE",
+		"BirthSeason": "spring",
+		"BirthDay": 15,
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"Gender": "Female",
+					"CanBeRomanced": false, //already married
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"FriendsAndFamily": {},
+		"Home": [{
+			"Id": "Default",
+			"Location": "Custom_Xiddav_TiffanyHouse",
+			"Tile": {  "X": 6,"Y": 11},
+			"Direction": "1"}],
+					"DisplayName": "{{i18n:Tiffany}}",
+			"Age": "Adult"}}},
+
+{"Action": "Load",
+      "Target": "Characters/xiddav_Tiffany",
+      "FromFile": "NPCs/Tiffany/Characters.png"},
+{"Action": "Load",
+      "Target": "Portraits/xiddav_Tiffany",
+      "FromFile": "NPCs/Tiffany/Portrait.png"},
+
+{"Action": "Load",
+      "Target": "Characters/schedules/xiddav_Tiffany",
+      "FromFile": "NPCs/Tiffany/schedule.json"},
+{"Action": "Load",
+      "Target": "Characters/Dialogue/xiddav_Tiffany",
+      "FromFile": "NPCs/Tiffany/Dialogue.json"},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/xiddav_Tiffany",
+	"Entries": {    
+		"Introduction":"{{i18n:Tiffany_Introduction}}",
+  "Mon": "{{i18n:Tiffany_Mon}}",
+  "Tue": "{{i18n:Tiffany_Tue}}",
+  "Wed": "{{i18n:Tiffany_Wed}}",
+  "Thu": "{{i18n:Tiffany_Thu}}",
+  "Fri": "{{i18n:Tiffany_Fri}}",
+  "Sat": "{{i18n:Tiffany_Sat}}",
+  "Sun": "{{i18n:Tiffany_Sun}}",
+	}},
+ ]}

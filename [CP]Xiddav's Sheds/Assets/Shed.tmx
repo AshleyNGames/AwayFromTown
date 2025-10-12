@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="19" height="18" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="3193">
+ <properties>
+  <property name="AmbientLight" value="255 255 255"/>
+  <property name="AmbientNightLight" value="180 180 0"/>
+ </properties>
+ <tileset firstgid="1" name="dummy" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="4353" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source=".walls_and_floors.png" width="256" height="688"/>
+ </tileset>
+ <layer id="1" name="Back" width="19" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYKQmFqQChpolKEg5hpkVKMTAECREHg1jw8xKBLKThCinKXUXMj3qruHhLgYquothkLqL2mGPLIaOSREnpnwLIlIdAEpkbpY=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="3186" name="TileData" x="16" y="16" width="272" height="16">
+   <properties>
+    <property name="WallID" value="Wall"/>
+   </properties>
+  </object>
+  <object id="3187" name="TileData" x="16" y="48" width="272" height="224">
+   <properties>
+    <property name="FloorID" value="Floor"/>
+   </properties>
+  </object>
+  <object id="3192" name="TileData" x="144" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Floor"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="19" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzjYmBg4MaCvTiwi6PLM0MxDxA7MlAHuFLZrEygWxUFKcfUdtdwNyuLY3C6azCbBUqr1DJrsPqRmmYxUsksRiIxsWoBCBoNHQ==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="19" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhCRYC8SIg9uRgYFjGgIkXQ9UtgfKxqVsOxCuAmJEAToSqb0YSwwUANcMMjA==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+</map>

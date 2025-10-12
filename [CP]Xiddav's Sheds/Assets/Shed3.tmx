@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="31" height="31" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="6068">
+ <properties>
+  <property name="AmbientLight" value="255 255 255"/>
+  <property name="AmbientNightLight" value="180 180 0"/>
+ </properties>
+ <tileset firstgid="1" name="dummy" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+  <tile id="2075">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="2076">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="2107">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="2108">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="4353" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source=".walls_and_floors.png" width="256" height="688"/>
+ </tileset>
+ <layer id="1" name="Back" width="31" height="31">
+  <data encoding="base64" compression="zlib">
+   eJzt0bENwCAMRFEzgtmMbBD2HyJcGwXpKlzkF6dzY8GTR4+4VsbhVu6VljXRPzJrIvfs53sW3Pl9b9y4cePGjRs3btfdos6tt3Hj/qPbmXft7irx4XbmXbu7ygMq/Hve
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="2997" name="TileData" x="16" y="48" width="464" height="432">
+   <properties>
+    <property name="FloorID" value="Floor"/>
+   </properties>
+  </object>
+  <object id="6005" name="TileData" x="16" y="16" width="464" height="16">
+   <properties>
+    <property name="WallID" value="Wall"/>
+   </properties>
+  </object>
+  <object id="6067" name="TileData" x="240" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Floor"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="31" height="31">
+  <data encoding="base64" compression="zlib">
+   eJztz7EJACAMRNETO7VxBEexcFA7xzQ7CCbFD/wyPK5Iqp/LVrOmfG4FsEf/X4Td2NjY2NjY2NjY2Ngx7O1kHys9pMf/C2MWFwc=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="31" height="31">
+  <data encoding="base64" compression="zlib">
+   eJzjYmBg4AZiLw4IzU0HPjMQ8wCxI8PAAFcgzuQYOLsH0t8DZXcWx2h8jyS7R+N71G56AVBaG43vUbvpAUbT2size6Die6Dr0JFq90jM36C0thBILwLiZUDsyQGhiWEvhpqxhAy9y4F4BRAzkunuRKh5zWTqB9kLADUkJpI=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+</map>

@@ -1,0 +1,9 @@
+{  "Name": "Xiddav's Slightly Bigger Sheds",
+   "Author": "xiddav",
+   "Version": "2.0.0",
+   "Description": "Slightly Bigger Sheds.",
+   "UniqueID": "xiddav.Slightlybiggersheds",
+   "MinimumApiVersion": "2.0",
+  "UpdateKeys": [ "Nexus:15142@slightly" ],
+   "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"}
+}
