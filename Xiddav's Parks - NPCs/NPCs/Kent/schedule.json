@@ -1,0 +1,5 @@
+{   "Changes": [{"Action": "EditData",
+"Target": "Characters/schedules/Kent",
+"Entries": {	 "Sun": "MAIL saloonSportsRoom/GOTO Sun_normal/730 SamHouse 8 5 3/800 Custom_Xiddav_Worship 16 12 0/1110 Saloon 35 8 0/1500 SamHouse 2 21 0/1900 SamHouse 8 5 3/2100 Town 6 89 2/2300 SamHouse 21 5 3 kent_sleep",
+        "Sun_normal": "800 SamHouse 8 5 3/910 Custom_Xiddav_Worship 16 12 0/1400 SeedShop 5 19 0/1600 SamHouse 2 21 0/1900 SamHouse 8 5 3/2100 Town 6 89 2/2300 SamHouse 21 5 3 kent_sleep",
+	}}]}

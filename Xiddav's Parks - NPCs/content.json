@@ -1,20 +1,20 @@
-{    "Format": "2.7.0",
+{    "Format": "2.8.0",
 	"Changes": [
 {"Action": "Include",
 		"FromFile": "NPCs/Matthias/Matthias.json"},
 {"Action": "Include",
 		"FromFile": "NPCs/Noa/Noa.json"},
 {"Action": "Include",
-		"FromFile": "NPCs/Christopher/Christopher.json"},
-{"Action": "Include",
 		"FromFile": "NPCs/Aaron/Aaron.json"},
-
 {"Action": "Include",
 		"FromFile": "NPCs/Chef/Chef.json"},
 {"Action": "Include",
 		"FromFile": "NPCs/Bailee/Bailee.json"},
+
 {"Action": "Include",
-		"FromFile": "NPCs/Elizebeth/Elizebeth.json"},
+		"FromFile": "NPCs/George/schedule.json"},
 {"Action": "Include",
-		"FromFile": "NPCs/Tiffany/Tiffany.json"},
+		"FromFile": "NPCs/Kent/schedule.json"},
+{"Action": "Include",
+		"FromFile": "NPCs/Jodi/schedule.json"},
  ]}

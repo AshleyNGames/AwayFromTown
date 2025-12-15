@@ -4,5 +4,5 @@
 	"Mon": "0 Custom_Xiddav_RiversideDiner 10 7 square_7_7/1200 Town 56 41 square_5_3/2000 Custom_Xiddav_RiversideDiner 20 5 1",
 	"Wed": "GOTO Mon",
 	"Fri": "GOTO Mon",
-	"Sun": "0 Custom_Xiddav_RiversideDiner 10 7 square_7_7/a900 Custom_Xiddav_Worship 15 12 0/1500 Town 56 41 square_5_3/2000 Custom_Xiddav_RiversideDiner 20 5 1"
+	"Sun": "0 Custom_Xiddav_RiversideDiner 10 7 square_7_7/a900 Custom_Xiddav_Worship 18 15 0/1500 Town 56 41 square_5_3/2000 Custom_Xiddav_RiversideDiner 20 5 1"
 	}
