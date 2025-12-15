@@ -175,7 +175,7 @@
 {"Action": "EditMap",
     "Target": "Maps/BusStop",
     "MapProperties": { "NightTiles": "AlwaysFront 21 19 908 AlwaysFront 26 19 908 AlwaysFront 51 20 908 Buildings 48 3 507",
-				"Light": "21 19 4 26 19 4 51 20 4 48 3 4 34 21 8 35 21 8 43 21 8 44 21 8",
+				"Light": "21 19 4 26 19 4 51 20 4 48 3 4 34 21 8 35 21 8 43 21 8 44 21 8 28 21 8 29 21 8",
 				"Warp": "9 22 Farm 79 17 9 23 Farm 79 17 9 24 Farm 79 17 9 25 Farm 79 17 9 6 Backwoods 49 30 9 7 Backwoods 49 30 9 8 Backwoods 49 30 9 9 Backwoods 49 30 49 44 Custom_Xiddav_PathtoTown 49 0 50 44 Custom_Xiddav_PathtoTown 50 0"}},
 
 {"Action": "EditMap",
