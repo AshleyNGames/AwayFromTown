@@ -2,9 +2,10 @@
 	"ConfigSchema": {
 "Spawn Ore":{"AllowValues": "true, false", "Default": "true"},
 "Renew Stumps":{"AllowValues": "true, false", "Default": "true"},
-"Wall Changes":{"AllowValues": "true, false", "Default": "true"},
-"Floor Changes":{"AllowValues": "true, false", "Default": "true"},
-"Starter Gift":{ "AllowValues": "(O)GoldCoin 20, 476 32, 631 1, (BC)FishSmoker 1, (BC)Dehydrator 1", "Default": "(O)GoldCoin 20"},
+"Wall and Floor Changes":{"AllowValues": "true, false", "Default": "true"},
+"OldFamilyFarm Starter Gift":{ "AllowValues": "(O)GoldCoin 20, 631 1, (BC)FishSmoker 1, (BC)Dehydrator 1", "Default": "(O)GoldCoin 20"},
+"Wilderness Farm Starter Gift":{ "AllowValues": "(O)GoldCoin 12, 476 9 (W)49 1, 476 18 530 2, SkillBook_4 1 (BC)232 1", "Default": "476 9 (W)49 1"},
+"Fishing Farm Starter Gift":{ "AllowValues": "(O)GoldCoin 4, 382 5 219 3, 382 5 273 18", "Default": "382 5 273 18"},
 },
 	
     "Changes": [
@@ -94,19 +95,48 @@
 
 {"Action": "EditMap",
     "Target": "Maps/OldFamilyFarm",
-    "MapProperties": {"FarmHouseStarterGift":"{{Starter Gift}}"}},
+    "MapProperties": {"FarmHouseStarterGift":"{{OldFamilyFarm Starter Gift}}"}},
 
 {"Action": "EditMap",
     "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
-	"When": {"FarmType":"OldFamilyFarm", "Wall Changes": true},
+	"When": {"FarmType":"OldFamilyFarm", "Wall and Floor Changes": true},
     "MapProperties": { 
 		"WallIDs":"Kitchen 19, LivingRoom 63, Hallway_Bedroom 63, Bedroom",
 		"FloorIDs":"Kitchen 48, LivingRoom 33, Hallway_Bedroom 33, Bedroom"}},
 
 {"Action": "EditMap",
     "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
-	"When": {"FarmType":"OldFamilyFarm", "Floor Changes": true},
+	"When": {"FarmType":"OldFamilyFarm", "Wall and Floor Changes": true},
     "MapProperties": {
 		"WallIDs":"UpperRoom 63, Nursery 22, Hallway_Nursery 22, Kitchen 19, LivingRoom 63, Hallway_Bedroom 63, Bedroom, Southern_Left 63, Southern_Right 63, Corner 63, Hallway_Corner 63, DiningRoomMain 19, DiningRoomNook 19, DiningRoomHallway 19, FarUpperRoom MoreWalls:15, ExtendedCorner 63, ExtendedCornerNook 63",
 		"FloorIDs":"UpperRoom 33, Nursery 86, Hallway_Nursery 86, Kitchen 48, LivingRoom 33, Hallway_Bedroom 33, Bedroom, Southern 33, Hallway_Corner 33, Corner 33, DiningRoom 18, DiningRoomHallway 18, FarUpperRoom MoreFloors:0, ExtendedCorner 33, ExtendedCornerNook 33"}},
+
+{"Action": "EditMap",
+    "Target": "Maps/Farm_Combat",
+    "MapProperties": {"FarmHouseStarterGift":"{{Wilderness Farm Starter Gift}}",
+	"FarmHouseWallpaper":"MoreWalls:15",
+	"FarmHouseFlooring":"56"}},
+
+{"Action": "EditMap",
+    "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+	"When": {"FarmType":"Wilderness", "Wall and Floor Changes": true},
+    "MapProperties": { 
+		"WallIDs":"Kitchen 12, LivingRoom MoreWalls:15, Hallway_Bedroom MoreWalls:15, Bedroom",
+		"FloorIDs":"Kitchen 10, LivingRoom 56, Hallway_Bedroom 56, Bedroom"}},
+
+{"Action": "EditMap",
+    "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+	"When": {"FarmType":"Wilderness", "Wall and Floor Changes": true},
+    "MapProperties": {
+		"WallIDs":"UpperRoom MoreWalls:15, Nursery 46, Hallway_Nursery 46, Kitchen 12, LivingRoom MoreWalls:15, Hallway_Bedroom MoreWalls:15, Bedroom, Southern_Left MoreWalls:15, Southern_Right MoreWalls:15, Corner MoreWalls:15, Hallway_Corner MoreWalls:15, DiningRoomMain 19, DiningRoomNook 19, DiningRoomHallway 19, FarUpperRoom MoreWalls:15, ExtendedCorner MoreWalls:15, ExtendedCornerNook MoreWalls:15",
+		"FloorIDs":"UpperRoom 56, Nursery 60, Hallway_Nursery 60, Kitchen 10, LivingRoom 56, Hallway_Bedroom 56, Bedroom, Southern 56, Hallway_Corner 56, Corner 56, DiningRoom 18, DiningRoomHallway 18, FarUpperRoom MoreFloors:0, ExtendedCorner 56, ExtendedCornerNook 56"}},
+		
+	{"Action": "EditData",
+	"When": {"FarmType":"Wilderness"},
+            "Target": "Data/Locations",
+            "Fields": {"FarmHouse": {"MusicDefault": "communityCenter"}}},
+	
+	{"Action": "EditMap",
+    "Target": "Maps/Farm_Fishing",
+    "MapProperties": {"FarmHouseStarterGift":"{{Fishing Farm Starter Gift}}"}},
 	]}
