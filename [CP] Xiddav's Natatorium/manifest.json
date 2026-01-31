@@ -1,0 +1,11 @@
+{
+    "Name": "Xiddav's Natatorium",
+    "Author": "xiddav",
+    "Version": "1.1.0",
+    "Description": "Adds a building with a Natatorium that can be built by robin",
+    "UniqueID": "xiddav.Natatorium",
+    "MinimumGameVersion": "1.6.0",
+    "UpdateKeys": ["Nexus:34002"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"}
+}

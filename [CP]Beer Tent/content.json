@@ -1,0 +1,56 @@
+{    "Format": "2.0.0",
+    "Changes": [		
+{			"Action": "Load",
+			"Target": "LooseSprites/Matthias",
+			"FromFile": "Assets/Matthias.png"		},
+		
+{   "Action": "EditMap",
+     "Target": "Maps/Town-Fair",
+     "FromFile": "assets/FAIR1.tmx",
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 56, "Width": 16, "Height": 21}}, 
+		
+{   "Action": "EditMap",
+     "Target": "Maps/Town-Fair2",
+     "FromFile": "assets/FAIR2.tmx",
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 56, "Width": 16, "Height": 21  }}, 	
+
+{  "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+	"BeerTent": {	"Currency":"1",
+				"PriceModifiers": [
+						{	"Modification": "Multiply",
+							"Amount": 3	},],
+				"Owners": [
+						{	"Name": "Any",
+							"Portrait": "LooseSprites/Matthias",
+							"Dialogues": [
+								{
+									"Id":"BeerTent_Default",
+									"Dialogue": "{{i18n:BeerTent}}"
+								}],	}	],
+					"Items": [
+						{
+							"Id": "{{ModId}}.BeerTent1",
+							"ItemId": "(O)346",
+							"AvailableStock": 6,	},
+						{
+							"Id": "{{ModId}}.BeerTent2",
+							"ItemId": "(O)303",
+							"AvailableStock": 1,},
+						{
+							"Id": "{{ModId}}.BeerTent3",
+							"ItemId": "(O)459",
+							"AvailableStock": 1,},
+						{
+							"Id": "{{ModId}}.BeerTent4",
+							"ItemId": "(O)348",
+							"AvailableStock": 1,	},
+						{
+							"Id": "{{ModId}}.BeerTent5",
+							"ItemId": "(O)873",
+							"AvailableStock": 1,},
+					]	}},},
+					]}

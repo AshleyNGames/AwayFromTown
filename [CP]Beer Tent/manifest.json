@@ -1,0 +1,10 @@
+{
+  "Name": "Beer Tent",
+  "Author": "xiddav",
+  "Version": "1.6.0",
+  "Description": "Adds a beer tent to the Stardew Valley Fair.",
+  "UniqueID": "xiddav.BeerTent",
+   "UpdateKeys": [ "Nexus:9807" ],
+  "MinimumApiVersion": "3.0.0",
+  "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher",  }  
+}

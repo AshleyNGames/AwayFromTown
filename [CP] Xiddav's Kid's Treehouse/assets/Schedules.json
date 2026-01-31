@@ -1,0 +1,8 @@
+{   "Changes": [
+{ "Action": "EditData",
+	"Target": "characters/schedules/Jas",
+	 "Entries": {"Mon": "900 AnimalShop 7 5 0/a1200 Custom_KidsTreeHouse 3 6 1/1600 AnimalShop 17 15 3 jas_read/1900 AnimalShop 4 7 2/2100 AnimalShop 1 7 3 jas_sleep"}},
+{ "Action": "EditData",
+	"Target": "characters/schedules/Vincent",
+	 "Entries": {"Mon": "900 SamHouse 4 8 0/a1200 Custom_KidsTreeHouse 4 5 2/1600 SamHouse 5 7 3/1900 SamHouse 11 22 2 vincent_play/2000 SamHouse 8 22 3 vincent_sleep"}},
+  ]}

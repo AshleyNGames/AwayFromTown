@@ -1,0 +1,36 @@
+{"Format": "2.6.0",
+"ConfigSchema": {
+        "Build Cost": {"Default": "10000"},
+        "Build Wood": {"Default": "300"},
+},
+
+"Changes": [
+{"Action": "Load",
+            "Target": "Maps/Natatorium",
+            "FromFile": "assets/Natatorium.tmx"},
+
+{ "Action": "EditData",
+            "Target": "Data/PaintData",
+            "Entries": {"Natatorium": "Building/-45 -10/Roof/-20 5/Trim/-25 0"}},
+
+{"Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {"Natatorium": {
+                    "Id": "Natatorium",
+                    "Name": "{{i18n:Natatorium}}",
+                    "Description": "{{i18n:NatatoriumDescription}}",
+                    "Texture": "Buildings/Big Shed",
+                    "DrawShadow": true,
+                    "Size": {"X": 7,"Y": 2},
+                    "FadeWhenBehind": true,
+                    "Builder": "Robin",
+                    "BuildDays": 2,
+                    "BuildCost": "{{Build Cost}}",
+                    "BuildMaterials": [{
+                            "Id": "Wood",
+                            "ItemId": "(O)388",
+                            "Amount": "{{Build Wood}}"},],
+                    "MagicalConstruction": false,
+                    "HumanDoor": {"X": 3,"Y": 1},
+                    "IndoorMap": "Natatorium",}}}
+]}

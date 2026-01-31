@@ -1,0 +1,10 @@
+{   "Name": "Xiddav's Greenhouse",
+    "Author": "xiddav",
+    "Version": "1.0.2",
+    "Description": "Changes Greenhouse",
+    "UniqueID": "xiddav.greenhouse",
+    "MinimumGameVersion": "1.6.0",
+    "UpdateKeys": ["Nexus:33924"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="17" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="22">
+ <properties>
+  <property name="AmbientLight" value="255 255 255"/>
+  <property name="AmbientNightLight" value="180 180 0"/>
+  <property name="Warp" value="8 21 Farm 28 16"/>
+ </properties>
+ <tileset firstgid="1" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="240" columns="15">
+  <image source=".bathhouse_tiles.png" width="240" height="256"/>
+  <tile id="52">
+   <animation>
+    <frame tileid="52" duration="75"/>
+    <frame tileid="53" duration="75"/>
+    <frame tileid="54" duration="75"/>
+    <frame tileid="55" duration="75"/>
+    <frame tileid="56" duration="75"/>
+    <frame tileid="57" duration="75"/>
+   </animation>
+  </tile>
+  <tile id="78">
+   <animation>
+    <frame tileid="78" duration="1000"/>
+    <frame tileid="65" duration="1000"/>
+    <frame tileid="65" duration="1000"/>
+    <frame tileid="78" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="241" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <layer id="1" name="Back" width="17" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxjYBheQB+IbcnA1khm+EKxDxHYFwnboZlhh2ROEBaMrh+XGSCQSwDT2wx/KrnDHwubmDDFZT+6fmxmoGNcaQKXGWqMEKzCiGCjY2Q5kP7naGa4MUKwCyOCjY6R5UBmvEQyw4eZgSGNEYJTGBFsdIws58uMwCD9OcyoYsTgHDTsg0WMFEyp/sHoDlyYHHXkYgClMWf1
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="6" name="TileData" x="208" y="160" width="48" height="16">
+   <properties>
+    <property name="TouchAction" value="ChangeIntoSwimsuit"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="80" y="80" width="80" height="16">
+   <properties>
+    <property name="TouchAction" value="PoolEntrance"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="224" y="176" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="ChangeOutOfSwimsuit"/>
+   </properties>
+  </object>
+  <object id="17" x="16" y="48" width="240" height="128">
+   <properties>
+    <property name="NoFurniture" value="F"/>
+   </properties>
+  </object>
+  <object id="18" x="208" y="176" width="48" height="48">
+   <properties>
+    <property name="NoFurniture" value="F"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="17" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYAJiTiDmRcOcONgwPh8Q8wOxABALArEEEMtAsQQajc6G8WWBWA6I5YFYAYi1sWB1HGwYXweIdYFYj4EyYAP1CyVADs0MeyAOxKE2GIgdcZghj8T3A2J/PHYGILHf43CHHx796Gbgcwc5ZiDHC7lmuCDxY4E4Dg+Ox2KGFxBPB+IZJGJkMBOIlwHxFUYCnkAC14BqN0DZm4B4BdSMLySY8Q2odj+UfRDJDBFgxq1mJA6LMaGaCTODEjDczNhKoRnbgXguDoxuNj61+DDInK2MhPUDALEtQXc=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="17" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAO1AFxPRHqTPGI9QJxHx51Ix08GGgHDHLgCsTuJOBRMApGKgAABRcG6g==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="9" name="AlwaysFront" width="17" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DwgWYgbgHiVgrMmATEk4F4Cpn6ZwDxQiBeBMSLgXgmBW4ZBUMDbMOC29DUtONQRwjAzGmnghsJAQCBtBBJ
+  </data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>
