@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="15">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+ </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source=".townInterior.png" width="512" height="1088"/>
   <tile id="581">
@@ -60,7 +63,7 @@
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="30" height="12">
   <data encoding="base64" compression="zlib">
-   eJy1kj1uwkAQhZ+NkgLMOj4SBVXShp6alFCDhEREYUyTHAJBTHIDmkQgpOQKtNwhgYecFYu1fw0jfZLXM2/e7uxWAVQMRKTq8c9HV843YI6mJh/HwF1sEXnUyL5pTY8un5EpWUVmnaxx9V3U9OjyOVmSXWTWyRpX33cBfJAu6Yli3RfneW1C4JN8kW/qfkhQB+pcC4U4LOYoa0ZcP4d+96eGnNee2qhiv1NX/PIcf+Qg3L5yXrZIuacJyZRzZQ6Ny1fOqxwPIQb35PS9oN8byRXf3PKm1Hc1DoAZmZN1cNbfsNet5n6e6Nn59zXtV/eeHhOglVz6bsi25HutOPm2r9B3aOj7wrO+JkWexxv40FZ6+mpsHAFp1Wbo
+   eJy1kksOAUEQhmtmQsLM9JiruIGFI7CfO7AmkRALjw2HEAxuYEOIhCvYuoPHL5OOJv3aqORb9FT9f01Vd5GIPAUBKFp8s9H95iukjqokH0VEpUgjsqjhvgNfjiw/AmOwDdQ6XmPyXfhyZPkUrMA1UOt4jcl3zYg2oAGaLDu32GdfR5doB/bgDN0FOCFRiDMTiNxsj7ymi3PPtbs/Mfi+btAGnv5OTXHHHA/wZOa+fF+6GOCfhmAkzFUu6DH15fvSxQL9liAV+qaaNyW+q75DNANzcHA++hy88pL7McVZ8Z5qMVE9/u57BKefvv+Kd9/kD74dhe8Es07jLI/x2jYkgqetRscL6JRksA==
   </data>
  </layer>
  <layer id="18" name="Buildings 2" width="30" height="12">
@@ -68,13 +71,13 @@
    <property name="Draw" value="Buildings"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFtABz+RgY5gHxfD762rsXaN8+IN5PZ3tHAf1AvCADQ4Ig/e0tBNpZNAD2jmQAANrEBk8=
+   eJxjYBgFtABz+RgY5gHxfD762rsXaN8+IN5PZ3uHM+jnHmgXoIJ4QQaGBEH621sItLNoAOwdyQAAWW8G6Q==
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
  <layer id="5" name="Front" width="30" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIGDPR3s7JgLtmATEIUAcygfhxyPZu4qJgWEZEC9nQtX3lpGB4R0Sfs+IKp8GVJ+OpodU8IZC/Q+A/ngIxI+oFI65QPfkAXE+he4iBugwMTRoAzGl5mQC46ULiHuAeCVSHD0Fsp8x4tZHDXthYCUN7RnugBr5iNoAAG+iFxs=
+   eJxjYBgFIGDPR3s7JgLtmATEIUAcygfhxyPZu4qJgWEZEC9nQtX3lpGB4R0Sfs+IKp8GVJ+OpodU8IZC/Q+A/ngIxI+oFI65QPfkAXE+he6iJ8gExksXEPcA8UqkOHoKZD9jxK2PGvbCwEoa2jPcATXyEbUBAOuqFcA=
   </data>
  </layer>
  <layer id="22" name="Front 2" width="30" height="12">
