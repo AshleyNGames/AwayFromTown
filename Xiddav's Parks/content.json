@@ -52,15 +52,15 @@
      "FromFile": "Assets/Maps/Forest-FlowerFestival.tmx"},
 {"Action": "EditMap",
      "Target": "Maps/Forest-FlowerFestival",
-	"When":{"HasMod|contains=LemurKat.EastScarpe.CP": true},
+	"When":{"HasMod|contains=Lemurkat.EastScarp": true},
      "FromFile": "Assets/Maps/ES_Forest-FlowerFestival.tmx"},
 {"Action": "EditMap",
      "Target": "Maps/Forest-FlowerFestival2",
-	"When":{"HasMod|contains=LemurKat.EastScarpe.CP": false},
+	"When":{"HasMod|contains=Lemurkat.EastScarp": false},
      "FromFile": "Assets/Maps/Forest-FlowerFestival2.tmx"},
 {"Action": "EditMap",
      "Target": "Maps/Forest-FlowerFestival2",
-	"When":{"HasMod|contains=LemurKat.EastScarpe.CP": true},
+	"When":{"HasMod|contains=Lemurkat.EastScarp": true},
      "FromFile": "Assets/Maps/ES_Forest-FlowerFestival2.tmx"},
 {"Action": "EditData",
 		"Target": "Data/Festivals/spring24",
@@ -152,6 +152,14 @@
      "FromFile": "Assets/Maps/Backwoods.tmx",
      "PatchMode": "Replace"},
 {"Action": "EditMap",
+     "Target": "Maps/Backwoods_GraveSite",
+     "FromFile": "Assets/Maps/Backwoods_GraveSite.tmx",
+     "PatchMode": "Replace"},
+{"Action": "EditMap",
+     "Target": "Maps/Backwoods_Staircase",
+     "FromFile": "Assets/Maps/Backwoods_Staircase.tmx",
+     "PatchMode": "Replace"},
+{"Action": "EditMap",
      "Target": "Maps/Town",
      "FromFile": "Assets/Maps/Town.tmx",
      "PatchMode": "Replace"},
@@ -166,7 +174,7 @@
      "ToArea": { "X": 30, "Y": 0, "Width": 16, "Height": 23}},
 {"Action": "EditMap",
      "Target": "Maps/Town",
-	"When": {"HasMod|contains=LemurKat.EastScarpe.CP": true},
+	"When": {"HasMod|contains=Lemurkat.EastScarp": true},
      "FromFile": "Assets/Maps/Town_ES.tmx",
 	"PatchMode": "Replace",
      "ToArea": { "X": 109, "Y": 68, "Width": 21, "Height": 9}},
@@ -195,7 +203,7 @@
 
 {"Action": "EditMap",
     "Target": "Maps/Backwoods",
-    "MapProperties": { "Warp": "13 40 Farm 40 0 14 40 Farm 40 0 15 40 Farm 40 0 63 28 BusStop 0 8 63 29 BusStop 0 8 63 30 BusStop 0 8 63 31 BusStop 0 8 63 27 BusStop 0 8 22 29 Tunnel 39 9 22 30 Tunnel 39 9 22 31 Tunnel 39 9 22 32 Tunnel 39 9 63 9 Custom_Xiddav_MountainPath 0 14 63 10 Custom_Xiddav_MountainPath 0 14 63 11 Custom_Xiddav_MountainPath 0 14 63 12 Custom_Xiddav_MountainPath 0 14 63 13 Custom_Xiddav_MountainPath 0 14 63 14 Custom_Xiddav_MountainPath 0 14"}},
+    "MapProperties": { "Warp": "13 40 Farm 40 0 14 40 Farm 40 0 15 40 Farm 40 0 63 28 BusStop 0 8 63 29 BusStop 0 8 63 30 BusStop 0 8 63 31 BusStop 0 8 63 27 BusStop 0 8 22 29 Tunnel 39 9 22 30 Tunnel 39 9 22 31 Tunnel 39 9 22 32 Tunnel 39 9 63 9 Custom_Xiddav_MountainPath 0 16 63 10 Custom_Xiddav_MountainPath 0 16 63 11 Custom_Xiddav_MountainPath 0 16 63 12 Custom_Xiddav_MountainPath 0 16 63 13 Custom_Xiddav_MountainPath 0 16 63 14 Custom_Xiddav_MountainPath 0 16"}},
 
 {"Action": "EditMap",
     "Target": "Maps/BusStop",
@@ -219,7 +227,7 @@
     "TextOperations": [{
       "Operation": "Prepend",
       "Target": [ "MapProperties", "Warp" ],
-      "Value": " -1 12 Custom_Xiddav_MountainPath 49 14 -1 13 Custom_Xiddav_MountainPath 49 14 -1 14 Custom_Xiddav_MountainPath 49 14",
+      "Value": " -1 12 Custom_Xiddav_MountainPath 64 14 -1 13 Custom_Xiddav_MountainPath 64 14 -1 14 Custom_Xiddav_MountainPath 64 14",
       "Delimiter": " "}]},
 
 //New Shops
@@ -253,4 +261,6 @@
 							"Condition": "PLAYER_FRIENDSHIP_POINTS Current Caroline 1000",
                             "AvailableStock": 1},
 					]}}},
+
+
 ]}
