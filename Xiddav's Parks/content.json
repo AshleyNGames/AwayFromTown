@@ -18,8 +18,6 @@
     "FromMapFile": "Assets/Maps/TiffanyHouse.tmx"},
 {"Name": "Custom_Xiddav_Saloon2",
     "FromMapFile": "Assets/Maps/Saloon2.tmx"},
-{"Name": "Custom_Xiddav_MountainPath",
-    "FromMapFile": "Assets/Maps/MountainPath.tmx"},
 {"Name": "Custom_Xiddav_Worship",
     "FromMapFile": "Assets/Maps/Worship.tmx"},
 {"Name": "Custom_Xiddav_RiversideDiner",
@@ -148,18 +146,6 @@
      "FromFile": "Assets/Maps/Woods.tmx",
      "PatchMode": "Replace"},
 {"Action": "EditMap",
-     "Target": "Maps/Backwoods",
-     "FromFile": "Assets/Maps/Backwoods.tmx",
-     "PatchMode": "Replace"},
-{"Action": "EditMap",
-     "Target": "Maps/Backwoods_GraveSite",
-     "FromFile": "Assets/Maps/Backwoods_GraveSite.tmx",
-     "PatchMode": "Replace"},
-{"Action": "EditMap",
-     "Target": "Maps/Backwoods_Staircase",
-     "FromFile": "Assets/Maps/Backwoods_Staircase.tmx",
-     "PatchMode": "Replace"},
-{"Action": "EditMap",
      "Target": "Maps/Town",
      "FromFile": "Assets/Maps/Town.tmx",
      "PatchMode": "Replace"},
@@ -261,6 +247,7 @@
 							"Condition": "PLAYER_FRIENDSHIP_POINTS Current Caroline 1000",
                             "AvailableStock": 1},
 					]}}},
+
 
 
 ]}
