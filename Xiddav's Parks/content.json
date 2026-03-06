@@ -188,10 +188,6 @@
 				"Warp": "65 45 Town 4 12 64 44 Town 4 12 9 22 Farm 79 17 9 23 Farm 79 17 9 24 Farm 79 17 9 25 Farm 79 17 9 6 Backwoods 60 30 9 7 Backwoods 60 30 9 8 Backwoods 60 30 9 9 Backwoods 60 30 49 49 Custom_Xiddav_PathtoTown 49 0 50 49 Custom_Xiddav_PathtoTown 50 0"}},
 
 {"Action": "EditMap",
-    "Target": "Maps/Backwoods",
-    "MapProperties": { "Warp": "13 40 Farm 40 0 14 40 Farm 40 0 15 40 Farm 40 0 63 28 BusStop 0 8 63 29 BusStop 0 8 63 30 BusStop 0 8 63 31 BusStop 0 8 63 27 BusStop 0 8 22 29 Tunnel 39 9 22 30 Tunnel 39 9 22 31 Tunnel 39 9 22 32 Tunnel 39 9 63 9 Custom_Xiddav_MountainPath 0 16 63 10 Custom_Xiddav_MountainPath 0 16 63 11 Custom_Xiddav_MountainPath 0 16 63 12 Custom_Xiddav_MountainPath 0 16 63 13 Custom_Xiddav_MountainPath 0 16 63 14 Custom_Xiddav_MountainPath 0 16"}},
-
-{"Action": "EditMap",
     "Target": "Maps/BusStop",
 	"When": {"Hasmod": "Rafseazz.RSVCP"},
     "TextOperations": [{
@@ -206,14 +202,6 @@
       "Operation": "Prepend",
       "Target": [ "MapProperties", "Warp" ],
       "Value": "31 22 Custom_Xiddav_Saloon2 31 23 32 22 Custom_Xiddav_Saloon2 32 23",
-      "Delimiter": " "}]},
-
-{"Action": "EditMap",
-    "Target": "Maps/Mountain",
-    "TextOperations": [{
-      "Operation": "Prepend",
-      "Target": [ "MapProperties", "Warp" ],
-      "Value": " -1 12 Custom_Xiddav_MountainPath 64 14 -1 13 Custom_Xiddav_MountainPath 64 14 -1 14 Custom_Xiddav_MountainPath 64 14",
       "Delimiter": " "}]},
 
 //New Shops
@@ -245,9 +233,47 @@
 					{"ItemId": "(O)StardropTea",
                             "Price": 5000,
 							"Condition": "PLAYER_FRIENDSHIP_POINTS Current Caroline 1000",
-                            "AvailableStock": 1},
-					]}}},
+                            "AvailableStock": 1}]}}},
 
+//fruit tree fruits more valuable
+{"Action": "EditData",
+      "Target": "Data/Objects",
+ "Fields": {
+		  "634":{"Price": 75},
+		  "638":{"Price": 120},
+		  "635":{"Price": 150},
+		  "636":{"Price": 210},
+		  "637":{"Price": 210},
+		  "613":{"Price": 150},
+		  "91":{"Price": 230},
+		  "834":{"Price": 195},
+		  "166":{"Price": 7500},
+		  "248":{"Price": 80},
+		  "423":{"Price": 200}}},
 
-
+//wheat flour and cooking 100g more
+{"Action": "EditData",
+      "Target": "Data/Objects",
+ "Fields": {
+		  "246":{"Price": 150},
+		  "198":{"Price": 250},
+		  "611":{"Price": 360},
+		  "234":{"Price": 250},
+		  "216":{"Price": 160},
+		  "220":{"Price": 300},
+		  "223":{"Price": 240},
+		  "732":{"Price": 375},
+		  "214":{"Price": 250},
+		  "202":{"Price": 250},
+		  "731":{"Price": 400},
+		  "211":{"Price": 180},
+		  "221":{"Price": 580},
+		  "206":{"Price": 400},
+		  "604":{"Price": 360},
+		  "651":{"Price": 350},
+		  "608":{"Price": 485},
+		  "222":{"Price": 500},
+		  "224":{"Price": 220},
+		  "921":{"Price": 250},
+		  "203":{"Price": 225}}},
 ]}

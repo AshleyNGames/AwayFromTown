@@ -1,0 +1,58 @@
+{ "Changes": [
+	{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Custom_Xiddav_HiddenTowerPond","Forage"],
+            "Entries": {			
+				"Daffodil": {
+                            "Season": "spring",
+                    "Id": "(O)18",
+                    "ItemId": "(O)18"},
+				"Dandelion": {
+                            "Season": "spring",
+                    "Id": "(O)22",
+                    "ItemId": "(O)22"},			
+				"SweetPea": {
+                            "Season": "summer",
+                    "Id": "(O)402",
+                    "ItemId": "(O)402"},
+				"Crocus": {
+                            "Season": "winter",
+                    "Id": "(O)418",
+                    "ItemId": "(O)418"}}},
+
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Custom_Xiddav_HiddenTowerPond", "Fish"],
+            "Entries": {                
+				"Carp": {
+                    "Id": "(O)142",
+                    "ItemId": "(O)142"},
+				"MidnightCarp": {
+                            "Season": "fall, winter",
+                    "Id": "(O)269",
+                    "ItemId": "(O)269"},
+				"Stonefish": {
+                    "Id": "(O)158",
+                    "ItemId": "(O)158"}}},
+	
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "Fields": {"Custom_Xiddav_HiddenTowerPond": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "woodsTheme"}}},
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "Fields": {"Custom_Xiddav_TheTower": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "communityCenter"}}},
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "Fields": {"Custom_Xiddav_TheTower2": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "communityCenter"}}},
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "Fields": {"Custom_Xiddav_TheTower3": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "communityCenter"}}},
+]}
