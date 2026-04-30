@@ -3738,7 +3738,7 @@
  <objectgroup id="6" name="Front"/>
  <layer id="7" name="Paths" width="59" height="59">
   <data encoding="base64" compression="zlib">
-   eJztmUsOwyAMRLPr/Y+UHqBSu8xpqqiNFCEImBjjz7xlhZIZzBhClwUAAADg5fOYrQAAn7yRLfBHci1Qe7rVPUCTbumsr8T35cbnNFvtWaN1j3w+tZY5WvSVxmiqOWUuOOYN0NDUc1PurmNNOaBA1f0y6FNbbWq9504/tkBv77WwB0WDax+NVkNNfrm0nJ9j8fuAQ99sj7PeP9t3L5y6Jc5GEvPs/fwByjyD1RXr+Ifmb3PQR9Q7Ls++0a/iELHWnrMbgWjniFxG18o9iBdavFnL89nTlXZrvloZkd9N+VzVMnw1rgUva8V6L6vdT+94qdUOJcsl3+nvnLmQJtrZ5OCoD8f/zgCkfAEQYkSn
+   eJztmUsOwyAMRLPL/Y+UHiBqu+xpKtRGihAETAz4M28ZITK2GUPIsgAAAAC8vNfZCgCwyQveAn9GrgVqT9e6B0jSPdrrG/F9qfEpzVp7Vm/dPeen1jJFjb7cGEk1p+SCI2+AhqSeG3N3HUvyAYVa3U+l8QWk1abUe+70Yw209l4Ne5A3uPZRbzWUFC+XlvM8Gr8POPTNjnHW+2fH3Qqn7n1ADkbk2fr5A+R5OKsr1vEPyd/moA2vd1yW40a/8oPHWlv2rge8nSNSHt0K9yBWqIlNm5/PMV1p1xZXLT38+xGeq5KHr8bVYGWtaO9lpfvpgJVaBShezsUdP+f0xWi8nU0Ojvpw/HcGIOYLW0JEqQ==
   </data>
  </layer>
  <objectgroup id="8" name="Paths">

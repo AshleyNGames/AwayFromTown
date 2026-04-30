@@ -16,11 +16,6 @@
 "Changes": [
 //my Farm Warps
 {"Action": "EditMap",
-    "Target": "Maps/OldFamilyFarm, Maps/PaleontologyFarm",
-	"When": {"HasMod|contains=Xiddav.FamilyFarm": true},
-        "MapProperties": { "Warp": "84 15 BusStop 10 23 84 18 BusStop 10 23 84 16 BusStop 10 23 84 17 BusStop 10 23 90 55 Custom_Xiddav_TrailerPark 0 24 90 54 Custom_Xiddav_TrailerPark 0 24 90 53 Custom_Xiddav_TrailerPark 0 24 90 52 Custom_Xiddav_TrailerPark 0 24 90 51 Custom_Xiddav_TrailerPark 0 24 90 50 Custom_Xiddav_TrailerPark 0 24 54 91 Forest 68 0 55 91 Forest 68 0 56 91 Forest 68 0 57 91 Forest 68 0 41 -1 Backwoods 14 39 40 -1 Backwoods 14 39 42 -1 Backwoods 14 39 34 6 FarmCave 8 11" }},
-
-{"Action": "EditMap",
     "Target": "Maps/TrailerPark",
 	"When": {"HasMod|contains=Xiddav.FamilyFarm": true},
         "MapProperties": { "Warp": "44 -1 BusStop 43 47 43 -1 BusStop 43 47 42 -1 BusStop 42 47 59 38 Town 0 54 59 37 Town 0 54 59 39 Town 0 54 -1 23 OldFamilyFarm 89 54 -1 24 OldFamilyFarm 89 54 -1 25 OldFamilyFarm 89 54 -1 26 OldFamilyFarm 89 54 -1 27 OldFamilyFarm 89 54 " }},
@@ -29,12 +24,6 @@
     "Target": "Maps/TrailerPark",
 	"When": {"HasMod|contains=Xiddav.Paleontology": true},
         "MapProperties": { "Warp": "44 -1 BusStop 43 47 43 -1 BusStop 43 47 42 -1 BusStop 42 47 59 38 Town 0 54 59 37 Town 0 54 59 39 Town 0 54 -1 23 PaleontologyFarm 89 54 -1 24 PaleontologyFarm 89 54 -1 25 PaleontologyFarm 89 54 -1 26 PaleontologyFarm 89 54 -1 27 PaleontologyFarm 89 54 " }},
-	
-	//NPCs	
-{"Action": "Include",
-		"FromFile": "Assets/NPCs/Matthias/Matthias.json"},
-{"Action": "Include",
-		"FromFile": "Assets/NPCs/Tiffany/Tiffany.json"},
 	
 //Bus Stop edits
 {"Action": "Load",

@@ -1,0 +1,11 @@
+{    "Name": "Xiddav's Paleontology Farm",
+    "Author": "xiddav",
+    "Version": "1.0.0",
+    "Description": "A custom Farm map for dinosaurs.",
+    "UniqueID": "Xiddav.Paleontology",
+    "UpdateKeys": ["Nexus:"],
+  "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher",}  ,
+  "Dependencies": [  	 
+   {"UniqueID": "Xiddav.tilesheet",
+      "IsRequired": true},
+  ],}
