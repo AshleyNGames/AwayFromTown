@@ -1,0 +1,24 @@
+{ 	"Format": "2.8.0",
+	"CustomLocations": [
+{"Name": "Custom_Xiddav_FarNorth",
+    "FromMapFile": "Assets/Maps/FarNorth.tmx"},
+{"Name": "Custom_Xiddav_FarNorthCave",
+    "FromMapFile": "Assets/Maps/FarNorthCave.tmx"},
+{"Name": "Custom_Xiddav_GraveyardCave",
+    "FromMapFile": "Assets/Maps/GraveyardCave.tmx"},
+{"Name": "Custom_Xiddav_Graveyard",
+    "FromMapFile": "Assets/Maps/Graveyard.tmx"},
+{"Name": "Custom_Xiddav_CorruptedWorship",
+    "FromMapFile": "Assets/Maps/Worship.tmx"}		],
+
+"Changes": [
+{"Action": "Include",
+		"FromFile": "Assets/Objects/Void.json"},
+
+{"Action": "Include",
+		"FromFile": "Assets/Map Data/Graveyard.json"},
+{"Action": "Include",
+		"FromFile": "Assets/Map Data/FarNorth.json"},
+{"Action": "Include",
+		"FromFile": "Assets/Map Data/VanillaEdits.json"},
+]}

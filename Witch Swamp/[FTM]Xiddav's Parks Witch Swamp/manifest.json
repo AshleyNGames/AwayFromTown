@@ -1,0 +1,11 @@
+{  "Name": "Xiddav's RRWS FTM",
+  "Author": "xiddav",
+  "Description": "spawn monsters in the gravyard",
+    "Version": "1.0.1",
+  "UniqueID": "Xiddav.Parks.WSEE.FTM",
+   "UpdateKeys": ["Nexus:44032"],
+  "MinimumApiVersion": "2.5",
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.26.1"}   
+}

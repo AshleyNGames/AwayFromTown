@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="40" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="3">
+ <properties>
+  <property name="AmbientLight" value="0 0 0"/>
+ </properties>
+ <tileset firstgid="1" name="wt" tilewidth="16" tileheight="16" tilecount="128" columns="8">
+  <image source=".witchSwampTiles.png" width="128" height="256"/>
+  <tile id="4">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <animation>
+    <frame tileid="78" duration="1000"/>
+    <frame tileid="79" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="79">
+   <animation>
+    <frame tileid="79" duration="1000"/>
+    <frame tileid="78" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="129" name="zwinter_market" tilewidth="16" tileheight="16" tilecount="1368" columns="72">
+  <image source=".night_market_tilesheet_objects.png" width="1152" height="312"/>
+  <tile id="0">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="293">
+   <animation>
+    <frame tileid="293" duration="100"/>
+    <frame tileid="1161" duration="100"/>
+    <frame tileid="1162" duration="100"/>
+    <frame tileid="1163" duration="100"/>
+    <frame tileid="1164" duration="100"/>
+    <frame tileid="1165" duration="100"/>
+    <frame tileid="1166" duration="100"/>
+    <frame tileid="1167" duration="100"/>
+    <frame tileid="1168" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="562">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="634">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="706">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="778">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="798">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="799">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="800">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="801">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="802">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="850">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="854">
+   <animation>
+    <frame tileid="854" duration="1000"/>
+    <frame tileid="857" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="925">
+   <animation>
+    <frame tileid="925" duration="1000"/>
+    <frame tileid="928" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="926">
+   <animation>
+    <frame tileid="926" duration="1000"/>
+    <frame tileid="929" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="927">
+   <animation>
+    <frame tileid="927" duration="1000"/>
+    <frame tileid="930" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="1497" name="zpaths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source=".paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="1561" name="zhime_fairygarden" tilewidth="16" tileheight="16" tilecount="1480" columns="37">
+  <image source=".hime_fairygarden.png" width="592" height="640"/>
+ </tileset>
+ <layer id="1" name="Back" width="40" height="50">
+  <data encoding="base64" compression="zlib">
+   eJytmM9OlDEUxWuMg2F2smYSFUlg1IQZxgREgygmjEZYumTJ0qVLn8Rn81H8GnvC4XB62wEXJ8N87bQ/bu+/r6cppdMOvauoNb9njWidHo6jQScVvTd7HJnxaA3Ma7G11shaNvZorbGkz6U8ixh72FSHndzRWI8dP5m1Dkn6Petg0KtBb2UedFDG9P9x0r0/B3wntPeqAutB45n7He8f8ek6L4rcM1XPnNp8ZlQ++N6HMndRPrcG7RZtlzX5GTQzc2Yy5rQt+300fGw78DFbtD70zMjxu+/btGfEtyS+lwELr505ng56bPS8gxt6LXwcwxobZ2XufsNWjmuzyPEqtzvnmg9+Tbfjg/0MNqvZak34WozgrNlwWTnj6HxrbM5+js+NTYMzbvGxn+1U7KX7jzv48pzzBt+q9uux3Zjk+PLzyaANGr+P/eB3PWywz7rYELwbRcoPvjcpzjHIz4gN8PWwPUg3fYsFtifEx7+dFhvAdl8Kx7fAduDLPuf8DNoju0UCo7Kx/TLfonG2yH0L4kNcqD/tl7HsT+cdfDjT3YCvFRvqf+Cb0F5Yd6vsqf4W8Y0DPuRnZz/kZ/ReZ8KnNvj98N+afG4R3zr9flbhgw1dfXP9FfgQH5pbZ8SdP7+Tfsh3ngf7wa+Vr1bfOH4X5fzge6NBF+nav0dlPWa+GnRp9FPsq+fLNa7mgy5+0RtojGJdrKm5jv1xTP/XJrFEMVzzQfQH6F2Q/7iuMd8a2ZBzMOc5l49V83QzP7v8BxtyfDgbqhA7Ls9pTDm+UerLf7X3D/RX2hsw30iegenczJ93nm22k8Yvv38gP3N/sGdYetT6jeY/F798tlp/a/1Vq0/ondvTv3D84j3qLv3VqnxzWj/qX7T+Kl/LdtxDRPHgbDcTtlr8or65HNh7thzHqGuRD7LvLYitVd+4h2E+7B3xjUXR/6O1A7Hr6lvtfgN91E66zm/OZprvMBdjE2PLabqZX+B3Ed8yXfsgciD3MXnP3L+ADfULLGo/zofOJzMf/C/i47s/zTHcx/CZlb7g+LJo6AWOudbpWI3P5T7X3+v9kPrfKN32qWHvP+ijhr8v+ax1zOXtnt6gdr/BOaZWg5WB/S/i4/zXendj36vdwXCO4XxX49vs4EP84nw5v7j+3t2ftnqEq3SzF+Xz1bEoR2t+afX3+o5e48O7E+JTeyrmdTWQ/S+649X+Rf2vVX8fpev4Rg8d5fELOWOND9ff1+Kjp74hHrl3dv66lm7X56nhq/UHmqNbPbTK1Rg8d+eNGM58HB+1/o99EO9xq/Z/v8SmONOJzNP+nuND7xA4ft0d2ypnvIp6668yRvnvf8jVjxZfi3FP1r6vuH/u5WPGVpzMU3/cODbcH7v+Rfvnu9gx564oL9bs7N47arGb9RfVa0tL
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="1" name="TileData" x="320" y="704" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="MagicWarp WitchWarpCave 9 6"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="40" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztWFlOwzAQNS1SVamrVNZWam8Cf/DLUdjFfgAQ/yx/HIGjIDgPM8JPTKfjNkntFqE8adTEcerxrC92rkSJEiVK/GeskFRIqiSrS9YF2CHZ9dd1Mb7mlqvjpv/dI9n31101pyGuO26x9h2Ja6y7rub0nG3fx9pi7Dv0C2yRtIznbD/Yl/eg9W9MvBEPvJ7cf92YwzaCP7VujF4CvaQ+2D/Hlo69LEhhP8QT+3Qgxi37hNAk6av35wH7Ejkn8zWUF7N0Y71k3syrG6//oHJOx/tBxv9DzMl9zgMd99BRjx+SHJEck5yQnJKckZyreRxzw4iFJRT3b9Xx+wuSS5IrkmuSG5Jbkjv1XuyctWobr2HVkyxIkbPShojvIvWEkaLmSVth/6GeMQ3YW2xAl/faz/7bfjyvj3lvnZiKCbCOqKkbfiyvj1P2Mwus87aXvvh9r4zf4xe+1b27KIrW+Ptq+Bnqeow8zlrjpT34+qP6ew8eK/s2x/IifK25gux56DMjfy/3qrlFDMBGsjdprqB5gu7XktvHzuO6++WbFTcZ36FaI+sl50nLLa6HwCbTOJbeUwrfMnQPsfw5C/qbaDM0sQB0Ldb8JSukb0cFdbEg+y2v8Zf4AcA+/vI9WOr7RGPPNfudFxp/9c9S8QOgK9bouPz8oOfS8QOGzj34OKv9Un6PWyhiPwbqUurzjbw5IuvSZy2+PTWfQU8Ah9J8uunGORfHhrR57FyWZz2Wb7S/YR9wGn0Ok4pPy7MXJ9bQPbAn5ltIVQtDPVTWRFnrtN6IhVT64fvIOgdATA6MMXD8XZeOJzA2Zk8JfhvEOneZF5YeMc9dsiDvd1h79pSoyBtDWeLCwjeduy93
+  </data>
+ </layer>
+ <layer id="7" name="Paths" width="40" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJADAIA0A/7j9jN+kCfqsW7iYIQogRAMAvTk4nALrpPQDb2CYAgHf8Wr3cm8oFiugEfw==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="2" name="TileData" x="320" y="320" width="16" height="16">
+   <properties>
+    <property name="Action" value="Warp 7 15 WitchHut"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="40" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmDkOwjAQRSNRcBTooIMOrsAudrErYWtYjsFVuA3X4aejyDgyJOMRnie9JnHisTOOJwkCRVEUeZRg2XUQBiqw6joIAzVYN5zX+f2NpPkNizx9vwo8/djgSz7lNU5qvbZgG3ZgF/ZgHw6I+3CvmyEcwTGcwCmcwTnRPu29ZMsuZc0t4BKu4Bpu4Da+jmjfgM3MoksnhBHcwwM8whM8J7SVuO4V5d/wZS+LyWOsWdaeLupAmz4/x/pkqv9s9lCu/Uzy3hQxPZdveQiPT/GTC/LySuTmDcfvmrdGpMyfT/VMHmT9zarYIyWHqTg4c9hUa1FxSMlhKg7u/y42SK5tFXe8ATXEIeI=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+</map>

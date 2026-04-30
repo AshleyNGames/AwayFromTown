@@ -1,0 +1,56 @@
+{ 	"Changes": [	
+{"Action": "EditData",
+            "Target": "Data/LocationContexts",
+            "Entries":{
+"GraveyardFall": {
+    "SeasonOverride": "Fall",
+    "DefaultMusic": "fall1",
+    "DefaultMusicCondition": null,
+    "DefaultMusicDelayOneScreen": false,
+    "Music": [      {
+        "Id": "fall1",
+        "Track": "fall1"},
+      {
+        "Id": "fall2",
+        "Track": "fall2"},
+      {
+        "Id": "fall3",
+        "Track": "fall3"}
+    ],
+    "DayAmbience": null,
+    "NightAmbience": null,
+    "PlayRandomAmbientSounds": false,
+    "AllowRainTotem": false,
+    "RainTotemAffectsContext": "Default",
+    "WeatherConditions": [
+      {"Id": "Default",
+        "Condition": null,
+        "Weather": "Storm"},
+      {"Id": "ANiceDayInTheGraveyard",
+        "Condition": "RANDOM .15",
+        "Weather": "Wind"}
+	],
+    "CopyWeatherFromLocation": null,
+    "ReviveLocations": [
+{        "Id": "Default",
+        "Condition": null,
+        "Location": "Hospital",
+        "Position": {
+          "X": 20,
+          "Y": 12
+        }}   ],
+    "MaxPassOutCost": -1,
+    "PassOutMail": null,
+    "PassOutLocations": null,
+    "CustomFields": null
+  }}},
+
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Custom_Xiddav_Graveyard","Forage"],
+            "Entries": {				
+				"HazelNut": {
+                            "Season": "fall",
+                    "Id": "(O)408",
+                    "ItemId": "(O)408"}}},
+]}

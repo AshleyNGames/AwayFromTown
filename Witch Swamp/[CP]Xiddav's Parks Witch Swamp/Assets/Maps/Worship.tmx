@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="23" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="15">
+ <properties>
+  <property name="AmbientLight" value="120 160 80"/>
+  <property name="Warp" value="11 22 Custom_Xiddav_Graveyard 29 18"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+  <tile id="581">
+   <animation>
+    <frame tileid="581" duration="250"/>
+    <frame tileid="550" duration="250"/>
+    <frame tileid="581" duration="250"/>
+    <frame tileid="582" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source=".paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="2241" name="2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source=".townInterior_2.png" width="512" height="656"/>
+ </tileset>
+ <tileset firstgid="3553" name="Festivals" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source=".Festivals.png" width="512" height="512"/>
+  <tile id="567">
+   <animation>
+    <frame tileid="567" duration="200"/>
+    <frame tileid="568" duration="200"/>
+    <frame tileid="569" duration="200"/>
+    <frame tileid="570" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="4577" name="Xiddav_FestivalExtras" tilewidth="16" tileheight="16" tilecount="800" columns="40">
+  <image source=".Xiddav_FestivalExtras.png" width="640" height="320"/>
+ </tileset>
+ <tileset firstgid="5377" name="WitchHutTiles" tilewidth="16" tileheight="16" tilecount="128" columns="8">
+  <image source=".WitchHutTiles.png" width="128" height="256"/>
+  <tile id="40">
+   <animation>
+    <frame tileid="40" duration="200"/>
+    <frame tileid="41" duration="200"/>
+    <frame tileid="42" duration="200"/>
+    <frame tileid="43" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="23" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYoM2FiakFvLkw8VAAv1gYGH6yYNLUAFKsDAySrJg0sQCbu2A0NnPxqf+F5ids+mG0JRBbodH41KP7C5t+fObgUw+jR9096u6R7m5JNH2SONSR424QQNZHbYBsH7XBYHM3ALNxRac=
+  </data>
+ </layer>
+ <layer id="13" name="Back 2" width="23" height="22">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzLkNgEAQQ1EnSByzfXD1H1EQCxTBTxEZGhH5S0/OLLmvbc1znfuzPaSKAyeuyPtui9Shx4Aoed8jXxNmLFgTv51z725W2QfX
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="23" height="22">
+  <data encoding="base64" compression="zlib">
+   eJz7yc3A8BMP5mJgYGDGgnkY8OsjBjsCzdAXZWAwAGJNUQTblUizkd3mz4FKHwZic6BZFkDMJ4pgH8KhHt1PILexAdWzikJoTVFUvj0QOwCxGBIbn3pXNLP5RHFjGGgVRrDxqUc3W0wUgRVFUfkg8ImFgeEzEH9hgfDxqUc3ux4o1gDEuRwQvSAaJoYN4FOPbjY1wUgx+zYwDu8A8V0W6pv9G2jmHyD+SwOzSQGjZg+c2YlAdjxS3sbFRgb41DcjmU1M/YDLXdSoe2hldiKa2cT6mRFYLBKDE5HMJUY9yGwAeGCtuw==
+  </data>
+ </layer>
+ <layer id="18" name="Buildings 2" width="23" height="22">
+  <properties>
+   <property name="Draw" value="Buildings"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFWwj4WB4R4Q/2MZaJeMglEwCgYrAAD+ygKn
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="23" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFhEA+ByoNA5tYGBg2A/EWFuLUYwN+HKg0DFwCmnkZiK+wEKceGZSLMjBUAHEeVA2IholRQ/0oIA3sBsbhHiDey0JY7SgYBaNgFFAbAAAq3hBb
+  </data>
+ </layer>
+ <layer id="22" name="Front 2" width="23" height="22">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0BpICAy0C0bBKBgFIxUAALvYACk=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="10" name="Paths" width="23" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcoJNjoF2AH5DqvsHun1EwfMBoWhsFo2BkAVLzPAAz1gLW
+  </data>
+ </layer>
+ <objectgroup id="9" name="Paths"/>
+ <layer id="7" name="AlwaysFront" width="23" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMJRBuChhNrnqj+LBi9HULiGgfqQAWLgsoZH5pIYlAHuZEKI=
+  </data>
+ </layer>
+ <objectgroup id="8" name="AlwaysFront"/>
+</map>

@@ -1,0 +1,45 @@
+{ 	"Changes": [
+{"Action": "EditData",
+      "Target": "Data/Objects",
+ "Fields": { "795":{"Price": 450} }},
+
+{"Action": "Load",
+			"Target": "Mods/{{ModId}}/VoidJelly",
+			"FromFile": "assets/Objects/VoidJelly.png" },
+
+{"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}.VoidJelly": {
+					"Name": "{{ModId}}.VoidJelly",
+					"Type": "Fish",
+				"Category": 0,
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:VoidJelly}}",
+					"Description": "{{i18n:VoidJellyD}}",
+					"Texture": "Mods\\{{ModId}}\\VoidJelly",
+					"Price": 250,
+				"Edibility": -5,
+	"ContextTags": ["color_black","fish_nonfish","counts_as_fish_catch","use_reverse_name_for_sorting","item_void_jelly"],
+					"ExcludeFromShippingCollection": "false"}}},
+
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["WitchSwamp", "Fish"],
+            "Entries": {
+				"VoidJelly": {
+                    "Id": "(O){{ModId}}.VoidJelly",
+                    "ItemId": "(O){{ModId}}.VoidJelly",
+					"Chance": ".5"}}},
+
+//Crafting Void into Other Jellies
+{"Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+ "Entries": {"Transmute (CJ)": "{{ModId}}.VoidJelly 1 157 1/Home/CaveJelly/false/Fishing 6/"}},
+{"Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+ "Entries": {"Transmute (SJ)": "{{ModId}}.VoidJelly 1 152 1/Home/SeaJelly/false/Fishing 6/"}},
+{"Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+ "Entries": {"Transmute (RJ)": "{{ModId}}.VoidJelly 1 153 1/Home/RiverJelly/false/Fishing 6/"}},
+]}

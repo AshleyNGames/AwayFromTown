@@ -1,0 +1,22 @@
+{ 	"Changes": [	
+{"Action": "EditMap",
+     "Target": "Maps/WitchSwamp",
+     "FromFile": "Assets/Maps/WitchSwamp.tmx",
+     "PatchMode": "Replace"},
+{"Action": "EditMap",
+     "Target": "Maps/WitchWarpCave",
+     "FromFile": "Assets/Maps/WitchWarpCave.tmx",
+     "PatchMode": "Replace"},
+
+{"Action": "EditMap",
+    "Target": "Maps/WitchWarpCave",
+    "MapProperties": {"Warp": "9 20 Railroad 54 34"}},
+
+{"Action": "EditMap",
+    "Target": "Maps/Railroad",
+"TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "54 33 WitchWarpCave 9 19",
+      "Delimiter": " "}]},
+]}

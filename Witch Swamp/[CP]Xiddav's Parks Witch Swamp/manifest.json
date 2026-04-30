@@ -1,0 +1,16 @@
+{ "Name": "Xiddav's Parks Witch Swamp edit and expansion",
+  "Author": "Xiddav",
+  "Version": "1.0.0",
+  "Description": "I edited a lot of the town to my liking.",
+  "UniqueID": "Xiddav.Parks.WSEE",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:44032" ],
+  "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+  "Dependencies": [  	 
+   {"UniqueID": "Xiddav.tilesheet",
+      "IsRequired": true},
+   {"UniqueID": "hxw.tilesheets",
+      "IsRequired": true},
+   {"UniqueID": "Lumisteria.TtilesheetsOutdoor",
+      "IsRequired": true},
+  ]}

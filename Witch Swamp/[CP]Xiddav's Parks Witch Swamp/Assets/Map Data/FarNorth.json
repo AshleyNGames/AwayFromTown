@@ -1,0 +1,62 @@
+{ 	"Changes": [		
+{"Action": "EditData",
+ "Target": "Strings/StringsFromMaps",
+ "Entries": {"FrozenTent": "{{i18n:FrozenTent}}"}},
+	
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Custom_Xiddav_FarNorth", "Fish"],
+            "Entries": {
+				"Perch": {
+                    "Id": "(O)141",
+                    "ItemId": "(O)141"},
+				"Lingcod": {
+                    "Id": "(O)707",
+                    "ItemId": "(O)707"}}},
+
+{"Action": "EditData",
+            "Target": "Data/LocationContexts",
+            "Entries":{
+"SnowyMountains": {
+    "SeasonOverride": "Winter",
+    "DefaultMusic": "winter1",
+    "DefaultMusicCondition": null,
+    "DefaultMusicDelayOneScreen": false,
+    "Music": [      {
+        "Id": "winter1",
+        "Track": "winter1"},
+      {
+        "Id": "winter2",
+        "Track": "winter2"},
+      {
+        "Id": "winter3",
+        "Track": "winter3"}
+    ],
+    "DayAmbience": null,
+    "NightAmbience": null,
+    "PlayRandomAmbientSounds": false,
+    "AllowRainTotem": false,
+    "RainTotemAffectsContext": "Default",
+    "WeatherConditions": [
+      {"Id": "Default",
+        "Condition": null,
+        "Weather": "Snow"},
+      {"Id": "NoSnowDay",
+        "Condition": "RANDOM .10",
+        "Weather": "Sun"}
+	],
+    "CopyWeatherFromLocation": null,
+    "ReviveLocations": [
+{        "Id": "Default",
+        "Condition": null,
+        "Location": "Hospital",
+        "Position": {
+          "X": 20,
+          "Y": 12
+        }}   ],
+    "MaxPassOutCost": -1,
+    "PassOutMail": null,
+    "PassOutLocations": null,
+    "CustomFields": null
+  }}},
+]}
