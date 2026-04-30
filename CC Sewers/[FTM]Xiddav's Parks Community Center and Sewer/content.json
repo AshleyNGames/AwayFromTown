@@ -1,0 +1,454 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": true,
+  "MonsterSpawnEnabled": true,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          "168",
+          "172",
+          "171",
+          "167",
+          {
+            "category": "Big Craftable",
+            "name": "56"
+          }
+        ],
+        "SummerItemIndex": [
+          "168",
+          "172",
+          "171",
+          "167",
+          {
+            "category": "Big Craftable",
+            "name": "56"
+          }
+        ],
+        "FallItemIndex": [
+          "168",
+          "172",
+          "171",
+          "167",
+          {
+            "category": "Big Craftable",
+            "name": "56"
+          }
+        ],
+        "WinterItemIndex": [
+          "168",
+          "172",
+          "171",
+          "167",
+          {
+            "category": "Big Craftable",
+            "name": "56"
+          }
+        ],
+        "UniqueAreaID": "SewerPathForest",
+        "MapName": "Custom_Xiddav_SewerPathSpa, Custom_Xiddav_SewerPathCC, Custom_Xiddav_SewerPathForest",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [],
+    "SummerItemIndex": [],
+    "FallItemIndex": [],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [
+      {
+        "ObjectTypes": [
+          "Stump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Farm large object area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 999,
+        "MaximumSpawnsPerDay": 999,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 0,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 0,
+          "Copper": 0,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 1,
+          "Radioactive": 0,
+          "Diamond": 0,
+          "Ruby": 0,
+          "Jade": 0,
+          "Amethyst": 0,
+          "Topaz": 0,
+          "Emerald": 0,
+          "Aquamarine": 0,
+          "Mussel": 0,
+          "Fossil": 0,
+          "Clay": 0,
+          "CinderShard": 0,
+          "Coal": 0
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 0,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 0,
+          "Copper": 0,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 3,
+          "Radioactive": 0,
+          "Diamond": 0,
+          "Ruby": 0,
+          "Jade": 0,
+          "Amethyst": 0,
+          "Topaz": 0,
+          "Emerald": 0,
+          "Aquamarine": 0,
+          "Mussel": 0,
+          "Fossil": 0,
+          "Clay": 0,
+          "CinderShard": 0,
+          "Coal": 0
+        },
+        "UniqueAreaID": "SewerBossORE",
+        "MapName": "Custom_Xiddav_SewerBOSS",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 0,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 0,
+          "Copper": 0,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0,
+          "Radioactive": 0,
+          "Diamond": 0,
+          "Ruby": 0,
+          "Jade": 0,
+          "Amethyst": 0,
+          "Topaz": 0,
+          "Emerald": 0,
+          "Aquamarine": 0,
+          "Mussel": 0,
+          "Fossil": 0,
+          "Clay": 1,
+          "CinderShard": 0,
+          "Coal": 0
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 0,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 0,
+          "Copper": 0,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0,
+          "Radioactive": 0,
+          "Diamond": 0,
+          "Ruby": 0,
+          "Jade": 0,
+          "Amethyst": 0,
+          "Topaz": 0,
+          "Emerald": 0,
+          "Aquamarine": 0,
+          "Mussel": 0,
+          "Fossil": 0,
+          "Clay": 10,
+          "CinderShard": 0,
+          "Coal": 0
+        },
+        "UniqueAreaID": "SewerPathOre",
+        "MapName": "Custom_Xiddav_SewerPathSpa, Custom_Xiddav_SewerPathCC, Custom_Xiddav_SewerPathForest",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      }
+    ],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 0,
+      "FrozenGeode": 5,
+      "MagmaGeode": 8,
+      "OmniGeode": 0,
+      "Gem": 6,
+      "Copper": 0,
+      "Iron": 4,
+      "Gold": 7,
+      "Iridium": 9,
+      "Mystic": 10,
+      "Radioactive": 10,
+      "Diamond": 6,
+      "Ruby": 6,
+      "Jade": 6,
+      "Amethyst": 6,
+      "Topaz": 6,
+      "Emerald": 6,
+      "Aquamarine": 6,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0,
+      "Coal": 0
+    },
+    "StartingSpawnChance": {},
+    "LevelTenSpawnChance": {},
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Spider",
+            "Settings": {}
+          }
+        ],
+        "UniqueAreaID": "SewerPathMonster",
+        "MapName": "Custom_Xiddav_SewerPathCC, Custom_Xiddav_SewerPathSpa",
+        "MinimumSpawnsPerDay": 25,
+        "MaximumSpawnsPerDay": 100,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2600,
+          "MinimumTimeBetweenSpawns": 30,
+          "MaximumSimultaneousSpawns": 2,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": "slime"
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "blue squid",
+            "Settings": {
+              "HP": 1000,
+              "Damage": 30,
+              "Defense": 5,
+              "EXP": 35
+            }
+          }
+        ],
+        "UniqueAreaID": "SewerBoss",
+        "MapName": "Custom_Xiddav_SewerBoss",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 610,
+          "EndTime": 610,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 2,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "squid_bubble"
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag": "openedSewer",
+            "query: {{SkillLevel:Combat}} >= 4": "true"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    558,
+    583,
+    606,
+    607,
+    608,
+    630,
+    635,
+    636,
+    680,
+    681,
+    685
+  ],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}

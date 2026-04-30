@@ -1,0 +1,12 @@
+{ "Name": "Xiddav's Parks CC and Sewer",
+  "Author": "Xiddav",
+  "Version": "1.0.0",
+  "Description": "I edited a lot of the town to my liking.",
+  "UniqueID": "Xiddav.Parks.CCSewer",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:43346" ],
+  "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+  "Dependencies": [  	 
+   {"UniqueID": "Xiddav.tilesheet",
+      "IsRequired": true},
+  ]}

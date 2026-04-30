@@ -1,0 +1,11 @@
+{  "Name": "Xiddav's CC and Sewer Expansion FTM",
+  "Author": "xiddav",
+  "Description": "spawn monsters in the sewer",
+    "Version": "1.0.0",
+  "UniqueID": "Xiddav.Parks.CCSewer.FTM",
+   "UpdateKeys": ["Nexus:43346"],
+  "MinimumApiVersion": "2.5",
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.26.1"}   
+}
