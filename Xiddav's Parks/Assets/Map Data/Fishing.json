@@ -1,29 +1,6 @@
 {    "Changes": [
 {"Action": "EditData",
             "Target": "Data/Locations",
-            "TargetField": ["Custom_Xiddav_PathtoTown","Fish"],
-            "Entries": {                
-				"Carp": {
-                    "Id": "(O)142",
-                    "ItemId": "(O)142"},                  
-				"MidnightCarp": {
-                    "Id": "(O)269",
-                    "ItemId": "(O)269"},   
-				"Crayfish": {
-                    "Id": "(O)716",
-                    "ItemId": "(O)716",
-					"Chance": ".1"},                    
-				"Moss": {
-                    "Id": "(O)Moss",
-                    "ItemId": "(O)Moss",
-					"Chance": ".1"},
-				"GreenAlgae": {
-                    "Id": "(O)153",
-                    "ItemId": "(O)153",
-					"Chance": ".1"}}},
-
-{"Action": "EditData",
-            "Target": "Data/Locations",
             "TargetField": ["Custom_Xiddav_FlowerField","Fish"],
             "Entries": {
 				"Bream": {
