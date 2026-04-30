@@ -1,0 +1,50 @@
+{    "Changes": [
+{	"Action": "EditData",
+	"Target": "Data/Characters",
+	"Entries": {"xiddav_Matthias": {
+					"CanSocialize" : "FALSE",
+		"CanVisitIsland": "false",
+		"BirthSeason": "Summer",
+		"BirthDay": 6,
+					"Manner": "Rude",
+					"SocialAnxiety": "Shy",
+					"Optimism": "Negative",
+					"Gender": "Male",
+					"CanBeRomanced": false, //ace aro
+					"LoveInterest": "null",
+					"HomeRegion": "Town",
+					"FriendsAndFamily": {"xiddav_Tiffany": "mom", "xiddav_Nicholas": "dad"},
+		"Home": [{
+			"Id": "Default",
+			"Location": "Custom_Xiddav_TiffanyHouse",
+			"Tile": {  "X": 20,"Y": 4  },
+			"Direction": "3"}],
+					"DisplayName": "{{i18n:Matthias}}",
+			"Age": "Adult"}}},
+
+{"Action": "Load",
+      "Target": "Characters/xiddav_Matthias",
+      "FromFile": "Assets/NPCs/Matthias/Characters.png"},
+{"Action": "Load",
+      "Target": "Portraits/xiddav_Matthias",
+      "FromFile": "Assets/NPCs/Matthias/Portrait.png"},
+
+{"Action": "Load",
+      "Target": "Characters/schedules/xiddav_Matthias",
+      "FromFile": "Assets/NPCs/Matthias/schedule.json"},
+{"Action": "Load",
+      "Target": "Characters/Dialogue/xiddav_Matthias",
+      "FromFile": "Assets/NPCs/Matthias/Dialogue.json"},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/xiddav_Matthias",
+	"Entries": {    
+		"Introduction":"{{i18n:Matthias_Introduction}}",
+  "Mon": "{{i18n:Matthias_Mon}}",
+  "Tue": "{{i18n:Matthias_Tue}}",
+  "Wed": "{{i18n:Matthias_Wed}}",
+  "Thu": "{{i18n:Matthias_Thu}}",
+  "Fri": "{{i18n:Matthias_Fri}}",
+  "Sat": "{{i18n:Matthias_Sat}}",
+  "Sun": "{{i18n:Matthias_Sun}}"}},
+ ]}

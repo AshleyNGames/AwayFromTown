@@ -1,0 +1,145 @@
+{ 	"Format": "2.8.0",
+"CustomLocations": [
+{"Name": "Custom_Xiddav_TrailerPark",
+    "FromMapFile": "Assets/Maps/TrailerPark.tmx"},
+{"Name": "Custom_Xiddav_BusStopCave",
+    "FromMapFile": "Assets/Maps/BusStopCave.tmx"},
+{"Name": "Custom_Xiddav_RedTrailer",
+    "FromMapFile": "Assets/Maps/RedTrailer.tmx"},
+{"Name": "Custom_Xiddav_BlueTrailer",
+    "FromMapFile": "Assets/Maps/BlueTrailer.tmx"},
+{"Name": "Custom_Xiddav_YellowTrailer",
+    "FromMapFile": "Assets/Maps/YellowTrailer.tmx"},
+{"Name": "Custom_Xiddav_TiffanyHouse",
+    "FromMapFile": "Assets/Maps/TiffanyHouse.tmx"},],
+
+"Changes": [
+//my Farm Warps
+{"Action": "EditMap",
+    "Target": "Maps/OldFamilyFarm, Maps/PaleontologyFarm",
+	"When": {"HasMod|contains=Xiddav.FamilyFarm": true},
+        "MapProperties": { "Warp": "84 15 BusStop 10 23 84 18 BusStop 10 23 84 16 BusStop 10 23 84 17 BusStop 10 23 90 55 Custom_Xiddav_TrailerPark 0 24 90 54 Custom_Xiddav_TrailerPark 0 24 90 53 Custom_Xiddav_TrailerPark 0 24 90 52 Custom_Xiddav_TrailerPark 0 24 90 51 Custom_Xiddav_TrailerPark 0 24 90 50 Custom_Xiddav_TrailerPark 0 24 54 91 Forest 68 0 55 91 Forest 68 0 56 91 Forest 68 0 57 91 Forest 68 0 41 -1 Backwoods 14 39 40 -1 Backwoods 14 39 42 -1 Backwoods 14 39 34 6 FarmCave 8 11" }},
+
+{"Action": "EditMap",
+    "Target": "Maps/TrailerPark",
+	"When": {"HasMod|contains=Xiddav.FamilyFarm": true},
+        "MapProperties": { "Warp": "44 -1 BusStop 43 47 43 -1 BusStop 43 47 42 -1 BusStop 42 47 59 38 Town 0 54 59 37 Town 0 54 59 39 Town 0 54 -1 23 OldFamilyFarm 89 54 -1 24 OldFamilyFarm 89 54 -1 25 OldFamilyFarm 89 54 -1 26 OldFamilyFarm 89 54 -1 27 OldFamilyFarm 89 54 " }},
+
+{"Action": "EditMap",
+    "Target": "Maps/TrailerPark",
+	"When": {"HasMod|contains=Xiddav.Paleontology": true},
+        "MapProperties": { "Warp": "44 -1 BusStop 43 47 43 -1 BusStop 43 47 42 -1 BusStop 42 47 59 38 Town 0 54 59 37 Town 0 54 59 39 Town 0 54 -1 23 PaleontologyFarm 89 54 -1 24 PaleontologyFarm 89 54 -1 25 PaleontologyFarm 89 54 -1 26 PaleontologyFarm 89 54 -1 27 PaleontologyFarm 89 54 " }},
+	
+	//NPCs	
+{"Action": "Include",
+		"FromFile": "Assets/NPCs/Matthias/Matthias.json"},
+{"Action": "Include",
+		"FromFile": "Assets/NPCs/Tiffany/Tiffany.json"},
+	
+//Bus Stop edits
+{"Action": "Load",
+     "Target": "Maps/BusStop",
+     "FromFile": "Assets/Maps/BusStop.tmx"},
+
+{"Action": "EditMap",
+     "Target": "Maps/BusStop",
+	"When": {"HasMod|contains=Rafseazz.RSVCP": true},
+     "FromFile": "Assets/Maps/RSVBusStop.tmx",
+     "PatchMode": "Replace",
+     "ToArea": { "X": 30, "Y": 0, "Width": 16, "Height": 23}},
+
+{"Action": "EditMap",
+    "Target": "Maps/BusStop",
+    "MapProperties": {
+		"Light": "49 4 1 26 19 4 21 19 4",
+		"NightTile":"AlwaysFront 21 19 908 AlwaysFront 26 19 908 Buildings 49 4 507",
+		"Warp": "59 45 Town 4 12 59 44 Town 4 12 9 22 Farm 79 17 9 23 Farm 79 17 9 24 Farm 79 17 9 25 Farm 79 17 9 6 Backwoods 60 30 9 7 Backwoods 60 30 9 8 Backwoods 60 30 9 9 Backwoods 60 30 42 48 Custom_Xiddav_TrailerPark 42 0 43 48 Custom_Xiddav_TrailerPark 42 0 44 48 Custom_Xiddav_TrailerPark 42 0 41 48 Custom_Xiddav_TrailerPark 42 0"}},
+
+{"Action": "EditMap",
+    "Target": "Maps/BusStop",
+	"When": {"Hasmod": "Rafseazz.RSVCP"},
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "38 -1 Custom_Ridgeside_RSVCableCar 20 29 37 -1 Custom_Ridgeside_RSVCableCar 19 29 39 -1 Custom_Ridgeside_RSVCableCar 21 29",
+      "Delimiter": " "}]},
+
+{"Action": "EditMap",
+    "Target": "Maps/BusStop",
+	"When": {"Query: {{DailyLuck}} > .02": true},
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "48 4 Custom_Xiddav_BusStopCave 24 24",
+      "Delimiter": " "}]},
+
+//Town Edits
+{"Action": "EditMap",
+     "Target": "Maps/Town",
+	"When": {"HasMod|contains=Xiddav.LittleRedSchoolHouse": false, "HasMod|contains=Xiddav.LittleRedSchoolHouseLazy": false},
+     "FromFile": "Assets/Maps/TownEntrence.tmx",
+     "PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 12, "Height": 15}},
+
+{"Action": "EditMap",
+     "Target": "Maps/Town",	
+	"When": {"HasMod|contains=Xiddav.LittleRedSchoolHouse": true},
+     "FromFile": "Assets/Maps/TownEntrence_School.tmx",
+     "PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 5, "Height": 15}},
+
+{"Action": "EditMap",
+     "Target": "Maps/Town",	
+	"When": {"HasMod|contains=Xiddav.LittleRedSchoolHouseLazy": true},
+     "FromFile": "Assets/Maps/TownEntrence_School.tmx",
+     "PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 5, "Height": 15}},
+
+{"Action": "EditMap",
+    "Target": "Maps/Town",
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "-1 54 Custom_Xiddav_TrailerPark 58 39 -1 55 Custom_Xiddav_TrailerPark 58 39 -1 53 Custom_Xiddav_TrailerPark 58 39 -1 12 BusStop 58 44 -1 13 BusStop 58 44",
+	"Delimiter": " "}]},
+
+//Fishing
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Custom_Xiddav_TrailerPark","Fish"],
+            "Entries": {
+				"Carp": {
+                    "Id": "(O)142",
+                    "ItemId": "(O)142"},
+				"Moss": {
+                    "Id": "(O)Moss",
+                    "ItemId": "(O)Moss"},
+				"GreenAlgae": {
+                    "Id": "(O)153",
+                    "ItemId": "(O)153"}}},
+
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Custom_Xiddav_BusStopCave","Fish"],
+            "Entries": {
+				"StoneFish": {
+                    "Id": "(O)158",
+                    "ItemId": "(O)158"},
+				"WhiteAlgae": {
+                    "Id": "(O)157",
+                    "ItemId": "(O)157"},
+				"CaveJelly": {
+                    "Id": "(O)CaveJelly",
+                    "ItemId": "(O)CaveJelly"}}},
+
+{"Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [ "GarbageCans" ],
+            "Entries": {"Xiddav.Park.7": {
+                   "BaseChance": -1.0,
+                    "Items": [{
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Xiddav_Parks_TrailerPark_1",
+                            "ItemId": "(O)346"}],
+                    "CustomFields": {}}  }},
+]}
