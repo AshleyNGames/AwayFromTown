@@ -1,0 +1,11 @@
+{  "Name": "Xiddav's Backwoods Expansion FTM",
+  "Author": "xiddav",
+  "Description": "spawn monsters in the tower",
+    "Version": "1.0.1",
+  "UniqueID": "Xiddav.Parks.BackWoodsExpansion.FTM",
+   "UpdateKeys": ["Nexus:42623"],
+  "MinimumApiVersion": "2.5",
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.26.1"}   
+}
