@@ -1,0 +1,49 @@
+{    "Changes": [
+
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Custom_Xiddav_FlowerField","ArtifactSpots"],
+            "Entries": {			
+				"CarrotSeeds": {
+                            "Season": "spring",
+                    "Id": "(O)CarrotSeeds",
+                    "ItemId": "(O)CarrotSeeds"},
+				"SummerSquashSeeds": {
+                            "Season": "summer",
+                    "Id": "(O)SummerSquashSeeds",
+                    "ItemId": "(O)SummerSquashSeeds"},
+				"BroccoliSeeds": {
+                            "Season": "fall",
+                    "Id": "(O)BroccoliSeeds",
+                    "ItemId": "(O)BroccoliSeeds"},
+				"PowdermelonSeeds": {
+                            "Season": "winter",
+                    "Id": "(O)PowdermelonSeeds",
+                    "ItemId": "(O)PowdermelonSeeds"},
+				"BridalVeil": {
+                    "Id": "(H)69",
+                    "ItemId": "(H)69",	
+				"Condition":"PLAYER_GENDER Female"},
+				"TopHat": {
+                    "Id": "(H)2",
+                    "ItemId": "(H)2",
+				"Condition":"PLAYER_GENDER Male"},
+				"BridalShirt": {
+                    "Id": "(S)1265",
+                    "ItemId": "(S)1265",
+				"Condition":"PLAYER_GENDER Female"},
+				"SimpleDress": {
+                    "Id": "(P)11",
+                    "ItemId": "(P)11",
+				"Condition":"PLAYER_GENDER Female"},
+				"SuitTop": {
+                    "Id": "(S)1010",
+                    "ItemId": "(S)1010",
+				"Condition":"PLAYER_GENDER Male"},
+				"TuboFlowers": {
+                    "Id": "(BC)108",
+                    "ItemId": "(BC)108",
+					"Chance": ".001",
+				"Condition":"DAY_OF_MONTH 24 25, SEASON spring"},
+				},},
+]}
