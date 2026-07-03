@@ -1,7 +1,8 @@
 { 	"Changes": [		
 {"Action": "EditData",
  "Target": "Strings/StringsFromMaps",
- "Entries": {"FrozenTent": "{{i18n:FrozenTent}}"}},
+ "Entries": {"FrozenTent": "{{i18n:FrozenTent}}", 
+	 "xiddavMagicalEssencePool": "{{i18n:MagicalPool}}"}},
 	
 {"Action": "EditData",
             "Target": "Data/Locations",

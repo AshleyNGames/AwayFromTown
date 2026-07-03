@@ -48,6 +48,9 @@
    </animation>
   </tile>
  </tileset>
+ <tileset firstgid="4889" name="lumi_towninterior" tilewidth="16" tileheight="16" tilecount="3425" columns="25">
+  <image source=".lumi_towninterior.png" width="400" height="2192"/>
+ </tileset>
  <layer id="1" name="Back" width="31" height="12">
   <data encoding="base64" compression="zlib">
    eJxjYGBgeM2JwMhAiZN03ItmBiGgzkkeXs4Hwchuf40krs2JG8OAOSd52AiKf6NhmLg1HgwD7pzkYScoxiXujQfDgCEX0J1cmLQ5EFvgocs4IbgYyC4B4p1AvAtJfCaQPYsLNw0CjkDaiQuTdgdiDzz0QiBeBMTNQNwCxCeB+BSS+EogXoWHpsTfsDRXzIU9LdLS37A018yFPS3S0t+wtFXMhT0tTuTCH++U+JtYmhb+JpamxN8vgfgVlP8KiY+LRge4/A0AR9mIug==
@@ -58,13 +61,13 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFpIBebuxi2MSpDdZisQMkhk2cEiDIgx3jkiekD1kNLvsIga285PllFJAPvgLD/Bs03L8D6R90jAPkdIMrPRGTbkYaAABwKwuz
+   eJxjYBgFpIBebuxi2MSpDdZisQMkhk2cEiDIA8F2cgwM9kDsIAfho8vDMC5xbGpw2YcOwoF2RgBxpByEv5WXcn8RCwqAdhYCcZEc/ewcjOArMMy/QcP9O5D+Qcc4QE43uNIToXQ1EgEAMB0Pgg==
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="31" height="12">
   <data encoding="base64" compression="zlib">
-   eJzjYmBgYCYT8wAxFwni6GocGcgHrjj04xLHpsabTAzT38uNinGJY1OTTSaG6V/LDcGBvAwMwbyY4tgwTM1mPgaGLUBcAsR1fBB+PR8ifAyYGBgMgdgIiJuAuBmIGXmpE+bkAkYohoGJQPdM5sUUB4G/QL/8A+L/fJTZ7Q30tw8QmwPZFlAxczQ1MPFWHGaQa3c20N4cIA4HsiOgYiA2cjqEiROyuxMYQGuBeD0Qn0QPLDygHIgrgLgSykZOhzBxYuw+C8TnSbSbGIDP7kTqWoUBluIQb2YAp8cGYnAiGXoIYQBU0EwA
+   eJzjYmBgYCYT8wAxFwni6GocGcgHrjj04xLHpsabTAzT38uNinGJY1OTTSaG6V/LDcGBvAwMwbyY4tgwTM1mPgaGLUBcAsR1fBB+PR8ifAyYGBgMgdgIiJuAuBmIGXmpE+bkAkYohoGJQPdM5sUUB4G/QL/8A+L/fJTZ7Q30tw8QmwPZFlAxczQ1MPFWHGaQa3c20N4cIA4HsiOgYiA2cjqEiROy+zTQnLXAQFoPxNzMxLuhHIgrgLgSykZOhzBxYuw+C7T3PIl2EwNAdnsIY7c7kbpWYYClIDuw2N3MAE6PDcTgRDL0EMIAc3lL3Q==
   </data>
  </layer>
  <layer id="18" name="Buildings 2" width="31" height="12">
@@ -72,7 +75,7 @@
    <property name="Draw" value="Buildings"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFlAJDXgYGY17scnP5GBjmAfF8PtLMfMvIwPAOiN8z4lcXCLQ3GIfde4F27gPi/STaPQog4B0TQ8NbIB4Iu/mYGRp4mQfG7lEwdAEAlSoMcg==
+   eJxjYBjc4KEM7cxeJszAsFwYt/wvIu025GVgMObFLjeXj4FhHhDP5yPNbW8ZGRjeAfF7RvzqAoH2BuOwey/Qzn1AvJ9Eu0cBBLxjYmh4C8QDYTcfM0MDL/PA2D0Khi4AAM4HD/g=
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -89,7 +92,7 @@
  </objectgroup>
  <layer id="5" name="Front" width="31" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBhYcJSFgeEYC23VEKMfBuz5sIs7MTEwOAPxQR7izCEEooD2RANxCBDH8UH48Uh2CwDtEgRiISBOAuJkIH5IJbvpAR4A/fIQiB/hCE9iwTkmhoazQEwVR1EILEkURwaZjAwMvUDcD8QrGUm3O5JEcXS7YYAcu0fB0AEAQwIWKQ==
+   eJxjYBhYcJSFgeEYC23VwOR2CjMw7BLGb449H3ZxJyYGBmcgPsiDXz+xIApoTzQQhwBxHB+EH49ktwDQLkEgFgLiJCBOBuKHVLKbHuAB0C8PgfgRjvAkFpxjYmg4C8RUcRSFwJJEcWSwGhh/vYwMDP1A/JqJdLsjSRRHtxsGyLGbENAnkKdoCboH0O7BCABcDxmu
   </data>
  </layer>
  <layer id="22" name="Front 2" width="31" height="12">
@@ -97,7 +100,7 @@
    <property name="Draw" value="Front"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQxmsE2Rg2CA4MHYX8jIwFPMOjN2jYBSMAkwAAKXvAn8=
+   eJxjYBi+oFh4oF1Ae7BOkIFhg+DA2F3ICwxj3oGxexSMglGACQA9wQMF
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>
@@ -109,7 +112,7 @@
  <objectgroup id="9" name="Paths"/>
  <layer id="7" name="AlwaysFront" width="31" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQxmE8DIwhPFilzvAx8BwEIgP8dHG7hKgvWU47KY2OATEh6HsI0C8DIqRxVPp45RRMETAMiLwYqjaJUSqh2Fc5pPjRmoCAGggG9g=
+   eJxjYBja4J4wA8Nt4YF2xcCBEF4GhjBe7HIH+BgYDgLxIT7a2F0CtLcMh93UBoeA+DCUfQSIl0ExsngqfZwyCoYIWEYEXgxVu4RI9TCMy3xy3EhNAADduR23
   </data>
  </layer>
  <objectgroup id="8" name="AlwaysFront"/>

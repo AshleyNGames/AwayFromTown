@@ -1,0 +1,77 @@
+{ 	"Format": "2.8.0",
+"CustomLocations": [
+{"Name": "Custom_Xiddav_ExtraMountain",
+    "FromMapFile": "Assets/ExtraMountain.tmx"},
+{"Name": "Custom_Xiddav_AbandonedMineShaft",
+    "FromMapFile": "Assets/AbandonedMineShaft.tmx"},
+{"Name": "Custom_Xiddav_DeepAbandonedMineShaft",
+    "FromMapFile": "Assets/DeepAbandonedMineShaft.tmx"},
+{"Name": "Custom_Xiddav_MineShaft",
+    "FromMapFile": "Assets/MineShaft.tmx"}],
+
+"Changes": [
+{"Action": "EditMap",
+     "Target": "Maps/Mountain, Maps/Mountain_Shortcuts, Maps/Mine, Maps/Mines/20",
+	"PatchMode": "Replace",
+     "FromFile": "Assets/{{TargetWithOutPath}}.tmx"},
+
+{"Action": "EditMap",
+  "Target": "Maps/Mines/77377",
+  "FromFile": "assets/77377.tmx",
+	"PatchMode": "Replace",
+  "ToArea": { "X": 29, "Y": 47, "Width": 51, "Height": 58}},
+
+
+{"Action": "EditMap",
+    "Target": "Maps/Mountain",
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "132 29 Custom_Xiddav_ExtraMountain 1 18",
+      "Delimiter": " "}]},
+
+{"Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Dwarf", "Items" ],
+            "Entries": {
+                "Shard": {
+                    "Id": "(O)74",
+                    "ItemId": "(O)74",
+                    "Price": 10000}}},
+
+{"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": ["Default", "Destinations"],
+	"Entries": {
+		"FarmCave": {
+			"Id": "OldMine",
+			"Condition": "PLAYER_VISITED_LOCATION ANY Custom_Xiddav_AbandonedMineShaft",
+			"DisplayName": "{{i18n:OldMine}}",
+			"TargetLocation": "Custom_Xiddav_DeepAbandonedMineShaft",
+			"TargetTile": { "X": 15, "Y": 11},
+			"TargetDirection": "down"}}},
+
+{           "Action": "EditMap",
+	"When":{"HasMod|contains=Lemurkat.EastScarp": true},
+            "Target": "Maps/Mountain",
+            "FromFile": "assets/Mountain_ES.tmx",
+            "ToArea": {"X": 86,"Y": 36,"Width": 9,"Height": 5}},
+
+{			"Action": "EditMap",
+	"When":{"HasMod|contains=Lemurkat.EastScarp": true},
+            "Target": "Maps/Mountain",
+            "FromFile": "assets/Mountain_ESDeepMountains.tmx",
+            "ToArea": {"X": 87,"Y": 0,"Width": 7,"Height": 21}},
+
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Mine","Fish"],
+            "Entries": {
+				"Ghost": {
+                    "Id": "(O)156",
+					"chance":".5",
+                    "ItemId": "(O)156"},
+				"WhiteAlgae": {
+                    "Id": "(O)157",
+                    "ItemId": "(O)157"}}},
+]}

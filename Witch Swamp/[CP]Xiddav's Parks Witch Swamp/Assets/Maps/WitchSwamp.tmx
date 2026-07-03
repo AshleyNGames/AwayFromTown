@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="40" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="3">
- <properties>
-  <property name="AmbientLight" value="0 0 0"/>
- </properties>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="40" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="4">
  <tileset firstgid="1" name="wt" tilewidth="16" tileheight="16" tilecount="128" columns="8">
   <image source=".witchSwampTiles.png" width="128" height="256"/>
   <tile id="4">
@@ -324,9 +321,147 @@
  <tileset firstgid="1561" name="zhime_fairygarden" tilewidth="16" tileheight="16" tilecount="1480" columns="37">
   <image source=".hime_fairygarden.png" width="592" height="640"/>
  </tileset>
+ <tileset firstgid="3041" name="zkailey_animations" tilewidth="16" tileheight="16" tilecount="7770" columns="42">
+  <image source=".kailey_animations.png" width="672" height="2960"/>
+  <tile id="181">
+   <animation>
+    <frame tileid="181" duration="150"/>
+    <frame tileid="182" duration="150"/>
+    <frame tileid="183" duration="150"/>
+    <frame tileid="184" duration="150"/>
+    <frame tileid="185" duration="150"/>
+    <frame tileid="186" duration="150"/>
+    <frame tileid="187" duration="150"/>
+    <frame tileid="188" duration="150"/>
+    <frame tileid="223" duration="150"/>
+    <frame tileid="224" duration="150"/>
+    <frame tileid="225" duration="150"/>
+    <frame tileid="226" duration="150"/>
+    <frame tileid="227" duration="150"/>
+    <frame tileid="228" duration="150"/>
+    <frame tileid="229" duration="150"/>
+    <frame tileid="230" duration="150"/>
+   </animation>
+  </tile>
+  <tile id="1218">
+   <animation>
+    <frame tileid="1218" duration="300"/>
+    <frame tileid="1219" duration="300"/>
+    <frame tileid="1220" duration="300"/>
+    <frame tileid="1221" duration="300"/>
+    <frame tileid="1222" duration="300"/>
+    <frame tileid="1223" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="1344">
+   <animation>
+    <frame tileid="1344" duration="300"/>
+    <frame tileid="1345" duration="300"/>
+    <frame tileid="1346" duration="300"/>
+    <frame tileid="1347" duration="300"/>
+    <frame tileid="1348" duration="300"/>
+    <frame tileid="1349" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="1470">
+   <animation>
+    <frame tileid="1470" duration="300"/>
+    <frame tileid="1471" duration="300"/>
+    <frame tileid="1472" duration="300"/>
+    <frame tileid="1473" duration="300"/>
+    <frame tileid="1474" duration="300"/>
+    <frame tileid="1475" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="4284">
+   <animation>
+    <frame tileid="4284" duration="200"/>
+    <frame tileid="4285" duration="200"/>
+    <frame tileid="4286" duration="200"/>
+    <frame tileid="4287" duration="200"/>
+    <frame tileid="4288" duration="200"/>
+    <frame tileid="4289" duration="200"/>
+    <frame tileid="4290" duration="200"/>
+    <frame tileid="4291" duration="200"/>
+    <frame tileid="4292" duration="200"/>
+    <frame tileid="4293" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="5082">
+   <animation>
+    <frame tileid="5082" duration="200"/>
+    <frame tileid="5083" duration="200"/>
+    <frame tileid="5084" duration="200"/>
+    <frame tileid="5085" duration="200"/>
+    <frame tileid="5086" duration="200"/>
+    <frame tileid="5087" duration="200"/>
+    <frame tileid="5088" duration="200"/>
+    <frame tileid="5089" duration="200"/>
+    <frame tileid="5090" duration="200"/>
+    <frame tileid="5091" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7194">
+   <animation>
+    <frame tileid="7194" duration="200"/>
+    <frame tileid="7195" duration="200"/>
+    <frame tileid="7196" duration="200"/>
+    <frame tileid="7197" duration="200"/>
+    <frame tileid="7198" duration="200"/>
+    <frame tileid="7199" duration="200"/>
+    <frame tileid="7200" duration="200"/>
+    <frame tileid="7201" duration="200"/>
+    <frame tileid="7202" duration="200"/>
+    <frame tileid="7203" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="10811" name="zkailey_mine_lava_dark_extra" tilewidth="16" tileheight="16" tilecount="3276" columns="42">
+  <image source=".kailey_mine_lava_dark_extra.png" width="672" height="1248"/>
+  <tile id="12">
+   <animation>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="13" duration="150"/>
+    <frame tileid="14" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="13" duration="150"/>
+    <frame tileid="14" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="13" duration="150"/>
+    <frame tileid="14" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+    <frame tileid="12" duration="150"/>
+   </animation>
+  </tile>
+ </tileset>
  <layer id="1" name="Back" width="40" height="50">
   <data encoding="base64" compression="zlib">
-   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
+   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
+  </data>
+ </layer>
+ <layer id="14" name="Back2" width="40" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzkENACAMBLATAgZALm+8ImPJaBU0AQA6mLt60M9Z1QMAAAAASO6oHsA/HoJOAb8=
   </data>
  </layer>
  <objectgroup id="2" name="Back">
@@ -338,14 +473,15 @@
  </objectgroup>
  <layer id="3" name="Buildings" width="40" height="50">
   <data encoding="base64" compression="zlib">
-   eJztWFlOwzAQNS1SVamrVNZWam8Cf/DLUdjFfgAQ/yx/HIGjIDgPM8JPTKfjNkntFqE8adTEcerxrC92rkSJEiVK/GeskFRIqiSrS9YF2CHZ9dd1Mb7mlqvjpv/dI9n31101pyGuO26x9h2Ja6y7rub0nG3fx9pi7Dv0C2yRtIznbD/Yl/eg9W9MvBEPvJ7cf92YwzaCP7VujF4CvaQ+2D/Hlo69LEhhP8QT+3Qgxi37hNAk6av35wH7Ejkn8zWUF7N0Y71k3syrG6//oHJOx/tBxv9DzMl9zgMd99BRjx+SHJEck5yQnJKckZyreRxzw4iFJRT3b9Xx+wuSS5IrkmuSG5Jbkjv1XuyctWobr2HVkyxIkbPShojvIvWEkaLmSVth/6GeMQ3YW2xAl/faz/7bfjyvj3lvnZiKCbCOqKkbfiyvj1P2Mwus87aXvvh9r4zf4xe+1b27KIrW+Ptq+Bnqeow8zlrjpT34+qP6ew8eK/s2x/IifK25gux56DMjfy/3qrlFDMBGsjdprqB5gu7XktvHzuO6++WbFTcZ36FaI+sl50nLLa6HwCbTOJbeUwrfMnQPsfw5C/qbaDM0sQB0Ldb8JSukb0cFdbEg+y2v8Zf4AcA+/vI9WOr7RGPPNfudFxp/9c9S8QOgK9bouPz8oOfS8QOGzj34OKv9Un6PWyhiPwbqUurzjbw5IuvSZy2+PTWfQU8Ah9J8uunGORfHhrR57FyWZz2Wb7S/YR9wGn0Ok4pPy7MXJ9bQPbAn5ltIVQtDPVTWRFnrtN6IhVT64fvIOgdATA6MMXD8XZeOJzA2Zk8JfhvEOneZF5YeMc9dsiDvd1h79pSoyBtDWeLCwjeduy93
+   eJztWEtuE0EQLWwkK0oc25LzIUGK1wjnCmQHV+GTIP7ifwAkWMOWI7BjDxdgz46cI1VKP3hT6Rl7ZrpjFvOkJ/fM9Lir6z8t0qFDhw4dcuLn4WrXv6LsKfvKq6sV5S9uKY/CeI3ub8lqZdwNv7eVd8J4Qs+/z0U26Hos+fQb85sZjbHutpszlbh+Pw4uR78HYYFrys3Ic9Mf9Gt78PJvXHgjHWw93v9aZI7pCPY02UY3i8+nmWSDPNi/+dakYm4ZcugP/mQ2vU73ve2qMFTuu/fbwGyJmON4LYuLRbKZXBw3bWWz9YeHxZjz/n5XeU95X/lAeaw8UT50/wef4322gfd7yOjvP1I+Vj5RPlU+Uz5XvnDzzOcOXGJpU/fK/P5rv3j9UvlK+Vr5RvlW+U753r2XOmZjuc3WiOWTZZAyZqF31iH8u0k+MeTIeawr7L+sZlQBe0sNlsX2Pwrjuja2vY1TCeVgMiKn7oR7dW2cs57FYDLvBe7T77de8Rq/sK2v3U3RNMd/6Jc/Q15PEcfL5njWh41/9f9do4/lum2+fBm29r0C1zzUmVm45r363iIFoCOuTb5X8H2Cr9fc26eOY8slnwbna/Tkon+X5RrOlxYnm5Kn74vVEOikqsfakuKectjW4GtIzJ6L4L+JdssmNoDPxb5/WRZs21lDWWLgGmdr/E/9AQAb2xos72eNmy+D+Ds/boishz4oR3/Ave2E1hjLcv3Bn7nI6fx8PJV8/YHBxx5sXKW/ke5vHPaY83s8hrr9FXwPeSn3+UbdGOG89HueXp++n0FNQA/l++mhFHsu8w3WeepY5rOemG28vaEf9DQ4h+HnOeKFz16E1vA1cErzY8iVC8tqKOdEznVebvhCSvk4D+L7yJ8DQMY9KcrPfmr3jyRfn2DYWTyl9Nsg1blLW8TkiOk7J+p+h40WT0mKuj7EflHnzOoM0GY55w==
   </data>
  </layer>
  <layer id="7" name="Paths" width="40" height="50">
   <data encoding="base64" compression="zlib">
-   eJzt1sEJADAIA0A/7j9jN+kCfqsW7iYIQogRAMAvTk4nALrpPQDb2CYAgHf8Wr3cm8oFiugEfw==
+   eJzt1sENACAIA0A+7j8jm7iAPEFN7iZomhAaAQD8ItftBMA0dw/Aa/wmAIA+1daywXrolZMNobAFZQ==
   </data>
  </layer>
+ <objectgroup id="13" name="Paths"/>
  <objectgroup id="4" name="Buildings">
   <object id="2" name="TileData" x="320" y="320" width="16" height="16">
    <properties>
@@ -355,8 +491,13 @@
  </objectgroup>
  <layer id="5" name="Front" width="40" height="50">
   <data encoding="base64" compression="zlib">
-   eJztmDkOwjAQRSNRcBTooIMOrsAudrErYWtYjsFVuA3X4aejyDgyJOMRnie9JnHisTOOJwkCRVEUeZRg2XUQBiqw6joIAzVYN5zX+f2NpPkNizx9vwo8/djgSz7lNU5qvbZgG3ZgF/ZgHw6I+3CvmyEcwTGcwCmcwTnRPu29ZMsuZc0t4BKu4Bpu4Da+jmjfgM3MoksnhBHcwwM8whM8J7SVuO4V5d/wZS+LyWOsWdaeLupAmz4/x/pkqv9s9lCu/Uzy3hQxPZdveQiPT/GTC/LySuTmDcfvmrdGpMyfT/VMHmT9zarYIyWHqTg4c9hUa1FxSMlhKg7u/y42SK5tFXe8ATXEIeI=
+   eJztmD0OwjAMhSshYOIcIP43kDrAdWBEcBouwW2YUS+Cl0oRalxCHTuh75M8VYpfUju2UxQAAJAeU7KZtQiGDdnWWgTDjmzPfMf5dqPpfE9jHd/PgY6fEPoST7H22Zav35Jj3nShWgkuRhzIjrJLipFi3sditLZWoMtkaa0A1Lh3fLmwVNLM5x1/mf++Vox6Jtl7WtSzEJ/uXh9K/V9IDdWqZynXprPSfwHgn7hS3tw8uXOnmvMS7r1zpfL0CNz5adKX2TwW0jMrCMeN4aHhbOjLJc0Y5notn45UYtinA+8uIDfeQqsZ+w==
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>
+ <layer id="12" name="AlwaysFront" width="40" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztlzsOwjAMhnMABjgCKxdhLk9BeYj3NTgFKwMX5WdiIGpU7MZW9H/St1RN07i2k4ZQJq++7fzPgWz8UDheE+laPmisRzMmGmvSQjNXpTGyrpvSefR+rzHm+bGKuae+LiWWyySO5LtXcAKncAbncAGXGi+mwAquYQ03cAt3cN/yOV3tyQd4hCd4hhd4hbdupiMNpPpuSf2R+KMpv5h7cf7py97OtJ7+90h5lNI7vNWtNxifL+NRuLe5P9WDLWuI/7L58LgXW9e19fzEHo914QnJ/uCpv7PWdchxXkjV5Bt/UxzU
+  </data>
+ </layer>
 </map>

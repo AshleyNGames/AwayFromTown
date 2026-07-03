@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="4">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="4">
  <properties>
   <property name="AmbientLight" value="120 160 80"/>
+  <property name="Light" value="0 1 1 0 7 1 2 0 1 17 0 1 18 0 1 18 17 1 8 19 1 3 19 1"/>
   <property name="LocationContext" value="GraveyardFall"/>
   <property name="Warp" value="-1 12 Custom_Xiddav_Graveyard 42 13"/>
  </properties>
@@ -263,9 +264,89 @@
    </properties>
   </tile>
  </tileset>
+ <tileset firstgid="353" name="zkailey_animations" tilewidth="16" tileheight="16" tilecount="7770" columns="42">
+  <image source=".kailey_animations.png" width="672" height="2960"/>
+  <tile id="1218">
+   <animation>
+    <frame tileid="1218" duration="300"/>
+    <frame tileid="1219" duration="300"/>
+    <frame tileid="1220" duration="300"/>
+    <frame tileid="1221" duration="300"/>
+    <frame tileid="1222" duration="300"/>
+    <frame tileid="1223" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="1344">
+   <animation>
+    <frame tileid="1344" duration="300"/>
+    <frame tileid="1345" duration="300"/>
+    <frame tileid="1346" duration="300"/>
+    <frame tileid="1347" duration="300"/>
+    <frame tileid="1348" duration="300"/>
+    <frame tileid="1349" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="1470">
+   <animation>
+    <frame tileid="1470" duration="300"/>
+    <frame tileid="1471" duration="300"/>
+    <frame tileid="1472" duration="300"/>
+    <frame tileid="1473" duration="300"/>
+    <frame tileid="1474" duration="300"/>
+    <frame tileid="1475" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="4284">
+   <animation>
+    <frame tileid="4284" duration="200"/>
+    <frame tileid="4285" duration="200"/>
+    <frame tileid="4286" duration="200"/>
+    <frame tileid="4287" duration="200"/>
+    <frame tileid="4288" duration="200"/>
+    <frame tileid="4289" duration="200"/>
+    <frame tileid="4290" duration="200"/>
+    <frame tileid="4291" duration="200"/>
+    <frame tileid="4292" duration="200"/>
+    <frame tileid="4293" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="5082">
+   <animation>
+    <frame tileid="5082" duration="200"/>
+    <frame tileid="5083" duration="200"/>
+    <frame tileid="5084" duration="200"/>
+    <frame tileid="5085" duration="200"/>
+    <frame tileid="5086" duration="200"/>
+    <frame tileid="5087" duration="200"/>
+    <frame tileid="5088" duration="200"/>
+    <frame tileid="5089" duration="200"/>
+    <frame tileid="5090" duration="200"/>
+    <frame tileid="5091" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="7194">
+   <animation>
+    <frame tileid="7194" duration="200"/>
+    <frame tileid="7195" duration="200"/>
+    <frame tileid="7196" duration="200"/>
+    <frame tileid="7197" duration="200"/>
+    <frame tileid="7198" duration="200"/>
+    <frame tileid="7199" duration="200"/>
+    <frame tileid="7200" duration="200"/>
+    <frame tileid="7201" duration="200"/>
+    <frame tileid="7202" duration="200"/>
+    <frame tileid="7203" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
  <layer id="1" name="Back" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJzdklEOATEQhjtPa3ECnACJ4AQbJ8Ctd9+xLoATbL35J2bSptEoKxEm+bLNzPSfbvsb8/9hwZAe52JY6dHQXAUm1J5KtE7g3IKLcVqNced+h+uPa+1BB3e7i9SLRC3WyaFT4psFejqDyb13zMjlfbinC3qgT05PZ8zBAixFi2ceI3BtIP4cyfka+SdeF8jNwCrBX+ybsXhxSve+GhyktkZuA7b0/L50T2mcjl971au6p47UU9/xm161H9CynhbjRzgzNi/svQFY0fLS
+   eJzdklEOATEQhjtPa3ECnAAvOMFyAtx69x3rAjjB1pt/YiZtGo2yEmGSL9vMTP/ptr8x/x8WDOlxLoaVHg3NVWBC7alE6wTOLbgYp9UYd+53uP641h50cLe7SL1I1GKdHDolvlmgpzOY3HvHjFzeh3u6oAf65PR0xgzMwUK0eOYxAtcG4s+RnK+Rf+J1gdwSrBL8xb4ZixendO+rwUFqa+Q2YEvP70v3lMbp+LVXvap76kg99R2/6VX7AS3raTF+hDNj88LeG4Ex8uU=
+  </data>
+ </layer>
+ <layer id="10" name="Back2" width="19" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDBdQLTvQLhgFgxkAAEjiAJk=
   </data>
  </layer>
  <objectgroup id="2" name="Back">
@@ -289,7 +370,7 @@
  <objectgroup id="6" name="Paths"/>
  <layer id="7" name="Front" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJzLZ2BgqGdABflYxJDBfKgadD2jYBSMglEwlAEbI2X6+YD6+YF4ApAtBqQlgFicCBqbmBwQNwDNWcAAodEBSKwATaweSW0BkjqYWgCCowsk
+   eJzLZ2BgqAfihWwMcJAPFcMF5kPVwIAyUK88OwSPgqEPkNPCKBgFIwmwMVKmn48RUh5OALLFgGwJIBYngsYmJgfEDUBzFjBAaBBALmNBYgUMqPm1HkltAZI6mFoAOSINXg==
   </data>
  </layer>
  <objectgroup id="8" name="Front"/>

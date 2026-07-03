@@ -1,7 +1,7 @@
 { "Name": "Xiddav's Parks Witch Swamp edit and expansion",
   "Author": "Xiddav",
-  "Version": "1.0.0",
-  "Description": "I edited a lot of the town to my liking.",
+  "Version": "1.1.0",
+  "Description": "I edited a lot of the town to my liking. This is the Witch Swamp.",
   "UniqueID": "Xiddav.Parks.WSEE",
   "MinimumApiVersion": "3.0",
   "UpdateKeys": [ "Nexus:44032" ],
@@ -12,5 +12,7 @@
    {"UniqueID": "hxw.tilesheets",
       "IsRequired": true},
    {"UniqueID": "Lumisteria.TtilesheetsOutdoor",
+      "IsRequired": true},
+   {"UniqueID": "KaileyStardew.Tilesheets",
       "IsRequired": true},
   ]}
