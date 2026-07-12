@@ -1,13 +1,24 @@
 { 	"Format": "2.8.0",
-	
-"ConfigSchema": { "Add Mod Cave":{"AllowValues":  "true, false", "Default":  "false"}},
-	
-	"CustomLocations": [
+"CustomLocations": [
 {"Name": "Custom_Xiddav_MountainPathModCave",
     "FromMapFile": "Assets/ModCave.tmx"}
 ],
 "Changes": [	
-	{"Action": "EditMap",
+{"LogName": "Mod Cave Entrence",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Xiddav_MountainPath",
+			"FromFile": "assets/MountainPathModCave.tmx",
+			"ToArea": {"X": 41, "Y": 6, "Width": 7, "Height": 7}},
+
+{"Action": "EditMap",
+    "Target": "Maps/Custom_Xiddav_MountainPath",
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "44 8 Custom_Xiddav_MountainPathModCave 11 21",
+	"Delimiter": " "}]},
+	
+{"Action": "EditMap",
     "Target": "Maps/Backwoods",
 	"When": {"HasMod|contains=AndrewJC.CoalPointFarm": true},
     "TextOperations": [{
@@ -76,19 +87,63 @@
 			"FromFile": "assets/Coast_Backwoods.tmx",
 			"ToArea": {"X": 8, "Y": 33, "Width": 5, "Height": 8}},
 
-{"LogName": "Mod Cave Entrence",
-	"When":{"Add Mod Cave": true},
-			"Action": "EditMap",
-			"Target": "Maps/Custom_Xiddav_MountainPath",
-			"FromFile": "assets/MountainPathModCave.tmx",
-			"ToArea": {"X": 41, "Y": 6, "Width": 7, "Height": 7}},
+//additional areas to mod cave
+{"Action": "EditMap",
+	"When":{"HasMod|contains=Lnh.CustomMpas": true},
+            "Target": "Maps/Custom_Xiddav_MountainPathModCave",
+            "MapTiles": [{"Position": {"X": 6,"Y": 5},
+                    "Layer": "Back",
+                    "SetProperties": {"TouchAction": "Warp Custom_Backwoods_N 19 38"}}]},
+{"Action": "EditMap",
+	"When":{"HasMod|contains=Lnh.CustomMpas": true},
+            "Target": "Maps/Custom_Xiddav_MountainPathModCave",
+            "MapTiles": [{"Position": {"X": 7,"Y": 6},
+                    "Layer": "Buildings",
+                    "SetProperties": {"Action": "Message Text.30"}}]},
+{"Action": "EditMap",
+	"When":{"HasMod|contains=Lnh.CustomMpas": true},
+            "Target": "Maps/Custom_Backwoods_N",
+            "MapTiles": [{"Position": {"X": 19,"Y":39},
+                    "Layer": "Back",
+                    "SetProperties": {"TouchAction": "Warp Custom_Xiddav_MountainPathModCave 6 6"}}]},
+{"Action": "EditMap",
+	"When":{"HasMod|contains=Lnh.CustomMpas": true},
+            "Target": "Maps/Custom_Backwoods_N",
+            "MapTiles": [{"Position": {"X": 20,"Y":39},
+                    "Layer": "Back",
+                    "SetProperties": {"TouchAction": "Warp Custom_Xiddav_MountainPathModCave 6 6"}}]},
+//DownHill
+{"Action": "EditMap",
+	"When":{"HasMod|contains=DH.Kiyuga.Main": true},
+        "Target": "Maps/Custom_Xiddav_MountainPathModCave",
+        "TextOperations": [ 
+			{ "Operation": "Append", 
+				"Target": [ "MapProperties", "Warp" ], 
+				"Value": "21 8 Downhill 3 73 1 8 Downhill 81 33",
+				"Delimiter": " " }]},
 
 {"Action": "EditMap",
-    "Target": "Maps/Custom_Xiddav_MountainPath",
-	"When":{"Add Mod Cave": true},
+	"When":{"HasMod|contains=DH.Kiyuga.Main": true},
+"Target": "Maps/Downhill",
+"MapProperties": {"Warp":"2 72 Custom_Xiddav_MountainPathModCave 20 8 2 73 Custom_Xiddav_MountainPathModCave 20 8 2 74 Custom_Xiddav_MountainPathModCave 20 8 2 75 Custom_Xiddav_MountainPathModCave 20 8 2 76 Custom_Xiddav_MountainPathModCave 20 8 2 77 Custom_Xiddav_MountainPathModCave 20 8 28 81 BusStop 21 4 27 81 BusStop 21 4 26 81 BusStop 21 4 25 81 BusStop 18 4 24 81 BusStop 15 4 23 81 BusStop 15 4 22 81 BusStop 15 4 82 31 Custom_Xiddav_MountainPathModCave 2 8 82 32 Custom_Xiddav_MountainPathModCave 2 8 82 33 Custom_Xiddav_MountainPathModCave 2 8 10 7 DH.Mine 27 32" 
+}},
+
+{"Action": "EditMap",
+    "Target": "Maps/Mountain",
+	"When":{"HasMod|contains=DH.Kiyuga.Main": true},
     "TextOperations": [{
       "Operation": "Prepend",
       "Target": [ "MapProperties", "Warp" ],
-      "Value": "44 8 Custom_Xiddav_MountainPathModCave 11 21",
-	"Delimiter": " "}]},
+      "Value": " 0 12 Custom_Xiddav_MountainPath 83 21 0 13 Custom_Xiddav_MountainPath 83 21 0 14 Custom_Xiddav_MountainPath 83 21",
+      "Delimiter": " "}]},
+
+{"Action": "EditMap",
+    "Target": "Maps/Custom_Xiddav_MountainPath",
+	"When":{"HasMod|contains=DH.Kiyuga.Main": true},
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": " 84 21 Mountain 1 13 84 20 Mountain 1 13 84 22 Mountain 1 13",
+      "Delimiter": " "}]},
+
 ]}
