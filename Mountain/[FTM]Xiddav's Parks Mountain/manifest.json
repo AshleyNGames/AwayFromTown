@@ -1,0 +1,11 @@
+{  "Name": "Xiddav's Parks Mountain FTM",
+  "Author": "xiddav",
+  "Description": "FTM for Xiddav's Parks Mountains",
+    "Version": "1.0.2",
+  "UniqueID": "Xiddav.Parks.Mountain.FTM",
+   "UpdateKeys": ["Nexus:"],
+  "MinimumApiVersion": "2.5",
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.26.1"}
+}

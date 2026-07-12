@@ -1,0 +1,293 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": true,
+  "MonsterSpawnEnabled": false,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "DeepAbandonedMineShaftForage",
+        "MapName": "Custom_Xiddav_DeepAbandonedMineShaft",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,35/20,43"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [
+      404
+    ],
+    "SummerItemIndex": [
+      404
+    ],
+    "FallItemIndex": [
+      404,
+      420,
+      422
+    ],
+    "WinterItemIndex": [
+      404
+    ],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [
+      {
+        "ObjectTypes": [
+          "Stump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Farm large object area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 999,
+        "MaximumSpawnsPerDay": 999,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": null,
+        "LevelTenSpawnChance": null,
+        "UniqueAreaID": "DeepAbandonedMineShaftOre",
+        "MapName": "Custom_Xiddav_DeepAbandonedMineShaft",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 15,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,35/20,43"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 0,
+      "FrozenGeode": 0,
+      "MagmaGeode": 0,
+      "OmniGeode": 0,
+      "Gem": 6,
+      "Copper": 0,
+      "Iron": 4,
+      "Gold": 7,
+      "Iridium": 9,
+      "Mystic": 10,
+      "Radioactive": 0,
+      "Diamond": 6,
+      "Ruby": 6,
+      "Jade": 6,
+      "Amethyst": 6,
+      "Topaz": 6,
+      "Emerald": 6,
+      "Aquamarine": 6,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0,
+      "Coal": 0
+    },
+    "StartingSpawnChance": {
+      "Stone": 20,
+      "Geode": 4,
+      "FrozenGeode": 0,
+      "MagmaGeode": 0,
+      "OmniGeode": 1,
+      "Gem": 8,
+      "Copper": 21,
+      "Iron": 18,
+      "Gold": 12,
+      "Iridium": 5,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 5,
+      "CinderShard": 0,
+      "Coal": 10
+    },
+    "LevelTenSpawnChance": {
+      "Stone": 11,
+      "Geode": 6,
+      "FrozenGeode": 0,
+      "MagmaGeode": 0,
+      "OmniGeode": 3,
+      "Gem": 15,
+      "Copper": 21,
+      "Iron": 20,
+      "Gold": 20,
+      "Iridium": 15,
+      "Mystic": 5,
+      "Radioactive": 1,
+      "Diamond": 3,
+      "Ruby": 0,
+      "Jade": 5,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0,
+      "Coal": 15
+    },
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "skeleton",
+            "Settings": {}
+          }
+        ],
+        "UniqueAreaID": "XiddavTheGraveyard",
+        "MapName": "Custom_Xiddav_Graveyard",
+        "MinimumSpawnsPerDay": 15,
+        "MaximumSpawnsPerDay": 30,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 30,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": "skeletonStep"
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    558,
+    583,
+    606,
+    607,
+    608,
+    630,
+    635,
+    636,
+    680,
+    681,
+    685
+  ],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}

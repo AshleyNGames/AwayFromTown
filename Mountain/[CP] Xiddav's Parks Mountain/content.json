@@ -1,0 +1,137 @@
+{ 	"Format": "2.8.0",
+"ConfigSchema": { "AllowCask":{"AllowValues":  "true, false", "Default":  "false"}},
+
+"CustomLocations": [
+{"Name": "Custom_Xiddav_ExtraMountain",
+    "FromMapFile": "Assets/ExtraMountain.tmx"},
+{"Name": "Custom_Xiddav_AbandonedMineShaft",
+    "FromMapFile": "Assets/AbandonedMineShaft.tmx"},
+{"Name": "Custom_Xiddav_DeepAbandonedMineShaft",
+    "FromMapFile": "Assets/DeepAbandonedMineShaft.tmx"},
+{"Name": "Custom_Xiddav_MineShaft",
+    "FromMapFile": "Assets/MineShaft.tmx"},
+{"Name": "Custom_Xiddav_MineOffice",
+    "FromMapFile": "Assets/MineOffice.tmx"},
+{"Name": "Custom_Xiddav_MaruBasment",
+    "FromMapFile": "Assets/MaruBasement.tmx"},
+],
+
+"Changes": [
+{"Action": "EditData",
+ "Target": "Strings/StringsFromMaps",
+ "Entries": {"MarILDA2": "{{i18n:MarILDA2}}"}},
+
+{"Action": "Include",
+		"FromFile": "assets/Dwarves/Dwarves.json"},
+	
+{"Action": "EditMap",
+     "Target": "Maps/Mountain, Maps/Mountain_Shortcuts, Maps/Mine, Maps/Mines/20, Maps/ScienceHouse, Maps/MaruBasement",
+	"PatchMode": "Replace",
+     "FromFile": "Assets/{{TargetWithOutPath}}.tmx"},
+
+{"Action": "EditMap",
+  "Target": "Maps/Mines/77377",
+  "FromFile": "assets/77377.tmx",
+	"PatchMode": "Replace",
+  "ToArea": { "X": 29, "Y": 47, "Width": 51, "Height": 58}},
+
+{"Action": "EditMap",
+		"When": {"Hearts:George": "10"},
+  "Target": "Maps/Custom_Xiddav_ExtraMountain",
+  "FromFile": "assets/ExtraMountainRepraied.tmx",
+	"PatchMode": "Replace",
+  "ToArea": { "X": 6, "Y": 5, "Width": 10, "Height": 10}},
+
+{"Action": "EditMap",
+    "Target": "Maps/Mountain",
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "132 29 Custom_Xiddav_ExtraMountain 1 18 132 30 Custom_Xiddav_ExtraMountain 1 18",
+      "Delimiter": " "}]},
+
+{"Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Dwarf", "Items" ],
+            "Entries": {
+                "Shard": {
+                    "Id": "(O)74",
+                    "ItemId": "(O)74",
+                    "Price": 10000}}},
+{"Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "AdventureShop", "Items" ],
+            "Entries": {
+                "CookOut Kit": {
+                    "Id": "(O)926",
+                    "ItemId": "(O)926",
+                    "Price": 160},
+                "Tent Kit": {
+                    "Id": "(O)TentKit",
+                    "ItemId": "(O)TentKit",
+                    "Price": 400}}},
+
+{"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": ["Default", "Destinations"],
+	"Entries": {
+		"FarmCave": {
+			"Id": "OldMine",
+			"Condition": "PLAYER_VISITED_LOCATION ANY Custom_Xiddav_AbandonedMineShaft",
+			"DisplayName": "{{i18n:OldMine}}",
+			"TargetLocation": "Custom_Xiddav_DeepAbandonedMineShaft",
+			"TargetTile": { "X": 15, "Y": 11},
+			"TargetDirection": "down"}}},
+
+{           "Action": "EditMap",
+	"When":{"HasMod|contains=Lemurkat.EastScarp": true},
+            "Target": "Maps/Mountain",
+            "FromFile": "assets/Mountain_ES.tmx",
+            "ToArea": {"X": 86,"Y": 36,"Width": 9,"Height": 5}},
+
+{			"Action": "EditMap",
+	"When":{"HasMod|contains=Lemurkat.EastScarp": true},
+            "Target": "Maps/Mountain",
+            "FromFile": "assets/Mountain_ESDeepMountains.tmx",
+            "ToArea": {"X": 87,"Y": 0,"Width": 7,"Height": 21}},
+
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Mine","Fish"],
+            "Entries": {
+				"Ghost": {
+                    "Id": "(O)156",
+					"chance":".75",
+                    "ItemId": "(O)156"},
+				"WhiteAlgae": {
+                    "Id": "(O)157",
+                    "ItemId": "(O)157"}}},
+
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "Fields": {
+				"Custom_Xiddav_DeepAbandonedMineShaft": {"MusicContext":"SubLocation","MusicDefault": "Secret Gnomes"},
+				"Custom_Xiddav_MineShaft": {"MusicContext":"SubLocation","MusicDefault": "communityCenter"},
+				"Custom_Xiddav_AbandonedMineShaft": {"MusicContext":"SubLocation","MusicDefault": "communityCenter"}}},
+
+{"Action": "EditMap",
+    "Target": "Maps/Custom_Xiddav_AbandonedMineShaft, Maps/Custom_Xiddav_DeepAbandonedMineShaft, Maps/Custom_Xiddav_MineShaft",
+    "MapProperties": { "CanCaskHere": "T"},
+		"When": {"AllowCask": true}},
+
+{ "Action": "EditMap",
+"Target": "Maps/ScienceHouse",
+		"When": {"HasSeenEvent": "10"},
+            "MapTiles": [{"Position": {"X": 1,"Y": 6},
+                    "Layer": "Buildings",
+                    "SetProperties": {"Action": "Warp 3 4 Custom_Xiddav_MaruBasment"}}]},
+
+
+
+{"Action": "EditMap",
+"Target": "Maps/ScienceHouse",
+"MapProperties": {
+	"DayTiles":"Front 4 1 2363 Front 5 1 2364 Front 4 2 2388 Front 5 2 2389 Front 14 1 2438 Front 15 1 2439 Front 14 2 2463 Front 15 2 2464 Front 28 5 256 Front 28 6 288 Front 17 15 288 Front 17 14 256 Front 7 14 225 Front 3 14 225 Front 7 15 257 Front 3 15 257",
+		"NightTiles": "Front 4 1 2365 Front 5 1 2366 Front 4 2 2390 Front 5 2 2391 Front 14 1 2440 Front 15 1 2441 Front 14 2 2465 Front 15 2 2466 Front 28 5 1253 Front 28 6 1285 Front 17 15 1285 Front 17 14 1253 Front 7 14 1222 Front 3 14 1222 Front 7 15 1254 Front 3 15 1254",
+		"WindowLight": "5 2 6 4 2 6 14 2 6 15 2 6 28 6 6 17 15 6 7 15 6 3 15 6"}},
+]}

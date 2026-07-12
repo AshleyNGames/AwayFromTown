@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="32" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="22">
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source=".townInterior_2.png" width="512" height="656"/>
+ </tileset>
+ <tileset firstgid="3489" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source=".paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="3553" name="zoutdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source=".spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="5528" name="zlumi_towninterior" tilewidth="16" tileheight="16" tilecount="3425" columns="25">
+  <image source=".lumi_towninterior.png" width="400" height="2192"/>
+ </tileset>
+ <layer id="1" name="Back" width="32" height="25">
+  <data encoding="base64" compression="zlib">
+   eJy1lb9rFEEUx+d+JMx5d4WQQk200CRqH8QiiUKKuzSC/UUFi1MEwT6oYGNlJf4XNtp7dsnhj8ZSUEGDsbDRSnMXfV9mv+y72Z3JWLjw4c2b2d3vvHlvZirGmMp/JvZg/EXLmIHHU89/2cr/d1o4k8DZRP0P8u+PHm88/5PS7wjdBNYT9ffl3+/NJN+9PtPO9fumfJ1vedxM1H/bcDyU9o4wFLaFqYaz8L8qneWqMRvCSJwHLcdGtchKNa0+qL8FTen4JnbXONuxxtywrs33e/LfTWFOacFnv4bfPJs15rmH1t8SpqRtpaNRyW1ftBeFx438ff3/XqANPjfzb16J3msPjmF9fwm/hb0sbsaMdVjw9H2dXsDWVM1+Eb0dD44hzqPCMWFWxa/XXLOZmFdyUpgWzrWdZb79M2Kmntck4kY+LrWLIL6y/hjbWS2zvhEjdTmHpXrettka3G4XgX5Zf4yudbWM+kY9DQ4V9QnmuV5xPGoXCfXHgD5qGXHPW7e3Q+cz48e73P+0XDu/v8zqNmLmnt7N/Jh+CNTITD3+jg9iwR4C08rX+qdK5qH7Q/qrsscvBLjYzGt53uZz4J7W+msBffbr2hgq/4poXA1wrZm2Pniue9Z4Pt9lDunfFY17Ae430+6fy9bFpO8e7ePsQx4Acoezkf7PWpGxdfZdLf3+03fPYnb2wh9m40+Mg7WLvKxl+kfqxTn8yKC+rn1tMY67h2cuzrwFO3kHwVK/k9UQH2icr+d6PtS/M1OEdYS5jISxsG9crYb2NM4QjKM9iOgS5unP4SKMH/HNCceFE1m8OK+IPiv8/RfTHqs8lenzDkD8y9JYEVYrzmedde3kXsUdsZSojzrYk29H9uD4GSvzjTzzDtL6PgetP4nFX0Y/ovmvxJ6/fzUiAQ==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="1" name="TileData" x="112" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Back2" width="32" height="25">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgxnM4WRgmM85cPbvAdq9nwj7V/AwMKwE4lVAvBqI1/CQb2cqUK8HFwODJxDfAdp9nwj7TwD1nATiU0B8GojPUGB/K1RvC5AWAtotTIT9L4BqXwLxKyB+DcRvKLAfGRgB7TYewPgfBaMAGQhyA/ME90C7YhQMFPAClkXeA1geZQHtzh5A+7uAdnePkPL4MbAOe4JWj43m/6EF0oDxl06ltggtAABoBxoC
+  </data>
+ </layer>
+ <objectgroup id="4" name="Back2"/>
+ <layer id="5" name="Buildings" width="32" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzFls9vTUEUx8+796Z5fQgJL6VNNH7EosKiXdRWsakfURvd0jbhtRokTdmJVJRY0IUNtbBAsGEhErWpIJQEO1ELCSHix19AfE/um8y5c2em816b+CafntszZ+Y7d2bufZfo/2uylP3/KmhYQnRF5K4ZNaEqBLTvBT2CKbAB/o9Ebp/o0y2ud4IdURpNdgX6HwVfVxN9A8dwPQt+Lib6gHgDY98Ex0V9hefcinmBfrQNgEHkzjYTjYNzoBu5oUD/i0ZuMkljA+IzjPMcfIp0/XmwaRXRZjCG/JkoP24FuQuB/k/xpx330tGab2+rjr0m1vVtFj/WVjQOoK6ravq4oP1HGu3ezHiSb7tl5A4I/xCNov6j8OczI8/G52Y6pfxDNFSozZ+1MtL1fGYGBX8C/QsWXHkXLD4z5Rai5WAF+CL8XeOyOo35bHHkfeI+E8aN/q36S0/T/yTYT9l963XkffRa5tTUkve3rccoZffthCPvQ/VhlcSzI5fEtf4LqdsY9A64a5xlnlLsIbHMqZbzp/q9xMUMeAVeiGdzLVjnYb3wNP3nkqxbFGWjyneBPUWibZSH89sXwN+3LgfBMHz6EK/HaVRwvt/j/yNOeR3r642U0lPSdbY1VuOdBkeK6fV0nJ0/58cQLyFOFHWevw34O+FXnOd3dYxlifbnNTbXVrW9t/w2XBbz4Hf5PXjfF/78bTAl6ncb82a9ibUHr3GfgW8PH6DvQ8FbeL8T/vxtMOvoK/2nEZ9QusamlP+M4/d0vmJ/tU82Kf/vAf6u59+npUl+nw6ViQ6DSrm2+6/Hn+Xbp9AxmqL6/X2a671Q6zu2Hv4B3Th33Q==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Buildings">
+  <object id="2" name="TileData" x="96" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ScienceHouse.1&quot;"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="Message" value="It looks like a prototype for one of Maru's inventions."/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="144" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ScienceHouse.2&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="256" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ScienceHouse.3&quot;"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="272" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ScienceHouse.4&quot;"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="160" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ScienceHouse.5&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="16" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ScienceHouse.6&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="96" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ScienceHouse.7&quot;"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="160" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ScienceHouse.8&quot;"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="432" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ScienceHouse.9&quot;"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="112" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Maru"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="208" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Robin Demetrius"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="352" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ScienceHouse.10&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="64" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ScienceHouse.11&quot;"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="272" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ScienceHouse.12&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="304" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ScienceHouse.13&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="112" y="304" width="48" height="16">
+   <properties>
+    <property name="Action" value="Carpenter"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="160" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="DropBox RobinWood"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="176" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="DropBox RobinWood"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="368" y="320" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ScienceHouse.14&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="7" name="Front" width="32" height="25">
+  <data encoding="base64" compression="zlib">
+   eJylVj1oFEEUfnN7p5dgOk/JFXemEEEUbfxr1DNeoSixC4IWlooSsNDGgCAaUVuJjWBywZzaqIUhihbG1viL2Ob8ATUHiSARtfB77AzzdjK7t0k++Jidt/PeN/N25s0qIsqAAbg/H7aBp58FFYXIxIxxbVk9XiWwC1wPTgXh2HclovclimB5B9EGtGvF+FKZqFy2Yx7o9rVuH5H1SdI/jrk+bSeahOYrcBpsOvrroP8MY6p4rmjbNmhvB/ciGd167p/x/AX8mrG+1Rb6Jh4hlgJz4DKxrpOIfSqwsXi+jJWdRIXO6DxvFYmGwGFwSqXX784RdUKzWKZY7Ami6/dhHLqPwSfFsH9ThT4MTonZF6ZdIdaTBifyyfoSvYH1MXuGoXReKrnW65E4oBY2nvFb2W92vY3oE/LSBVujaOfG8d60xccYAW+Do2Bd6LN9ExK4GdyXD8fMYI/Ogj/b/T7/oPsH/Kv1eW5D4Cz0ayIux+P+DvA5Rb/ZhLAn1QvX57QpHgJV8VxxbNw/LN4fQTE5qguKsb8FH4IfwDltG9PtffCXOIc+mLPBOEZhzi7ovrsvz0G7P2v7H5NDx+K7yIPUd7GQfZYWVyB2FbymRXn/+WoCg/fFMIU5MfurJmKNCLukzyb9+iBwELyj7Pr5M/Xk/fuI7ebukTmRvq6PvH+k3w8VbTmGqQ198GlQuJcu6drR0HZzj7j6xpdrSgl3RBlc02HHGD9fLt2zycjoeV2E/kBg+wy39sm7gGvKTujuAneDW7Dwrdn5eVpK/eXzPuHpTyLQKmi9RFtAO422GUTnzXk666lxpp6Oe96dETF6g/nvB+BzWfht9IxpBjZPgx6NpPuE789B+N8IwtbFKOLVE+o241uGzps1jiWs/16LOrVYrM4mvzf6d1Po83l3z38tZqzBC0/cngLRoYLV52+TZv2+/Z9UI337oVXMOMwpe1fyOfad3cXAxGTMiHvbvYuNnlun2ZfPm2EzxZol6jF29y5eKpL+P/8DLIOf1w==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+ <layer id="9" name="Front2" width="32" height="25">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBg8IEoMlc/Di2BzIbH38hBn3l9Oytyjg2SnFhL7LpH2y3JRZv8ooB4ooVNcODBiF58Ctf+hFPXsWgbFMMDExMCQALT/KBNp5iyinpNGwSgYduAnkeU9rYAkL2E1gwU0SDIwVEoOtCtGwSgYWsAfWG8zklhvg4AoCwODOBCLAfEMDuq7i9YAACUPDPk=
+  </data>
+ </layer>
+ <objectgroup id="10" name="Front2"/>
+ <layer id="11" name="Front3" width="32" height="25">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDAewDIo9OQbaJaNgFIyCUTAKRsEoIAQWMZBfbyPrXUaAjcxfTh2nUwwA/cgLmg==
+  </data>
+ </layer>
+ <objectgroup id="12" name="Front3"/>
+ <layer id="13" name="Paths" width="32" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowAVrOQdaBcQD9DdSonbkfXC2EMpLIYCGKrhicvd2NIMPvUDAUbdMvwBPdPeaBxigsGa94cSoKQuHw3/oQkAHBIPpQ==
+  </data>
+ </layer>
+ <objectgroup id="14" name="Paths"/>
+</map>
