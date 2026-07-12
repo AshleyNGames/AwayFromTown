@@ -1,0 +1,77 @@
+{    "Changes": [
+
+	{"Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+	"TeaLeafShop": {"Currency":"0",
+				"PriceModifiers": [
+						{"Modification": "Multiply",
+							"Amount": 1.1},],
+				"Owners": [
+						{"Name": "Caroline",
+							"Portrait": "",
+							"Dialogues": [{"Id":"TeaLeafShop_Default"}]}],
+					"Items": [
+					{"ItemId": "(O)614"},
+					{"ItemId": "(O)395"},
+					{"ItemId": "(O)253"},
+					{"ItemId": "(O)220"},
+					{"ItemId": "(O)221"},
+					{"ItemId": "(O)223"},
+					{"ItemId": "(O)344"},
+					{"ItemId": "(O)340"},
+					{"Price": 2500, 
+						"ItemId": "(O)433"},
+					{"ItemId": "(O)341",
+							"Condition": "PLAYER_FRIENDSHIP_POINTS Current Caroline 500",
+                            "AvailableStock": 1},
+					{"ItemId": "(O)StardropTea",
+                            "Price": 5000,
+							"Condition": "PLAYER_FRIENDSHIP_POINTS Current Caroline 1000",
+                            "AvailableStock": 1},
+					{"ItemId": "(O)Forsy.MCR_JasmineTea"}
+					]}}},
+
+{"Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+	"JojaPharmaShop": {"Currency":"0",
+				"PriceModifiers": [
+						{"Modification": "Multiply",
+							"Amount": 1.1},],
+				"Owners": [
+						{"Name": "Morris",
+							"Portrait": "",
+							"Dialogues": [{"Id":"TeaLeafShop_Default"}]}],
+					"Items": [
+					{"ItemId": "(O)349"},
+					{"ItemId": "(O)351"},
+					{"ItemId": "(O)773"},
+					{"ItemId": "(O)772"}
+					]}}},
+
+{"Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+	"JojaBakerShop": {"Currency":"0",
+				"PriceModifiers": [
+						{"Modification": "Multiply",
+							"Amount": 1},],
+				"Owners": [
+						{"Name": "Morris",
+							"Portrait": "",
+							"Dialogues": [{"Id":"TeaLeafShop_Default"}]}],
+					"Items": [
+					{"ItemId": "(O)216"},
+					{"ItemId": "(O)220"},
+					{"ItemId": "(O)221"},
+					{"ItemId": "(O)223"},
+					{"ItemId": "(O)651"},
+					{"ItemId": "(O)216"},
+					{"ItemId": "(O)Cornucopia_Donut"},
+					{"ItemId": "(O)Cornucopia_CakePops"},
+					{"ItemId": "(O)Forsy.MCR_JojaCola"},
+					{"ItemId": "(O)Forsy.MCR_JojaCorn"}
+					]}}},
+	
+]}

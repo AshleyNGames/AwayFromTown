@@ -1,0 +1,8 @@
+{	"rain":"1210 Saloon 24 17 2/2410 Custom_Xiddav_BrickHouseLeft 2 5 1",
+	"Mon": "a830 ArchaeologyHouse 21 7 0/2000 Custom_Xiddav_BrickHouseLeft 2 5 1",
+	"Tue": "GOTO Mon",
+	"Wed": "GOTO Mon",
+	"Thu": "GOTO Mon",
+	"Fri": "GOTO Mon",
+	"Sat": "GOTO Mon",
+	"Sun": "GOTO Mon",}

@@ -1,0 +1,4 @@
+{   "Changes": [{"Action": "EditData",
+"Target": "Characters/schedules/Jodi",
+"Entries": {	"Sun": "740 SamHouse 6 5 0 jodi_dishes/800 SamHouse 5 5 0/850 Custom_Xiddav_Worship 15 12 0/1400 SeedShop 2 20 3/1600 SamHouse 4 12 2 jodi_sit_down/1900 SamHouse 2 17 3/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep",
+	}}]}

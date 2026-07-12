@@ -1,0 +1,155 @@
+{ 	"Format": "2.8.0",
+"CustomLocations": [	
+{"Name": "Custom_Xiddav_RedHouse",
+    "FromMapFile": "Assets/Maps/RedHouse.tmx"},
+{"Name": "Custom_Xiddav_PlantHouse",
+    "FromMapFile": "Assets/Maps/PlantHouse.tmx"},
+{"Name": "Custom_Xiddav_YellowHouse",
+    "FromMapFile": "Assets/Maps/YellowHouse.tmx"},
+{"Name": "Custom_Xiddav_BrickHouseLeft",
+    "FromMapFile": "Assets/Maps/BrickHouseLeft.tmx"},
+{"Name": "Custom_Xiddav_BrickHouseRight",
+    "FromMapFile": "Assets/Maps/BrickHouseRight.tmx"},
+{"Name": "Custom_Xiddav_Saloon2",
+    "FromMapFile": "Assets/Maps/Saloon2.tmx"},
+{"Name": "Custom_Xiddav_Worship",
+    "FromMapFile": "Assets/Maps/Worship.tmx"},
+{"Name": "Custom_Xiddav_RiversideDiner",
+    "FromMapFile": "Assets/Maps/RiversideDiner.tmx"},
+{"Name": "Custom_Xiddav_TrailerPark",
+    "FromMapFile": "Assets/Maps/TrailerPark.tmx"},
+{"Name": "Custom_Xiddav_BusStopCave",
+    "FromMapFile": "Assets/Maps/BusStopCave.tmx"},
+{"Name": "Custom_Xiddav_RedTrailer",
+    "FromMapFile": "Assets/Maps/RedTrailer.tmx"},
+{"Name": "Custom_Xiddav_BlueTrailer",
+    "FromMapFile": "Assets/Maps/BlueTrailer.tmx"},
+{"Name": "Custom_Xiddav_YellowTrailer",
+    "FromMapFile": "Assets/Maps/YellowTrailer.tmx"},
+{"Name": "Custom_Xiddav_TiffanyHouse",
+    "FromMapFile": "Assets/Maps/TiffanyHouse.tmx"},
+{"Name": "Custom_Xiddav_Forest-Flower",
+    "FromMapFile": "Assets/Maps/Forest-Flower.tmx"},
+{"Name": "Custom_Xiddav_WizardWoods",
+    "FromMapFile": "Assets/Maps/WizardWoods.tmx"},
+],
+
+"Changes": [	
+//Data
+{"Action": "Include",
+            "FromFile": "Assets/Map Data/GarbageCans.json"},
+{"Action": "Include",
+            "FromFile": "Assets/Map Data/Fishing.json"},
+{"Action": "Include",
+            "FromFile": "Assets/Map Data/Music.json"},
+{"Action": "Include",
+            "FromFile": "Assets/Map Data/Shops.json"},
+
+{"Action": "EditData",
+ "Target": "Strings/StringsFromMaps",
+ "Entries": {
+	 "Town.Xiddav.1": "{{i18n:Town.Xiddav.1}}", 
+	 "Town.Xiddav.2": "{{i18n:Town.Xiddav.2}}", 
+	 "Town.Xiddav.School": "{{i18n:Town.Xiddav.School}}" }},
+
+{"Action": "EditMap",
+     "Target": "Maps/WizardHouse, Maps/Forest, Maps/SeedShop, Maps/SamHouse, Maps/Saloon, Maps/RefurbishedSaloonRoom, Maps/JojaMart, Maps/Woods, Maps/Town",
+	"PatchMode": "Replace",
+     "FromFile": "Assets/Maps/{{TargetWithOutPath}}.tmx"},
+
+{"Action": "Load",
+     "Target": "Maps/BusStop",
+     "FromFile": "Assets/Maps/BusStop.tmx"},
+
+//other mods
+{"Action": "EditMap",
+     "Target": "Maps/Town",
+	"When": {"HasMod|contains=Lemurkat.EastScarp": true},
+     "FromFile": "Assets/Maps/Town_ES.tmx",
+	"PatchMode": "Replace",
+     "ToArea": { "X": 109, "Y": 68, "Width": 21, "Height": 9}},
+
+{"Action": "EditMap",
+     "Target": "Maps/BusStop",
+	"When": {"HasMod|contains=Rafseazz.RSVCP": true},
+     "FromFile": "Assets/Maps/RSVBusStop.tmx",
+     "PatchMode": "Replace",
+     "ToArea": { "X": 30, "Y": 0, "Width": 16, "Height": 23}},
+
+//Properties
+{"Action": "EditMap",
+"Target": "Maps/Town",
+"MapProperties": {
+	"Light": "52 72 4 52 77 4 30 77 4 24 50 4 33 53 4 24 58 4 21 64 4 17 86 4 27 86 4 38 65 4 30 72 4 41 69 4 71 67 4 52 98 4 56 98 4 92 79 4 20 22 4 32 22 4 50 35 4 68 49 4 79 49 4 90 49 4 102 52 4 108 62 4 108 76 4 106 90 4 83 90 4 74 90 4 56 98 4 52 98 4",
+	"DayTiles": "AlwaysFront 30 77 511 AlwaysFront 52 72 511 AlwaysFront 30 77 511 AlwaysFront 52 77 511 AlwaysFront 52 72 511 AlwaysFront 20 22 511 AlwaysFront 32 22 511 AlwaysFront 50 35 511 AlwaysFront 24 50 511 AlwaysFront 24 58 511 AlwaysFront 21 64 511 AlwaysFront 30 72 511 AlwaysFront 38 65 511 AlwaysFront 27 86 511 AlwaysFront 17 86 511 AlwaysFront 52 98 511 AlwaysFront 56 98 511 AlwaysFront 74 90 511 AlwaysFront 83 90 511 AlwaysFront 106 90 511 AlwaysFront 108 76 511 AlwaysFront 108 62 511 AlwaysFront 102 52 511 AlwaysFront 90 49 511 AlwaysFront 79 49 511 AlwaysFront 68 49 511 Front 33 53 908",
+	"NightTiles": "AlwaysFront 30 77 513 AlwaysFront 52 72 513 AlwaysFront 30 77 513 AlwaysFront 52 77 513 AlwaysFront 52 72 513 AlwaysFront 20 22 513 AlwaysFront 32 22 513 AlwaysFront 50 35 513 AlwaysFront 24 50 513 AlwaysFront 24 58 513 AlwaysFront 21 64 513 AlwaysFront 30 72 513 AlwaysFront 38 65 513 AlwaysFront 27 86 513 AlwaysFront 17 86 513 AlwaysFront 52 98 513 AlwaysFront 56 98 513 AlwaysFront 74 90 513 AlwaysFront 83 90 513 AlwaysFront 106 90 513 AlwaysFront 108 76 513 AlwaysFront 108 62 513 AlwaysFront 102 52 513 AlwaysFront 90 49 513 AlwaysFront 79 49 513 AlwaysFront 68 49 513 Front 33 53 908"}},
+
+{"Action": "EditMap",
+    "Target": "Maps/Town",
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "-1 54 Custom_Xiddav_TrailerPark 58 39 -1 55 Custom_Xiddav_TrailerPark 58 39 -1 53 Custom_Xiddav_TrailerPark 58 39 -1 12 BusStop 58 44 -1 13 BusStop 58 44",
+	"Delimiter": " "}]},
+
+{"Action": "EditMap",
+    "Target": "Maps/BusStop",
+    "MapProperties": {
+		"Light": "49 4 1 26 19 4 21 19 4",
+		"NightTile":"AlwaysFront 21 19 908 AlwaysFront 26 19 908 Buildings 49 4 507",
+		"Warp": "59 45 Town 4 12 59 44 Town 4 12 9 22 Farm 79 17 9 23 Farm 79 17 9 24 Farm 79 17 9 25 Farm 79 17 9 6 Backwoods 60 30 9 7 Backwoods 60 30 9 8 Backwoods 60 30 9 9 Backwoods 60 30 42 48 Custom_Xiddav_TrailerPark 42 0 43 48 Custom_Xiddav_TrailerPark 42 0 44 48 Custom_Xiddav_TrailerPark 42 0 41 48 Custom_Xiddav_TrailerPark 42 0"}},
+
+{"Action": "EditMap",
+    "Target": "Maps/BusStop",
+	"When": {"HasMod|contains=Rafseazz.RSVCP": true},
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "38 -1 Custom_Ridgeside_RSVCableCar 20 29 37 -1 Custom_Ridgeside_RSVCableCar 19 29 39 -1 Custom_Ridgeside_RSVCableCar 21 29",
+      "Delimiter": " "}]},
+
+{"Action": "EditMap",
+    "Target": "Maps/BusStop",
+	"When": {"Query: {{DailyLuck}} > .02": true},
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "48 4 Custom_Xiddav_BusStopCave 24 24",
+      "Delimiter": " "}]},
+
+{"Action": "EditMap",
+    "Target": "Maps/Forest",
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "-1 23 Woods 77 39 -1 24 Woods 77 39 -1 25 Woods 77 39 -1 45 Custom_Xiddav_WizardWoods 24 4 -1 46 Custom_Xiddav_WizardWoods 24 4 -1 47 Custom_Xiddav_WizardWoods 24 4 -1 75 Custom_Xiddav_Forest-Flower 95 17",
+      "Delimiter": " "}]},
+
+{"Action": "EditMap",
+    "Target": "Maps/Woods",
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "78 39 Forest 0 24",
+      "Delimiter": " "}]},
+
+{"Action": "EditMap",
+    "Target": "Maps/Saloon",
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "31 22 Custom_Xiddav_Saloon2 31 23 32 22 Custom_Xiddav_Saloon2 32 23",
+      "Delimiter": " "}]},
+
+//my Farm Warps
+{"Action": "EditMap",
+    "Target": "Maps/TrailerPark",
+	"When": {"HasMod|contains=Xiddav.FamilyFarm": true},
+        "MapProperties": { "Warp": "44 -1 BusStop 43 47 43 -1 BusStop 43 47 42 -1 BusStop 42 47 59 38 Town 0 54 59 37 Town 0 54 59 39 Town 0 54 -1 23 Farm 89 54 -1 24 Farm 89 54 -1 25 Farm 89 54 -1 26 Farm 89 54 -1 27 Farm 89 54 " }},
+
+{"Action": "EditMap",
+    "Target": "Maps/TrailerPark",
+	"When": {"HasMod|contains=Xiddav.Paleontology": true},
+        "MapProperties": { "Warp": "44 -1 BusStop 43 47 43 -1 BusStop 43 47 42 -1 BusStop 42 47 59 38 Town 0 54 59 37 Town 0 54 59 39 Town 0 54 -1 23 Farm 89 54 -1 24 Farm 89 54 -1 25 Farm 89 54 -1 26 Farm 89 54 -1 27 Farm 89 54 " }},
+	
+]}

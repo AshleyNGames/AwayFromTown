@@ -1,0 +1,6 @@
+{   "Changes": [
+	{"Action": "EditData",
+"Target": "Characters/schedules/George",
+"Entries": {"Sun_normal": "630 JoshHouse 16 22 0/1000 Custom_Xiddav_Worship 8 9 0 \"Strings\\schedules\\George:Sun.000\"/1400 JoshHouse 16 22 0/2000 JoshHouse 3 5 0 george_sleep",
+}}]
+}

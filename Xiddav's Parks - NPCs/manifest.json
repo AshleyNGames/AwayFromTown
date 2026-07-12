@@ -1,0 +1,11 @@
+{
+  "Name": "NPCs for Xiddav's Parks",
+  "Author": "xiddav",
+  "Description": "NPCs for xiddav's Parks.",
+  "Version": "0.0.1",
+  "UniqueID": "Xiddav.NPCsParks",
+  "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher",}  ,
+  "Dependencies": [  	 
+   {"UniqueID": "Xiddav.Parks",
+      "IsRequired": true},
+  ],}

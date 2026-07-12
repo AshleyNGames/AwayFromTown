@@ -1,0 +1,12 @@
+{    "Changes": [
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "Fields": {"Custom_Xiddav_Worship": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "EmilyDream"}}},
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "Fields": {"Custom_Xiddav_WizardWoods": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "WizardSong"}}},
+]}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="33" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="21">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+  <property name="Warp" value="9 22 Town 70 10"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+  <tile id="220">
+   <animation>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="222" duration="500"/>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="222" duration="500"/>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="222" duration="500"/>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="222" duration="500"/>
+    <frame tileid="220" duration="500"/>
+    <frame tileid="222" duration="500"/>
+    <frame tileid="222" duration="500"/>
+    <frame tileid="222" duration="500"/>
+    <frame tileid="222" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="221">
+   <animation>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="221" duration="500"/>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="223" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="581">
+   <animation>
+    <frame tileid="581" duration="1000"/>
+    <frame tileid="550" duration="1000"/>
+    <frame tileid="581" duration="1000"/>
+    <frame tileid="582" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source=".paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="2241" name="v15_TownInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source=".townInterior_2.png" width="512" height="656"/>
+ </tileset>
+ <tileset firstgid="3553" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source=".walls_and_floors.png" width="256" height="688"/>
+ </tileset>
+ <layer id="1" name="Back" width="33" height="22">
+  <data encoding="base64" compression="zlib">
+   eAHNVMEuBEEQLbGysyJIxEXixPoLJ4nEDzj4AHdfwB/wP4QrieWCC+FESHDh6OC9nXlJpey2jiZRyZuqmu6qelXTPWb/Q/bbZgeFOER8iVwj/qYQtxkcVifNIsR7ZsLsAzlKMIscklgn5StmdNqsBZRq5VtHv7lQzNuU2TtQqpXvJ7q0f8Wr9jyMXCimtH/FK98yjFwoRn2UauXLrc99udIdMSNyZVjuQdyU87Rj1gs4gy95hNGt5H294/HusZZ/p8gUh2fUewl4dRwqzsFx+O7esZbfk8Ohh01bAefwF5rgOIdN3P8UyMGvN2kGnlOtXeLfcAVETQ6E5iB/G/+zHSBXq84wzR7vUf8BiHoFa4TmIH8X9feAXO3PRrTJq98jvvdac/a95jpFc6i9/P41J382oq2crNEBvB7D4jFwAnAOi1XtH7Xy+9ec/NmINlL3ZQn5L3APIg/WfgK8vgMH9ZfSdWazDRgpaB/vHTn4elzzcyE/cuUe9ZfSyj0HIwXtEwfyIFiL4vtnbe4jl1T/ui/9BHik6nNNwm/dHkffDfQ/inPg+7+aA7nEev4d5+LPirj/lv4EmVby5g==
+  </data>
+ </layer>
+ <layer id="2" name="Back2" width="33" height="22">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgIDHQILuRgYFgHxYiAeKHAQaPchID48gG4YKL9Tw95GXgaGJiAeSLAQaP+iEegGR07UUKdnOCRC7dZHyzf0dAOq7xG8g8C0cGiA0wPCNQPDsgPGjz0QO6ClEXq6Jg5odzwQJwygG+qAdtcDccMAuoGeYT6QdgEA7+IRLA==
+  </data>
+ </layer>
+ <layer id="3" name="Buildings" width="33" height="22">
+  <data encoding="base64" compression="zlib">
+   eAGtVLtKQ0EQ3ajgIx+gIPghWl0wnUWSRrBLLxhtRCtFsDWm1dpOg7VaaiOawjImoP6AYOkDzyR7kmW8e+8m3oHJvM+e3UySMz3JwWShFm4kczM5GPuPP0AJ9yLb2nY4jOJ3MF8A1rBvKTPC4RPz39Avq+JvzBhThYbmfzBDPHutIMOZ+am/7Uc4vwbV4ssvAIN4JQyFKmcOp82ePmvYGBh9DpsYDlXhIN/fWQYcgNHncDkRfgNyuMuAAzC69+GOh7IgB73LofN6TuI0Di/YsVfom901HweNTU4674ulX9cigihLDu2Y/e8gRxyO6Zj5pXF6xpxa9wTWzadxKKKfv6XFsZ5fRk6fydjt5xztteVw5WDKXdM4VNGzirOfcMgabCNvzBZyPBNuVxhLv++394zaDrTl9AiHCnQZ2PuOFuAfIC+4Neg24g8Eu7BNcKgjJ+/Jt4Xbj6X/WAYDZBZ4wiFJBOo9Bm8Os/KefFvBYCy1YUTu4hPupK/eQkHelqJj5uOsXCuyBeHOfdE2jUMcdmiOHPRu6D1yOZxj6ALakOEMhBzSoMjhHt+v5uCj4svrs0bh8IChR2gTmsd/jmDEiS+ve6Uv0smYmO+wgoEitAQtQ0XErFu/m8BHyf533qo867R11KWlwkSC5f+D9CepQCTV/1v7BfDmczo=
+  </data>
+ </layer>
+ <layer id="4" name="Front" width="33" height="22">
+  <data encoding="base64" compression="zlib">
+   eAHNVblKBEEQ7fUAV038hA1MFhNDMRrEQPFYzfwABQWP9Qs8MNTFT9jDVTBSE2Pv0Ej2AwQFczVRfE+7hqLpmZ11QCx429XVr47urt4xxpg2oD0lOuD/W8nBMW+db7PG3AFaHtVc6+Ro/gDm/drxl/oT8j3bnNPdxhSADkCEuthp03zhkN7KmfaK4z8YF7JmI20ZiBFKMU1zhFHSKfsxNWzisraAbV6alUCUPxpryH0A1FUNZeSuAHWLagu11JTfIfSjBL5XyH0N3KgaMvDTiKvJl1P7UhfRXO6v2d74H9UDjHf9vCvqcqUBdJFRq5AvXL5DrV9azgVGrjFWs/eXAycPUIbpZEX+cxZRlwhr0Hyxu+OQY5DaHXM45T4/cDfnGWMeAEoJxX/CRl+uiyyhHs4L4M0As4BP5hxjsxpknw3Ee3Vi8jzlbBlWz4sO10kbTt/AkxpOoZ9YvzOMAS8VEgD31v5tsD/v1qbvR3RZ0/w4nbWzL3xgr7CGKGlELSSw811UAbc3XFf3vt31NHM5f7c33JjkST/s4uz3gJK9A5fb6pz9m0TkHI7RGyvIvQZM2hrmIwJE2V06YycRXcMUcq8Cy8ALatrxBOjDe/XZPdTwLfjWtE1q0DbRmWvCnonYBm0NI51i8Y/r8GPsJEJeGagAY7g/+W7x+7MJUNjbFPa52F2++EkM/f2Stahx+zt6/E9gl5PuKz6af/ULDd9juQ==
+  </data>
+ </layer>
+ <layer id="5" name="Front2" width="33" height="22">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhMBoCoyEwGgKjIUCbEFhEG2MHpakAoLAAow==
+  </data>
+ </layer>
+ <layer id="6" name="Front3" width="33" height="22">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20IX4hAYcCAAQMGDBgwYMDAOzALWAAB
+  </data>
+ </layer>
+ <layer id="7" name="Paths" width="33" height="22">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEw+EKgk4NyN1HDDMpdQT0TSPEPKWopcSGyPchsSswcrnpxhQ8u8eEaDrT2F3J4IrNpZS/IDnrYQyv3D7S5o2FHfAwQG1a41KGLo/PRXUJIHl39KB8SAgBo+Aoz
+  </data>
+ </layer>
+ <layer id="15" name="AlwaysFront" width="33" height="22">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgKjITAaAqMhMLhCYBnQOeh4cLlw1DWjITAaAqMhgBkCAEvRAz8=
+  </data>
+ </layer>
+ <objectgroup id="8" name="Back"/>
+ <objectgroup id="9" name="Back2"/>
+ <objectgroup id="10" name="Buildings">
+  <object id="19" name="TileData" x="384" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Bailee"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="336" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Elizebeth"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="Front"/>
+ <objectgroup id="12" name="Front2"/>
+ <objectgroup id="13" name="Front3"/>
+ <objectgroup id="14" name="Paths"/>
+</map>
