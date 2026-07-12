@@ -1,0 +1,94 @@
+{ "Changes": [
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Custom_Xiddav_MountainPath","Forage"],
+            "Entries": {
+				"Leek": {
+                            "Season": "spring",
+                    "Id": "(O)20",
+                    "ItemId": "(O)20"},
+				"Wild Horseradish": {
+                            "Season": "spring",
+                    "Id": "(O)16",
+                    "ItemId": "(O)16"},	
+				"Spice Berry": {
+                            "Season": "summer",
+                    "Id": "(O)396",
+                    "ItemId": "(O)396"},
+				"Grape": {
+                            "Season": "summer",
+                    "Id": "(O)398",
+                    "ItemId": "(O)398"},
+				"HazelNut": {
+                            "Season": "fall",
+                    "Id": "(O)408",
+                    "ItemId": "(O)408"},
+				"Crystal Fruit": {
+                            "Season": "winter",
+                    "Id": "(O)414",
+                    "ItemId": "(O)414"}}},
+
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Custom_Xiddav_HiddenTowerPond","Forage"],
+            "Entries": {
+				"Daffodil": {
+                            "Season": "spring",
+                    "Id": "(O)18",
+                    "ItemId": "(O)18"},
+				"Dandelion": {
+                            "Season": "spring",
+                    "Id": "(O)22",
+                    "ItemId": "(O)22"},
+				"SweetPea": {
+                            "Season": "summer",
+                    "Id": "(O)402",
+                    "ItemId": "(O)402"},
+				"HazelNut": {
+                            "Season": "fall",
+                    "Id": "(O)408",
+                    "ItemId": "(O)408"},
+				"Crocus": {
+                            "Season": "winter",
+                    "Id": "(O)418",
+                    "ItemId": "(O)418"}}},
+
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Custom_Xiddav_HiddenTowerPond", "Fish"],
+            "Entries": {
+				"Carp": {
+                    "Id": "(O)142",
+                    "ItemId": "(O)142"},
+				"MidnightCarp": {
+                            "Season": "fall, winter",
+                    "Id": "(O)269",
+                    "ItemId": "(O)269"},
+				"Stonefish": {
+                    "Id": "(O)158",
+                    "ItemId": "(O)158"}}},
+
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "Fields": {"Custom_Xiddav_HiddenTowerPond": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "woodsTheme"},
+			"Custom_Xiddav_TheTower": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "communityCenter"},
+			"Custom_Xiddav_TheTower2": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "communityCenter"},
+			"Custom_Xiddav_TheTower3": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "communityCenter"},
+			"Custom_Xiddav_TheTower4": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "communityCenter"},
+			"Custom_Xiddav_TheTower5": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "communityCenter"},
+			"Custom_Xiddav_TheTower6": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "communityCenter"}}},
+]}

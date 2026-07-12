@@ -1,0 +1,31 @@
+{ 	"Format": "2.8.0",
+"CustomLocations": [
+{"Name": "Custom_Xiddav_MountainPath",
+    "FromMapFile": "Assets/Maps/MountainPath.tmx"},
+{"Name": "Custom_Xiddav_HiddenTowerPond",
+    "FromMapFile": "Assets/Maps/HiddenTowerPond.tmx"},
+{"Name": "Custom_Xiddav_TheTower",
+    "FromMapFile": "Assets/Maps/TheTower.tmx"},
+{"Name": "Custom_Xiddav_TheTower2",
+    "FromMapFile": "Assets/Maps/TheTower.tmx"},
+{"Name": "Custom_Xiddav_TheTower3",
+    "FromMapFile": "Assets/Maps/TheTower.tmx"},
+{"Name": "Custom_Xiddav_TheTower4",
+    "FromMapFile": "Assets/Maps/TheTower.tmx"},
+{"Name": "Custom_Xiddav_TheTower5",
+    "FromMapFile": "Assets/Maps/TheTower.tmx"},
+{"Name": "Custom_Xiddav_TheTower6",
+    "FromMapFile": "Assets/Maps/TheTower.tmx"},
+],
+
+"Changes": [	
+{"Action": "EditMap",
+     "Target": "Maps/Backwoods, Maps/Backwoods_GraveSite, Maps/Backwoods_Staircase",
+     "FromFile": "Assets/{{Target}}.tmx",
+     "PatchMode": "Replace"},
+
+{"Action": "Include",
+            "FromFile": "Assets/Data/Warps.json"},
+{"Action": "Include",
+            "FromFile": "Assets/Data/Locations.json"}
+]}

@@ -1,0 +1,12 @@
+{ "Name": "Xiddav's Backwoods Expansion",
+  "Author": "Xiddav",
+  "Version": "1.0.0",
+  "Description": "Bigger Backwood with another path tho the mountain and an extra area after unlocking community upgrades shortcuts.",
+  "UniqueID": "Xiddav.Parks.BackWoodsExpansion.OtherMods",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:42623@Other" ],
+  "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"}  ,
+  "Dependencies": [  	 
+   {"UniqueID": "Xiddav.Parks.BackWoodsExpansion",
+      "IsRequired": true},
+  ]}

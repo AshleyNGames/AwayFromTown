@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="12" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="7">
+ <properties>
+  <property name="AmbientLight" value="250 140 160"/>
+  <property name="Warp" value="5 11 Custom_Xiddav_SewerPathCC 7 3 6 11 Custom_Xiddav_SewerPathCC 8 3"/>
+ </properties>
+ <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source=".paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="st" tilewidth="16" tileheight="16" tilecount="88" columns="8">
+  <image source=".SewerTiles.png" width="128" height="176"/>
+  <tile id="0"/>
+  <tile id="1"/>
+  <tile id="2"/>
+  <tile id="3"/>
+  <tile id="4"/>
+  <tile id="5"/>
+  <tile id="6"/>
+  <tile id="7"/>
+  <tile id="8"/>
+  <tile id="9"/>
+  <tile id="10"/>
+  <tile id="11"/>
+  <tile id="12"/>
+  <tile id="13"/>
+  <tile id="14"/>
+  <tile id="15"/>
+  <tile id="16"/>
+  <tile id="17"/>
+  <tile id="18"/>
+  <tile id="19"/>
+  <tile id="20"/>
+  <tile id="21"/>
+  <tile id="22"/>
+  <tile id="23"/>
+  <tile id="24"/>
+  <tile id="25"/>
+  <tile id="26"/>
+  <tile id="27"/>
+  <tile id="28"/>
+  <tile id="29"/>
+  <tile id="30"/>
+  <tile id="31"/>
+  <tile id="32"/>
+  <tile id="33"/>
+  <tile id="34"/>
+  <tile id="35"/>
+  <tile id="36"/>
+  <tile id="37"/>
+  <tile id="38"/>
+  <tile id="39"/>
+  <tile id="40"/>
+  <tile id="41"/>
+  <tile id="42"/>
+  <tile id="43"/>
+  <tile id="44"/>
+  <tile id="45"/>
+  <tile id="46"/>
+  <tile id="47"/>
+  <tile id="48"/>
+  <tile id="49"/>
+  <tile id="50"/>
+  <tile id="51"/>
+  <tile id="52"/>
+  <tile id="53"/>
+  <tile id="54"/>
+  <tile id="55"/>
+  <tile id="56">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="58"/>
+  <tile id="59"/>
+  <tile id="60"/>
+  <tile id="61"/>
+  <tile id="62"/>
+  <tile id="63"/>
+  <tile id="69">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="65"/>
+  <tile id="66"/>
+  <tile id="67"/>
+  <tile id="68"/>
+  <tile id="70">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <animation>
+    <frame tileid="57" duration="250"/>
+    <frame tileid="58" duration="250"/>
+    <frame tileid="59" duration="250"/>
+    <frame tileid="60" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="71"/>
+  <tile id="72"/>
+  <tile id="73"/>
+  <tile id="74"/>
+  <tile id="75"/>
+  <tile id="76"/>
+  <tile id="77"/>
+  <tile id="78"/>
+  <tile id="79"/>
+  <tile id="80"/>
+  <tile id="81"/>
+  <tile id="82"/>
+  <tile id="83"/>
+  <tile id="84"/>
+  <tile id="85"/>
+  <tile id="86"/>
+  <tile id="87"/>
+ </tileset>
+ <layer id="1" name="Back" width="12" height="11">
+  <data encoding="base64" compression="zlib">
+   eJyljlEKACAIQz1r/pjdoNNHoBBDw+hjIPNtjImIC2qmCvvDu2bgRb+dHeZ5lx63BLwAz5BFns3TJJPxvg03Ia+U77n1y5Hvyf5XLUDuNH0=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="12" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzzZWBg8ARiLygOwMEGYR8gDgViFyAOAuIiII6AsoOg7CIoG6QmBKo+EojLgDgKB4bJwdR7MBAGHlD1vkSohQGY+UNZfRwD8eGTAMSOaDgOSQ02eQBujhSM
+  </data>
+ </layer>
+ <layer id="14" name="Buildings2" width="12" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcpAFxOgnq84A4nwr2jgLqAwDS3gGr
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="12" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA9cKeSmuEKSA2feCQciyQegyaHC+CTBwAW1gTO
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="12" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA94KSSmlFAewAAHuQAEw==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+</map>
