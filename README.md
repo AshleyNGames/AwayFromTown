@@ -1,7 +1,6 @@
 I edited a bunch of maps.
 This mod is in development.
 
-
 Does it work with SVE?
 No, and it never will.
 
@@ -17,13 +16,11 @@ Not tested.
 
 
 
-Locations Edited by this mod
+Locations Edited by main Xiddav's Parks
 OUTDOORS:
 Bus Stop,
 Town,
-Beach (+ Luau, Jellies, and Nighmarket),
-Backwoods,
-Forest (limited to just the little bridge that leads to the flower festival. Not the entire Forest),
+Forest 
 Flower Festival (edited festival and made location accessible all year round),
 Woods
 
@@ -31,9 +28,7 @@ INDOORS:
 Saloon (+ Refurbished),
 Seed Shop,
 Carpenters Shop,
-Sam House,
-Science House,
-Cellar, (I might move this to be it's own mod so people can continue using other cllars mods they like)
+Sam House
 
 Locations Added
 INDOORS
@@ -48,28 +43,18 @@ House of Worship,
 Yellow House,
 
 OUTDOORS
-Path to Town (between Bus Stop and Town. Matthias lives here at Tiffany house),
-Mountain Path (between Mountain and Backwoods)
-
+Path to Town (between Bus Stop and Town),
 
 
 Things to do (not in order)
-
 Edit Festivals in town to match new Town map 
 
-remove alter from seed shop,
-change Sunday schedules to go to the house of worship instead of the seed shop,
-Make Emily work at the house of worship instead of the Saloon. (Yes Emily gets a new job and a new NPC will work for Gus.)
-
 make unique interiors for:
-Plant House (Bailee & Lizzy plus),
 Yellow House,
 Red House,
 Brick House Left (Noa & Christopher),
 Brick House Right,
 Riverside Diner (Bridget),
-
-Make a map menu edit.
 
 Test mod with Ridgeside Village,
 Test mod more with East Scarpe
@@ -77,7 +62,6 @@ Test mod more with East Scarpe
 
 Make character sheets,
 Make more NPCs,
-A Nurse (Maru working at the clinic doesn't seem to fit her to me. I want her to focus more on Robots and science, not medicine.),
 
 
 I am bad with coming up with personalities, so my NPCs are all Antisocial at the moment. My goal is to make the town more active, not to give you more friends. If someone else wants to develop these characters more then that, ask me first, and don't ignore the NPC notes I have in their .json
