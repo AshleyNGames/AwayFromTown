@@ -16,6 +16,8 @@
 		"FromFile": "NPCs/Elizebeth/Elizebeth.json"},
 {"Action": "Include",
 		"FromFile": "NPCs/Tiffany/Tiffany.json"},
+{"Action": "Include",
+		"FromFile": "NPCs/Isabella/Isabella.json"},
 
 //Vanilla Changes
 {"Action": "Include",

@@ -69,7 +69,7 @@
   "Elizebeth_Sun": "Hello.",
 	
   "Tiffany":"Tiffany",
-  "Tiffany_Introduction": "So your my new neighbor?#$b#If you see my son around, don't mind him. He's just shy.",
+  "Tiffany_Introduction": "So you're my new neighbor?#$b#If you see my son around, don't mind him. He's just shy.",
   "Tiffany_Mon": "Hello.",
   "Tiffany_Tue": "Hello.",
   "Tiffany_Wed": "Hello.",
@@ -77,4 +77,14 @@
   "Tiffany_Fri": "Hello.",
   "Tiffany_Sat": "Hello.",
   "Tiffany_Sun": "Hello.",
+	
+  "Isabella":"Isabella",
+  "Isabella_Introduction": "Hello, I'm Isabella.#$b#Dad was really happy when we heard you were moving onto that creepy old farm.",
+  "Isabella_Mon": "Hello.",
+  "Isabella_Tue": "Hello.",
+  "Isabella_Wed": "Hello.",
+  "Isabella_Thu": "Hello.",
+  "Isabella_Fri": "Hello.",
+  "Isabella_Sat": "Hello.",
+  "Isabella_Sun": "Hello.",
  }

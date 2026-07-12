@@ -141,6 +141,14 @@
       "Value": "31 22 Custom_Xiddav_Saloon2 31 23 32 22 Custom_Xiddav_Saloon2 32 23",
       "Delimiter": " "}]},
 
+{"Action": "EditMap",
+    "Target": "Maps/Seedshop",
+    "TextOperations": [{
+      "Operation": "Prepend",
+      "Target": [ "MapProperties", "Doors" ],
+      "Value": "34 21 1 120",
+      "Delimiter": " "}]},
+
 //my Farm Warps
 {"Action": "EditMap",
     "Target": "Maps/TrailerPark",
