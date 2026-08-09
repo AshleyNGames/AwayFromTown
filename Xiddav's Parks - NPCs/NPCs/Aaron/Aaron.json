@@ -12,7 +12,7 @@
 					"CanBeRomanced": false, //You can if you want
 					"LoveInterest": "null",
 					"HomeRegion": "Town",
-					"FriendsAndFamily": {},
+					"FriendsAndFamily": {"Quincy":""},
 		"Home": [{
 			"Id": "Default",
 			"Location": "Custom_Xiddav_YellowHouse",

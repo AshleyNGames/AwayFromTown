@@ -1,0 +1,49 @@
+{   "Changes": [
+{ "Action": "EditData",
+  "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+  "Entries": {  "Quincy": {"MarkerCropOffset": 7}}},	
+
+{"Action": "EditData",
+	"Target": "Data/Characters",
+	"Entries": {"Quincy": {
+					"CanSocialize" : "FALSE",
+					"Manner": "Rude",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"Gender": "Male",
+					"CanBeRomanced": false,
+					"LoveInterest": "null",
+					"HomeRegion": "Other",
+					"FriendsAndFamily": {"Aaron":""},
+					"Home": [{"Id": "Default",
+							"Location": "Custom_Xiddav_YellowHouse",
+							"Tile": {"X":10 ,"Y":5  },
+							"Direction": "Down"}],
+					"DisplayName": "{{i18n:Quincy}}",
+					"Age": "2"}}},
+
+{"Action": "Load",
+      "Target": "Characters/Quincy",
+      "FromFile": "NPCs/Quincy/Characters.png"},
+{"Action": "Load",
+      "Target": "Portraits/Quincy",
+      "FromFile": "NPCs/Quincy/Portraits.png"},
+
+{"Action": "EditImage",
+      "Target": "Characters/Quincy",
+		"When": { "Season": "Winter", "HasFile:{{FromFile}}": true},
+      "FromFile": "NPCs/Quincy/Characters_Winter.png"},
+
+{"Action": "EditImage",
+      "Target": "Portraits/Quincy",
+		"When": { "Season": "Winter", "HasFile:{{FromFile}}": true},
+      "FromFile": "NPCs/Quincy/Portraits_Winter.png"},
+
+{ "Action": "Load",	
+	"Target": "characters/schedules/Quincy",
+      "FromFile": "NPCs/Quincy/schedule.json"},
+
+{"Action": "Load",
+      "Target": "Characters/Dialogue/Quincy",
+      "FromFile": "NPCs/Quincy/Dialogue.json"}
+]}

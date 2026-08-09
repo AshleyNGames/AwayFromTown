@@ -16,6 +16,8 @@
 		"FromFile": "NPCs/Elizebeth/Elizebeth.json"},
 {"Action": "Include",
 		"FromFile": "NPCs/Isabella/Isabella.json"},
+{"Action": "Include",
+		"FromFile": "NPCs/Quincy/Quincy.json"},
 
 //Vanilla Changes
 {"Action": "Include",
@@ -31,5 +33,5 @@
 		"FromFile": "NPCs/EastScarp/Flower Dance.json"},
 {"Action": "Include",
 	"When": {"HasMod|contains=xiddav.NPCChildren": true},
-		"FromFile": "NPCs/TheFarmersChildren/Flower Dance.json"},
+		"FromFile": "NPCs/TheFarmersChildren/Flower Dance.json"}
  ]}
