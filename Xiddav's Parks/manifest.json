@@ -17,6 +17,8 @@
 			"IsRequired": true},
 		{"UniqueID": "hxw.tilesheets",
 			"IsRequired": true},
+		{"UniqueID": "PC.CL.Tilesheet",
+			"IsRequired": true},
 		{"UniqueID": "Rafseazz.RSVCP",
 			"IsRequired": false},
   ],}

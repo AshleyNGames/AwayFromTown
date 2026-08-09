@@ -31,7 +31,9 @@
 {"Name": "Custom_Xiddav_Forest-Flower",
     "FromMapFile": "Assets/Maps/Forest-Flower.tmx"},
 {"Name": "Custom_Xiddav_WizardWoods",
-    "FromMapFile": "Assets/Maps/WizardWoods.tmx"}
+    "FromMapFile": "Assets/Maps/WizardWoods.tmx"},
+{"Name": "Custom_Xiddav_LittleCottage",
+    "FromMapFile": "Assets/Maps/LittleCottage.tmx"}
 ],
 
 "Changes": [	
@@ -95,7 +97,7 @@
   "Target": "Data/Festivals/spring13",
   "TextOperations": [     
 { "Operation": "Append",
-             "Target": ["Entries", "set-up"],
+             "Target": ["Fields", "set-up", 6],
              "Value": "addTemporaryActor Brown_Chicken 16 16 14 66 1 false Animal",
-  "Delimiter": "/"}]},
+  "Delimiter": "/"}]}
 ]}
