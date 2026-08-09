@@ -2,6 +2,7 @@
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="31" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="17">
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
+  <property name="Doors" value="17 8 1 120 23 8 1 120"/>
   <property name="Warp" value="11 12 Custom_Xiddav_TrailerPark 43 36"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
@@ -81,12 +82,12 @@
  <objectgroup id="4" name="Buildings">
   <object id="15" name="TileData" x="368" y="128" width="16" height="16">
    <properties>
-    <property name="Action" value="Door AddNameLaterAdult"/>
+    <property name="Action" value="Door"/>
    </properties>
   </object>
   <object id="16" name="TileData" x="272" y="128" width="16" height="16">
    <properties>
-    <property name="Action" value="Door AddNameLaterChild"/>
+    <property name="Action" value="Door"/>
    </properties>
   </object>
  </objectgroup>

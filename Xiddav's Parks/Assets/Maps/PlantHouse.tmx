@@ -2,6 +2,7 @@
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="33" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="21">
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
+  <property name="Doors" value="21 12 1 120 24 16 1 120"/>
   <property name="Warp" value="9 22 Town 70 10"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="46" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="26">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="46" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="32">
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
+  <property name="Doors" value="6 15 1 120 13 15 1 120 20 15 1 120 27 15 1 120 34 15 1 120 41 15 1 120"/>
   <property name="NightTiles" value="Buildings 3 3 2390 Buildings 10 3 2390 Buildings 17 3 2390 Buildings 24 3 2390 Buildings 31 3 2390 Buildings 38 3 2390 Buildings 4 3 2391 Buildings 11 3 2391 Buildings 18 3 2391 Buildings 25 3 2391 Buildings 32 3 2391 Buildings 39 3 2391 Buildings 3 2 2365 Buildings 10 2 2365 Buildings 17 2 2365 Buildings 24 2 2365 Buildings 31 2 2365 Buildings 38 2 2365 Buildings 4 2 2366 Buildings 11 2 2366 Buildings 18 2 2366 Buildings 25 2 2366 Buildings 32 2 2366 Buildings 39 2 2366"/>
   <property name="Warp" value="31 21 Saloon 31 20 32 21 Saloon 32 20"/>
   <property name="WindowLight" value="3 3 6 4 3 6 10 3 6 11 3 6 17 3 6 18 3 6 24 3 6 25 3 6 31 3 6 32 3 6 38 3 6 39 3 6"/>
@@ -79,7 +80,7 @@
  <objectgroup id="4" name="Back2"/>
  <layer id="5" name="Buildings" width="46" height="25">
   <data encoding="base64" compression="zlib">
-   eJztlUEOwUAUhl9jpWzaXY9hb1OJA/QIFuydhyVnIFEWXIANCz0EN/AmpvpMpqMkvEf8yZ95k//15UszmfEAwPtS++iGxU1hmckdw1WTCGAawU1dYZmNO0EvsW8VXeuEzJGSlXHvse+APgUA5+B+joTMxt3HYoBuhQB1tB8Wc7gyJZqVnW9TXWGZjTvGouPZ50jJful/S2F7lnuGZ38e2udIyUzuHnqLfTtLr6TM5KauaQOpTXNlLm6lsV5Hem3nHzNnLm71VqW6dwHFO5sIyFzcQ3Sme496T82ZPTonUvXn/qxc3O8yfQfX6A0TxyvOpe60Mdlzc1XlVndaSvbcXFW51Z2WkT03V1VuU9xcn/QFT7Ol8w==
+   eJztlTEOgkAQRYdYiTbQcQx7G0w4AEew0N7Ss0ipZ9BEtNALaKOFHEJv4GxYZNwsiCayg3GSF3bzx8mL2exaAGA1FBvpaOgyy1RvH9KaewALDx4VMMt03iGywb6tl65DModLVuR9wr4zcnUAbs7zHA6ZznuEizHScwHaiO3mc0xlomhWdL7VCphlOm8fFwNLP4dL9kv/Nxe3d72XePZXrn4Ol0z1HiIH7DtqejllqjelJQGyVjGVlXmLiuR3Jr/97MeGszJv8VbFsncN+TsbMsjKvCdIgkyRi9xTTGavzgnX+nvXW2Xe34K+gztkb8jjE7ISd1pE9qa9qnqLOy0me9NeVb3FnZY00Fst0151cgeoXKjJ
   </data>
  </layer>
  <layer id="15" name="Buildings2" width="46" height="25">
@@ -90,10 +91,41 @@
    eJztySEBAAAIA7AnoL+FpNS42OwSoNVOctN/AAAAdHrHoQg7
   </data>
  </layer>
- <objectgroup id="6" name="Buildings"/>
+ <objectgroup id="6" name="Buildings">
+  <object id="26" name="TileData" x="656" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="27" name="TileData" x="544" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="28" name="TileData" x="432" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="29" name="TileData" x="320" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="30" name="TileData" x="208" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="31" name="TileData" x="96" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="7" name="Front" width="46" height="25">
   <data encoding="base64" compression="zlib">
-   eJzt1LENgCAURdHnCFC5kC6otRa6ie6A4/htiSR2/5vck1Dd11CABG9TluYcv9VKkq4Uvz2GThrt9C9382pfbLbbG9tIrXbY7mxsIzX4Wux9rI3/JlIDAAAA/uwG/KAv+w==
+   eJzt1LENgDAMRNFjhKRiFQaAHZgLaihgk7ADjINpLSxRINmR7kmp/jUpEoC8TRmYc/ymnQm4Uvz26BtgkNO+3M2rfbHJbje2kZpWZHcY20iNfC3yPlbjv4nUiP7QVdK0sZJGREREthvAPTNn
   </data>
  </layer>
  <objectgroup id="8" name="Front"/>

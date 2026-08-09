@@ -26,4 +26,16 @@
 				"GreenAlgae": {
                     "Id": "(O)153",
                     "ItemId": "(O)153"}}},
+	
+{"Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["Custom_Xiddav_Forest-Flower","Fish"],
+            "Entries": {
+				"Trout": {
+        "Season": "summer",
+                    "Id": "(O)138",
+                    "ItemId": "(O)138"},
+				"MixedFlowerSeeds": {
+                    "Id": "(O)MixedFlowerSeeds",
+                    "ItemId": "(O)MixedFlowerSeeds"}}},
 ]}

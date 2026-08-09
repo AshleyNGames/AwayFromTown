@@ -194,4 +194,23 @@
                                 "(O)346",
 							]},],
                     "CustomFields": {}}  }},
+
+{"Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [ "GarbageCans" ],
+            "Entries": {
+                "Pam": {
+                   "BaseChance": -1.0,
+                    "Items": [{
+                            "Condition": "RANDOM 0.2 @addDailyLuck",
+                            "Id": "Pam",
+                            "ItemId": null,
+                            "RandomItemId": [
+                                "(O)167",
+                                "(O)349",
+                                "(O)167",
+                                "(O)349",
+                                "(O)873",
+							]},],
+                    "CustomFields": {}}  }},
 ]}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="59" height="49" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="236">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="59" height="49" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="237">
  <properties>
   <property name="Fall_Objects" value="T"/>
   <property name="ForceAllowTreePlanting" value="T"/>
@@ -4522,7 +4522,14 @@
    eJzt1TtPwlAAhuEzUxMGI4M/QfwDbsioJspEQvA6KgqYuCmCkwEFdBZvkxov6C/kHTsQlNJw6un3Jk/SdGjOxyU1Rqn/XXnO9gkmKz0f3rOi/lmM2nqZHH7tYnHa+pIcfq2UUkoppZRSSik1jfY9Yw4826eYTk12tmKyddzebB/gD+m3Gu8yWEYW69hAzuaBxqiYMmYTW9jGDnaxl7J9svArsekQRyijgiqOUQjwvKXZ0I84UV3f9SmbzlDDOepo4CLg95qP2NZX3/UVm67RRgdd3OA24NaTiG31d8emHu7xgEc84dnB/+s7mz7wiS/08Y0feLyDZhx4DyW80VsWuJ/GogNbf9uywv1VrDmw1aUtSimllFJRawBY7Sww
   </data>
  </layer>
- <objectgroup id="4" name="Buildings" visible="0"/>
+ <objectgroup id="4" name="Buildings">
+  <object id="236" name="TileData" x="720" y="448" width="224" height="336">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+    <property name="Spawnable" value="F"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="5" name="Front" width="59" height="49">
   <data encoding="base64" compression="zlib">
    eJztmjlOw0AUhickBcESJAZSgAQdJKxNpByAtYQSxNoAQSAhKOACLCVcAAoquAAIOjgCB2CROATQ8BvHxAxjxzZjTzzMJ31ybMvxe3mazTEhJg0J4sou3KOO3WQJuc26X2enXOMeUbHVzj5erMR3DE8ii0YsF6ID4EQzbIGZyr5TjYOyDw/4fuU3rz7bRS/Mw0IYwSgUNnx07wqFJ04Tpld1Mh8IStFD/F3k53yilKmeS6f4xbJeB79liZjziUvRgXCGNTeegtORR8IXVl4zcJY6VobrEcTzRWNUNyJkG+44nDPGPR22wjZoTCdzEcXll0ONkCOtuu80933MsevbB/vhAByEQ3A4hDjDZMX2mV4L2BmBo3AMjsMJOBngfhtwM8B1f4Uec9zWAnNwHi7ARbgEl0ONji9B1nCs5xT1DqtN+sn9kGcw4C5mk/5zjX1sFW2lCblo8AGd+VrC3DZiP+2Qo9WXGteW9HDj5sV9Jf88cirAjjQh3bAT9mC/N2b1VMQPUeuPelj3xBFrnGSNPXHhTNWeidv8Vzb+y7PwthTWoqnf2/ek6MiiIYtcdYlyttqoG1bOcc/XaqNeeIp5rm58JH/W8k3iXF+Q27MtP5nrSiNzXWlUXeVE1TWe0GMMjUx1pccYGpnqWguZ6loLVVdxXCfM5y5+9YLO8X0I0Xjpm4x8rf8kotyKeg9Xd3iG4Xcraj38Cf3yZdI=
@@ -4533,13 +4540,13 @@
    eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAwJ8BLSwAAQ==
   </data>
  </layer>
- <objectgroup id="6" name="Front" visible="0"/>
+ <objectgroup id="6" name="Front"/>
  <layer id="7" name="Paths" width="59" height="49">
   <data encoding="base64" compression="zlib">
    eJztWMtuwjAQ7M1V//9jeqEVHNrQQyL6RZUlVqymO2sHnHiBjBQlYMeefa/z8rLhWozp8vyT+Lx7RpYxXyLf/nzX8ubx0wPIPxoyiPz3invm3grvM3XQUmdvr+3W2rBB8PlEcf2xyfpQ2AWX8XdlfofzfrrusH4Ka9MIfZj+/U16lxb1bW6/Z80v8ZjDfYk+BznLHocF/QPtJ/+xPSP03aj7U+Jj+J51dvB8fEkstc+cdZc+b+xvWHuv/PEWjGqdlvJaa9XGR8lPa+Hlhtaytlz3VGHbmpqEto2QnzJax9SXkaOu3SOKjjJKXCJxbYVn+UaS5RS/fUQ7roGo5+6W9sQzaPabQdXqY+L1R49731NlnrXPmkBZNfd8TSDHMf2vcfisYfU4Y7L/Xxr5O+guXc7fFv/aa4B38T4RuXsCuYgtJ6IHy49r9IV7rY0af9M2xDiU8SlxfWCc9ILFU/hY+UU/s3MIm4e5YG1YPHXORG4oh9YTy9ERbGpxYXE1OTb0cjOL2x5AnqXY8nxez7FiXe/XEwOxF8td1ny8ez7QExYv7CNwnuUHnn9EkDOD+SbmZMylaGev9kSy65H4Jqst+l2mo0g+7HGxYpPJYPXNzK97wcu9U7LH5WI+j3kX5/UCcsExudfmHiZPBFktLtgbYh/Beiq27gDv90bJ12pqh6evCHYt5RM9buUo/a2hFA+9c5PwyNC8WV61fut1vLEI8HJJBp5fotjoFnh+HNlWz4I/ABypBw==
   </data>
  </layer>
- <objectgroup id="8" name="Paths" visible="0">
+ <objectgroup id="8" name="Paths">
   <object id="196" name="TileData" x="16" y="96" width="928" height="96">
    <properties>
     <property name="NoFurniture" value="T"/>
@@ -4547,12 +4554,6 @@
    </properties>
   </object>
   <object id="226" name="TileData" x="0" y="336" width="192" height="64">
-   <properties>
-    <property name="NoFurniture" value="T"/>
-    <property name="Spawnable" value="F"/>
-   </properties>
-  </object>
-  <object id="235" name="TileData" x="720" y="448" width="224" height="336">
    <properties>
     <property name="NoFurniture" value="T"/>
     <property name="Spawnable" value="F"/>
