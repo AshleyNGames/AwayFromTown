@@ -1,4 +1,4 @@
-{    "Format": "2.8.0",
+{    "Format": "2.9.0",
 	"Changes": [
 {"Action": "Include",
 		"FromFile": "NPCs/Matthias/Matthias.json"},
@@ -15,8 +15,6 @@
 {"Action": "Include",
 		"FromFile": "NPCs/Elizebeth/Elizebeth.json"},
 {"Action": "Include",
-		"FromFile": "NPCs/Tiffany/Tiffany.json"},
-{"Action": "Include",
 		"FromFile": "NPCs/Isabella/Isabella.json"},
 
 //Vanilla Changes
@@ -26,4 +24,12 @@
 		"FromFile": "NPCs/Kent/schedule.json"},
 {"Action": "Include",
 		"FromFile": "NPCs/Jodi/schedule.json"},
+
+//modded NPCs flower dance
+{"Action": "Include",
+	"When": {"HasMod|contains=Lemurkat.EastScarp": true},
+		"FromFile": "NPCs/EastScarp/Flower Dance.json"},
+{"Action": "Include",
+	"When": {"HasMod|contains=xiddav.NPCChildren": true},
+		"FromFile": "NPCs/TheFarmersChildren/Flower Dance.json"},
  ]}

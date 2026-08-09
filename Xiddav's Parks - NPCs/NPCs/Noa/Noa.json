@@ -9,14 +9,14 @@
 					"SocialAnxiety": "Neutral",
 					"Optimism": "Negative",
 					"Gender": "Male",
-					"CanBeRomanced": false,  //In love with his roomate but will deny it
+					"CanBeRomanced": false,  //In love with Noa but will deny it
 					"LoveInterest": "Christopher",
 					"HomeRegion": "Town",
-					"FriendsAndFamily": {"Christopher": "roommate"},  //started off as roomates in college and the housing market sucks so they stayed roomates
+					"FriendsAndFamily": {"Christopher": ""}, 
 		"Home": [{
 			"Id": "Default",
 			"Location": "Custom_Xiddav_BrickHouseLeft",
-			"Tile": {  "X": 19,"Y": 5  },
+			"Tile": {  "X": 3,"Y": 4  },
 			"Direction": "1"}],
 					"DisplayName": "{{i18n:Noa}}",
 			"Age": "Adult"}}},
@@ -45,6 +45,6 @@
   "Thu": "{{i18n:Noa_Thu}}",
   "Fri": "{{i18n:Noa_Fri}}",
   "Sat": "{{i18n:Noa_Sat}}",
-  "Sun": "{{i18n:Noa_Sun}}",
-	}},
+  "Sun": "{{i18n:Noa_Sun}}"
+	}}
  ]}

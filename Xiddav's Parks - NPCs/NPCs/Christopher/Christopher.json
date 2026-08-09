@@ -12,11 +12,11 @@
 					"CanBeRomanced": false,  //His heart belongs to Noa and he will never say it outloud
 					"LoveInterest": "Noa",
 					"HomeRegion": "Town",
-					"FriendsAndFamily": {"Noa":"roommate"},
+					"FriendsAndFamily": {"Noa":""},
 		"Home": [{
 			"Id": "Default",
 			"Location": "Custom_Xiddav_BrickHouseLeft",
-			"Tile": {  "X": 2,"Y": 5  },
+			"Tile": {  "X": 19,"Y": 4 },
 			"Direction": "3"}],
 					"DisplayName": "{{i18n:Christopher}}",
 			"Age": "Adult"}}},
@@ -45,6 +45,5 @@
   "Thu": "{{i18n:Christopher_Thu}}",
   "Fri": "{{i18n:Christopher_Fri}}",
   "Sat": "{{i18n:Christopher_Sat}}",
-  "Sun": "{{i18n:Christopher_Sun}}",
-	}},
+  "Sun": "{{i18n:Christopher_Sun}}"	}},
  ]}

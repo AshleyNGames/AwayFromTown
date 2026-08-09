@@ -1,0 +1,20 @@
+{    "Changes": [
+	{"Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+{"Operation": "Append",
+                    "Target": ["Entries",
+                        "Set-Up_additionalCharacters"],
+                    "Value": "EthanHart 72 21 2/ToriLK 57 46 2/KeanuAvis 48 37 1/MichaelHart 33 57 2/EdithHart 32 57 2/JadeMalic 2 54 3/OliverK 78 18 1",
+                    "Delimiter": "/"},
+{"Operation": "Append",
+                    "Target": ["Entries",
+                        "Set-Up_additionalCharacters_y2"],
+                    "Value": "OliverK 78 18 1/EthanHart 43 41 2/JadeMalic 60 44 1/ToriLK 57 46 2",
+                    "Delimiter": "/"}	,	
+{"Operation": "Append",
+                    "Target": ["Entries",
+                        "MainEvent_additionalCharacters_y2"],
+                    "Value": "ValkyrieDog 30 25 0/DaleWaede 30 24 3",
+                    "Delimiter": "/"}	
+			]}]}

@@ -1,0 +1,11 @@
+{    "Changes": [
+	{"Action": "EditData",
+            	"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true },
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+{"Operation": "Append",
+                    "Target": ["Entries",
+                        "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Candidus42.LittleNPCs/FirstLittleNPC:Name}} 7 51 0",
+                    "Delimiter": "/"}		
+			]}]}
