@@ -1,7 +1,0 @@
-{ 	"Format": "2.8.0",
-"Changes": [
-{"Action": "EditMap",
-     "Target": "Maps/Beach",
-	"PatchMode": "Replace",
-     "FromFile": "Assets/{{TargetWithOutPath}}.tmx"}
-]}
