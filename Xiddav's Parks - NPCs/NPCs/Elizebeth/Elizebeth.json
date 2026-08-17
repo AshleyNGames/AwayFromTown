@@ -39,6 +39,7 @@
 "Target": "Characters/Dialogue/Elizebeth",
 	"Entries": {    
 		"Introduction":"{{i18n:Elizebeth_Introduction}}",
+		"GreenRain":"{{i18n:Elizebeth_GreenRain}}",
   "Mon": "{{i18n:Elizebeth_Mon}}",
   "Tue": "{{i18n:Elizebeth_Tue}}",
   "Wed": "{{i18n:Elizebeth_Wed}}",
@@ -46,4 +47,8 @@
   "Fri": "{{i18n:Elizebeth_Fri}}",
   "Sat": "{{i18n:Elizebeth_Sat}}",
   "Sun": "{{i18n:Elizebeth_Sun}}"}},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+	"Entries": {"Elizebeth": "{{i18n:Elizebeth_Rain}}"}}
  ]}

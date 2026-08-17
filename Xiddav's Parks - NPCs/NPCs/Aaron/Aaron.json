@@ -44,7 +44,8 @@
 
 {"Action": "EditData",
 "Target": "Characters/Dialogue/Aaron",
-	"Entries": {    
+	"Entries": {  
+  		"GreenRain": "{{i18n:Aaron_GreenRain}}",  
 		"Introduction":"{{i18n:Aaron_Introduction}}",
   "Mon": "{{i18n:Aaron_Mon}}",
   "Tue": "{{i18n:Aaron_Tue}}",
@@ -52,6 +53,9 @@
   "Thu": "{{i18n:Aaron_Thu}}",
   "Fri": "{{i18n:Aaron_Fri}}",
   "Sat": "{{i18n:Aaron_Sat}}",
-  "Sun": "{{i18n:Aaron_Sun}}",
-	}},
+  "Sun": "{{i18n:Aaron_Sun}}"}},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+	"Entries": {"Aaron": "{{i18n:Aaron_Rain}}"}}
  ]}

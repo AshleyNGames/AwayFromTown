@@ -45,12 +45,16 @@
 "Target": "Characters/Dialogue/Matthias",
 	"Entries": {    
 		"Introduction":"{{i18n:Matthias_Introduction}}",
+		"GreenRain":"{{i18n:Matthias_GreenRain}}",
   "Mon": "{{i18n:Matthias_Mon}}",
   "Tue": "{{i18n:Matthias_Tue}}",
   "Wed": "{{i18n:Matthias_Wed}}",
   "Thu": "{{i18n:Matthias_Thu}}",
   "Fri": "{{i18n:Matthias_Fri}}",
   "Sat": "{{i18n:Matthias_Sat}}",
-  "Sun": "{{i18n:Matthias_Sun}}",
-	}},
+  "Sun": "{{i18n:Matthias_Sun}}"}},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+	"Entries": {"Matthias": "{{i18n:Matthias_Rain}}"}}
  ]}

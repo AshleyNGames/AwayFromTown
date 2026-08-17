@@ -45,5 +45,22 @@
 
 {"Action": "Load",
       "Target": "Characters/Dialogue/Quincy",
-      "FromFile": "NPCs/Quincy/Dialogue.json"}
+      "FromFile": "NPCs/Quincy/Dialogue.json"},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/Quincy",
+	"Entries": {    
+		"Introduction":"{{i18n:Quincy_Introduction}}",
+		"GreenRain":"{{i18n:Quincy_GreenRain}}",
+  "Mon": "{{i18n:Quincy_Mon}}",
+  "Tue": "{{i18n:Quincy_Tue}}",
+  "Wed": "{{i18n:Quincy_Wed}}",
+  "Thu": "{{i18n:Quincy_Thu}}",
+  "Fri": "{{i18n:Quincy_Fri}}",
+  "Sat": "{{i18n:Quincy_Sat}}",
+  "Sun": "{{i18n:Quincy_Sun}}"	}},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+	"Entries": {"Quincy": "{{i18n:Quincy_Rain}}"}}
 ]}

@@ -39,12 +39,16 @@
 "Target": "Characters/Dialogue/Chef",
 	"Entries": {    
 		"Introduction":"{{i18n:Chef_Introduction}}",
+		"GreenRain":"{{i18n:Chef_GreenRain}}",
   "Mon": "{{i18n:Chef_Mon}}",
   "Tue": "{{i18n:Chef_Tue}}",
   "Wed": "{{i18n:Chef_Wed}}",
   "Thu": "{{i18n:Chef_Thu}}",
   "Fri": "{{i18n:Chef_Fri}}",
   "Sat": "{{i18n:Chef_Sat}}",
-  "Sun": "{{i18n:Chef_Sun}}",
-	}},
+  "Sun": "{{i18n:Chef_Sun}}"}},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+	"Entries": {"Chef": "{{i18n:Chef_Rain}}"}}
  ]}

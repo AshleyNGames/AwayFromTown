@@ -39,12 +39,16 @@
 "Target": "Characters/Dialogue/Bailee",
 	"Entries": {    
 		"Introduction":"{{i18n:Bailee_Introduction}}",
+		"GreenRain":"{{i18n:Bailee_GreenRain}}",
   "Mon": "{{i18n:Bailee_Mon}}",
   "Tue": "{{i18n:Bailee_Tue}}",
   "Wed": "{{i18n:Bailee_Wed}}",
   "Thu": "{{i18n:Bailee_Thu}}",
   "Fri": "{{i18n:Bailee_Fri}}",
   "Sat": "{{i18n:Bailee_Sat}}",
-  "Sun": "{{i18n:Bailee_Sun}}",
-	}},
+  "Sun": "{{i18n:Bailee_Sun}}"}},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+	"Entries": {"Bailee": "{{i18n:Bailee_Rain}}"}}
  ]}

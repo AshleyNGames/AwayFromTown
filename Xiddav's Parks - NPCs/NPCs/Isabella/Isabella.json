@@ -39,12 +39,16 @@
 "Target": "Characters/Dialogue/Isabella",
 	"Entries": {    
 		"Introduction":"{{i18n:Isabella_Introduction}}",
+		"GreenRain":"{{i18n:Isabella_GreenRain}}",
   "Mon": "{{i18n:Isabella_Mon}}",
   "Tue": "{{i18n:Isabella_Tue}}",
   "Wed": "{{i18n:Isabella_Wed}}",
   "Thu": "{{i18n:Isabella_Thu}}",
   "Fri": "{{i18n:Isabella_Fri}}",
   "Sat": "{{i18n:Isabella_Sat}}",
-  "Sun": "{{i18n:Isabella_Sun}}",
-	}},
+  "Sun": "{{i18n:Isabella_Sun}}"}},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+	"Entries": {"Isabella": "{{i18n:Isabella_Rain}}"}}
 ]}

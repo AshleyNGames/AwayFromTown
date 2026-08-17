@@ -39,6 +39,7 @@
 "Target": "Characters/Dialogue/Christopher",
 	"Entries": {    
 		"Introduction":"{{i18n:Christopher_Introduction}}",
+		"GreenRain":"{{i18n:Christopher_GreenRain}}",
   "Mon": "{{i18n:Christopher_Mon}}",
   "Tue": "{{i18n:Christopher_Tue}}",
   "Wed": "{{i18n:Christopher_Wed}}",
@@ -46,4 +47,8 @@
   "Fri": "{{i18n:Christopher_Fri}}",
   "Sat": "{{i18n:Christopher_Sat}}",
   "Sun": "{{i18n:Christopher_Sun}}"	}},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+	"Entries": {"Christopher": "{{i18n:Christopher_Rain}}"}}
  ]}

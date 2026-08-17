@@ -39,12 +39,16 @@
 "Target": "Characters/Dialogue/Noa",
 	"Entries": {    
 		"Introduction":"{{i18n:Noa_Introduction}}",
+		"GreenRain":"{{i18n:Noa_GreenRain}}",
   "Mon": "{{i18n:Noa_Mon}}",
   "Tue": "{{i18n:Noa_Tue}}",
   "Wed": "{{i18n:Noa_Wed}}",
   "Thu": "{{i18n:Noa_Thu}}",
   "Fri": "{{i18n:Noa_Fri}}",
   "Sat": "{{i18n:Noa_Sat}}",
-  "Sun": "{{i18n:Noa_Sun}}"
-	}}
+  "Sun": "{{i18n:Noa_Sun}}"}},
+
+{"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+	"Entries": {"Noa": "{{i18n:Noa_Rain}}"}}
  ]}
