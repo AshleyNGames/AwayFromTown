@@ -1,0 +1,12 @@
+{ "Name": "Xiddav's Parks BEACH",
+  "Author": "Xiddav",
+  "Version": "1.0.0",
+  "Description": "I edited the beach.",
+  "UniqueID": "Xiddav.Parks.Beach",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:11348" ],
+  "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+  "Dependencies": [  	 
+   {"UniqueID": "Xiddav.tilesheet",
+      "IsRequired": true}
+  ]}
